@@ -1,3 +1,5 @@
+<img width="260" height="260" alt="celoht-logo" src="https://github.com/user-attachments/assets/e1cb6f18-a648-4ca9-aa93-b167f8fccdb6" />
+
 # CeloHT Documentation
 
 Welcome to the CeloHT documentation. Use this index to find your way around.

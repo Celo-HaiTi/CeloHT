@@ -8,7 +8,7 @@ to traditional banking, even as mobile phone use keeps growing.
 
 The founder identified Celo as a good fit because of its low transaction
 fees and mobile-first design its native token, CELO, and its stablecoin,
-cUSD, are both accessible through the Valora wallet.
+USDm, are both accessible through the Valora wallet.
 
 ## Key Milestones
 

@@ -14,7 +14,7 @@ This document is the foundation of a broader Financial Governance suite, which i
 
 ## Scope
 
-This framework applies to all funds received, held, or disbursed in CeloHT's name, regardless of source (grants, donations, programmatic revenue) or form (fiat, cUSD, or any other asset), and to every individual with financial decision-making authority under `GOVERNANCE.md`, including the Founder, the Governance Council, the Treasury Committee, and Working Group Leads with budget responsibility.
+This framework applies to all funds received, held, or disbursed in CeloHT's name, regardless of source (grants, donations, programmatic revenue) or form (fiat, USDm, or any other asset), and to every individual with financial decision-making authority under `GOVERNANCE.md`, including the Founder, the Governance Council, the Treasury Committee, and Working Group Leads with budget responsibility.
 
 ## Responsibilities
 
@@ -43,7 +43,7 @@ This framework is reviewed at minimum annually, as part of the Annual Governance
 
 Financial accountability at CeloHT is structural, not aspirational:
 
-- No individual — including the Founder — may unilaterally authorize treasury disbursements above the thresholds defined in `TREASURY.md` and `EXPENSE_APPROVAL_POLICY.md`.
+- No individual - including the Founder - may unilaterally authorize treasury disbursements above the thresholds defined in `TREASURY.md` and `EXPENSE_APPROVAL_POLICY.md`.
 - Every disbursement above the minimum documentation threshold is tied to a named approver, a documented purpose, and a spending category, per `INTERNAL_CONTROLS.md`.
 - The Governance Council holds ultimate financial oversight authority and can request a review of any transaction at any time.
 
@@ -75,7 +75,7 @@ CeloHT discloses:
 - Any material financial risk or shortfall identified during a reporting period.
 - Any change to this framework or related financial policies, with a dated changelog entry.
 
-Where a specific figure or fact is not yet available — for example, because no external audit has yet occurred — CeloHT states this explicitly rather than omitting the topic.
+Where a specific figure or fact is not yet available - for example, because no external audit has yet occurred - CeloHT states this explicitly rather than omitting the topic.
 
 ## 6. Internal Controls
 

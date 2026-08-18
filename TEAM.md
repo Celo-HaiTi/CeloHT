@@ -2,7 +2,7 @@
 
 **Version 1.0 · August 2026**
 
-This document describes the current team structure of CeloHT: who holds which role, what verification status applies to each role, and how open or vacant positions are filled. It is published to give contributors, grant reviewers, auditors, and partners an accurate, current view of who is accountable for what — and to be explicit about what is not yet staffed, rather than leaving that information implicit or absent.
+This document describes the current team structure of CeloHT: who holds which role, what verification status applies to each role, and how open or vacant positions are filled. It is published to give contributors, grant reviewers, auditors, and partners an accurate, current view of who is accountable for what - and to be explicit about what is not yet staffed, rather than leaving that information implicit or absent.
 
 This document should be read alongside `GOVERNANCE.md` (decision-making structure), `LEGAL_STATUS.md` (organizational legal status), `AUTHORS.md`, `MAINTAINERS.md`, `CONTRIBUTORS.md`, and `VERIFICATION_POLICY.md`.
 
@@ -37,10 +37,10 @@ This document exists because a project's credibility depends in part on the veri
 | **Name** | Johnny Dubic |
 | **Role** | Founder |
 | **Authority** | Founding role with defined, limited safeguard authority under `GOVERNANCE.md` Section 3.1; one seat and one vote on the Governance Council; subject to the same Conflict of Interest, Ethics, and Recusal rules as every other role |
-| **Public profile** | To Be Announced (TBA) — pending publication of verified public profile links (see Section 7) |
+| **Public profile** | To Be Announced (TBA) - pending publication of verified public profile links (see Section 7) |
 | **Verification status** | Pending Verification (see `VERIFICATION_POLICY.md`) |
 
-CeloHT does not publish unverified biographical claims, credentials, or third-party affiliations for any team member, including the Founder. Biographical detail beyond role, authority, and governance status will be added to this section only once it has been prepared and verified in accordance with `VERIFICATION_POLICY.md`, and will be sourced from information the Founder himself confirms and is willing to have published — not inferred or generated.
+CeloHT does not publish unverified biographical claims, credentials, or third-party affiliations for any team member, including the Founder. Biographical detail beyond role, authority, and governance status will be added to this section only once it has been prepared and verified in accordance with `VERIFICATION_POLICY.md`, and will be sourced from information the Founder himself confirms and is willing to have published - not inferred or generated.
 
 ---
 
@@ -50,12 +50,12 @@ CeloHT's team structure mirrors the organizational model defined in `GOVERNANCE.
 
 | Role | Seats | Current Status |
 |---|---|---|
-| Founder | 1 | Filled — Johnny Dubic |
-| Governance Council | 5–9 | Open — Council formation pending (see Section 4) |
-| Maintainers | Variable, per repository | Open — see `MAINTAINERS.md` |
-| Working Group Leads (Education, Technology, Community, Agent Network, Reforestation, Finance, Communications, Legal) | 1 per group | Open — all Working Group Lead positions currently vacant |
-| Ambassadors | Variable | Open — no Ambassadors currently appointed |
-| Contributors | Unlimited | Open — see `CONTRIBUTORS.md` |
+| Founder | 1 | Filled - Johnny Dubic |
+| Governance Council | 5-9 | Open - Council formation pending (see Section 4) |
+| Maintainers | Variable, per repository | Open - see `MAINTAINERS.md` |
+| Working Group Leads (Education, Technology, Community, Agent Network, Reforestation, Finance, Communications, Legal) | 1 per group | Open - all Working Group Lead positions currently vacant |
+| Ambassadors | Variable | Open - no Ambassadors currently appointed |
+| Contributors | Unlimited | Open - see `CONTRIBUTORS.md` |
 
 CeloHT does not list names against any role in the table above unless that role is genuinely and currently filled by a specific, identifiable individual who has agreed to be publicly named in this capacity.
 
@@ -79,7 +79,7 @@ The following positions are explicitly vacant. CeloHT lists them openly, consist
 | Repository Maintainers | Vacant / Open for nomination | Governance Council appointment per `MAINTAINERS.md` |
 | Ambassadors | Vacant | Working Group Lead nomination + Council confirmation (once Working Groups exist) |
 
-A vacancy in this table does not indicate an absence of activity — it indicates that no specific individual has yet been confirmed, verified, and publicly named for that role. As CeloHT's contributor base grows, vacancies will be filled through the processes defined in `GOVERNANCE.md`, and this document will be updated accordingly.
+A vacancy in this table does not indicate an absence of activity - it indicates that no specific individual has yet been confirmed, verified, and publicly named for that role. As CeloHT's contributor base grows, vacancies will be filled through the processes defined in `GOVERNANCE.md`, and this document will be updated accordingly.
 
 ---
 
@@ -109,7 +109,7 @@ Every named individual associated with CeloHT is assigned one of the following v
 | **Open / Vacant** | No individual currently holds this role |
 | **TBA (To Be Announced)** | Role or appointment planned but not yet finalized |
 
-As of this document's publication date, no team member — including the Founder — has completed the full verification process described in `VERIFICATION_POLICY.md`. This is disclosed explicitly rather than omitted, and this document will be updated as verification is completed.
+As of this document's publication date, no team member - including the Founder - has completed the full verification process described in `VERIFICATION_POLICY.md`. This is disclosed explicitly rather than omitted, and this document will be updated as verification is completed.
 
 ---
 

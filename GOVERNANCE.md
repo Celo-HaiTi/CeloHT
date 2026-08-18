@@ -4,7 +4,7 @@
 
 This document defines how the CeloHT project is governed. It applies to every contributor, maintainer, working group, and community member participating in CeloHT repositories, forums, events, and communication channels.
 
-CeloHT is an open-source, community-driven, non-token initiative built on the Celo blockchain. CeloHT is **not** a DAO, **not** a cryptocurrency, **not** an investment product, and **not** a token project. CeloHT uses existing Celo-network stablecoin infrastructure (cUSD) and wallet tooling (Valora, MiniPay) strictly as **payment rails for financial-inclusion education and community operations** — never as a governance mechanism, security, or speculative instrument. Nothing in this document, and nothing CeloHT does, should be interpreted as an offer of securities, a promise of financial return, or participation in a token-based voting system.
+CeloHT is an open-source, community-driven, non-token initiative built on the Celo blockchain. CeloHT is **not** a DAO, **not** a cryptocurrency, **not** an investment product, and **not** a token project. CeloHT uses existing Celo-network stablecoin infrastructure (USDm) and wallet tooling (Valora, MiniPay) strictly as **payment rails for financial-inclusion education and community operations** - never as a governance mechanism, security, or speculative instrument. Nothing in this document, and nothing CeloHT does, should be interpreted as an offer of securities, a promise of financial return, or participation in a token-based voting system.
 
 ---
 
@@ -41,7 +41,7 @@ CeloHT is an open-source, community-driven, non-token initiative built on the Ce
 
 ### 1.1 Mission
 
-CeloHT exists to expand financial inclusion for Haitian and Caribbean communities through three coordinated pillars: **Education**, a **Community Agent Network**, and **Reforestation**. CeloHT believes that durable financial inclusion requires more than access to a wallet — it requires financial literacy delivered in a community's native language, a trusted human network that can bridge digital tools to everyday life, and a healthy environment in which communities can build long-term prosperity.
+CeloHT exists to expand financial inclusion for Haitian and Caribbean communities through three coordinated pillars: **Education**, a **Community Agent Network**, and **Reforestation**. CeloHT believes that durable financial inclusion requires more than access to a wallet - it requires financial literacy delivered in a community's native language, a trusted human network that can bridge digital tools to everyday life, and a healthy environment in which communities can build long-term prosperity.
 
 ### 1.2 Purpose
 
@@ -59,7 +59,7 @@ This governance document exists to:
 |---|---|
 | **Community first** | Decisions are evaluated by their impact on the communities CeloHT serves, not on any individual's benefit. |
 | **Radical clarity** | Rules, budgets, and decisions are written down, dated, and published. Nothing important lives only in someone's memory. |
-| **Language equity** | Haitian Creole is treated as a first-class language for governance, documentation, and education — not an afterthought translation. |
+| **Language equity** | Haitian Creole is treated as a first-class language for governance, documentation, and education - not an afterthought translation. |
 | **Sustainability over speed** | CeloHT prefers a slower, well-governed pace of growth to a faster, fragile one. |
 | **Stewardship, not ownership** | Roles in CeloHT are stewardship responsibilities held on behalf of the community, not personal property or permanent titles. |
 
@@ -79,7 +79,7 @@ All governance decisions, budgets, votes, and meeting notes are published in pub
 
 ### 2.2 Accountability
 
-Every role in CeloHT has a named, published set of responsibilities and a defined process for review or removal. Authority without accountability is not permitted anywhere in the structure — including the Founder role, which is itself subject to Governance Council oversight as described in Section 3.
+Every role in CeloHT has a named, published set of responsibilities and a defined process for review or removal. Authority without accountability is not permitted anywhere in the structure - including the Founder role, which is itself subject to Governance Council oversight as described in Section 3.
 
 ### 2.3 Inclusiveness
 
@@ -103,7 +103,7 @@ CeloHT decentralizes **authority and workload**, not ownership. This is achieved
 
 ### 2.8 Evidence-Based Decision Making
 
-Strategic and treasury decisions must reference available data — community metrics, financial reports, pilot results, or comparable-project research — rather than intuition alone. Where data is unavailable, the proposal must say so explicitly and describe the plan to gather it.
+Strategic and treasury decisions must reference available data - community metrics, financial reports, pilot results, or comparable-project research - rather than intuition alone. Where data is unavailable, the proposal must say so explicitly and describe the plan to gather it.
 
 ### 2.9 Respect and Ethics
 
@@ -141,7 +141,7 @@ The Founder safeguard exists to prevent governance paralysis during CeloHT's ear
 
 The Governance Council is CeloHT's highest ongoing decision-making body for strategic, treasury, and governance-amendment matters.
 
-- **Size:** 5–9 seats, odd-numbered to avoid tie votes where possible.
+- **Size:** 5-9 seats, odd-numbered to avoid tie votes where possible.
 - **Composition:** Elected representatives from active Working Groups, plus the Founder seat, plus at-large community-elected seats (see Section 16).
 - **Term:** 12 months, renewable, with staggered elections so no more than half the Council turns over at once.
 - **Authority:** Approves strategic and treasury proposals, ratifies emergency decisions, appoints Working Group leads pending community confirmation, and approves amendments to this document.
@@ -185,7 +185,7 @@ Anyone who uses CeloHT educational material, participates in forums, or engages 
 | Founder | N/A (originating role) | Mission continuity, emergency safeguard | Ongoing, reviewed annually | Governance Council 2/3 vote (Section 16.4) |
 | Governance Council | Election (Section 16) | Strategic, treasury, governance decisions | 12 months | Recall vote or resignation |
 | Maintainers | Governance Council | Code review, releases, security triage | Ongoing, reviewed every 6 months | Council majority vote or inactivity policy |
-| Working Group Lead | Council confirmation | Operational execution within charter | 6–12 months | Council majority vote |
+| Working Group Lead | Council confirmation | Operational execution within charter | 6-12 months | Council majority vote |
 | Contributors | N/A (earned by contribution) | Submit code, docs, translations | N/A | N/A (Code of Conduct enforcement only) |
 | Volunteers | Working Group Lead | Non-code operational support | Ongoing | Working Group Lead decision, appealable to Council |
 | Ambassadors | Working Group Lead, Council-confirmed | Regional/institutional representation | 6 months, renewable | Council majority vote |
@@ -216,7 +216,7 @@ Technical decisions that affect the public API of a repository, smart-contract b
 
 ### 4.4 Strategic Decisions
 
-Strategic decisions — new pillars, major roadmap shifts, treasury commitments above the threshold in Section 8, and formal partnerships — require a full Governance Council vote following the Proposal Lifecycle in Section 6.
+Strategic decisions - new pillars, major roadmap shifts, treasury commitments above the threshold in Section 8, and formal partnerships - require a full Governance Council vote following the Proposal Lifecycle in Section 6.
 
 ### 4.5 Emergency Decisions
 
@@ -224,7 +224,7 @@ Emergency decisions apply only to situations posing an immediate risk to user fu
 
 1. Any Maintainer or Council member may declare an emergency and take the minimum necessary containment action (e.g., pausing a contract function, revoking a compromised credential).
 2. The Founder safeguard may be used only if a Council quorum cannot be reached within 4 hours.
-3. All emergency actions must be reported publicly within 72 hours and formally ratified — or reversed — by full Council vote within 14 days.
+3. All emergency actions must be reported publicly within 72 hours and formally ratified - or reversed - by full Council vote within 14 days.
 4. Repeated or unjustified use of emergency authority is grounds for role review under Section 3.9.
 
 ### 4.6 Decision Tree
@@ -292,14 +292,14 @@ flowchart LR
     H -.iterate if needed.-> C
 ```
 
-1. **Idea** — Posted informally in the relevant forum or GitHub Discussion category.
-2. **Discussion** — Open community conversation; a Working Group Lead or Maintainer assesses whether it merits a formal proposal.
-3. **Draft** — Author writes a full proposal using the standard template (problem, solution, impact, cost, risks).
-4. **Community Feedback** — Minimum 5-day public comment window.
-5. **Revision** — Author incorporates feedback or documents why specific feedback was not incorporated.
-6. **Vote** — Routed to the appropriate decision category and threshold (Sections 4–5).
-7. **Implementation** — Assigned an owner and tracked to completion.
-8. **Review** — Outcome assessed against original goals at a defined checkpoint (typically 90 days post-implementation) and published.
+1. **Idea** - Posted informally in the relevant forum or GitHub Discussion category.
+2. **Discussion** - Open community conversation; a Working Group Lead or Maintainer assesses whether it merits a formal proposal.
+3. **Draft** - Author writes a full proposal using the standard template (problem, solution, impact, cost, risks).
+4. **Community Feedback** - Minimum 5-day public comment window.
+5. **Revision** - Author incorporates feedback or documents why specific feedback was not incorporated.
+6. **Vote** - Routed to the appropriate decision category and threshold (Sections 4-5).
+7. **Implementation** - Assigned an owner and tracked to completion.
+8. **Review** - Outcome assessed against original goals at a defined checkpoint (typically 90 days post-implementation) and published.
 
 ---
 
@@ -323,9 +323,9 @@ flowchart LR
 
 ### 8.1 Treasury Principles
 
-- CeloHT treasury funds are held for **operational and programmatic use only** — education production, Agent Network stipends, reforestation costs, infrastructure, and community events.
+- CeloHT treasury funds are held for **operational and programmatic use only** - education production, Agent Network stipends, reforestation costs, infrastructure, and community events.
 - Funds are never distributed as speculative investment, never used to purchase volatile assets for trading purposes, and never used to create or imply a financial return for contributors.
-- cUSD is used as a **stable settlement currency** for these operational purposes because of its accessibility on Valora/MiniPay in Haiti and the Caribbean — not as an investment vehicle.
+- USDm is used as a **stable settlement currency** for these operational purposes because of its accessibility on Valora/MiniPay in Haiti and the Caribbean - not as an investment vehicle.
 
 ### 8.2 Treasury Committee
 
@@ -349,7 +349,7 @@ Donations are accepted transparently and logged with source, amount, and intende
 | Expense tier | Approval required |
 |---|---|
 | Under $500 | Treasury Committee, 2-of-3 sign-off |
-| $500–$5,000 | Treasury Committee unanimous + Working Group Lead sign-off |
+| $500-$5,000 | Treasury Committee unanimous + Working Group Lead sign-off |
 | Above $5,000 | Governance Council Absolute Majority vote |
 
 ### 8.7 Emergency Reserve
@@ -442,7 +442,7 @@ A security incident triggers the Emergency Decision process (Section 4.5). The W
 
 ### 12.3 Emergency Actions
 
-Permitted emergency actions are limited to containment (pausing functions, rotating credentials, taking a service offline) — never to unilateral treasury movement, which always requires the multi-person process in Section 8.6, even under emergency conditions, except where directly necessary to prevent theft already in progress.
+Permitted emergency actions are limited to containment (pausing functions, rotating credentials, taking a service offline) - never to unilateral treasury movement, which always requires the multi-person process in Section 8.6, even under emergency conditions, except where directly necessary to prevent theft already in progress.
 
 ---
 
@@ -506,7 +506,7 @@ Each Working Group operates under a public charter approved by the Governance Co
 
 ### 16.2 Terms
 
-Council terms run 12 months. Working Group Lead terms run 6–12 months as defined in each charter.
+Council terms run 12 months. Working Group Lead terms run 6-12 months as defined in each charter.
 
 ### 16.3 Removal
 
@@ -534,7 +534,7 @@ Used for concrete, actionable technical or documentation tasks with clear scope.
 
 ### 17.3 GitHub Discussions
 
-Used for open-ended ideas, proposal incubation (Proposal Lifecycle stage 1–2), and community Q&A.
+Used for open-ended ideas, proposal incubation (Proposal Lifecycle stage 1-2), and community Q&A.
 
 ### 17.4 RFC Process
 
@@ -701,7 +701,7 @@ See Section 6, Proposal Lifecycle diagram.
 | **Absolute Majority** | More than 50% of all seated Council members, not just those participating in the vote |
 | **Ambassador** | A community representative for a specific region or institution |
 | **Council** | Short for Governance Council, CeloHT's primary strategic decision-making body |
-| **cUSD** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
+| **USDm** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
 | **Emergency Decision** | A narrowly scoped decision made to contain immediate risk, subject to mandatory ratification |
 | **Maintainer** | A contributor with repository write/merge access and review responsibilities |
 | **MOU** | Memorandum of Understanding, the standard document used to formalize a CeloHT partnership |

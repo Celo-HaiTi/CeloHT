@@ -28,7 +28,7 @@ Voluntary donations and support through tools like GitHub Sponsors (see
 
 - Developing and translating educational material
 - Operational support for the agent network (training, materials)
-- cUSD rewards for verified reforestation activity
+- USDm rewards for verified reforestation activity
 - Technical infrastructure (website, documentation, workflows)
 
 ## Long-Term Sustainability

@@ -34,7 +34,7 @@ production application or a smart contract. Our security scope focuses on:
 - Dependency security in `scripts/` and `tools/`
 - Protecting the documentation from malicious content injection or misleading links
 - Responsible disclosure related to how CeloHT documents and represents
-  Celo, cUSD, and Valora infrastructure (which CeloHT does not control directly)
+  Celo, USDm, and Valora infrastructure (which CeloHT does not control directly)
 
 ## Coordinated Disclosure
 

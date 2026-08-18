@@ -21,7 +21,7 @@ Haiti and the wider Caribbean.
 
 **Medium (one paragraph)**: CeloHT is a community initiative combining
 financial education in Haitian Creole, a decentralized network of community
-agents, and environmental reforestation programs  all built on Celo, cUSD,
+agents, and environmental reforestation programs  all built on Celo, USDm,
 and Valora-compatible infrastructure. Founded by Johnny Dubic in Léogâne,
 Haiti, CeloHT aims to make modern financial tools accessible to communities
 with limited access to traditional banking.

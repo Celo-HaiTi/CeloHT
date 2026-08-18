@@ -33,7 +33,7 @@ CeloHT funds are managed by a three-person Treasury Committee under Governance C
 
 ## 2. Who approves spending?
 
-Approval authority depends on the amount: expenses under $500 require Treasury Committee 2-of-3 sign-off, expenses between $500–$5,000 require unanimous Treasury Committee approval plus the relevant Working Group Lead's sign-off, and expenses above $5,000 require a Governance Council Absolute Majority vote. See `EXPENSE_APPROVAL_POLICY.md` for the complete threshold table and emergency-expense process.
+Approval authority depends on the amount: expenses under $500 require Treasury Committee 2-of-3 sign-off, expenses between $500-$5,000 require unanimous Treasury Committee approval plus the relevant Working Group Lead's sign-off, and expenses above $5,000 require a Governance Council Absolute Majority vote. See `EXPENSE_APPROVAL_POLICY.md` for the complete threshold table and emergency-expense process.
 
 ## 3. Does the Founder control the treasury?
 

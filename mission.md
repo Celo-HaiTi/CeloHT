@@ -13,7 +13,7 @@ ecosystem as our technical foundation.**
 Nobody should have to use a financial tool they don't understand. That's why
 every CeloHT initiative starts with education in Haitian Creole, the
 language people actually think in before we ever introduce a specific tool
-like Valora or cUSD.
+like Valora or USDm.
 
 ### Agents as a human bridge
 
@@ -27,7 +27,7 @@ navigating the technology on their own.
 We treat the environment the same way we treat financial access: as
 infrastructure the community genuinely needs, not a side project. That means
 coordinated tree-planting tied directly into the agent network and rewarded
-through cUSD.
+through USDm.
 
 ## Who We're Building For
 

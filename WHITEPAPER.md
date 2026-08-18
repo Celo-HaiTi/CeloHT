@@ -63,27 +63,27 @@ This whitepaper is maintained alongside, and must remain consistent with, CeloHT
 
 ### 1.1 Overview
 
-CeloHT is an open-source, community-governed initiative built on the Celo blockchain, working to expand financial inclusion, digital and financial literacy, and environmental restoration in Haiti and, over time, the wider Caribbean. CeloHT organizes its work around three interconnected pillars — **Education**, a community **Agent Network**, and **Reforestation** — unified by a single conviction: that durable financial inclusion requires literacy, trusted local infrastructure, and a stable environment in which communities can build long-term prosperity, together.
+CeloHT is an open-source, community-governed initiative built on the Celo blockchain, working to expand financial inclusion, digital and financial literacy, and environmental restoration in Haiti and, over time, the wider Caribbean. CeloHT organizes its work around three interconnected pillars - **Education**, a community **Agent Network**, and **Reforestation** - unified by a single conviction: that durable financial inclusion requires literacy, trusted local infrastructure, and a stable environment in which communities can build long-term prosperity, together.
 
 ### 1.2 What CeloHT Is, Precisely
 
-CeloHT is an open-source software and community-education project. It is not a bank, not a cryptocurrency exchange, not an investment company, not a security issuer, not a token issuer, not a DAO with legal personality, and not a for-profit company (`LEGAL_STATUS.md` Section 4). CeloHT has no native token, has never conducted a token sale, and does not plan to create one (`NO_TOKEN_POLICY.md`). Every use of blockchain technology within CeloHT is justified by a concrete transparency, cost, or accessibility benefit for the communities it serves — never as a speculative or financial-return mechanism.
+CeloHT is an open-source software and community-education project. It is not a bank, not a cryptocurrency exchange, not an investment company, not a security issuer, not a token issuer, not a DAO with legal personality, and not a for-profit company (`LEGAL_STATUS.md` Section 4). CeloHT has no native token, has never conducted a token sale, and does not plan to create one (`NO_TOKEN_POLICY.md`). Every use of blockchain technology within CeloHT is justified by a concrete transparency, cost, or accessibility benefit for the communities it serves - never as a speculative or financial-return mechanism.
 
 ### 1.3 Objectives of This Whitepaper
 
-This whitepaper exists to give any institutional stakeholder — a grant committee, a university research partner, a diaspora-focused NGO, a government-adjacent development body, or a blockchain developer — a single, comprehensive, internally consistent reference for understanding what CeloHT is, why it is built the way it is, how it is governed, and where it is going. It draws together, and remains fully consistent with, CeloHT's complete documentation suite listed above.
+This whitepaper exists to give any institutional stakeholder - a grant committee, a university research partner, a diaspora-focused NGO, a government-adjacent development body, or a blockchain developer - a single, comprehensive, internally consistent reference for understanding what CeloHT is, why it is built the way it is, how it is governed, and where it is going. It draws together, and remains fully consistent with, CeloHT's complete documentation suite listed above.
 
 ### 1.4 Summary of the Three Pillars
 
 | Pillar | Core Activity | Primary Technology Enablers |
 |---|---|---|
 | **Education** | Web3, financial-literacy, and digital-skills training delivered primarily in Haitian Creole | dApp learning modules, CeloHT Academy content series, community workshops |
-| **Agent Network** | Community-based agents providing cUSD cash-in/cash-out and onboarding support | Valora, MiniPay, on-chain agent verification registry |
+| **Agent Network** | Community-based agents providing USDm cash-in/cash-out and onboarding support | Valora, MiniPay, on-chain agent verification registry |
 | **Reforestation** | Community-driven tree planting with transparent, independently verifiable impact reporting | On-chain attestation hashes, public Impact Dashboard |
 
 ### 1.5 Summary of Governance and Legal Posture
 
-CeloHT is governed through a documented framework (`GOVERNANCE.md`) built around a Governance Council, Working Groups, and a public proposal lifecycle — not unilateral founder control and not token-weighted voting. As of this document's date, CeloHT is not incorporated, does not hold nonprofit or tax-exempt status in any jurisdiction, and does not hold government or regulatory approval of any kind (`LEGAL_STATUS.md` Section 3). This is stated plainly, not as a limitation to be minimized, but as an accurate description of an early-stage initiative with a defined, publicly documented path toward greater institutional formality (`LEGAL_STATUS.md` Section 20).
+CeloHT is governed through a documented framework (`GOVERNANCE.md`) built around a Governance Council, Working Groups, and a public proposal lifecycle - not unilateral founder control and not token-weighted voting. As of this document's date, CeloHT is not incorporated, does not hold nonprofit or tax-exempt status in any jurisdiction, and does not hold government or regulatory approval of any kind (`LEGAL_STATUS.md` Section 3). This is stated plainly, not as a limitation to be minimized, but as an accurate description of an early-stage initiative with a defined, publicly documented path toward greater institutional formality (`LEGAL_STATUS.md` Section 20).
 
 ### 1.6 Summary of Current Development Status
 
@@ -106,7 +106,7 @@ As of this document's date, CeloHT has published a complete governance, legal, t
 
 ### 2.1 Vision
 
-CeloHT's long-term vision is a Haiti — and, in time, a wider Caribbean region — where digital financial tools are broadly understood and safely usable in people's own language; where community-based agents provide a trusted, human bridge between digital value and everyday cash needs; and where the communities CeloHT works with also benefit from active, transparently reported environmental restoration.
+CeloHT's long-term vision is a Haiti - and, in time, a wider Caribbean region - where digital financial tools are broadly understood and safely usable in people's own language; where community-based agents provide a trusted, human bridge between digital value and everyday cash needs; and where the communities CeloHT works with also benefit from active, transparently reported environmental restoration.
 
 ### 2.2 Mission
 
@@ -121,7 +121,7 @@ CeloHT's mission, as stated consistently across its documentation (`GOVERNANCE.m
 | **Language equity** | Haitian Creole is a first-class language for governance, documentation, and education |
 | **Sustainability over speed** | CeloHT prefers a slower, well-governed pace of growth to a faster, fragile one |
 | **Stewardship, not ownership** | Roles in CeloHT are held on behalf of the community, never as personal property |
-| **Verifiability over assertion** | Claims are backed by public, checkable records — on-chain attestations, published reports, open repositories — rather than by trust alone |
+| **Verifiability over assertion** | Claims are backed by public, checkable records - on-chain attestations, published reports, open repositories - rather than by trust alone |
 
 ### 2.4 Why These Values Matter to CeloHT's Stakeholders
 
@@ -133,15 +133,15 @@ For a grant reviewer, these values translate into a predictable governance and r
 
 ### 3.1 Founding Context
 
-CeloHT was founded by Johnny Dubic, based in Léogâne, Haiti, out of a conviction that financial-inclusion technology delivers the most value to underserved communities when paired with genuine literacy and a trustworthy human network — not when deployed as a purely technical intervention. The project's founding design choices — a non-token architecture, Haitian Creole as a first-class documentation language, and a three-pillar structure spanning education, human agent infrastructure, and environmental work — trace directly to that founding conviction.
+CeloHT was founded by Johnny Dubic, based in Léogâne, Haiti, out of a conviction that financial-inclusion technology delivers the most value to underserved communities when paired with genuine literacy and a trustworthy human network - not when deployed as a purely technical intervention. The project's founding design choices - a non-token architecture, Haitian Creole as a first-class documentation language, and a three-pillar structure spanning education, human agent infrastructure, and environmental work - trace directly to that founding conviction.
 
 ### 3.2 Early Development
 
-CeloHT's earliest work centered on foundational research, a static website prototype communicating the project's mission and three-pillar structure, and an extensive body of original Haitian Creole educational content covering blockchain fundamentals, Web3 concepts, and financial literacy. This early content-first approach reflects CeloHT's premise that education must precede — and accompany — any technical deployment, not follow it as an afterthought.
+CeloHT's earliest work centered on foundational research, a static website prototype communicating the project's mission and three-pillar structure, and an extensive body of original Haitian Creole educational content covering blockchain fundamentals, Web3 concepts, and financial literacy. This early content-first approach reflects CeloHT's premise that education must precede - and accompany - any technical deployment, not follow it as an afterthought.
 
 ### 3.3 Governance and Documentation Maturity
 
-CeloHT subsequently developed a complete governance and institutional-documentation suite: `GOVERNANCE.md` (community governance framework), `LEGAL_STATUS.md` (legally neutral organizational-status disclosure), `ARCHITECTURE.md` (technical architecture), `TEAM.md` and its companion documents (team transparency and verification policy), a full Financial Governance document suite (treasury, procurement, expense approval, financial reporting, reserves, conflict of interest, internal controls, audit policy, and fund allocation), `API.md` (API specification), and `DAO.md` (a phased plan for future community-governance evolution). This documentation-first maturity model — establishing accountability, transparency, and legal-clarity infrastructure before scaling technical deployment or fundraising — is itself a deliberate CeloHT design choice, informed by common due-diligence gaps identified in early-stage Web3 and open-source projects.
+CeloHT subsequently developed a complete governance and institutional-documentation suite: `GOVERNANCE.md` (community governance framework), `LEGAL_STATUS.md` (legally neutral organizational-status disclosure), `ARCHITECTURE.md` (technical architecture), `TEAM.md` and its companion documents (team transparency and verification policy), a full Financial Governance document suite (treasury, procurement, expense approval, financial reporting, reserves, conflict of interest, internal controls, audit policy, and fund allocation), `API.md` (API specification), and `DAO.md` (a phased plan for future community-governance evolution). This documentation-first maturity model - establishing accountability, transparency, and legal-clarity infrastructure before scaling technical deployment or fundraising - is itself a deliberate CeloHT design choice, informed by common due-diligence gaps identified in early-stage Web3 and open-source projects.
 
 ### 3.4 Present Stage
 
@@ -153,7 +153,7 @@ As of this document's date, CeloHT sits at the transition between its documentat
 
 ### 4.1 The Financial Inclusion Gap
 
-Across much of the developing world, and acutely in Haiti, a substantial share of the population remains outside formal financial systems: without a bank account, without accessible credit, and without a safe way to receive remittances or save value that is not eroded by local currency instability. This gap is not primarily a technology gap — mobile phone penetration in Haiti is significant — it is a combination of a **trust gap** (limited confidence in unfamiliar financial tools), a **literacy gap** (limited exposure to how digital financial tools actually work), and an **infrastructure gap** (limited local, human points of contact for converting digital value to usable cash and back).
+Across much of the developing world, and acutely in Haiti, a substantial share of the population remains outside formal financial systems: without a bank account, without accessible credit, and without a safe way to receive remittances or save value that is not eroded by local currency instability. This gap is not primarily a technology gap - mobile phone penetration in Haiti is significant - it is a combination of a **trust gap** (limited confidence in unfamiliar financial tools), a **literacy gap** (limited exposure to how digital financial tools actually work), and an **infrastructure gap** (limited local, human points of contact for converting digital value to usable cash and back).
 
 ### 4.2 Why Technology Alone Does Not Solve This
 
@@ -165,7 +165,7 @@ Financial inclusion and environmental resilience are connected in communities li
 
 ### 4.4 The Global Context of Web3 for Public Benefit
 
-CeloHT operates within a broader global movement applying blockchain infrastructure to public-benefit rather than purely speculative use cases — a movement that includes the Celo Foundation's own mobile-first, stablecoin-centered design philosophy, and comparable public-benefit blockchain initiatives worldwide. CeloHT positions itself within this movement specifically, not within the token-speculation or DeFi-yield segment of the Web3 ecosystem.
+CeloHT operates within a broader global movement applying blockchain infrastructure to public-benefit rather than purely speculative use cases - a movement that includes the Celo Foundation's own mobile-first, stablecoin-centered design philosophy, and comparable public-benefit blockchain initiatives worldwide. CeloHT positions itself within this movement specifically, not within the token-speculation or DeFi-yield segment of the Web3 ecosystem.
 
 ---
 
@@ -173,19 +173,19 @@ CeloHT operates within a broader global movement applying blockchain infrastruct
 
 ### 5.1 Why Haiti
 
-Haiti combines significant unmet financial-inclusion need, a large and economically engaged diaspora whose remittances represent a substantial share of national income, high mobile-phone penetration relative to formal banking penetration, and — critically for CeloHT's founding team — direct, lived local context and language fluency (Haitian Creole) that is frequently absent from international financial-inclusion projects designed and delivered in a foreign language by a foreign team. CeloHT is designed from a Haiti-first, Haitian-Creole-first foundation, not adapted from a foreign-market product after the fact.
+Haiti combines significant unmet financial-inclusion need, a large and economically engaged diaspora whose remittances represent a substantial share of national income, high mobile-phone penetration relative to formal banking penetration, and - critically for CeloHT's founding team - direct, lived local context and language fluency (Haitian Creole) that is frequently absent from international financial-inclusion projects designed and delivered in a foreign language by a foreign team. CeloHT is designed from a Haiti-first, Haitian-Creole-first foundation, not adapted from a foreign-market product after the fact.
 
 ### 5.2 Why Celo
 
-Celo was selected as CeloHT's blockchain foundation because of its mobile-first design philosophy, its EVM compatibility (lowering the barrier for future developer contribution and tooling reuse), and its native stablecoin infrastructure (cUSD), which directly supports CeloHT's core design principle of avoiding exposure of vulnerable users to price-volatile assets. Celo's low transaction costs are particularly relevant to CeloHT's Agent Network use case, where transaction fees that are trivial in absolute terms can represent a meaningful barrier for low-value, high-frequency cash-in/cash-out activity.
+Celo was selected as CeloHT's blockchain foundation because of its mobile-first design philosophy, its EVM compatibility (lowering the barrier for future developer contribution and tooling reuse), and its native stablecoin infrastructure (USDm), which directly supports CeloHT's core design principle of avoiding exposure of vulnerable users to price-volatile assets. Celo's low transaction costs are particularly relevant to CeloHT's Agent Network use case, where transaction fees that are trivial in absolute terms can represent a meaningful barrier for low-value, high-frequency cash-in/cash-out activity.
 
 ### 5.3 Why Stablecoins
 
-CeloHT's use of cUSD, rather than a volatile cryptocurrency, reflects a considered position: financial-inclusion tools for economically vulnerable populations should not introduce new forms of financial risk. A stablecoin allows CeloHT's Agent Network and education programs to demonstrate real, practical digital-payment functionality without asking a first-time user to absorb exchange-rate risk as the cost of participation.
+CeloHT's use of USDm, rather than a volatile cryptocurrency, reflects a considered position: financial-inclusion tools for economically vulnerable populations should not introduce new forms of financial risk. A stablecoin allows CeloHT's Agent Network and education programs to demonstrate real, practical digital-payment functionality without asking a first-time user to absorb exchange-rate risk as the cost of participation.
 
 ### 5.4 Why Open Source
 
-CeloHT publishes its software, governance documents, and educational materials under open licenses (`LEGAL_STATUS.md` Section 11) for three reasons: it allows the value CeloHT creates to remain available to the public rather than becoming proprietary; it allows external audit and verification of CeloHT's claims, consistent with the Verifiability value in Section 2.3; and it allows other organizations and communities — in Haiti, the wider Caribbean, or elsewhere — to adapt CeloHT's model to their own context without starting from zero.
+CeloHT publishes its software, governance documents, and educational materials under open licenses (`LEGAL_STATUS.md` Section 11) for three reasons: it allows the value CeloHT creates to remain available to the public rather than becoming proprietary; it allows external audit and verification of CeloHT's claims, consistent with the Verifiability value in Section 2.3; and it allows other organizations and communities - in Haiti, the wider Caribbean, or elsewhere - to adapt CeloHT's model to their own context without starting from zero.
 
 ### 5.5 Why No Token
 
@@ -210,7 +210,7 @@ CeloHT's Education pillar delivers Web3, blockchain, financial-literacy, and dig
 | Category | Example Content |
 |---|---|
 | Web3 and blockchain basics | What a blockchain is, what a wallet is, custody and key-management fundamentals |
-| cUSD and Valora/MiniPay training | Practical, hands-on modules on sending, receiving, and safeguarding cUSD |
+| USDm and Valora/MiniPay training | Practical, hands-on modules on sending, receiving, and safeguarding USDm |
 | Financial literacy | Budgeting, savings discipline, remittance management, fraud awareness |
 | Digital skills | Basic smartphone literacy, internet safety, account security |
 
@@ -242,7 +242,7 @@ flowchart LR
 
 ### 6.7 Key Takeaways
 
-Education is not a supporting feature of CeloHT — it is the pillar that makes the Agent Network and broader financial-inclusion goal achievable rather than merely accessible.
+Education is not a supporting feature of CeloHT - it is the pillar that makes the Agent Network and broader financial-inclusion goal achievable rather than merely accessible.
 
 ### 6.8 Future Outlook
 
@@ -254,7 +254,7 @@ Planned development includes dApp-integrated interactive modules, structured com
 
 ### 7.1 Executive Summary
 
-The Agent Network is CeloHT's human-infrastructure layer: verified community members who provide cUSD cash-in/cash-out services, bridging digital value and physical cash in communities where that bridge is otherwise limited or absent.
+The Agent Network is CeloHT's human-infrastructure layer: verified community members who provide USDm cash-in/cash-out services, bridging digital value and physical cash in communities where that bridge is otherwise limited or absent.
 
 ### 7.2 Objectives
 
@@ -267,7 +267,7 @@ The Agent Network is CeloHT's human-infrastructure layer: verified community mem
 ```mermaid
 flowchart TD
     A[Agent Application] --> B[Identity and<br/>Background Verification]
-    B --> C[Training: cUSD, Valora/MiniPay,<br/>Compliance, Ethics]
+    B --> C[Training: USDm, Valora/MiniPay,<br/>Compliance, Ethics]
     C --> D[On-Chain Agent<br/>Registry Entry]
     D --> E[Active Agent Status]
     E --> F[Cash-In / Cash-Out<br/>Transaction Facilitation]
@@ -300,7 +300,7 @@ The Agent Network is the point at which CeloHT's education and technology invest
 
 ### 7.8 Future Outlook
 
-Planned expansion includes additional regions within Haiti, expanded agent support tooling, and — pending regulatory review — potential extension to additional Caribbean markets (Section 28).
+Planned expansion includes additional regions within Haiti, expanded agent support tooling, and - pending regulatory review - potential extension to additional Caribbean markets (Section 28).
 
 ---
 
@@ -341,7 +341,7 @@ CeloHT anchors a cryptographic hash of each reforestation report on-chain, rathe
 
 | Risk | Mitigation |
 |---|---|
-| Overstated or unverifiable impact claims | On-chain attestation model (Section 8.3–8.4) |
+| Overstated or unverifiable impact claims | On-chain attestation model (Section 8.3-8.4) |
 | Survivorship of planted trees not tracked long-term | Planned long-term monitoring protocol as program matures |
 | Site-selection or land-rights disputes | Legal Working Group and local-partner review prior to site registration |
 
@@ -412,7 +412,7 @@ CeloHT's technical architecture, documented in full in `ARCHITECTURE.md`, connec
 
 | Layer | Technologies |
 |---|---|
-| Blockchain | Celo, cUSD, CELO, EVM-compatible smart contracts |
+| Blockchain | Celo, USDm, CELO, EVM-compatible smart contracts |
 | Frontend | Next.js, React, TypeScript, Tailwind CSS, shadcn/ui |
 | Wallets | Valora, MiniPay, WalletConnect |
 | Backend | REST API (`API.md`), relational database, service-oriented architecture |
@@ -425,7 +425,7 @@ CeloHT's technical architecture, documented in full in `ARCHITECTURE.md`, connec
 graph TD
     U[Users: Learners, Agents,<br/>Community Members] --> DAPP[CeloHT dApp]
     DAPP --> WALLET[Wallet Layer<br/>Valora / MiniPay / WalletConnect]
-    WALLET --> CHAIN[Celo Blockchain<br/>cUSD / CELO / Smart Contracts]
+    WALLET --> CHAIN[Celo Blockchain<br/>USDm / CELO / Smart Contracts]
     DAPP --> API[Backend API Layer]
     API --> DB[(Database Layer)]
     API --> ANALYTICS[Impact Analytics Engine]
@@ -449,7 +449,7 @@ graph TD
 
 ### 10.6 Key Takeaways
 
-CeloHT's architecture is deliberately conservative in its on-chain footprint and deliberately mobile-first — both choices trace directly back to the target-user context described in Section 4.
+CeloHT's architecture is deliberately conservative in its on-chain footprint and deliberately mobile-first - both choices trace directly back to the target-user context described in Section 4.
 
 ### 10.7 Future Outlook
 
@@ -606,7 +606,7 @@ flowchart LR
 
 ### 13.7 Key Takeaways
 
-CeloHT's developer experience strategy prioritizes trustworthy documentation over premature SDK proliferation — publishing a stable, well-specified API contract before building convenience libraries on top of it.
+CeloHT's developer experience strategy prioritizes trustworthy documentation over premature SDK proliferation - publishing a stable, well-specified API contract before building convenience libraries on top of it.
 
 ---
 
@@ -614,7 +614,7 @@ CeloHT's developer experience strategy prioritizes trustworthy documentation ove
 
 ### 14.1 Executive Summary
 
-CeloHT is governed under a documented, community-oriented framework (`GOVERNANCE.md`) built around a Governance Council, Working Groups, and a public Proposal Lifecycle — deliberately avoiding both unilateral founder control and token-weighted voting.
+CeloHT is governed under a documented, community-oriented framework (`GOVERNANCE.md`) built around a Governance Council, Working Groups, and a public Proposal Lifecycle - deliberately avoiding both unilateral founder control and token-weighted voting.
 
 ### 14.2 Governance Structure Diagram
 
@@ -643,7 +643,7 @@ graph TD
 
 ### 14.4 Decision-Making Framework
 
-CeloHT classifies decisions into four categories — Operational, Technical, Strategic, and Emergency — each with a defined decision-maker, process, and documentation requirement (`GOVERNANCE.md` Section 4). This tiered structure ensures routine work moves quickly while strategic and treasury-significant decisions receive proportionate scrutiny.
+CeloHT classifies decisions into four categories - Operational, Technical, Strategic, and Emergency - each with a defined decision-maker, process, and documentation requirement (`GOVERNANCE.md` Section 4). This tiered structure ensures routine work moves quickly while strategic and treasury-significant decisions receive proportionate scrutiny.
 
 ### 14.5 Proposal Lifecycle
 
@@ -680,7 +680,7 @@ See Section 15 for how this governance model is designed to evolve toward broade
 
 ### 15.1 Executive Summary
 
-CeloHT has published a phased design (`DAO.md`) for evolving its governance model toward broader, structured community participation — a Community Governance DAO, explicitly not a token-governance DAO. As of this document's date, the CeloHT DAO is a design specification and is not operational; `GOVERNANCE.md` remains the sole active governance framework.
+CeloHT has published a phased design (`DAO.md`) for evolving its governance model toward broader, structured community participation - a Community Governance DAO, explicitly not a token-governance DAO. As of this document's date, the CeloHT DAO is a design specification and is not operational; `GOVERNANCE.md` remains the sole active governance framework.
 
 ### 15.2 Activation Roadmap
 
@@ -693,14 +693,14 @@ flowchart LR
 
 | Phase | Defining Characteristic |
 |---|---|
-| Phase 1 — Pre-DAO (current) | `GOVERNANCE.md` fully governs; no DAO tooling in binding use |
-| Phase 2 — dApp Operational | Off-chain voting piloted for non-binding sentiment polls |
-| Phase 3 — Community Governance | Off-chain voting becomes binding for defined proposal categories; Technical and Transparency Committees formed |
-| Phase 4 — Mature DAO | Narrowly scoped on-chain governance components evaluated, subject to prior audit |
+| Phase 1 - Pre-DAO (current) | `GOVERNANCE.md` fully governs; no DAO tooling in binding use |
+| Phase 2 - dApp Operational | Off-chain voting piloted for non-binding sentiment polls |
+| Phase 3 - Community Governance | Off-chain voting becomes binding for defined proposal categories; Technical and Transparency Committees formed |
+| Phase 4 - Mature DAO | Narrowly scoped on-chain governance components evaluated, subject to prior audit |
 
 ### 15.3 Governance Scope and Limits
 
-The CeloHT DAO is designed to hold community-voting authority over dApp improvements, education-program direction, Agent Network expansion, reforestation initiatives, non-financial-commitment partnerships, and community initiatives (`DAO.md` Section 9) — while treasury policy, legal-status decisions, governance-document amendments, and emergency actions remain reserved to the Governance Council (`DAO.md` Section 10).
+The CeloHT DAO is designed to hold community-voting authority over dApp improvements, education-program direction, Agent Network expansion, reforestation initiatives, non-financial-commitment partnerships, and community initiatives (`DAO.md` Section 9) - while treasury policy, legal-status decisions, governance-document amendments, and emergency actions remain reserved to the Governance Council (`DAO.md` Section 10).
 
 ### 15.4 Risks and Mitigations
 
@@ -712,7 +712,7 @@ The CeloHT DAO is designed to hold community-voting authority over dApp improvem
 
 ### 15.5 Key Takeaways
 
-The CeloHT DAO is a roadmap for deepening community ownership of decision-making — not a rebranding of CeloHT as a token-governed entity.
+The CeloHT DAO is a roadmap for deepening community ownership of decision-making - not a rebranding of CeloHT as a token-governed entity.
 
 ---
 
@@ -720,7 +720,7 @@ The CeloHT DAO is a roadmap for deepening community ownership of decision-making
 
 ### 16.1 Executive Summary
 
-CeloHT's treasury, governed under `TREASURY.md`, `EXPENSE_APPROVAL_POLICY.md`, `RESERVE_POLICY.md`, and `PROCUREMENT_POLICY.md`, funds CeloHT's programmatic and operational activity exclusively — never distributed as profit, never invested speculatively.
+CeloHT's treasury, governed under `TREASURY.md`, `EXPENSE_APPROVAL_POLICY.md`, `RESERVE_POLICY.md`, and `PROCUREMENT_POLICY.md`, funds CeloHT's programmatic and operational activity exclusively - never distributed as profit, never invested speculatively.
 
 ### 16.2 Treasury Flow Diagram
 
@@ -797,7 +797,7 @@ Transparency at CeloHT is a set of enforceable publication commitments, not a ge
 
 ### 17.3 The "Not Yet Available" Standard
 
-Where CeloHT genuinely lacks a piece of data — a historical financial figure, an audit result, a completed team verification — this whitepaper and CeloHT's broader documentation state "Not Yet Available" explicitly, rather than omitting the topic or estimating a plausible-sounding figure. This standard, applied consistently across `TEAM.md`, `FINANCIAL_REPORTS.md`, and `AUDIT_POLICY.md`, is central to CeloHT's transparency claim being credible under due diligence.
+Where CeloHT genuinely lacks a piece of data - a historical financial figure, an audit result, a completed team verification - this whitepaper and CeloHT's broader documentation state "Not Yet Available" explicitly, rather than omitting the topic or estimating a plausible-sounding figure. This standard, applied consistently across `TEAM.md`, `FINANCIAL_REPORTS.md`, and `AUDIT_POLICY.md`, is central to CeloHT's transparency claim being credible under due diligence.
 
 ### 17.4 Risks and Mitigations
 
@@ -808,7 +808,7 @@ Where CeloHT genuinely lacks a piece of data — a historical financial figure, 
 
 ### 17.5 Key Takeaways
 
-CeloHT's transparency commitment is tested most rigorously not by what it publishes, but by whether it publishes accurate "Not Yet Available" labels where data genuinely does not exist — which this whitepaper does throughout.
+CeloHT's transparency commitment is tested most rigorously not by what it publishes, but by whether it publishes accurate "Not Yet Available" labels where data genuinely does not exist - which this whitepaper does throughout.
 
 ---
 
@@ -816,7 +816,7 @@ CeloHT's transparency commitment is tested most rigorously not by what it publis
 
 ### 18.1 Executive Summary
 
-CeloHT identifies and manages risk across five categories — legal/regulatory, financial, governance, operational, and reputational — through the structures documented across `GOVERNANCE.md`, `LEGAL_STATUS.md`, and the Financial Governance document suite.
+CeloHT identifies and manages risk across five categories - legal/regulatory, financial, governance, operational, and reputational - through the structures documented across `GOVERNANCE.md`, `LEGAL_STATUS.md`, and the Financial Governance document suite.
 
 ### 18.2 Risk Matrix
 
@@ -843,7 +843,7 @@ flowchart TD
 
 ### 18.4 Key Takeaways
 
-CeloHT's risk-management approach does not claim to eliminate risk — an honest claim no early-stage organization could credibly make — but commits to identifying, owning, and reviewing risk transparently through the Annual Governance Review (`GOVERNANCE.md` Section 21).
+CeloHT's risk-management approach does not claim to eliminate risk - an honest claim no early-stage organization could credibly make - but commits to identifying, owning, and reviewing risk transparently through the Annual Governance Review (`GOVERNANCE.md` Section 21).
 
 ---
 
@@ -864,11 +864,11 @@ As of this document's date:
 
 ### 19.3 Compliance Principles
 
-CeloHT's compliance approach favors activity that structurally reduces regulatory ambiguity — using an existing, independently issued stablecoin rather than issuing a CeloHT-specific asset; monitoring regulatory developments relevant to community-based payment facilitation through a dedicated Legal Working Group; and committing to pause or restructure any activity found, on legal review, to require licensing CeloHT does not hold (`LEGAL_STATUS.md` Section 13).
+CeloHT's compliance approach favors activity that structurally reduces regulatory ambiguity - using an existing, independently issued stablecoin rather than issuing a CeloHT-specific asset; monitoring regulatory developments relevant to community-based payment facilitation through a dedicated Legal Working Group; and committing to pause or restructure any activity found, on legal review, to require licensing CeloHT does not hold (`LEGAL_STATUS.md` Section 13).
 
 ### 19.4 Future Institutional Development
 
-CeloHT's current non-incorporated status reflects an early development stage, not a permanent design choice. Future institutional development — incorporation, tax-exempt status application, formal trademark registration — is subject to Governance Council approval through the Strategic Decision process, public disclosure, and update of `LEGAL_STATUS.md` at the time any such change actually occurs, never announced in advance as "pending" or "in progress" before it has (`LEGAL_STATUS.md` Section 20).
+CeloHT's current non-incorporated status reflects an early development stage, not a permanent design choice. Future institutional development - incorporation, tax-exempt status application, formal trademark registration - is subject to Governance Council approval through the Strategic Decision process, public disclosure, and update of `LEGAL_STATUS.md` at the time any such change actually occurs, never announced in advance as "pending" or "in progress" before it has (`LEGAL_STATUS.md` Section 20).
 
 ### 19.5 Risks and Mitigations
 
@@ -904,7 +904,7 @@ Ethics violations are reported to the Governance Council (or, where a Council me
 
 ### 20.4 Key Takeaways
 
-CeloHT's ethics framework applies without exception to every role, including the Founder — a structural choice, not a courtesy.
+CeloHT's ethics framework applies without exception to every role, including the Founder - a structural choice, not a courtesy.
 
 ---
 
@@ -943,7 +943,7 @@ flowchart LR
 
 ### 21.5 Key Takeaways
 
-CeloHT's community programs are designed to convert genuine, sustained participation into greater responsibility — never the reverse.
+CeloHT's community programs are designed to convert genuine, sustained participation into greater responsibility - never the reverse.
 
 ---
 
@@ -1052,14 +1052,14 @@ CeloHT's financial-sustainability approach combines diversified funding sources,
 
 ### 24.3 Fund Allocation Approach
 
-CeloHT allocates available funds across Education, Agent Network, Reforestation, Technology, Operations, Community Growth, and Emergency Reserve categories based on documented criteria — mission alignment, programmatic readiness, restricted-funding obligations, reserve adequacy, community input, and prior-period performance — without pre-committing to fixed percentages (`FUND_ALLOCATION_FRAMEWORK.md`).
+CeloHT allocates available funds across Education, Agent Network, Reforestation, Technology, Operations, Community Growth, and Emergency Reserve categories based on documented criteria - mission alignment, programmatic readiness, restricted-funding obligations, reserve adequacy, community input, and prior-period performance - without pre-committing to fixed percentages (`FUND_ALLOCATION_FRAMEWORK.md`).
 
 ### 24.4 Risks and Mitigations
 
 | Risk | Mitigation |
 |---|---|
 | Single-donor over-dependence | Diversified funding-source strategy |
-| Currency or macroeconomic instability affecting programmatic costs | cUSD-denominated operational spending where feasible, reducing local-currency exposure |
+| Currency or macroeconomic instability affecting programmatic costs | USDm-denominated operational spending where feasible, reducing local-currency exposure |
 
 ### 24.5 Key Takeaways
 
@@ -1077,7 +1077,7 @@ CeloHT's Monitoring and Evaluation (M&E) approach ties program activity to publi
 
 | Pillar | Metric Category | Reporting Status |
 |---|---|---|
-| Education | Learners reached, courses completed | Not Yet Available — reporting pipeline pending activation |
+| Education | Learners reached, courses completed | Not Yet Available - reporting pipeline pending activation |
 | Agent Network | Agents active, transactions facilitated | Not Yet Available |
 | Reforestation | Trees planted, sites active, hectares restored | Not Yet Available |
 | Governance | Council votes held, proposals processed | Tracked per `GOVERNANCE.md` Section 18 as governance activity occurs |
@@ -1170,7 +1170,7 @@ CeloHT's social impact claims in this whitepaper are described as intended pathw
 
 ### 28.1 Executive Summary
 
-CeloHT's scaling strategy expands along five dimensions — more communities, more agents, more countries, more developers, more partnerships — without compromising its non-token, community-governed identity (`ARCHITECTURE.md` Section 15).
+CeloHT's scaling strategy expands along five dimensions - more communities, more agents, more countries, more developers, more partnerships - without compromising its non-token, community-governed identity (`ARCHITECTURE.md` Section 15).
 
 ### 28.2 Scaling Dimensions Table
 
@@ -1205,22 +1205,22 @@ CeloHT's scaling strategy explicitly rejects "growth at any cost": every scaling
 
 ### 29.1 Executive Summary
 
-This section presents CeloHT's five-year roadmap as a sequence of milestones tied to the readiness criteria described throughout this whitepaper, not as fixed calendar commitments. Dates are intentionally omitted from milestones dependent on funding or community growth outside CeloHT's unilateral control; where a phase is described as "Year 1–2," this reflects planning sequence, not a guaranteed timeline.
+This section presents CeloHT's five-year roadmap as a sequence of milestones tied to the readiness criteria described throughout this whitepaper, not as fixed calendar commitments. Dates are intentionally omitted from milestones dependent on funding or community growth outside CeloHT's unilateral control; where a phase is described as "Year 1-2," this reflects planning sequence, not a guaranteed timeline.
 
 ### 29.2 Roadmap Milestones Table
 
 | Milestone | Sequence | Dependency |
 |---|---|---|
-| Complete governance, legal, and financial-governance documentation suite | Achieved | — |
-| Publish technical architecture and API specification | Achieved | — |
-| Launch production dApp (Phase 2 of `DAO.md` Section 3) | Year 1–2 | Development capacity, funding |
-| Activate first Agent Network cohort with on-chain verification registry | Year 1–2 | dApp production readiness |
-| Publish first closed-period financial and impact reports | Year 1–2 | Operational activity generating reportable data |
-| Pilot non-binding off-chain community voting | Year 2–3 | dApp operational phase completion |
-| Transition to binding community governance for defined proposal categories | Year 2–4 | Phase 2 exit criteria met (`DAO.md` Section 3.2) |
+| Complete governance, legal, and financial-governance documentation suite | Achieved | - |
+| Publish technical architecture and API specification | Achieved | - |
+| Launch production dApp (Phase 2 of `DAO.md` Section 3) | Year 1-2 | Development capacity, funding |
+| Activate first Agent Network cohort with on-chain verification registry | Year 1-2 | dApp production readiness |
+| Publish first closed-period financial and impact reports | Year 1-2 | Operational activity generating reportable data |
+| Pilot non-binding off-chain community voting | Year 2-3 | dApp operational phase completion |
+| Transition to binding community governance for defined proposal categories | Year 2-4 | Phase 2 exit criteria met (`DAO.md` Section 3.2) |
 | First independent financial review | Upon reaching the $50,000 USD-equivalent annual treasury-flow threshold | Treasury growth |
-| Expand Agent Network to additional Haitian regions | Year 2–4 | Demonstrated pilot-region success |
-| Evaluate expansion to additional Caribbean markets | Year 3–5 | Legal Working Group jurisdiction review |
+| Expand Agent Network to additional Haitian regions | Year 2-4 | Demonstrated pilot-region success |
+| Evaluate expansion to additional Caribbean markets | Year 3-5 | Legal Working Group jurisdiction review |
 
 ### 29.3 Five-Year Roadmap Diagram
 
@@ -1246,7 +1246,7 @@ gantt
 
 ### 29.4 Key Takeaways
 
-CeloHT's five-year roadmap is sequenced by readiness, not committed by date — a distinction this whitepaper maintains deliberately, consistent with its broader commitment to avoid promises it cannot guarantee.
+CeloHT's five-year roadmap is sequenced by readiness, not committed by date - a distinction this whitepaper maintains deliberately, consistent with its broader commitment to avoid promises it cannot guarantee.
 
 ---
 
@@ -1254,25 +1254,25 @@ CeloHT's five-year roadmap is sequenced by readiness, not committed by date — 
 
 ### 30.1 Executive Summary
 
-Over a ten-year horizon, CeloHT's aspiration is to become a mature, community-governed, financially sustainable institution operating a proven, replicable model of integrated financial-inclusion education, community-agent infrastructure, and environmental restoration — first across Haiti, and, contingent on demonstrated success and legal readiness, across additional Caribbean markets.
+Over a ten-year horizon, CeloHT's aspiration is to become a mature, community-governed, financially sustainable institution operating a proven, replicable model of integrated financial-inclusion education, community-agent infrastructure, and environmental restoration - first across Haiti, and, contingent on demonstrated success and legal readiness, across additional Caribbean markets.
 
 ### 30.2 Ten-Year Aspirational Themes
 
 | Theme | Description |
 |---|---|
 | Institutional maturity | Formal incorporation and, where appropriate, nonprofit/charitable registration, per the process in `LEGAL_STATUS.md` Section 20 |
-| Governance maturity | A fully activated Community Governance DAO (`DAO.md` Phase 3–4) with a sustained track record |
+| Governance maturity | A fully activated Community Governance DAO (`DAO.md` Phase 3-4) with a sustained track record |
 | Financial sustainability | Diversified, multi-year funding with a fully funded Sustainability Reserve |
 | Proven, replicable model | A documented, evidence-based case for the three-pillar integrated model (Section 9), open for adaptation by other communities and organizations |
 | Regional reach | Presence in multiple Caribbean markets, each gated by the same legal and operational readiness discipline applied to CeloHT's first market |
 
 ### 30.3 An Honest Caveat
 
-This ten-year vision is aspirational, not a forecast. It is presented to communicate CeloHT's long-term intent to institutional stakeholders evaluating a multi-year relationship, not as a projection with defined probability. CeloHT's actual trajectory over ten years will depend on funding, community growth, regulatory developments, and governance decisions made transparently and incrementally through the processes described throughout this whitepaper — not on this section alone.
+This ten-year vision is aspirational, not a forecast. It is presented to communicate CeloHT's long-term intent to institutional stakeholders evaluating a multi-year relationship, not as a projection with defined probability. CeloHT's actual trajectory over ten years will depend on funding, community growth, regulatory developments, and governance decisions made transparently and incrementally through the processes described throughout this whitepaper - not on this section alone.
 
 ### 30.4 Key Takeaways
 
-CeloHT's ten-year vision is deliberately framed as intent under governance control, not destiny — consistent with the whitepaper's broader distinction between verified fact and future goal.
+CeloHT's ten-year vision is deliberately framed as intent under governance control, not destiny - consistent with the whitepaper's broader distinction between verified fact and future goal.
 
 ---
 
@@ -1295,7 +1295,7 @@ Once CeloHT's Agent Network and Education pillars are operational and reporting 
 
 ### 31.3 Key Takeaways
 
-CeloHT's commitment to case studies grounded in verified, traceable outcomes — rather than anecdote or illustrative composites — is a direct extension of the Verifiability value in Section 2.3, and this section will be populated with real case studies as they become available, each dated and sourced.
+CeloHT's commitment to case studies grounded in verified, traceable outcomes - rather than anecdote or illustrative composites - is a direct extension of the Verifiability value in Section 2.3, and this section will be populated with real case studies as they become available, each dated and sourced.
 
 ---
 
@@ -1320,7 +1320,7 @@ Through grants, donations, and ecosystem partnerships, evaluated and accepted un
 Not yet. CeloHT commits to an independent financial review once its annual treasury flow exceeds $50,000 USD-equivalent, and may commission a voluntary review earlier. See `AUDIT_POLICY.md`.
 
 **What blockchain does CeloHT use, and why?**
-Celo, chosen for its mobile-first design, EVM compatibility, and native stablecoin (cUSD) infrastructure. See Section 5.2.
+Celo, chosen for its mobile-first design, EVM compatibility, and native stablecoin (USDm) infrastructure. See Section 5.2.
 
 **Can I contribute to CeloHT without being in Haiti?**
 Yes. CeloHT is an open-source project; code, documentation, translation, and design contributions are welcome from anywhere, subject to `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md`.
@@ -1337,9 +1337,9 @@ Through a combination of on-chain attestation (for reforestation and agent verif
 
 | Term | Definition |
 |---|---|
-| **Agent** | A verified community member facilitating cUSD cash-in/cash-out and digital-payment onboarding |
+| **Agent** | A verified community member facilitating USDm cash-in/cash-out and digital-payment onboarding |
 | **CHIP** | CeloHT Improvement Proposal, the DAO-era proposal format described in `DAO.md` Section 5 |
-| **cUSD** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
+| **USDm** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
 | **Emergency Decision** | A narrowly scoped decision made to contain immediate risk, subject to mandatory ratification (`GOVERNANCE.md` Section 4.5) |
 | **Governance Council** | CeloHT's primary strategic and treasury decision-making body |
 | **Impact Dashboard** | CeloHT's public, continuously updated reporting interface aggregating Education, Agent Network, and Reforestation metrics |
@@ -1360,24 +1360,24 @@ Through a combination of on-chain attestation (for reforestation and agent verif
 
 This whitepaper synthesizes and summarizes CeloHT's own primary governance, technical, legal, and financial documentation. Readers seeking authoritative, complete detail on any topic summarized here should consult the following documents directly, all maintained in CeloHT's public governance repository:
 
-1. `README.md` — Project overview and orientation
-2. `ROADMAP.md` — Detailed development roadmap
-3. `ARCHITECTURE.md` — Technical architecture specification
-4. `API.md` — API specification
-5. `DAO.md` — DAO design and activation roadmap
-6. `GOVERNANCE.md` — Community governance framework
-7. `LEGAL_STATUS.md` — Legal status and organizational disclosure
-8. `NO_TOKEN_POLICY.md` — Non-token policy statement
-9. `FUNDING_POLICY.md` — Funding acceptance and management policy
-10. `SECURITY.md` — Security policy and vulnerability-disclosure process
-11. `SMART_CONTRACTS.md` — Smart contract design and audit policy
-12. `PROJECT_STRUCTURE.md` — Repository and project organization
-13. `TEAM.md`, `AUTHORS.md`, `MAINTAINERS.md`, `CONTRIBUTORS.md`, `VERIFICATION_POLICY.md` — Team transparency and verification
-14. `CONTRIBUTING.md` — Contribution guidelines
-15. `CODE_OF_CONDUCT.md` — Community conduct standards
-16. `RISK_MANAGEMENT.md` — Risk management framework
-17. `TRANSPARENCY.md` — Transparency policy
-18. `TREASURY.md`, `DONATION_POLICY.md`, `PROCUREMENT_POLICY.md`, `EXPENSE_APPROVAL_POLICY.md`, `FINANCIAL_REPORTS.md`, `RESERVE_POLICY.md`, `CONFLICT_OF_INTEREST_FINANCE.md`, `INTERNAL_CONTROLS.md`, `AUDIT_POLICY.md`, `FUND_ALLOCATION_FRAMEWORK.md`, `FINANCIAL_FAQ.md` — Financial governance suite
+1. `README.md` - Project overview and orientation
+2. `ROADMAP.md` - Detailed development roadmap
+3. `ARCHITECTURE.md` - Technical architecture specification
+4. `API.md` - API specification
+5. `DAO.md` - DAO design and activation roadmap
+6. `GOVERNANCE.md` - Community governance framework
+7. `LEGAL_STATUS.md` - Legal status and organizational disclosure
+8. `NO_TOKEN_POLICY.md` - Non-token policy statement
+9. `FUNDING_POLICY.md` - Funding acceptance and management policy
+10. `SECURITY.md` - Security policy and vulnerability-disclosure process
+11. `SMART_CONTRACTS.md` - Smart contract design and audit policy
+12. `PROJECT_STRUCTURE.md` - Repository and project organization
+13. `TEAM.md`, `AUTHORS.md`, `MAINTAINERS.md`, `CONTRIBUTORS.md`, `VERIFICATION_POLICY.md` - Team transparency and verification
+14. `CONTRIBUTING.md` - Contribution guidelines
+15. `CODE_OF_CONDUCT.md` - Community conduct standards
+16. `RISK_MANAGEMENT.md` - Risk management framework
+17. `TRANSPARENCY.md` - Transparency policy
+18. `TREASURY.md`, `DONATION_POLICY.md`, `PROCUREMENT_POLICY.md`, `EXPENSE_APPROVAL_POLICY.md`, `FINANCIAL_REPORTS.md`, `RESERVE_POLICY.md`, `CONFLICT_OF_INTEREST_FINANCE.md`, `INTERNAL_CONTROLS.md`, `AUDIT_POLICY.md`, `FUND_ALLOCATION_FRAMEWORK.md`, `FINANCIAL_FAQ.md` - Financial governance suite
 
 In the event of any inconsistency between this whitepaper and one of the documents above, the specific, more detailed document governs, and this whitepaper will be corrected accordingly at its next revision.
 
@@ -1385,7 +1385,7 @@ In the event of any inconsistency between this whitepaper and one of the documen
 
 ## 35. Appendices
 
-### Appendix A — Documentation Hierarchy
+### Appendix A - Documentation Hierarchy
 
 ```mermaid
 graph TD
@@ -1401,17 +1401,17 @@ graph TD
 
 This whitepaper sits above CeloHT's detailed operational documents as a synthesized institutional summary; it does not override or duplicate their authority (Section 34).
 
-### Appendix B — Document Versioning
+### Appendix B - Document Versioning
 
 This whitepaper is versioned independently of, but kept in alignment with, the underlying documents it summarizes. A changelog entry is published whenever a material change to any referenced document requires a corresponding update to this whitepaper.
 
-### Appendix C — Contact and Verification
+### Appendix C - Contact and Verification
 
 For verification of any claim in this whitepaper, readers are encouraged to consult the specific underlying document referenced (Section 34), all of which are maintained in CeloHT's public GitHub organization. For questions not answered in this whitepaper or its referenced documents, inquiries can be directed through CeloHT's official channels as listed in the documentation hub, consistent with `LEGAL_STATUS.md` Section 24.
 
-### Appendix D — Statement on Document Accuracy
+### Appendix D - Statement on Document Accuracy
 
-This whitepaper was prepared to the standard described in Section 1: no fabricated statistics, explicit distinction between verified fact and future goal, and consistency with CeloHT's full documentation suite. Where CeloHT's actual status changes — a milestone achieved, a reporting period closed, a governance decision made — this whitepaper will be revised to reflect that change, dated, and versioned, consistent with the Document Governance practices described in `GOVERNANCE.md` Section 14.3.
+This whitepaper was prepared to the standard described in Section 1: no fabricated statistics, explicit distinction between verified fact and future goal, and consistency with CeloHT's full documentation suite. Where CeloHT's actual status changes - a milestone achieved, a reporting period closed, a governance decision made - this whitepaper will be revised to reflect that change, dated, and versioned, consistent with the Document Governance practices described in `GOVERNANCE.md` Section 14.3.
 
 ---
 

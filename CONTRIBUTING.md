@@ -2,7 +2,7 @@
 
 Thanks for thinking about contributing. This repository is the governance
 and documentation hub for the whole CeloHT ecosystem, so the quality bar for
-changes here matters — it's often the first thing a new contributor, partner,
+changes here matters - it's often the first thing a new contributor, partner,
 or funder reads.
 
 ## Code of Conduct
@@ -12,7 +12,7 @@ Everyone participating in this project is expected to follow our
 
 ## What We're Looking For
 
-- Documentation improvements — clarity, translations, fixing errors
+- Documentation improvements - clarity, translations, fixing errors
 - New examples in `examples/`
 - Improvements to the scripts in `scripts/` and `tools/`
 - Improvements to GitHub Actions workflows
@@ -25,7 +25,7 @@ Everyone participating in this project is expected to follow our
 2. Make your changes, keeping [`docs/repository-guide.md`](docs/repository-guide.md) in mind.
 3. Test locally: run `scripts/validate.sh` to check Markdown, YAML, and links.
 4. Open a Pull Request using [our PR template](.github/PULL_REQUEST_TEMPLATE.md).
-5. Respond to review — a maintainer will look at it and may ask for changes.
+5. Respond to review - a maintainer will look at it and may ask for changes.
 6. Once approved, a maintainer will merge it.
 
 ## Quality Bar

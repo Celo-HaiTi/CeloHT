@@ -20,15 +20,15 @@ for attention.
   transactions often coordinate local planting activity too.
 - **Environmental education**: training modules covering why trees matter,
   basic planting technique, and long-term care.
-- **cUSD rewards**: participants who commit to planting and tracking trees
-  can receive symbolic rewards in cUSD, directly linking environmental
+- **USDm rewards**: participants who commit to planting and tracking trees
+  can receive symbolic rewards in USDm, directly linking environmental
   action to financial inclusion.
 - **Tracking and transparency**: basic photo and geolocation documentation
   to verify planted trees, with periodic public reporting.
 
 ## Core Principles
 
-- We don't hand out cUSD without structure every reward is tied to a
+- We don't hand out USDm without structure every reward is tied to a
   verifiable action.
 - We work with existing local agricultural knowledge instead of imposing an
   outside model without adaptation.

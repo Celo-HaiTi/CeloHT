@@ -18,7 +18,7 @@ For a quick summary, see [`ROADMAP.md`](../ROADMAP.md) at the repository root.
 **Goal**: validate the model in a pilot area before expanding.
 
 - [ ] First complete cash-in/cash-out transaction cycle handled by agents
-- [ ] First pilot reforestation program with cUSD rewards
+- [ ] First pilot reforestation program with USDm rewards
 - [ ] Systematically collect and analyze community feedback
 
 **Success metrics**: stable transaction volume, agent retention above 70%,

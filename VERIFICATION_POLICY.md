@@ -2,7 +2,7 @@
 
 **Version 1.0 · August 2026**
 
-This document defines how CeloHT verifies the identity and public presence of individuals holding roles of trust or authority (Governance Council members, Maintainers, Working Group Leads, Ambassadors). It exists to close the gap between "a name appears in project documentation" and "that name is a verifiable, accountable individual" — a distinction that matters directly to investors, grant reviewers, auditors, and partners conducting due diligence.
+This document defines how CeloHT verifies the identity and public presence of individuals holding roles of trust or authority (Governance Council members, Maintainers, Working Group Leads, Ambassadors). It exists to close the gap between "a name appears in project documentation" and "that name is a verifiable, accountable individual" - a distinction that matters directly to investors, grant reviewers, auditors, and partners conducting due diligence.
 
 ---
 
@@ -75,7 +75,7 @@ All removals are reflected in `TEAM.md` and `MAINTAINERS.md` promptly, with the 
 
 ## 6. Privacy Considerations
 
-- CeloHT collects only the identity and profile information necessary to establish accountable, verifiable roles — not broader personal data unrelated to that purpose, consistent with `LEGAL_STATUS.md` Section 16.
+- CeloHT collects only the identity and profile information necessary to establish accountable, verifiable roles - not broader personal data unrelated to that purpose, consistent with `LEGAL_STATUS.md` Section 16.
 - Individuals may choose to disclose additional biographical detail voluntarily, but CeloHT does not require it beyond what is necessary for role verification and public accountability.
 - Verification records containing sensitive personal information (e.g., documents used for identity confirmation) are held privately and are not published; only the resulting verification status ("Verified," "Pending Verification," "Open," or "TBA") is made public.
 - Contributors who are not in a role of trust or authority (Section 1) are not required to complete identity verification and may contribute under a consistent handle without disclosing their legal identity, consistent with `AUTHORS.md` Section 2.

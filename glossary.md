@@ -1,10 +1,10 @@
 # Glossary
 
 **Agent (Community Agent)** - A person trained by CeloHT who facilitates
-cash-in/cash-out and local support for Celo/cUSD users in their community.
+cash-in/cash-out and local support for Celo/USDm users in their community.
 
-**Cash-in / Cash-out** - The process of converting cash into cUSD (cash-in)
-or cUSD into cash (cash-out) through an agent.
+**Cash-in / Cash-out** - The process of converting cash into USDm (cash-in)
+or USDm into cash (cash-out) through an agent.
 
 **Celo** - A public Layer-1 blockchain designed for mobile-first access.
 
@@ -15,7 +15,7 @@ governance.
 ecosystem, organized around three pillars: Education, Agent Network, and
 Reforestation.
 
-**cUSD (Celo Dollar)** - A stablecoin on the Celo network pegged to the US
+**USDm (Celo Dollar)** - A stablecoin on the Celo network pegged to the US
 dollar, used for everyday transactions.
 
 **DeFi (Decentralized Finance)** - Financial services operating without
@@ -23,7 +23,7 @@ traditional intermediaries. CeloHT is **not** a DeFi protocol.
 
 **dApp (Decentralized Application)** - An application that connects to a
 blockchain network, in CeloHT's case built to be compatible with wallets
-like Valora and to support CELO/cUSD where appropriate.
+like Valora and to support CELO/USDm where appropriate.
 
 **Financial Inclusion** - Access to useful, affordable financial services
 for everyone, particularly populations without access to traditional banking.
@@ -35,7 +35,7 @@ services business and local entrepreneurship ecosystem.
 deforestation.
 
 **Stablecoin** - A cryptocurrency designed to hold a stable value, often
-pegged to a fiat currency such as the US dollar (for example, cUSD).
+pegged to a fiat currency such as the US dollar (for example, USDm).
 
 **Valora** - A mobile wallet that simplifies interaction with the Celo
 network. CeloHT builds material and tools compatible with Valora but does

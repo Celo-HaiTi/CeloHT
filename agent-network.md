@@ -12,7 +12,7 @@ banking hasn't reached.
 A CeloHT agent is someone from the local community who:
 
 1. Has completed CeloHT's education program (see [`education.md`](education.md))
-2. Facilitates cash-to-cUSD exchanges for people in the community
+2. Facilitates cash-to-USDm exchanges for people in the community
 3. Helps new users set up and understand Valora
 4. Acts as a local point of contact for basic questions and support
 

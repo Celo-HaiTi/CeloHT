@@ -11,7 +11,7 @@ This document provides the essential facts for anyone writing about CeloHT.
 - **Nature**: A community-driven, open-source initiative built on the Celo
   ecosystem **not** a cryptocurrency, token, or investment platform
 - **Three Pillars**: Education, Agent Network, Reforestation
-- **Technology**: Celo, CELO, cUSD, and Valora-compatible wallet integration
+- **Technology**: Celo, CELO, USDm, and Valora-compatible wallet integration
 - **Primary Language**: Haitian Creole, with documentation in English for
   the international community
 - **Recognition**: Featured in a Celo Forum "Founders" post (March 2026)

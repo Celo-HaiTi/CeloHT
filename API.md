@@ -2,13 +2,13 @@
 
 **Version:** 1.0
 **Last Updated:** August 2026
-**Status:** Specification Published — Implementation Status Marked Per Endpoint
+**Status:** Specification Published - Implementation Status Marked Per Endpoint
 
 ---
 
 CeloHT is an open-source, community-governed initiative built on the Celo blockchain, focused on financial inclusion education, a community Agent Network, and environmental reforestation. This document specifies the CeloHT API: its design principles, authentication model, conventions, and endpoints.
 
-**CeloHT is not a cryptocurrency, ICO, token sale, or investment platform.** No endpoint in this specification issues, sells, or trades a token or security. Endpoints referencing cUSD or CELO expose read access to existing, independently issued Celo-network assets used strictly as payment and settlement infrastructure — never a CeloHT-issued instrument.
+**CeloHT is not a cryptocurrency, ICO, token sale, or investment platform.** No endpoint in this specification issues, sells, or trades a token or security. Endpoints referencing USDm or CELO expose read access to existing, independently issued Celo-network assets used strictly as payment and settlement infrastructure - never a CeloHT-issued instrument.
 
 As of this document's publication date, CeloHT's backend infrastructure is in early development. Every endpoint below is explicitly labeled **Implemented**, **In Development**, or **Planned**. Endpoints marked **Planned** describe designed-but-unbuilt functionality and are published so that integrating partners and contributors can build against a stable, forward-looking contract. No endpoint's status label should be read as a claim that the underlying functionality is live unless labeled **Implemented**.
 
@@ -55,7 +55,7 @@ As of this document's publication date, CeloHT's backend infrastructure is in ea
 
 ### 1.1 Purpose
 
-The CeloHT API exposes CeloHT's public-good data — education content, Agent Network information, reforestation impact records, and transparency reporting — and, where authenticated, supports user- and agent-facing actions such as wallet connection and donation processing. It exists to let the CeloHT dApp, community-built tools, partner integrations, and the public Impact Dashboard read from a single, consistent, well-governed source of truth.
+The CeloHT API exposes CeloHT's public-good data - education content, Agent Network information, reforestation impact records, and transparency reporting - and, where authenticated, supports user- and agent-facing actions such as wallet connection and donation processing. It exists to let the CeloHT dApp, community-built tools, partner integrations, and the public Impact Dashboard read from a single, consistent, well-governed source of truth.
 
 ### 1.2 Intended Audience
 
@@ -91,11 +91,11 @@ The CeloHT API follows REST conventions: resources are addressed by URL, standar
 
 The CeloHT API is a stateless REST API, consistent with the Backend Architecture described in `ARCHITECTURE.md` Section 5.
 
-- **REST** — Resources are nouns (`/education`, `/agents`, `/reforestation`); actions are expressed through HTTP methods, not verbs in the URL.
-- **Stateless requests** — Each request carries all information needed to process it (authentication token, parameters); the server holds no client session state between requests.
-- **JSON responses** — All responses are `application/json` (Section 7), following the response envelope in Section 16.
-- **HTTPS only** — Plain HTTP requests are rejected; see Section 14.1.
-- **Versioning strategy** — The API is versioned in the URL path (`/v1`), described fully in Section 8.
+- **REST** - Resources are nouns (`/education`, `/agents`, `/reforestation`); actions are expressed through HTTP methods, not verbs in the URL.
+- **Stateless requests** - Each request carries all information needed to process it (authentication token, parameters); the server holds no client session state between requests.
+- **JSON responses** - All responses are `application/json` (Section 7), following the response envelope in Section 16.
+- **HTTPS only** - Plain HTTP requests are rejected; see Section 14.1.
+- **Versioning strategy** - The API is versioned in the URL path (`/v1`), described fully in Section 8.
 
 ```mermaid
 graph TD
@@ -299,7 +299,7 @@ GET /v1/education/courses?sort=created_at&order=desc
 Endpoints supporting free-text search accept a `q` parameter:
 
 ```
-GET /v1/education/courses?q=cUSD+basics
+GET /v1/education/courses?q=USDm+basics
 ```
 
 Search behavior (exact-match vs. full-text) is documented per endpoint in Section 15.
@@ -399,7 +399,7 @@ Each endpoint below documents its current implementation status. Full request/re
 | **Headers** | None required |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "status": "ok",
@@ -407,7 +407,7 @@ Each endpoint below documents its current implementation status. Full request/re
 }
 ```
 
-**Error Response — `503 Service Unavailable`**
+**Error Response - `503 Service Unavailable`**
 ```json
 {
   "error": {
@@ -473,7 +473,7 @@ print(data['status']);
 | **Headers** | `Authorization` required only for `scope=internal` |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": {
@@ -483,12 +483,12 @@ print(data['status']);
     "as_of": "2026-08-04T00:00:00Z"
   },
   "meta": {
-    "note": "Not Yet Available — reporting pipeline pending activation"
+    "note": "Not Yet Available - reporting pipeline pending activation"
   }
 }
 ```
 
-**Error Response — `403 Forbidden`**
+**Error Response - `403 Forbidden`**
 ```json
 {
   "error": {
@@ -526,7 +526,7 @@ const { data } = await res.json();
 | **Headers** | None required |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": {
@@ -567,13 +567,13 @@ print(response.json())
 | **Headers** | `Accept-Language` optional |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": {
     "pillar": "education",
     "description": "Web3, financial literacy, and digital-skills education.",
-    "categories": ["web3-basics", "financial-literacy", "cusd-valora-training", "digital-skills"]
+    "categories": ["web3-basics", "financial-literacy", "usdm-valora-training", "digital-skills"]
   }
 }
 ```
@@ -593,20 +593,20 @@ curl -s https://api.celoht.org/v1/education
 |---|---|
 | **Purpose** | List available education courses/modules |
 | **Method / URL** | `GET /v1/education/courses` |
-| **Description** | Supports pagination, filtering, sorting, and search per Sections 10–11 |
+| **Description** | Supports pagination, filtering, sorting, and search per Sections 10-11 |
 | **Authentication** | None for listing; `Authorization` required to view personal enrollment status |
 | **Parameters** | `category`, `language`, `q`, `sort`, `order`, `limit`, `cursor` |
 | **Headers** | `Authorization` optional |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": [
     {
       "id": "crs_01HXAMPLE",
-      "title": "Introduction to cUSD and Valora",
-      "category": "cusd-valora-training",
+      "title": "Introduction to USDm and Valora",
+      "category": "usdm-valora-training",
       "language": "ht",
       "duration_minutes": 45
     }
@@ -615,7 +615,7 @@ curl -s https://api.celoht.org/v1/education
 }
 ```
 
-**Error Response — `400 Bad Request`**
+**Error Response - `400 Bad Request`**
 ```json
 {
   "error": {
@@ -628,13 +628,13 @@ curl -s https://api.celoht.org/v1/education
 
 **cURL**
 ```bash
-curl -s "https://api.celoht.org/v1/education/courses?category=cusd-valora-training&limit=10"
+curl -s "https://api.celoht.org/v1/education/courses?category=usdm-valora-training&limit=10"
 ```
 
 **JavaScript (Fetch)**
 ```javascript
 const res = await fetch(
-  "https://api.celoht.org/v1/education/courses?category=cusd-valora-training&limit=10"
+  "https://api.celoht.org/v1/education/courses?category=usdm-valora-training&limit=10"
 );
 const { data } = await res.json();
 ```
@@ -659,7 +659,7 @@ import requests
 
 response = requests.get(
     "https://api.celoht.org/v1/education/courses",
-    params={"category": "cusd-valora-training", "limit": 10},
+    params={"category": "usdm-valora-training", "limit": 10},
 )
 courses = response.json()["data"]
 ```
@@ -667,7 +667,7 @@ courses = response.json()["data"]
 **Flutter / Dart**
 ```dart
 final uri = Uri.parse('https://api.celoht.org/v1/education/courses')
-    .replace(queryParameters: {'category': 'cusd-valora-training', 'limit': '10'});
+    .replace(queryParameters: {'category': 'usdm-valora-training', 'limit': '10'});
 final response = await http.get(uri);
 final courses = jsonDecode(response.body)['data'];
 ```
@@ -688,7 +688,7 @@ final courses = jsonDecode(response.body)['data'];
 | **Headers** | None required for public access |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": [
@@ -724,7 +724,7 @@ curl -s "https://api.celoht.org/v1/agents?region=leogane&status=verified"
 | **Headers** | None required |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": [
@@ -758,7 +758,7 @@ curl -s https://api.celoht.org/v1/communities
 | **Headers** | None required |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": {
@@ -790,7 +790,7 @@ curl -s https://api.celoht.org/v1/reforestation
 | **Headers** | None required |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": [
@@ -835,7 +835,7 @@ const { data } = await res.json();
 | **Headers** | None required |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": []
@@ -863,7 +863,7 @@ curl -s https://api.celoht.org/v1/partners
 | **Headers** | None required |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": []
@@ -891,7 +891,7 @@ curl -s "https://api.celoht.org/v1/events?pillar=education"
 | **Headers** | `Accept-Language` optional |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": []
@@ -911,7 +911,7 @@ curl -s https://api.celoht.org/v1/news
 
 | Field | Detail |
 |---|---|
-| **Purpose** | Return the authenticated user's or agent's cUSD transaction history facilitated through CeloHT |
+| **Purpose** | Return the authenticated user's or agent's USDm transaction history facilitated through CeloHT |
 | **Method / URL** | `GET /v1/transactions` |
 | **Description** | Returns off-chain records reconciled with on-chain data per `ARCHITECTURE.md` Section 6.5. Does **not** expose other users' transaction data. |
 | **Authentication** | Required (JWT) |
@@ -919,14 +919,14 @@ curl -s https://api.celoht.org/v1/news
 | **Headers** | `Authorization` required |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": [
     {
       "transaction_id": "txn_01HXAMPLE",
       "type": "cash_in",
-      "amount_cusd": "0.00",
+      "amount_usdm": "0.00",
       "on_chain_tx_hash": null,
       "status": "pending"
     }
@@ -934,7 +934,7 @@ curl -s https://api.celoht.org/v1/news
 }
 ```
 
-**Error Response — `401 Unauthorized`**
+**Error Response - `401 Unauthorized`**
 ```json
 {
   "error": {
@@ -975,7 +975,7 @@ const { data } = await res.json();
 | **Headers** | `Authorization` required for `scope=personal` |
 | **Request Body** | None |
 
-**Success Response — `200 OK`** (aggregate scope)
+**Success Response - `200 OK`** (aggregate scope)
 ```json
 {
   "data": {
@@ -1011,7 +1011,7 @@ curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
 **Request Body**
 ```json
 {
-  "amount_cusd": "10.00",
+  "amount_usdm": "10.00",
   "restriction": "reforestation",
   "anonymous": false
 }
@@ -1019,24 +1019,24 @@ curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `amount_cusd` | string (decimal) | Yes | Intended donation amount in cUSD |
+| `amount_usdm` | string (decimal) | Yes | Intended donation amount in USDm |
 | `restriction` | string \| null | No | One of the categories in `TREASURY.md` Section 6, or `null` for unrestricted |
 | `anonymous` | boolean | No | Whether the donor requests anonymity per `DONATION_POLICY.md` Section 6 |
 
-**Success Response — `201 Created`**
+**Success Response - `201 Created`**
 ```json
 {
   "data": {
     "donation_id": "don_01HXAMPLE",
     "status": "pending_on_chain_confirmation",
-    "amount_cusd": "10.00",
+    "amount_usdm": "10.00",
     "restriction": "reforestation",
     "created_at": "2026-08-04T12:00:00Z"
   }
 }
 ```
 
-**Error Response — `422 Unprocessable Entity`**
+**Error Response - `422 Unprocessable Entity`**
 ```json
 {
   "error": {
@@ -1052,7 +1052,7 @@ curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
 curl -s -X POST https://api.celoht.org/v1/donations \
   -H "Authorization: Bearer <jwt_token>" \
   -H "Content-Type: application/json" \
-  -d '{"amount_cusd": "10.00", "restriction": "reforestation", "anonymous": false}'
+  -d '{"amount_usdm": "10.00", "restriction": "reforestation", "anonymous": false}'
 ```
 
 **JavaScript (Fetch)**
@@ -1064,7 +1064,7 @@ const res = await fetch("https://api.celoht.org/v1/donations", {
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    amount_cusd: "10.00",
+    amount_usdm: "10.00",
     restriction: "reforestation",
     anonymous: false,
   }),
@@ -1075,7 +1075,7 @@ const { data } = await res.json();
 **TypeScript**
 ```typescript
 interface DonationRequest {
-  amount_cusd: string;
+  amount_usdm: string;
   restriction?: string | null;
   anonymous?: boolean;
 }
@@ -1083,7 +1083,7 @@ interface DonationRequest {
 interface DonationResponse {
   donation_id: string;
   status: string;
-  amount_cusd: string;
+  amount_usdm: string;
   restriction: string | null;
   created_at: string;
 }
@@ -1112,7 +1112,7 @@ import requests
 response = requests.post(
     "https://api.celoht.org/v1/donations",
     headers={"Authorization": f"Bearer {jwt_token}"},
-    json={"amount_cusd": "10.00", "restriction": "reforestation", "anonymous": False},
+    json={"amount_usdm": "10.00", "restriction": "reforestation", "anonymous": False},
 )
 donation = response.json()["data"]
 ```
@@ -1126,7 +1126,7 @@ final response = await http.post(
     'Content-Type': 'application/json',
   },
   body: jsonEncode({
-    'amount_cusd': '10.00',
+    'amount_usdm': '10.00',
     'restriction': 'reforestation',
     'anonymous': false,
   }),
@@ -1163,7 +1163,7 @@ final donation = jsonDecode(response.body)['data'];
 | `address` | string | Yes | Celo wallet address |
 | `wallet_type` | string | Yes | `valora`, `minipay`, or `walletconnect` |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": {
@@ -1173,7 +1173,7 @@ final donation = jsonDecode(response.body)['data'];
 }
 ```
 
-**Error Response — `400 Bad Request`**
+**Error Response - `400 Bad Request`**
 ```json
 {
   "error": {
@@ -1225,7 +1225,7 @@ const { data } = await res.json();
 }
 ```
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": {
@@ -1236,7 +1236,7 @@ const { data } = await res.json();
 }
 ```
 
-**Error Response — `401 Unauthorized`**
+**Error Response - `401 Unauthorized`**
 ```json
 {
   "error": {
@@ -1291,7 +1291,7 @@ tokens = response.json()["data"]
 | **Headers** | None required |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": {
@@ -1324,7 +1324,7 @@ curl -s https://api.celoht.org/v1/system/status
 | **Headers** | None required |
 | **Request Body** | None |
 
-**Success Response — `200 OK`**
+**Success Response - `200 OK`**
 ```json
 {
   "data": {
@@ -1356,7 +1356,7 @@ All successful responses use a consistent envelope:
 
 | Field | Presence | Description |
 |---|---|---|
-| `data` | Always | The primary payload — an object or array |
+| `data` | Always | The primary payload - an object or array |
 | `meta` | Optional | Supplementary information (notices, counts) |
 | `pagination` | List endpoints only | Pagination cursor and limit information (Section 10) |
 
@@ -1384,14 +1384,14 @@ All error responses use a consistent envelope:
 | `details` | Optional structured detail (e.g., field-level validation errors) |
 | `request_id` | Correlates the error with server-side logs (Section 14.10) |
 
-**Example — field validation error:**
+**Example - field validation error:**
 ```json
 {
   "error": {
     "code": "validation_failed",
     "message": "One or more fields failed validation.",
     "details": {
-      "amount_cusd": "Must be a positive decimal value."
+      "amount_usdm": "Must be a positive decimal value."
     },
     "request_id": "b3f1e2a4-...-007"
   }
@@ -1417,7 +1417,7 @@ All error responses use a consistent envelope:
 
 ## 19. Webhooks (Future)
 
-**Status:** Future — design only, not scheduled for near-term implementation.
+**Status:** Future - design only, not scheduled for near-term implementation.
 
 Planned webhook events would notify partner systems of relevant state changes without polling:
 
@@ -1580,9 +1580,9 @@ components:
             has_more: { type: boolean }
     DonationRequest:
       type: object
-      required: [amount_cusd]
+      required: [amount_usdm]
       properties:
-        amount_cusd: { type: string }
+        amount_usdm: { type: string }
         restriction: { type: [string, "null"] }
         anonymous: { type: boolean, default: false }
     DonationResponse:
@@ -1593,7 +1593,7 @@ components:
           properties:
             donation_id: { type: string }
             status: { type: string }
-            amount_cusd: { type: string }
+            amount_usdm: { type: string }
             restriction: { type: [string, "null"] }
             created_at: { type: string, format: date-time }
     ErrorResponse:
@@ -1628,7 +1628,7 @@ This specification is a starting point covering a representative subset of endpo
 ## 23. Developer Quick Start
 
 1. **Read the docs.** Review this document alongside `ARCHITECTURE.md` and `GOVERNANCE.md` for context on CeloHT's design principles.
-2. **Explore public endpoints.** Public read endpoints (`/education`, `/impact`, `/reforestation`) require no authentication — start there.
+2. **Explore public endpoints.** Public read endpoints (`/education`, `/impact`, `/reforestation`) require no authentication - start there.
 3. **Set up wallet authentication.** Follow the flow in Section 4.2 using a Valora, MiniPay, or WalletConnect-compatible wallet on Celo's test network once available.
 4. **Follow the response envelope.** Parse the `data` field consistently per Section 16; handle errors via the `error.code` field per Section 17.
 5. **Respect rate limits.** Implement exponential backoff honoring `Retry-After` (Section 9).
@@ -1713,7 +1713,7 @@ Every endpoint in Section 15 currently sits at the **Planned** stage. As impleme
 No. As of this document's publication date, all endpoints are labeled **Planned**. This document specifies the target contract for integration.
 
 **Does the API let me buy or trade a CeloHT token?**
-No. CeloHT has no token. Endpoints referencing cUSD or CELO expose read access to existing Celo-network assets, never a CeloHT-issued instrument. See `LEGAL_STATUS.md` and `NO_TOKEN_POLICY.md`.
+No. CeloHT has no token. Endpoints referencing USDm or CELO expose read access to existing Celo-network assets, never a CeloHT-issued instrument. See `LEGAL_STATUS.md` and `NO_TOKEN_POLICY.md`.
 
 **Can I get a full transaction history for any wallet?**
 No. `GET /transactions` returns only the authenticated caller's own records, consistent with data protection principles in `LEGAL_STATUS.md` Section 16.

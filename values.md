@@ -18,7 +18,7 @@ individual. We build *with* the community, not just *for* it.
 
 ## 4. Technology as a tool, not the point
 
-Blockchain, cUSD, and Valora are a means to an end financial inclusion
+Blockchain, USDm, and Valora are a means to an end financial inclusion
 not the end itself. We never promote the technology for its own sake.
 
 ## 5. Environmental sustainability

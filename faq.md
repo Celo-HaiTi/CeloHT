@@ -4,7 +4,7 @@
 
 **Is CeloHT a cryptocurrency or a token?**
 No. CeloHT is a community-governed, open-source initiative that *uses* the
-Celo ecosystem (CELO, cUSD) as infrastructure it isn't itself a token or a
+Celo ecosystem (CELO, USDm) as infrastructure it isn't itself a token or a
 blockchain.
 
 **Can I invest in CeloHT?**

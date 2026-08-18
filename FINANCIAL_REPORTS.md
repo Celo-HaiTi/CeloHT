@@ -2,13 +2,13 @@
 
 **Version:** 1.0
 **Last Updated:** August 2026
-**Status:** Active — Templates Published, Historical Reports Pending Publication
+**Status:** Active - Templates Published, Historical Reports Pending Publication
 
 ---
 
 ## Purpose
 
-This document defines the standard templates CeloHT uses for financial reporting, so that every report published — regardless of who prepares it — follows a consistent, comparable format. It does not contain historical financial data; as of this document's publication date, no reporting period has yet closed with published figures, and this is stated explicitly rather than populated with illustrative numbers.
+This document defines the standard templates CeloHT uses for financial reporting, so that every report published - regardless of who prepares it - follows a consistent, comparable format. It does not contain historical financial data; as of this document's publication date, no reporting period has yet closed with published figures, and this is stated explicitly rather than populated with illustrative numbers.
 
 ## Scope
 
@@ -138,7 +138,7 @@ Approved by: Governance Council
 [Operating, Emergency, and Sustainability Reserve balances per RESERVE_POLICY.md]
 
 ## Independent Review Status
-[State whether an independent financial review was conducted this year per AUDIT_POLICY.md, or state "Not applicable — annual treasury flow below independent-review threshold."]
+[State whether an independent financial review was conducted this year per AUDIT_POLICY.md, or state "Not applicable - annual treasury flow below independent-review threshold."]
 
 ## Program Outcomes by Pillar
 [Education, Agent Network, and Reforestation metrics, cross-referenced with the public Impact Dashboard]
@@ -162,7 +162,7 @@ Prepared by: Treasury Committee
 ## Treasury Balance
 | Asset | Opening Balance | Inflows | Outflows | Closing Balance |
 |---|---|---|---|---|
-| cUSD | [Not Yet Available] | | | |
+| USDm | [Not Yet Available] | | | |
 | Fiat (if applicable) | [Not Yet Available] | | | |
 
 ## Multi-Signature Custody Status

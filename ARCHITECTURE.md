@@ -4,7 +4,7 @@
 
 This document describes the technical architecture of CeloHT, an open-source Web3 impact ecosystem built on the Celo blockchain. It is intended for developers contributing to the codebase, grant reviewers and partners evaluating technical maturity, and community members who want to understand how CeloHT's systems fit together.
 
-CeloHT does not have a token, a DAO, or an investment product. Blockchain infrastructure in this project is used exclusively as **rails for inclusion, education, and transparency** — enabling low-cost stable-value transactions, verifiable public-good reporting, and community-governed operations. Every design decision in this document is made in service of that principle.
+CeloHT does not have a token, a DAO, or an investment product. Blockchain infrastructure in this project is used exclusively as **rails for inclusion, education, and transparency** - enabling low-cost stable-value transactions, verifiable public-good reporting, and community-governed operations. Every design decision in this document is made in service of that principle.
 
 ---
 
@@ -33,17 +33,17 @@ CeloHT does not have a token, a DAO, or an investment product. Blockchain infras
 
 ### 1.1 Purpose
 
-This document exists to give any technical or non-technical reader — a contributor opening their first pull request, a grant committee assessing production-readiness, or a partner organization deciding whether to integrate — a single, authoritative view of how CeloHT is built. It documents current architecture as well as the design principles that constrain future changes, so that CeloHT's technical direction stays coherent as the contributor base grows.
+This document exists to give any technical or non-technical reader - a contributor opening their first pull request, a grant committee assessing production-readiness, or a partner organization deciding whether to integrate - a single, authoritative view of how CeloHT is built. It documents current architecture as well as the design principles that constrain future changes, so that CeloHT's technical direction stays coherent as the contributor base grows.
 
 ### 1.2 Vision
 
 CeloHT's core thesis is that blockchain technology delivers the most value to underserved communities not as a speculative asset class, but as **low-cost, borderless payment and settlement infrastructure** paired with **transparent, verifiable record-keeping**. The Celo blockchain was purpose-built for mobile-first, stablecoin-based financial access, which makes it a natural foundation for CeloHT's three pillars:
 
-- **Education** uses blockchain concepts as literacy content and cUSD/Valora as hands-on practice tools.
+- **Education** uses blockchain concepts as literacy content and USDm/Valora as hands-on practice tools.
 - **Agent Network** uses Celo's low transaction costs and mobile-number-mapped wallets to make cash-in/cash-out genuinely usable in Haiti and the wider Caribbean.
 - **Reforestation** uses on-chain and public off-chain records to make environmental impact claims independently verifiable rather than self-reported.
 
-Every architectural layer described below is designed to make these three pillars reliable, auditable, and extensible — not to build a financial product for speculation.
+Every architectural layer described below is designed to make these three pillars reliable, auditable, and extensible - not to build a financial product for speculation.
 
 ---
 
@@ -55,7 +55,7 @@ CeloHT is composed of five cooperating layers: the **user-facing dApp**, a **bac
 graph TD
     U[Users: Learners, Agents,<br/>Community Members] --> DAPP[CeloHT dApp<br/>Next.js / React / TypeScript]
     DAPP --> WALLET[Wallet Layer<br/>Valora · MiniPay · WalletConnect]
-    WALLET --> CHAIN[Celo Blockchain<br/>cUSD · CELO · Smart Contracts]
+    WALLET --> CHAIN[Celo Blockchain<br/>USDm · CELO · Smart Contracts]
     DAPP --> API[Backend API Layer]
     API --> DB[(Database Layer)]
     API --> ANALYTICS[Impact Analytics Engine]
@@ -72,7 +72,7 @@ At a glance:
 |---|---|---|
 | Frontend (dApp) | User interface, wallet connection, UX | Next.js, React, TypeScript, Tailwind CSS, shadcn/ui |
 | Wallet Layer | Signing, custody, transaction initiation | Valora, MiniPay, WalletConnect |
-| Blockchain Layer | Settlement, verification, optional smart contracts | Celo, cUSD, CELO, EVM |
+| Blockchain Layer | Settlement, verification, optional smart contracts | Celo, USDm, CELO, EVM |
 | Backend Layer | APIs, data persistence, business logic | REST/GraphQL API, relational database, service modules |
 | Impact Systems | Education records, agent activity, reforestation tracking | Analytics engine, public dashboard, on-chain verification |
 | Governance Layer | Community decision-making, treasury oversight | Governance Council, Working Groups, proposal system |
@@ -94,7 +94,7 @@ sequenceDiagram
     User->>dApp: Opens app, selects action<br/>(learn, transact, report reforestation)
     dApp->>Wallet: Requests connection / signature<br/>via WalletConnect or native SDK
     Wallet->>User: Confirms action on device
-    Wallet->>Chain: Submits signed transaction<br/>(e.g., cUSD transfer, verification tx)
+    Wallet->>Chain: Submits signed transaction<br/>(e.g., USDm transfer, verification tx)
     Chain-->>Wallet: Transaction confirmed
     Chain-->>dApp: On-chain event/state update
     dApp->>Impact: Records outcome<br/>(education progress, agent activity, tree data)
@@ -117,22 +117,22 @@ The CeloHT dApp is built with **Next.js** and **React**, written in **TypeScript
 Given that the overwhelming majority of CeloHT's target users access the internet primarily through mobile devices, and that Valora and MiniPay are themselves mobile-native wallets, the dApp is built mobile-first:
 
 - Layouts are designed at mobile breakpoints first, then progressively enhanced for tablet and desktop.
-- Critical flows (wallet connect, cUSD transfer, education module completion, reforestation reporting) are optimized for low-bandwidth conditions and lightweight asset loading.
+- Critical flows (wallet connect, USDm transfer, education module completion, reforestation reporting) are optimized for low-bandwidth conditions and lightweight asset loading.
 - Interface text defaults to Haitian Creole, with English as a secondary language, reflecting CeloHT's language-equity principle.
 
 ### 4.3 Wallet Connection
 
 The frontend integrates wallet connectivity through a unified connection abstraction that supports:
 
-- **Valora** — deep-link and QR-based connection for full-featured mobile users.
-- **MiniPay** — lightweight, embedded-wallet connection optimized for feature-constrained devices and data-light regions.
-- **WalletConnect** — a fallback standard protocol enabling any compatible wallet to connect.
+- **Valora** - deep-link and QR-based connection for full-featured mobile users.
+- **MiniPay** - lightweight, embedded-wallet connection optimized for feature-constrained devices and data-light regions.
+- **WalletConnect** - a fallback standard protocol enabling any compatible wallet to connect.
 
 This abstraction means new wallet providers can be added without rewriting core application logic (see Section 7).
 
 ### 4.4 User Experience Principles
 
-- **Clarity over cleverness:** financial actions (sending cUSD, verifying an agent transaction) always show a plain-language confirmation before submission.
+- **Clarity over cleverness:** financial actions (sending USDm, verifying an agent transaction) always show a plain-language confirmation before submission.
 - **Progressive disclosure:** advanced blockchain concepts (gas fees, transaction hashes) are available but not forced on first-time users.
 - **Offline resilience:** where possible, education content is cacheable for low-connectivity environments, syncing progress once connectivity resumes.
 
@@ -164,7 +164,7 @@ graph LR
 
 ### 5.2 Database Layer
 
-CeloHT uses a relational database as the primary system of record for off-chain data — the kind of data that should never live directly on a public blockchain, either for cost, privacy, or mutability reasons. The database stores:
+CeloHT uses a relational database as the primary system of record for off-chain data - the kind of data that should never live directly on a public blockchain, either for cost, privacy, or mutability reasons. The database stores:
 
 - User and agent profiles and relationship data.
 - Education enrollment, progress, and completion records.
@@ -183,7 +183,7 @@ Agent management tracks the agent lifecycle end-to-end: application, verificatio
 
 ### 5.5 Education Records
 
-Education services track curriculum structure, module completion, and — where relevant — issuance of completion records that can be referenced by community members, partners, or future employers.
+Education services track curriculum structure, module completion, and - where relevant - issuance of completion records that can be referenced by community members, partners, or future employers.
 
 ### 5.6 Impact Analytics
 
@@ -195,28 +195,28 @@ The analytics service aggregates data across all three pillars into the metrics 
 
 ### 6.1 Why Celo
 
-CeloHT builds on Celo because of its mobile-first design, EVM compatibility, and native stablecoin infrastructure — properties that align directly with the constraints of the communities CeloHT serves: intermittent connectivity, feature-limited devices, and a need for price-stable, low-volatility transaction value.
+CeloHT builds on Celo because of its mobile-first design, EVM compatibility, and native stablecoin infrastructure - properties that align directly with the constraints of the communities CeloHT serves: intermittent connectivity, feature-limited devices, and a need for price-stable, low-volatility transaction value.
 
-### 6.2 cUSD Transactions
+### 6.2 USDm Transactions
 
-cUSD is CeloHT's primary unit of account for all in-ecosystem value transfer: agent cash-in/cash-out, remittance support, and any programmatic disbursement (e.g., stipends, reimbursements) the project makes. Using a stablecoin rather than a volatile asset is a deliberate architectural choice: it removes exchange-rate risk from every interaction a learner or agent has with the system.
+USDm is CeloHT's primary unit of account for all in-ecosystem value transfer: agent cash-in/cash-out, remittance support, and any programmatic disbursement (e.g., stipends, reimbursements) the project makes. Using a stablecoin rather than a volatile asset is a deliberate architectural choice: it removes exchange-rate risk from every interaction a learner or agent has with the system.
 
 ### 6.3 CELO for Gas
 
-Where a transaction requires network gas, CELO is used strictly as the network's native gas asset — not distributed, marketed, or treated as a CeloHT-issued asset. CeloHT does not mint, issue, or govern any token.
+Where a transaction requires network gas, CELO is used strictly as the network's native gas asset - not distributed, marketed, or treated as a CeloHT-issued asset. CeloHT does not mint, issue, or govern any token.
 
 ### 6.4 Smart Contracts
 
 Smart contracts are used selectively, only where on-chain logic provides a genuine trust or transparency benefit that off-chain logic cannot, for example:
 
-- **Agent verification registries** — an on-chain record that a given wallet address has completed CeloHT's agent verification process, queryable by anyone.
-- **Reforestation impact attestations** — lightweight on-chain records anchoring off-chain reforestation reports to an immutable timestamp and hash, so reported impact cannot be silently altered after publication.
+- **Agent verification registries** - an on-chain record that a given wallet address has completed CeloHT's agent verification process, queryable by anyone.
+- **Reforestation impact attestations** - lightweight on-chain records anchoring off-chain reforestation reports to an immutable timestamp and hash, so reported impact cannot be silently altered after publication.
 
 CeloHT deliberately avoids unnecessary on-chain complexity: contracts are kept minimal, audited (Section 12), and used only where they measurably improve verifiability over a purely off-chain approach.
 
 ### 6.5 Blockchain Verification
 
-All cUSD transactions relevant to agent activity or programmatic disbursement are indexed by a blockchain indexer service, which reconciles on-chain transaction data against off-chain records nightly, flagging any discrepancy for manual Working Group review.
+All USDm transactions relevant to agent activity or programmatic disbursement are indexed by a blockchain indexer service, which reconciles on-chain transaction data against off-chain records nightly, flagging any discrepancy for manual Working Group review.
 
 ---
 
@@ -237,7 +237,7 @@ graph TD
 
 ### 7.1 Valora Integration
 
-Valora is CeloHT's primary recommended wallet for learners and agents who want full wallet functionality: phone-number-based address resolution, in-app cUSD balance visibility, and a mature, audited mobile application.
+Valora is CeloHT's primary recommended wallet for learners and agents who want full wallet functionality: phone-number-based address resolution, in-app USDm balance visibility, and a mature, audited mobile application.
 
 ### 7.2 MiniPay Integration
 
@@ -245,18 +245,18 @@ MiniPay's lightweight, embedded design makes it well suited for the lower end of
 
 ### 7.3 WalletConnect Support
 
-WalletConnect provides a standards-based fallback, ensuring CeloHT remains interoperable with the broader Celo and EVM wallet ecosystem rather than locking users into a single provider — an explicit architectural commitment to openness.
+WalletConnect provides a standards-based fallback, ensuring CeloHT remains interoperable with the broader Celo and EVM wallet ecosystem rather than locking users into a single provider - an explicit architectural commitment to openness.
 
 ---
 
 ## 8. Agent Network Architecture
 
-The Agent Network is CeloHT's human-infrastructure layer: verified community members who provide cUSD cash-in/cash-out services, bridging digital value to physical cash in communities where that bridge is otherwise unavailable.
+The Agent Network is CeloHT's human-infrastructure layer: verified community members who provide USDm cash-in/cash-out services, bridging digital value to physical cash in communities where that bridge is otherwise unavailable.
 
 ```mermaid
 flowchart TD
     A[Agent Application] --> B[Identity & Background Verification]
-    B --> C[Training: cUSD, Valora/MiniPay, Compliance]
+    B --> C[Training: USDm, Valora/MiniPay, Compliance]
     C --> D[On-Chain Agent Registry Entry]
     D --> E[Active Agent Status]
     E --> F[Cash-In / Cash-Out Transaction]
@@ -276,8 +276,8 @@ Verification combines off-chain identity/background checks (managed by the Agent
 
 ### 8.3 Cash-In/Cash-Out Workflow
 
-1. A community member requests to convert cash to cUSD (cash-in) or cUSD to cash (cash-out) with a verified agent.
-2. The agent initiates the transaction through the dApp, which routes the cUSD leg through the user's connected wallet.
+1. A community member requests to convert cash to USDm (cash-in) or USDm to cash (cash-out) with a verified agent.
+2. The agent initiates the transaction through the dApp, which routes the USDm leg through the user's connected wallet.
 3. The transaction settles on the Celo blockchain and is confirmed within seconds.
 4. Both parties receive an in-app confirmation; the transaction is reconciled against off-chain records for the agent's activity history and community-facing performance metrics (never exposing sensitive personal data publicly).
 
@@ -299,7 +299,7 @@ flowchart LR
 
 ### 9.1 Learning System
 
-Curriculum content (including cUSD/Valora hands-on modules) is versioned alongside the documentation hub, ensuring learning material and product functionality never drift out of sync.
+Curriculum content (including USDm/Valora hands-on modules) is versioned alongside the documentation hub, ensuring learning material and product functionality never drift out of sync.
 
 ### 9.2 Training Records
 
@@ -331,7 +331,7 @@ Each reforestation event is logged with location, species, quantity, participati
 
 ### 10.2 Tree Planting Verification
 
-A cryptographic hash of each reforestation report is anchored on-chain, creating a tamper-evident timestamp. Anyone can independently recompute the hash of a published report and confirm it matches the on-chain record — providing verifiability without requiring the underlying media itself to live on-chain.
+A cryptographic hash of each reforestation report is anchored on-chain, creating a tamper-evident timestamp. Anyone can independently recompute the hash of a published report and confirm it matches the on-chain record - providing verifiability without requiring the underlying media itself to live on-chain.
 
 ### 10.3 Reporting System
 
@@ -341,7 +341,7 @@ Aggregated reforestation metrics (trees planted, sites active, hectares restored
 
 ## 11. Governance Architecture
 
-CeloHT's technical architecture is built to support — not circumvent — the community governance model defined in `GOVERNANCE.md`. This section describes how governance concepts are represented in the system.
+CeloHT's technical architecture is built to support - not circumvent - the community governance model defined in `GOVERNANCE.md`. This section describes how governance concepts are represented in the system.
 
 ```mermaid
 flowchart TD
@@ -356,7 +356,7 @@ flowchart TD
 
 ### 11.1 Community Decisions
 
-Governance-relevant application data — proposal records, vote outcomes, meeting note links — are stored and served through the Governance Service (Section 5.1), giving the community a searchable, permanent record of decisions independent of any single maintainer's memory.
+Governance-relevant application data - proposal records, vote outcomes, meeting note links - are stored and served through the Governance Service (Section 5.1), giving the community a searchable, permanent record of decisions independent of any single maintainer's memory.
 
 ### 11.2 Proposal Process
 
@@ -379,7 +379,7 @@ Voting is conducted through governance tooling operated by the Governance Counci
 
 ### 12.2 Treasury Protection
 
-CeloHT treasury funds are held under **multi-signature control**, requiring multiple independent, named signers to approve any disbursement above the operational thresholds defined in `GOVERNANCE.md`. No individual — including the Founder — can unilaterally move treasury funds.
+CeloHT treasury funds are held under **multi-signature control**, requiring multiple independent, named signers to approve any disbursement above the operational thresholds defined in `GOVERNANCE.md`. No individual - including the Founder - can unilaterally move treasury funds.
 
 ### 12.3 Access Control
 
@@ -418,11 +418,11 @@ graph TD
 
 ### 13.1 On-Chain Data
 
-Limited strictly to what genuinely benefits from public immutability: cUSD transaction settlement, agent verification registry entries, and reforestation-report attestation hashes. CeloHT deliberately keeps on-chain data minimal to control gas costs and avoid placing personal data on a public ledger.
+Limited strictly to what genuinely benefits from public immutability: USDm transaction settlement, agent verification registry entries, and reforestation-report attestation hashes. CeloHT deliberately keeps on-chain data minimal to control gas costs and avoid placing personal data on a public ledger.
 
 ### 13.2 Off-Chain Data
 
-The majority of CeloHT's data — user profiles, education progress, reforestation media, governance records — lives in the off-chain database, where it can be efficiently queried, updated, and where appropriate, kept private.
+The majority of CeloHT's data - user profiles, education progress, reforestation media, governance records - lives in the off-chain database, where it can be efficiently queried, updated, and where appropriate, kept private.
 
 ### 13.3 Analytics Dashboard
 
@@ -472,7 +472,7 @@ CeloHT's architecture is designed to scale along five dimensions without comprom
 | **More developers** | Founder-led core contributor group | Public RFC process, documented architecture (this document), and a documentation hub designed to be a top-tier onboarding resource for new open-source contributors |
 | **More partnerships** | Early grant and NGO partnerships | Standardized MOU and partnership-approval workflow (`GOVERNANCE.md` Section 19) and a public Impact Dashboard that lets partners independently verify claims before and after committing funding |
 
-As each dimension scales, the same architectural principles apply: minimal on-chain footprint, transparent off-chain reconciliation, role-based access control, and governance-first decision-making — ensuring CeloHT can grow from a single-region pilot into a regional financial-inclusion and environmental-impact ecosystem without sacrificing auditability or community trust.
+As each dimension scales, the same architectural principles apply: minimal on-chain footprint, transparent off-chain reconciliation, role-based access control, and governance-first decision-making - ensuring CeloHT can grow from a single-region pilot into a regional financial-inclusion and environmental-impact ecosystem without sacrificing auditability or community trust.
 
 ---
 
@@ -480,7 +480,7 @@ As each dimension scales, the same architectural principles apply: minimal on-ch
 
 | Layer | Technologies |
 |---|---|
-| Blockchain | Celo, cUSD, CELO, EVM-compatible smart contracts |
+| Blockchain | Celo, USDm, CELO, EVM-compatible smart contracts |
 | Frontend | Next.js, React, TypeScript, Tailwind CSS, shadcn/ui |
 | Wallets | Valora, MiniPay, WalletConnect |
 | Backend | REST/GraphQL API, relational database, service-oriented architecture |
@@ -490,4 +490,4 @@ As each dimension scales, the same architectural principles apply: minimal on-ch
 
 ---
 
-*This document is maintained alongside `GOVERNANCE.md` in the CeloHT governance repository. Technical questions should be raised as a GitHub Discussion or RFC in the relevant repository. This architecture will evolve through the same RFC and review process it describes — proposed changes to this document should be submitted as a Technical or Governance proposal per `GOVERNANCE.md`.*
+*This document is maintained alongside `GOVERNANCE.md` in the CeloHT governance repository. Technical questions should be raised as a GitHub Discussion or RFC in the relevant repository. This architecture will evolve through the same RFC and review process it describes - proposed changes to this document should be submitted as a Technical or Governance proposal per `GOVERNANCE.md`.*

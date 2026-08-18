@@ -64,7 +64,7 @@ Official reference document for journalists, investors, donors, foundations, gov
 
 ## Executive Summary
 
-CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti, dedicated to advancing financial inclusion, blockchain education, and environmental sustainability. Built on the Celo blockchain and using the cUSD stablecoin, CeloHT operates through three core pillars: Education, an Agent Network for cash-to-cUSD conversion and wallet onboarding, and a Reforestation program.
+CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti, dedicated to advancing financial inclusion, blockchain education, and environmental sustainability. Built on the Celo blockchain and using the USDm stablecoin, CeloHT operates through three core pillars: Education, an Agent Network for cash-to-USDm conversion and wallet onboarding, and a Reforestation program.
 
 CeloHT is explicitly community-governed rather than founder-controlled, following a governance structure that moves authority from a Foundation Director through a Maintainer Council to Community Contributors. The organization follows a strict No Token Policy: it does not issue a native token, has never conducted an ICO or presale, and does not present any activity as an investment or speculative opportunity.
 
@@ -76,13 +76,13 @@ CeloHT's work is organized around a four-phase roadmap running from 2026 through
 
 CeloHT (also written Celo-HT) is a community-governed Web3 initiative built on the Celo blockchain. It is headquartered in Léogâne, Haiti, and organizes its work around three interconnected pillars:
 
-- **Education** — blockchain and digital-literacy education designed for local context and accessibility.
-- **Agent Network** — a human network enabling cash-to-cUSD conversion, wallet onboarding, and community liquidity, extending financial access to people without traditional banking infrastructure.
-- **Reforestation** — an environmental sustainability program, currently in its design and pilot phase.
+- **Education** - blockchain and digital-literacy education designed for local context and accessibility.
+- **Agent Network** - a human network enabling cash-to-USDm conversion, wallet onboarding, and community liquidity, extending financial access to people without traditional banking infrastructure.
+- **Reforestation** - an environmental sustainability program, currently in its design and pilot phase.
 
-CeloHT operates on the Celo blockchain using the cUSD stablecoin and the CELO asset, with wallet access supported exclusively through Valora. CeloHT does not use or endorse MiniPay or any wallet other than Valora at this time.
+CeloHT operates on the Celo blockchain using the USDm stablecoin and the CELO asset, with wallet access supported exclusively through Valora. CeloHT does not use or endorse MiniPay or any wallet other than Valora at this time.
 
-CeloHT is released under the Apache 2.0 license, and its work — including its documentation, brand assets, and codebase — is maintained publicly on GitHub.
+CeloHT is released under the Apache 2.0 license, and its work - including its documentation, brand assets, and codebase - is maintained publicly on GitHub.
 
 **CeloHT is not a cryptocurrency investment project.** It does not issue a native token, does not run token sales, and does not offer staking or speculative financial products. Its purpose is financial inclusion, education, and environmental impact, built using existing, established blockchain infrastructure.
 
@@ -90,11 +90,11 @@ CeloHT is released under the Apache 2.0 license, and its work — including its 
 
 ## Mission
 
-TBD — to be drawn verbatim from the official WHITEPAPER.md / README.md mission statement at time of publication. In summary form, consistent with organizational documentation: CeloHT exists to expand financial inclusion, blockchain literacy, and environmental resilience in Haiti and similar communities, using open, transparent, and community-governed digital tools.
+TBD - to be drawn verbatim from the official WHITEPAPER.md / README.md mission statement at time of publication. In summary form, consistent with organizational documentation: CeloHT exists to expand financial inclusion, blockchain literacy, and environmental resilience in Haiti and similar communities, using open, transparent, and community-governed digital tools.
 
 ## Vision
 
-TBD — to be drawn verbatim from the official WHITEPAPER.md / ROADMAP.md vision statement at time of publication.
+TBD - to be drawn verbatim from the official WHITEPAPER.md / ROADMAP.md vision statement at time of publication.
 
 ## Core Values
 
@@ -113,13 +113,13 @@ TBD — to be drawn verbatim from the official WHITEPAPER.md / ROADMAP.md vision
 ## Elevator Pitches
 
 **One-sentence pitch (approx. 15 words):**
-TBD — to be finalized and kept consistent with README.md tagline once confirmed.
+TBD - to be finalized and kept consistent with README.md tagline once confirmed.
 
-**Short pitch (approx. 30–40 words):**
-CeloHT is a community-governed initiative in Léogâne, Haiti, using the Celo blockchain to expand financial inclusion, blockchain education, and reforestation — without a native token, without speculation, and with governance shared across the community it serves.
+**Short pitch (approx. 30-40 words):**
+CeloHT is a community-governed initiative in Léogâne, Haiti, using the Celo blockchain to expand financial inclusion, blockchain education, and reforestation - without a native token, without speculation, and with governance shared across the community it serves.
 
-**Extended pitch (approx. 75–100 words):**
-CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti. Built on the Celo blockchain, it operates through three pillars — Education, an Agent Network for cash-to-cUSD conversion and wallet onboarding, and Reforestation — to expand financial inclusion and environmental resilience in communities that need it most. CeloHT maintains a strict No Token Policy, has no native token, and does not present its programs as investment opportunities. Governance flows from a Foundation Director through a Maintainer Council to Community Contributors, ensuring the initiative remains accountable to the community it serves rather than to a single founder.
+**Extended pitch (approx. 75-100 words):**
+CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti. Built on the Celo blockchain, it operates through three pillars - Education, an Agent Network for cash-to-USDm conversion and wallet onboarding, and Reforestation - to expand financial inclusion and environmental resilience in communities that need it most. CeloHT maintains a strict No Token Policy, has no native token, and does not present its programs as investment opportunities. Governance flows from a Foundation Director through a Maintainer Council to Community Contributors, ensuring the initiative remains accountable to the community it serves rather than to a single founder.
 
 ---
 
@@ -133,13 +133,13 @@ CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti
 | Founded | TBD (year to be confirmed against LEGAL_STATUS.md) |
 | Legal Structure | See LEGAL_STATUS.md (TBD for public summary) |
 | Blockchain | Celo |
-| Primary Assets Used | cUSD, CELO |
+| Primary Assets Used | USDm, CELO |
 | Native Token | None (see No Token Policy) |
 | Supported Wallet | Valora only |
 | License | Apache 2.0 |
 | Governance Model | Foundation Director → Maintainer Council → Community Contributors |
 | Core Pillars | Education, Agent Network, Reforestation |
-| Current Roadmap Phase | Phase 1: Foundation (2026 Q2–Q3) — completed |
+| Current Roadmap Phase | Phase 1: Foundation (2026 Q2-Q3) - completed |
 | Website | celoht.com |
 | GitHub Organization | github.com/Celo-HT |
 | Primary Contact | contact@celoht.com |
@@ -154,7 +154,7 @@ Blockchain and digital-literacy education aimed at students, developers, communi
 
 ### Agent Network
 
-A network of community-based agents who facilitate cash-to-cUSD conversion, wallet onboarding, and local liquidity. The Agent Network is designed to bring practical financial access to individuals without traditional banking relationships, including farmers, merchants, small businesses, and diaspora communities. Current network size and transaction volume: TBD.
+A network of community-based agents who facilitate cash-to-USDm conversion, wallet onboarding, and local liquidity. The Agent Network is designed to bring practical financial access to individuals without traditional banking relationships, including farmers, merchants, small businesses, and diaspora communities. Current network size and transaction volume: TBD.
 
 ### Reforestation
 
@@ -164,7 +164,7 @@ An environmental sustainability program, currently in its design and pilot phase
 
 ## Community Impact
 
-TBD. Impact figures (participants reached, agents onboarded, wallets created, transaction volume, trees planted, education sessions delivered, and similar metrics) will be added once verified against official program reporting. CeloHT's stated commitment is to report only measurable, verifiable impact data — figures will not be estimated or projected in this document ahead of confirmation.
+TBD. Impact figures (participants reached, agents onboarded, wallets created, transaction volume, trees planted, education sessions delivered, and similar metrics) will be added once verified against official program reporting. CeloHT's stated commitment is to report only measurable, verifiable impact data - figures will not be estimated or projected in this document ahead of confirmation.
 
 ---
 
@@ -189,8 +189,8 @@ TBD. Impact figures (participants reached, agents onboarded, wallets created, tr
 
 | Phase | Name | Period | Status |
 |---|---|---|---|
-| Phase 1 | Foundation | 2026 Q2 – 2026 Q3 | Completed |
-| Phase 2 | Validation | 2026 Q4 – 2027 Q1 | Upcoming |
+| Phase 1 | Foundation | 2026 Q2 - 2026 Q3 | Completed |
+| Phase 2 | Validation | 2026 Q4 - 2027 Q1 | Upcoming |
 | Phase 3 | Growth | 2027 | Planned |
 | Phase 4 | Maturity | 2028 and beyond | Planned |
 
@@ -202,7 +202,7 @@ CeloHT's documented history begins in 2025; no organizational history predates t
 
 CeloHT's brand identity is built around clarity, trust, and accessibility, reflecting its mission of financial inclusion and community governance. Full brand standards are maintained in the CeloHT Brand repository and BRAND_GUIDE.md. This section summarizes identity elements relevant to external media and partner use; for complete specifications, refer to the source repository.
 
-**Brand voice:** TBD — full tone-of-voice guidance is maintained in BRAND_GUIDE.md.
+**Brand voice:** TBD - full tone-of-voice guidance is maintained in BRAND_GUIDE.md.
 
 ---
 
@@ -250,7 +250,7 @@ CeloHT's visual identity spans its website, documentation, and community materia
 
 | Audience | Key Message |
 |---|---|
-| Journalists | CeloHT is a transparent, community-governed financial inclusion initiative — not a speculative crypto project. |
+| Journalists | CeloHT is a transparent, community-governed financial inclusion initiative - not a speculative crypto project. |
 | Investors / Funders | CeloHT is funded through grants, strategic partnerships, and GitHub Sponsors; it has no token to invest in and does not solicit investment. |
 | Donors / Foundations | Contributions support education, financial access, and reforestation programs with a stated commitment to measurable impact reporting. |
 | Governments | CeloHT operates transparently, under an open-source license, with published governance and legal documentation. |
@@ -261,7 +261,7 @@ CeloHT's visual identity spans its website, documentation, and community materia
 
 **Do-not-say list (consistent with No Token Policy):**
 - Do not describe CeloHT as an investment opportunity.
-- Do not reference a CeloHT token, ICO, presale, or staking product — none exists.
+- Do not reference a CeloHT token, ICO, presale, or staking product - none exists.
 - Do not imply guaranteed financial returns of any kind.
 
 ---
@@ -292,9 +292,9 @@ Extended biography, professional background, and photography: TBD.
 
 CeloHT is explicitly community-governed, not founder-controlled. Governance follows a three-tier structure:
 
-1. **Foundation Director** — sets overall direction and stewardship of the initiative.
-2. **Maintainer Council** — reviews, approves, and coordinates technical and programmatic contributions.
-3. **Community Contributors** — the open base of participants who propose, build, and support CeloHT's programs and repositories.
+1. **Foundation Director** - sets overall direction and stewardship of the initiative.
+2. **Maintainer Council** - reviews, approves, and coordinates technical and programmatic contributions.
+3. **Community Contributors** - the open base of participants who propose, build, and support CeloHT's programs and repositories.
 
 Full governance procedures, decision-making processes, and eligibility criteria are published in GOVERNANCE.md within the primary GitHub repository.
 
@@ -330,7 +330,7 @@ Full terms are governed by PARTNERSHIP.md and FUNDING_POLICY.md. All partnership
 No. CeloHT has no native token, has never run an ICO or presale, and does not offer staking or investment products. See NO_TOKEN_POLICY.md.
 
 **What blockchain does CeloHT use?**
-CeloHT is built on the Celo blockchain, using the cUSD stablecoin and CELO asset.
+CeloHT is built on the Celo blockchain, using the USDm stablecoin and CELO asset.
 
 **What wallet does CeloHT support?**
 Valora is currently the only supported wallet. MiniPay is not used or endorsed at this time.
@@ -384,16 +384,16 @@ For detailed press-specific procedures, interview scheduling, and journalist gui
 
 The following assets are maintained in the CeloHT Brand and primary repositories and are available on request or directly via GitHub:
 
-- Logo files (primary, transparent, favicon variants) — `assets/branding/`
-- Brand color and typography specification — BRAND_GUIDE.md
-- Whitepaper — WHITEPAPER.md
-- Roadmap — ROADMAP.md
-- Governance charter — GOVERNANCE.md
-- Security policy — SECURITY.md
-- Legal status summary — LEGAL_STATUS.md
-- No Token Policy — NO_TOKEN_POLICY.md
-- This Media Kit — MEDIA_KIT.md
-- Press Kit — PRESS_KIT.md (companion document)
+- Logo files (primary, transparent, favicon variants) - `assets/branding/`
+- Brand color and typography specification - BRAND_GUIDE.md
+- Whitepaper - WHITEPAPER.md
+- Roadmap - ROADMAP.md
+- Governance charter - GOVERNANCE.md
+- Security policy - SECURITY.md
+- Legal status summary - LEGAL_STATUS.md
+- No Token Policy - NO_TOKEN_POLICY.md
+- This Media Kit - MEDIA_KIT.md
+- Press Kit - PRESS_KIT.md (companion document)
 
 Product screenshots and photography: TBD.
 
@@ -452,16 +452,16 @@ CeloHT is not a financial institution, investment adviser, or securities issuer.
 
 ## References
 
-- README.md — CeloHT primary repository overview
-- WHITEPAPER.md — full mission, vision, and technical background
-- ROADMAP.md — full phased roadmap detail
-- GOVERNANCE.md — governance structure and procedures
-- BRAND_GUIDE.md — complete visual identity specification
-- PARTNERSHIP.md — partnership terms and process
-- FUNDING_POLICY.md — funding sources and policy
-- LEGAL_STATUS.md — legal and organizational status
-- NO_TOKEN_POLICY.md — full No Token Policy statement
-- SECURITY.md — security disclosure policy
+- README.md - CeloHT primary repository overview
+- WHITEPAPER.md - full mission, vision, and technical background
+- ROADMAP.md - full phased roadmap detail
+- GOVERNANCE.md - governance structure and procedures
+- BRAND_GUIDE.md - complete visual identity specification
+- PARTNERSHIP.md - partnership terms and process
+- FUNDING_POLICY.md - funding sources and policy
+- LEGAL_STATUS.md - legal and organizational status
+- NO_TOKEN_POLICY.md - full No Token Policy statement
+- SECURITY.md - security disclosure policy
 
 ---
 

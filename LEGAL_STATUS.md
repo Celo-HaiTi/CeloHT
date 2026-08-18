@@ -4,7 +4,7 @@
 
 This document describes the legal nature, governance philosophy, and operating principles of CeloHT. It is published for the benefit of contributors, community members, grant reviewers, donors, ecosystem partners, and any institution evaluating CeloHT for collaboration, funding, or integration.
 
-This document is informational. It is not a substitute for independent legal advice, and no statement in this document should be relied upon as a legal opinion regarding CeloHT's status in any specific jurisdiction. Where CeloHT's legal form evolves — for example, through future incorporation — this document will be updated, versioned, and the change will be publicly disclosed (see Section 22).
+This document is informational. It is not a substitute for independent legal advice, and no statement in this document should be relied upon as a legal opinion regarding CeloHT's status in any specific jurisdiction. Where CeloHT's legal form evolves - for example, through future incorporation - this document will be updated, versioned, and the change will be publicly disclosed (see Section 22).
 
 ---
 
@@ -39,7 +39,7 @@ This document is informational. It is not a substitute for independent legal adv
 
 ## 1. Purpose
 
-This document exists to state, plainly and accurately, what CeloHT is, how it operates, and what legal claims it does and does not make about itself. Open-source, community-driven projects increasingly interact with institutional actors — grant programs, universities, foundations, ecosystem partners, and government-adjacent bodies — that require clarity about a project's legal nature before engaging. CeloHT publishes this document so that any such actor can evaluate the project on accurate terms, without ambiguity or overstatement.
+This document exists to state, plainly and accurately, what CeloHT is, how it operates, and what legal claims it does and does not make about itself. Open-source, community-driven projects increasingly interact with institutional actors - grant programs, universities, foundations, ecosystem partners, and government-adjacent bodies - that require clarity about a project's legal nature before engaging. CeloHT publishes this document so that any such actor can evaluate the project on accurate terms, without ambiguity or overstatement.
 
 This document is intended to be read alongside `GOVERNANCE.md` (which describes CeloHT's internal decision-making structure) and `ARCHITECTURE.md` (which describes CeloHT's technical systems). Together, these three documents give a complete picture of how CeloHT is organized, governed, and built.
 
@@ -49,9 +49,9 @@ This document is intended to be read alongside `GOVERNANCE.md` (which describes 
 
 CeloHT is an open-source, community-governed initiative built on the Celo blockchain, organized around three coordinated areas of work:
 
-- **Financial Inclusion and Web3 Education** — delivering financial literacy and blockchain education in Haitian Creole and other languages, so that participation in digital financial tools is informed and accessible.
-- **Community Agent Network** — supporting a network of community-based agents who facilitate access to stable-value digital payments, primarily using the cUSD stablecoin on the Celo network.
-- **Environmental Restoration (Reforestation)** — coordinating and transparently reporting on tree-planting and environmental-restoration activity carried out with and by participating communities.
+- **Financial Inclusion and Web3 Education** - delivering financial literacy and blockchain education in Haitian Creole and other languages, so that participation in digital financial tools is informed and accessible.
+- **Community Agent Network** - supporting a network of community-based agents who facilitate access to stable-value digital payments, primarily using the USDm stablecoin on the Celo network.
+- **Environmental Restoration (Reforestation)** - coordinating and transparently reporting on tree-planting and environmental-restoration activity carried out with and by participating communities.
 
 CeloHT pursues this mission as a public-benefit-oriented, non-commercial initiative. It does not pursue this mission through the issuance of any token, security, or investment product.
 
@@ -95,7 +95,7 @@ CeloHT is explicitly **not**:
 - **A cryptocurrency exchange.** CeloHT does not operate a trading platform, order book, or asset-exchange service.
 - **An investment company or investment adviser.** CeloHT does not manage investments on behalf of others and does not offer investment advice.
 - **A security issuer.** CeloHT has not issued, and does not intend to issue, any instrument that could reasonably be characterized as a security under applicable law.
-- **A token issuer.** CeloHT has no native token, has never conducted a token sale, and does not plan to create one. References to cUSD and CELO in CeloHT materials refer exclusively to existing, independently issued Celo-network assets used as payment and network infrastructure — not to any CeloHT-created instrument.
+- **A token issuer.** CeloHT has no native token, has never conducted a token sale, and does not plan to create one. References to USDm and CELO in CeloHT materials refer exclusively to existing, independently issued Celo-network assets used as payment and network infrastructure - not to any CeloHT-created instrument.
 - **A DAO with legal personality.** CeloHT does not operate on-chain token-based voting and does not claim any form of legal personality arising from decentralized governance structures.
 - **A for-profit company.** CeloHT does not distribute profits to any individual and does not operate with a profit-maximization objective.
 
@@ -136,13 +136,13 @@ CeloHT publishes, on an ongoing basis and through public, version-controlled cha
 - A public impact dashboard reporting education, Agent Network, and reforestation metrics.
 - Release notes for all software releases.
 
-Where information is temporarily withheld — for example, during an active security investigation — CeloHT commits to disclosing that information is being withheld, and why, rather than remaining silent without explanation.
+Where information is temporarily withheld - for example, during an active security investigation - CeloHT commits to disclosing that information is being withheld, and why, rather than remaining silent without explanation.
 
 ---
 
 ## 8. Financial Accountability
 
-CeloHT commits to handling all funds it receives — whether grants, donations, or programmatic revenue — with documented accountability procedures:
+CeloHT commits to handling all funds it receives - whether grants, donations, or programmatic revenue - with documented accountability procedures:
 
 - **Budget approval** for programmatic and operational spending follows a defined internal approval process described in `GOVERNANCE.md`.
 - **Quarterly reports** summarizing income, expenses by category, and treasury balance are published within 30 days of each quarter's end.
@@ -155,9 +155,9 @@ CeloHT does not currently issue tax receipts of any kind, because it does not ho
 
 ## 9. Treasury Principles
 
-- Funds held in CeloHT's name are used exclusively for programmatic and operational purposes aligned with the mission described in Section 2 — never for personal enrichment of any founder, contributor, Council member, or affiliated individual.
+- Funds held in CeloHT's name are used exclusively for programmatic and operational purposes aligned with the mission described in Section 2 - never for personal enrichment of any founder, contributor, Council member, or affiliated individual.
 - No individual, including the project's founder, may unilaterally authorize a treasury disbursement above the operational thresholds defined in `GOVERNANCE.md`; disbursements above those thresholds require multi-person or Council-level approval.
-- CeloHT does not use treasury funds to purchase volatile or speculative assets for trading purposes. Stablecoin holdings (cUSD) are used as an operational settlement currency, not as an investment position.
+- CeloHT does not use treasury funds to purchase volatile or speculative assets for trading purposes. Stablecoin holdings (USDm) are used as an operational settlement currency, not as an investment position.
 - CeloHT maintains an operational reserve intended to sustain core activity during funding gaps, sized and governed according to the principles in `GOVERNANCE.md`.
 
 These are internal governance commitments, not the equivalent of a legally mandated fiduciary duty that would apply to a registered nonprofit or company. Institutions requiring the latter should refer to Section 20 regarding CeloHT's future institutional development plans and should evaluate any specific transaction accordingly.
@@ -188,7 +188,7 @@ Any partner or institution planning to build on, redistribute, or integrate Celo
 
 ## 12. Community Responsibilities
 
-Participation in CeloHT — as a contributor, maintainer, Working Group member, Agent Network participant, or community member — carries the following expectations:
+Participation in CeloHT - as a contributor, maintainer, Working Group member, Agent Network participant, or community member - carries the following expectations:
 
 - Adherence to CeloHT's published Code of Conduct in all official spaces.
 - Honest representation of one's role and authority when engaging with partners, donors, or the public on CeloHT's behalf.
@@ -204,7 +204,7 @@ CeloHT provides governance structures (`GOVERNANCE.md`) and this Legal Status do
 CeloHT is committed to conducting its activities in a manner consistent with applicable law in the jurisdictions where it operates, recognizing that as an early-stage, non-incorporated community initiative, its compliance obligations differ from those of a registered entity. CeloHT's compliance approach includes:
 
 - Ongoing monitoring of regulatory developments relevant to community-based payment facilitation (Agent Network activity) and blockchain-based tools, coordinated by the Legal Working Group described in `GOVERNANCE.md`.
-- A structural preference for activity that reduces regulatory ambiguity — for example, using an existing, independently issued stablecoin (cUSD) rather than issuing a CeloHT-specific asset.
+- A structural preference for activity that reduces regulatory ambiguity - for example, using an existing, independently issued stablecoin (USDm) rather than issuing a CeloHT-specific asset.
 - A commitment to pause or restructure any specific activity found, on legal review, to require licensing or registration CeloHT does not hold, rather than continuing that activity unlicensed.
 - Willingness to engage constructively with regulators, grant-making institutions, and legal counsel as the project matures and its institutional form evolves (Section 20).
 
@@ -224,7 +224,7 @@ CeloHT prohibits, without exception, the offering, giving, solicitation, or acce
 
 ## 15. Conflict of Interest Principles
 
-CeloHT requires disclosure of any situation in which an individual in a position of authority — a Council member, Maintainer, or Working Group lead — or a close family member, stands to personally benefit from a decision under consideration.
+CeloHT requires disclosure of any situation in which an individual in a position of authority - a Council member, Maintainer, or Working Group lead - or a close family member, stands to personally benefit from a decision under consideration.
 
 - Disclosed conflicts are logged and reviewed under the process described in `GOVERNANCE.md`.
 - An individual with a disclosed conflict of interest may contribute relevant information to a discussion but may not vote on the matter and is not counted toward quorum for that vote.
@@ -234,7 +234,7 @@ CeloHT requires disclosure of any situation in which an individual in a position
 
 ## 16. Data Protection Commitment
 
-CeloHT collects personal data only where necessary to operate its Education, Agent Network, and Reforestation programs — for example, learner progress records, agent verification information, and reforestation-event participant records.
+CeloHT collects personal data only where necessary to operate its Education, Agent Network, and Reforestation programs - for example, learner progress records, agent verification information, and reforestation-event participant records.
 
 - Personal data is stored in CeloHT's off-chain systems, not published on the public blockchain, and not included in public dashboard reporting in identifying form.
 - Access to personal data is restricted on a role-appropriate basis (see `ARCHITECTURE.md`, Section 12, on access control).
@@ -250,7 +250,7 @@ CeloHT recognizes the following categories of risk inherent to an early-stage, n
 | Risk category | Nature of risk | Mitigating structure |
 |---|---|---|
 | **Legal / regulatory** | Uncertainty regarding the legal characterization of Agent Network activity or future institutional form | Legal Working Group monitoring, compliance-first design choices (Section 13), phased institutional development (Section 20) |
-| **Financial** | Treasury mismanagement, donor concentration, budget shortfall | Multi-person approval thresholds, quarterly reporting, operational reserve (Sections 8–9) |
+| **Financial** | Treasury mismanagement, donor concentration, budget shortfall | Multi-person approval thresholds, quarterly reporting, operational reserve (Sections 8-9) |
 | **Governance** | Concentration of authority, decision-making paralysis | Distributed Council structure, defined voting thresholds, term limits (`GOVERNANCE.md`) |
 | **Operational** | Key-person dependency, Working Group inactivity | Documented processes, cross-training, defined role-review cycles |
 | **Reputational** | Public confusion about CeloHT's legal or financial nature | This document and its ongoing accurate publication |
@@ -309,7 +309,7 @@ CeloHT's mission is rooted in Haiti and the wider Caribbean but is designed to b
 
 This document is maintained in CeloHT's governance repository and is subject to the same amendment discipline as `GOVERNANCE.md`:
 
-- Material changes to this document — particularly any change to Sections 3, 4, or 20 regarding CeloHT's legal status — require the Governance Council's Super Majority approval and a minimum 10-day public comment period, consistent with the governance-amendment process in `GOVERNANCE.md`.
+- Material changes to this document - particularly any change to Sections 3, 4, or 20 regarding CeloHT's legal status - require the Governance Council's Super Majority approval and a minimum 10-day public comment period, consistent with the governance-amendment process in `GOVERNANCE.md`.
 - Every published version of this document is dated and versioned, with a changelog entry describing what changed and why.
 - In the event of any discrepancy between this document and a more recently dated version, the most recently dated, published version governs.
 

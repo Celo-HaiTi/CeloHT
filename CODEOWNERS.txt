@@ -41,7 +41,7 @@
 # dApp monorepo
 /apps/dapp/                  @celoht/technology-maintainers
 
-# Smart contracts package — requires two-maintainer review per
+# Smart contracts package - requires two-maintainer review per
 # GOVERNANCE.md Section 13.3
 /packages/contracts/         @celoht/contracts-maintainers
 

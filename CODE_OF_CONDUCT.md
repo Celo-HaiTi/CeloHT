@@ -28,7 +28,7 @@ Examples of unacceptable behavior:
   of any kind
 - Trolling, insulting or derogatory comments, and personal or political attacks
 - Public or private harassment
-- Publishing others' private information — a physical or email address —
+- Publishing others' private information - a physical or email address -
   without their explicit permission
 - Other conduct which could reasonably be considered inappropriate in a
   professional setting
@@ -59,10 +59,10 @@ of the reporter of any incident.
 Maintainers will follow this Community Impact Guideline when determining the
 consequences for any action deemed in violation of this Code of Conduct:
 
-1. **Correction** — A private warning, with clarity around the nature of the violation.
-2. **Warning** — A warning with consequences for continued behavior.
-3. **Temporary Ban** — A temporary ban from any sort of interaction with the community.
-4. **Permanent Ban** — A permanent ban from any sort of public interaction within the community.
+1. **Correction** - A private warning, with clarity around the nature of the violation.
+2. **Warning** - A warning with consequences for continued behavior.
+3. **Temporary Ban** - A temporary ban from any sort of interaction with the community.
+4. **Permanent Ban** - A permanent ban from any sort of public interaction within the community.
 
 ## Attribution
 

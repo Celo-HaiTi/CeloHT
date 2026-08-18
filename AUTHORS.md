@@ -54,7 +54,7 @@ CeloHT recognizes contributions in proportion to their nature and impact, follow
 
 ## 4. Authorship Rules
 
-- Authorship credit is attached to a specific, attributable contribution (a commit, a pull request, an accepted content submission) — never assigned speculatively or in anticipation of future work.
+- Authorship credit is attached to a specific, attributable contribution (a commit, a pull request, an accepted content submission) - never assigned speculatively or in anticipation of future work.
 - An individual's preferred name or handle is used as they specify it; CeloHT does not alter, embellish, or add unverified credentials to an author's listed identity.
 - Co-authorship is recorded following standard Git co-author conventions where multiple individuals contribute to the same artifact.
 - Removal from this list occurs only in cases of confirmed fraudulent contribution (e.g., plagiarism or license violation), not as a discretionary or punitive measure disconnected from the contribution record itself.

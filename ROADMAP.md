@@ -1,8 +1,8 @@
 # CeloHT Roadmap
 
 This document is the authoritative roadmap for the CeloHT ecosystem. It
-covers our three permanent pillars — **Education**, **Agent Network**, and
-**Reforestation** — along with the strategic infrastructure that supports
+covers our three permanent pillars - **Education**, **Agent Network**, and
+**Reforestation** - along with the strategic infrastructure that supports
 them: our official website, our official dApp, community growth,
 partnerships, governance, the developer ecosystem, transparency, and
 long-term financial sustainability.
@@ -13,7 +13,7 @@ principles, see [`docs/vision.md`](docs/vision.md) and
 [`docs/mission.md`](docs/mission.md).
 
 > **A note on how to read this roadmap.** Dates describe target windows, not
-> guarantees. Each phase depends on the previous one being validated —
+> guarantees. Each phase depends on the previous one being validated -
 > we'd rather move a milestone than hit a date with a half-working program.
 > Progress against this roadmap is reported publicly through our monthly
 > community updates (see
@@ -26,10 +26,10 @@ principles, see [`docs/vision.md`](docs/vision.md) and
 
 - [Guiding Principles](#guiding-principles)
 - [Roadmap at a Glance](#roadmap-at-a-glance)
-- [Phase 1 — Foundation](#phase-1--foundation-2026-q2q3)
-- [Phase 2 — Validation](#phase-2--validation-2026-q4--2027-q1)
-- [Phase 3 — Growth](#phase-3--growth-2027)
-- [Phase 4 — Maturity](#phase-4--maturity-2028)
+- [Phase 1 - Foundation](#phase-1--foundation-2026-q2q3)
+- [Phase 2 - Validation](#phase-2--validation-2026-q4--2027-q1)
+- [Phase 3 - Growth](#phase-3--growth-2027)
+- [Phase 4 - Maturity](#phase-4--maturity-2028)
 - [Strategic Initiative: Official Website](#strategic-initiative-official-website)
 - [Strategic Initiative: Official CeloHT dApp](#strategic-initiative-official-celoht-dapp)
 - [Strategic Initiative: Community Growth](#strategic-initiative-community-growth)
@@ -56,8 +56,8 @@ what CeloHT is and isn't. They shape every milestone below:
 - CeloHT does **not** provide investment products.
 - CeloHT is **built on the Celo ecosystem**.
 - CeloHT uses **CELO** for network transactions where appropriate.
-- CeloHT promotes the use of **cUSD** for accessible digital payments.
-- CeloHT develops applications **compatible with the Valora wallet** — CeloHT
+- CeloHT promotes the use of **USDm** for accessible digital payments.
+- CeloHT develops applications **compatible with the Valora wallet** - CeloHT
   does not own, manage, or operate Valora.
 
 Any roadmap item that would conflict with these principles doesn't belong on
@@ -82,7 +82,7 @@ gantt
 
     section Phase 2 - Validation
     First full cash-in-out cycle      :         p2a, 2026-10, 2027-01
-    Reforestation pilot + cUSD reward :         p2b, 2026-11, 2027-02
+    Reforestation pilot + USDm reward :         p2b, 2026-11, 2027-02
     dApp alpha - wallet and education :         p2c, 2026-11, 2027-03
 
     section Phase 3 - Growth
@@ -99,10 +99,10 @@ gantt
 
 ---
 
-## Phase 1 — Foundation (2026, Q2–Q3)
+## Phase 1 - Foundation (2026, Q2-Q3)
 
 **Goal**: establish a credible, transparent base for everything that
-follows — documentation, first agents, first partners.
+follows - documentation, first agents, first partners.
 
 | Milestone | Pillar / Initiative | Status | Target |
 |---|---|---|---|
@@ -115,14 +115,14 @@ follows — documentation, first agents, first partners.
 
 ### Success metrics
 
-- 3–5 active, trained community agents
+- 3-5 active, trained community agents
 - 100+ people completing at least one core training module
 - At least 1 signed grant or partnership agreement
 - Website live with documentation, program pages, and contact channels
 
 ---
 
-## Phase 2 — Validation (2026 Q4 – 2027 Q1)
+## Phase 2 - Validation (2026 Q4 - 2027 Q1)
 
 **Goal**: prove the model works end-to-end in a single pilot area before
 spending resources on expansion.
@@ -130,7 +130,7 @@ spending resources on expansion.
 | Milestone | Pillar / Initiative | Target |
 |---|---|---|
 | First complete cash-in/cash-out cycle handled entirely by agents | Agent Network | 2026-Q4 |
-| First reforestation pilot with cUSD-based rewards | Reforestation | 2027-Q1 |
+| First reforestation pilot with USDm-based rewards | Reforestation | 2027-Q1 |
 | dApp alpha: Valora-compatible wallet connection + first education module | Official dApp | 2027-Q1 |
 | Systematic collection and public reporting of community feedback | Transparency & Impact | Ongoing |
 | Formal agent code of conduct and verification process live | Governance | 2026-Q4 |
@@ -144,7 +144,7 @@ spending resources on expansion.
 
 ---
 
-## Phase 3 — Growth (2027)
+## Phase 3 - Growth (2027)
 
 **Goal**: expand beyond the pilot once the operational model is proven, and
 move the dApp from alpha to a public beta.
@@ -167,7 +167,7 @@ move the dApp from alpha to a public beta.
 
 ---
 
-## Phase 4 — Maturity (2028+)
+## Phase 4 - Maturity (2028+)
 
 **Goal**: an ecosystem that runs on mature governance and is increasingly
 self-sustaining, rather than grant-dependent.
@@ -192,7 +192,7 @@ self-sustaining, rather than grant-dependent.
 
 ## Strategic Initiative: Official Website
 
-The website is CeloHT's **public information platform** — where anyone,
+The website is CeloHT's **public information platform** - where anyone,
 from a first-time visitor to a due-diligence team at a funding
 organization, can understand who we are and verify what we say about
 ourselves.
@@ -208,19 +208,19 @@ ourselves.
 - Multilingual support (Haitian Creole, English, and eventually Spanish)
 - Accessibility as a baseline requirement, not an afterthought
 - Performance optimization, especially for low-bandwidth mobile connections
-  — the same reality that shapes our choice of Celo in the first place
+  - the same reality that shapes our choice of Celo in the first place
 
 See [`docs/deployment.md`](docs/deployment.md) for current hosting details.
 
 ## Strategic Initiative: Official CeloHT dApp
 
-The dApp is CeloHT's **operational digital platform** — where education,
+The dApp is CeloHT's **operational digital platform** - where education,
 wallet connectivity, and agent tools actually happen.
 
 ### Objectives
 
 - Secure wallet connection compatible with **Valora**
-- Support for **CELO** and **cUSD** where appropriate to the feature
+- Support for **CELO** and **USDm** where appropriate to the feature
 - Structured educational courses, mirroring our offline curriculum
 - Downloadable PDF learning resources for offline / low-connectivity use
 - Learning progress tracking per user
@@ -228,14 +228,14 @@ wallet connectivity, and agent tools actually happen.
 - Dedicated tools for community agents (verification, transaction logging,
   reporting)
 - Future smart-contract integrations, added only where they clearly serve
-  the mission — not for their own sake
+  the mission - not for their own sake
 
 See [`docs/api.md`](docs/api.md) for the current state of technical
 integration planning.
 
 ## Strategic Initiative: Community Growth
 
-Growth in CeloHT isn't measured only in user counts — it's measured in
+Growth in CeloHT isn't measured only in user counts - it's measured in
 trained agents, completed courses, and trees still alive a year after
 planting. Community growth work includes:
 
@@ -289,7 +289,7 @@ See [`docs/developer-guide.md`](docs/developer-guide.md) and
 See [`docs/business-model.md`](docs/business-model.md) for the full model.
 Roadmap commitments:
 
-- Phase 1–2: funded primarily through grants and partnerships
+- Phase 1-2: funded primarily through grants and partnerships
 - Phase 3: introduce reasonable, transparent service fees within the agent
   network to begin reducing grant dependency
 - Phase 4: a published target share of operating costs covered by
@@ -301,13 +301,13 @@ Roadmap commitments:
 
 It's worth being explicit about this, since the two are easy to conflate:
 
-- **The Website** is the public information platform — it explains who
+- **The Website** is the public information platform - it explains who
   CeloHT is, documents our work, and builds trust with visitors, partners,
   and donors.
-- **The dApp** is the operational digital platform — it's where a real user
+- **The dApp** is the operational digital platform - it's where a real user
   connects a Valora-compatible wallet, takes a course, and an agent logs a
   transaction.
-- **Both exist to strengthen the same three pillars** — Education, Agent
+- **Both exist to strengthen the same three pillars** - Education, Agent
   Network, and Reforestation. Neither is an end in itself.
 
 ```mermaid
@@ -348,9 +348,9 @@ is solid.
 
 ## How We Track Progress
 
-- ✅ **Done** — shipped and verifiable today
-- 🔄 **In progress** — actively being worked on
-- ⏳ **Planned** — scoped, not yet started
+- ✅ **Done** - shipped and verifiable today
+- 🔄 **In progress** - actively being worked on
+- ⏳ **Planned** - scoped, not yet started
 
 Progress against this roadmap is reviewed as part of our governance process
 (see [`GOVERNANCE.md`](GOVERNANCE.md)) and reflected in

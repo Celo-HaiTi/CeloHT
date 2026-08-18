@@ -12,7 +12,7 @@ A public Layer-1 blockchain built for mobile-first access, using
 Proof-of-Stake consensus and EVM compatibility. CeloHT uses it as the base
 chain for agent-network transactions and reforestation rewards.
 
-### cUSD (Celo Dollar)
+### USDm (Celo Dollar)
 
 A stablecoin pegged to the US dollar, used for everyday transactions
 (cash-in/cash-out, transfers, rewards) because its price stability makes it
@@ -26,7 +26,7 @@ without positioning it as our primary product.
 
 ### Valora
 
-A mobile wallet built for simplicity, letting users send and receive cUSD
+A mobile wallet built for simplicity, letting users send and receive USDm
 and CELO without needing to understand everything happening under the hood.
 It's the wallet we recommend across all of our training material.
 

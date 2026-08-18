@@ -29,7 +29,7 @@ You may not:
 Our educational material is provided for informational and educational
 purposes only. CeloHT doesn't guarantee any financial outcome and isn't
 liable for losses arising from the use of external cryptocurrency tools such
-as Celo, cUSD, or Valora.
+as Celo, USDm, or Valora.
 
 ## Changes to These Terms
 

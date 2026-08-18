@@ -8,7 +8,7 @@
 
 ## Purpose
 
-This document defines the structure and rules governing CeloHT's financial reserves — funds set aside deliberately to protect the project's operational continuity, emergency response capacity, and long-term sustainability, independent of near-term programmatic budgets.
+This document defines the structure and rules governing CeloHT's financial reserves - funds set aside deliberately to protect the project's operational continuity, emergency response capacity, and long-term sustainability, independent of near-term programmatic budgets.
 
 ## Scope
 
@@ -35,7 +35,7 @@ CeloHT maintains three distinct reserve categories, each with a different purpos
 | Reserve | Purpose |
 |---|---|
 | **Operating Reserve** | Covers planned operational costs during temporary funding gaps between grant cycles or donation inflows |
-| **Emergency Reserve** | Funds urgent, unplanned needs — such as a security incident response — under the Emergency Decision process in `GOVERNANCE.md` Section 4.5 |
+| **Emergency Reserve** | Funds urgent, unplanned needs - such as a security incident response - under the Emergency Decision process in `GOVERNANCE.md` Section 4.5 |
 | **Sustainability Reserve** | Supports CeloHT's multi-year continuity and institutional development goals described in `LEGAL_STATUS.md` Section 20 |
 
 ## 2. Operating Reserve

@@ -4,7 +4,7 @@
 
 Give communities the financial, blockchain, Web3, and digital skills they
 need to use digital financial services with real confidence before they're
-ever handed a specific tool like Valora or cUSD.
+ever handed a specific tool like Valora or USDm.
 
 ## Why This Comes First
 
@@ -18,7 +18,7 @@ for exactly that reason.
   of interest
 - **Blockchain and Web3 fundamentals**: what a blockchain actually is, how a
   transaction works, core concepts without the technical jargon
-- **Hands-on Valora/cUSD use**: step-by-step guidance, with real emphasis on
+- **Hands-on Valora/USDm use**: step-by-step guidance, with real emphasis on
   security protecting your seed phrase, spotting scams
 - **Crypto risk awareness**: full transparency about volatility, common
   scams, and the importance of never risking more than you can afford to lose

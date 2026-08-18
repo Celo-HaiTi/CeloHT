@@ -8,7 +8,7 @@
 
 ## Purpose
 
-This document defines how CeloHT identifies, discloses, and manages conflicts of interest specifically in financial decision-making — treasury disbursements, procurement, grant acceptance, and donor relationships. It applies and extends the general Conflict of Interest Policy in `GOVERNANCE.md` Section 10 and `LEGAL_STATUS.md` Section 15 to financial matters specifically.
+This document defines how CeloHT identifies, discloses, and manages conflicts of interest specifically in financial decision-making - treasury disbursements, procurement, grant acceptance, and donor relationships. It applies and extends the general Conflict of Interest Policy in `GOVERNANCE.md` Section 10 and `LEGAL_STATUS.md` Section 15 to financial matters specifically.
 
 ## Scope
 

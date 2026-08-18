@@ -40,17 +40,17 @@ Approval thresholds mirror those defined in `GOVERNANCE.md` Section 8.6:
 | Expense Tier | Approval Required |
 |---|---|
 | Under $500 (or equivalent) | Treasury Committee, 2-of-3 sign-off |
-| $500–$5,000 (or equivalent) | Treasury Committee unanimous sign-off + relevant Working Group Lead sign-off |
+| $500-$5,000 (or equivalent) | Treasury Committee unanimous sign-off + relevant Working Group Lead sign-off |
 | Above $5,000 (or equivalent) | Governance Council Absolute Majority vote |
 
 These thresholds apply to the total value of a single expense or a series of related expenses that would otherwise be structured to avoid a higher approval tier. Structuring expenses to remain artificially under a threshold is treated as a policy violation.
 
 ## 3. Emergency Expenses
 
-An emergency expense is one required to prevent immediate harm to people, funds, or systems — for example, an urgent security remediation cost — consistent with the Emergency Decision process in `GOVERNANCE.md` Section 4.5.
+An emergency expense is one required to prevent immediate harm to people, funds, or systems - for example, an urgent security remediation cost - consistent with the Emergency Decision process in `GOVERNANCE.md` Section 4.5.
 
 - Emergency expenses may be authorized by any available Treasury Committee member or Council member without prior full-Committee or full-Council approval, limited to the minimum amount necessary to address the emergency.
-- All emergency expenses are reported publicly within 72 hours and formally ratified — or reversed and remediated — by the Governance Council within 14 days, consistent with `GOVERNANCE.md` Section 4.5.
+- All emergency expenses are reported publicly within 72 hours and formally ratified - or reversed and remediated - by the Governance Council within 14 days, consistent with `GOVERNANCE.md` Section 4.5.
 - Repeated or unjustified use of emergency-expense authority is grounds for role review under `GOVERNANCE.md` Section 3.9.
 
 ## 4. Documentation

@@ -2,7 +2,7 @@
 
 ---
 
-## CeloHT Community Update — [Month Year]
+## CeloHT Community Update - [Month Year]
 
 ### Progress by Pillar
 
@@ -16,7 +16,7 @@
 
 ### Coming Up
 
-- [Preview of what's ahead — reference docs/roadmap.md]
+- [Preview of what's ahead - reference docs/roadmap.md]
 
 ### How to Get Involved
 

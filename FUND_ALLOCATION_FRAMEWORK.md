@@ -2,7 +2,7 @@
 
 **Version:** 1.0
 **Last Updated:** August 2026
-**Status:** Active — Framework Only, No Fixed Percentages
+**Status:** Active - Framework Only, No Fixed Percentages
 
 ---
 
@@ -46,12 +46,12 @@ This document intentionally does not assign fixed percentages to these categorie
 
 Allocation decisions are made by evaluating each category against a consistent set of criteria:
 
-- **Mission alignment** — how directly the proposed spending advances CeloHT's three pillars or the operational/technical capacity that supports them.
-- **Programmatic readiness** — whether the relevant Working Group has the capacity and plan to deploy funds effectively within the budget period.
-- **Restricted funding obligations** — donations or grants designated for a specific category under `DONATION_POLICY.md` Section 2 are allocated to that category first, ahead of discretionary allocation.
-- **Reserve adequacy** — whether the Operating and Emergency Reserves (`RESERVE_POLICY.md`) are at their target levels before discretionary funds are allocated elsewhere.
-- **Community input** — feedback gathered through the Proposal Lifecycle (`GOVERNANCE.md` Section 6) and community feedback polls.
-- **Prior-period performance** — whether prior allocations to a category were fully and effectively deployed, informing whether to increase, maintain, or reduce funding in the next cycle.
+- **Mission alignment** - how directly the proposed spending advances CeloHT's three pillars or the operational/technical capacity that supports them.
+- **Programmatic readiness** - whether the relevant Working Group has the capacity and plan to deploy funds effectively within the budget period.
+- **Restricted funding obligations** - donations or grants designated for a specific category under `DONATION_POLICY.md` Section 2 are allocated to that category first, ahead of discretionary allocation.
+- **Reserve adequacy** - whether the Operating and Emergency Reserves (`RESERVE_POLICY.md`) are at their target levels before discretionary funds are allocated elsewhere.
+- **Community input** - feedback gathered through the Proposal Lifecycle (`GOVERNANCE.md` Section 6) and community feedback polls.
+- **Prior-period performance** - whether prior allocations to a category were fully and effectively deployed, informing whether to increase, maintain, or reduce funding in the next cycle.
 
 ## 3. Allocation Process
 

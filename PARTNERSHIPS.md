@@ -63,11 +63,11 @@
 
 CeloHT is a community-governed, open-source initiative built on the Celo blockchain, dedicated to advancing financial inclusion, Web3 education, and environmental sustainability in Haiti and beyond. As CeloHT matures from its Foundation phase into Validation and Growth, the organization anticipates growing interest from ecosystem participants, civil-society organizations, educational institutions, development agencies, and mission-aligned companies who wish to collaborate.
 
-This **Partnerships Policy** establishes the single authoritative framework governing how CeloHT identifies, evaluates, approves, documents, monitors, and — where necessary — suspends or terminates relationships with external organizations. It is written to meet the diligence expectations of institutional donors, multilateral development agencies, auditors, and open-source foundations, while remaining practical for a young, community-governed, low-resource organization.
+This **Partnerships Policy** establishes the single authoritative framework governing how CeloHT identifies, evaluates, approves, documents, monitors, and - where necessary - suspends or terminates relationships with external organizations. It is written to meet the diligence expectations of institutional donors, multilateral development agencies, auditors, and open-source foundations, while remaining practical for a young, community-governed, low-resource organization.
 
 Three principles anchor this policy: **transparency** (every partnership category and its criteria are public), **caution** (no relationship is described in stronger terms than the evidence supports), and **accountability** (every partnership passes through documented due diligence, approval, and review, regardless of size).
 
-This document explicitly does **not** create, confirm, or imply any partnership that has not been separately and formally executed. Where CeloHT references a prospective or exploratory relationship — including with FreClean — it is labeled precisely according to the category definitions in Section 6, and MUST NOT be read as evidence of a signed agreement unless the [Public Partnership Registry](#34-public-partnership-registry) states otherwise.
+This document explicitly does **not** create, confirm, or imply any partnership that has not been separately and formally executed. Where CeloHT references a prospective or exploratory relationship - including with FreClean - it is labeled precisely according to the category definitions in Section 6, and MUST NOT be read as evidence of a signed agreement unless the [Public Partnership Registry](#34-public-partnership-registry) states otherwise.
 
 ---
 
@@ -87,11 +87,11 @@ This policy applies to all CeloHT repositories, all official CeloHT communicatio
 
 ## 3. Partnership Vision
 
-CeloHT envisions a network of aligned organizations — educational institutions, NGOs, cooperatives, local businesses, development agencies, and other Celo-ecosystem projects — collaborating transparently to expand financial inclusion, blockchain literacy, and reforestation impact in Haiti and comparable communities.
+CeloHT envisions a network of aligned organizations - educational institutions, NGOs, cooperatives, local businesses, development agencies, and other Celo-ecosystem projects - collaborating transparently to expand financial inclusion, blockchain literacy, and reforestation impact in Haiti and comparable communities.
 
 CeloHT's partnership vision is deliberately modest in the near term and ambitious in the long term:
 
-- **Near term (Phase 1–2):** Establish a small number of well-documented, low-risk collaborations that validate CeloHT's community model.
+- **Near term (Phase 1-2):** Establish a small number of well-documented, low-risk collaborations that validate CeloHT's community model.
 - **Medium term (Phase 3):** Formalize a sustainable agent network supported by service-fee revenue, with partnerships that reinforce local economic activity.
 - **Long term (Phase 4+):** Operate as a recognized node in the broader Celo public-goods ecosystem, capable of receiving institutional grants and co-designing programs with international development actors.
 
@@ -102,7 +102,7 @@ CeloHT's partnership vision is deliberately modest in the near term and ambitiou
 All CeloHT partnership activity MUST be consistent with the following principles:
 
 1. **Truthfulness over promotion.** CeloHT MUST NOT describe a relationship as more advanced, formal, or exclusive than the underlying agreement supports.
-2. **No token, no investment framing.** No partnership MAY be used to imply that CeloHT, cUSD, CELO, or any CeloHT activity constitutes an investment product, security, or guaranteed-return opportunity.
+2. **No token, no investment framing.** No partnership MAY be used to imply that CeloHT, USDm, CELO, or any CeloHT activity constitutes an investment product, security, or guaranteed-return opportunity.
 3. **Community governance first.** No single individual, including the Foundation Director, MAY unilaterally bind CeloHT to a partnership. All partnerships flow through the [Approval Process](#22-approval-process).
 4. **Proportionate diligence.** The depth of due diligence SHOULD scale with the size, visibility, and risk of the proposed relationship, per the [Due Diligence Framework](#8-due-diligence-framework).
 5. **Radical transparency.** Every executed partnership SHOULD appear in the [Public Partnership Registry](#34-public-partnership-registry) unless confidentiality is required and documented under [Section 30](#30-confidentiality).
@@ -118,7 +118,7 @@ CeloHT's partnership program pursues the following objectives:
 | # | Objective | Primary Beneficiary |
 |---|---|---|
 | 1 | Expand access to blockchain and financial-literacy education | Students, youth, women entrepreneurs |
-| 2 | Strengthen the CeloHT Agent Network (cash ↔ cUSD conversion, wallet onboarding) | Small businesses, merchants, diaspora |
+| 2 | Strengthen the CeloHT Agent Network (cash ↔ USDm conversion, wallet onboarding) | Small businesses, merchants, diaspora |
 | 3 | Scale reforestation activity beyond the current pilot phase | Farmers, local environment |
 | 4 | Diversify funding through ecosystem grants and mission-aligned sponsorships | CeloHT organizational sustainability |
 | 5 | Build credibility with international development and open-source institutions | CeloHT long-term legitimacy |
@@ -132,15 +132,15 @@ CeloHT uses five mutually exclusive categories. Every external relationship refe
 
 | Category | Definition | Public Claim Permitted | Formal Agreement Required |
 |---|---|---|---|
-| **Confirmed Partner** | A signed, active agreement (MoU or equivalent) defining scope, duration, and mutual obligations | Yes — full description permitted | Yes |
-| **Strategic Collaborator** | An organization actively coordinating with CeloHT on specific activities, without a comprehensive formal partnership agreement | Limited — described as "collaboration," not "partnership" | Recommended (light-form agreement or written correspondence) |
-| **Ecosystem Participant** | An organization operating in the same ecosystem (e.g., Celo ecosystem projects) with informal, non-exclusive interaction | Minimal — may be listed with a neutral description | No |
-| **Supporter** | An individual, community, or organization providing informal encouragement, small in-kind help, or public endorsement without operational involvement | Minimal — first-name/organization credit only, with consent | No |
+| **Confirmed Partner** | A signed, active agreement (MoU or equivalent) defining scope, duration, and mutual obligations | Yes - full description permitted | Yes |
+| **Strategic Collaborator** | An organization actively coordinating with CeloHT on specific activities, without a comprehensive formal partnership agreement | Limited - described as "collaboration," not "partnership" | Recommended (light-form agreement or written correspondence) |
+| **Ecosystem Participant** | An organization operating in the same ecosystem (e.g., Celo ecosystem projects) with informal, non-exclusive interaction | Minimal - may be listed with a neutral description | No |
+| **Supporter** | An individual, community, or organization providing informal encouragement, small in-kind help, or public endorsement without operational involvement | Minimal - first-name/organization credit only, with consent | No |
 | **Prospective Partner** | An organization under discussion or evaluation; no commitments have been made by either party | None beyond "in discussion" | No |
 
 **Rule:** CeloHT MUST NOT publish, imply, or allow to persist uncorrected any public statement that upgrades a relationship into a higher category than the evidence supports. Downgrading a category (e.g., from Confirmed Partner to Prospective Partner following termination) MUST occur within 5 business days of the underlying change.
 
-**FreClean status under this policy:** As of the effective date of this document, FreClean is recorded as a **Strategic Collaborator (Prospective)** — an initiative in early-stage discussion with CeloHT regarding potential environmental and community-impact collaboration. FreClean MUST NOT be described as an "official partner," "confirmed partner," or in any language implying a signed agreement, until such an agreement exists and is reflected in the [Public Partnership Registry](#34-public-partnership-registry).
+**FreClean status under this policy:** As of the effective date of this document, FreClean is recorded as a **Strategic Collaborator (Prospective)** - an initiative in early-stage discussion with CeloHT regarding potential environmental and community-impact collaboration. FreClean MUST NOT be described as an "official partner," "confirmed partner," or in any language implying a signed agreement, until such an agreement exists and is reflected in the [Public Partnership Registry](#34-public-partnership-registry).
 
 ---
 
@@ -165,9 +165,9 @@ Organizations that do not meet these criteria MAY still be engaged informally at
 
 | Tier | Applies To | Minimum Review |
 |---|---|---|
-| **Tier 1 — Light** | Supporters, Ecosystem Participants | Public reputation check, mission-alignment review |
-| **Tier 2 — Standard** | Strategic Collaborators | Tier 1 + legal-existence verification, sanctions screening, point-of-contact verification |
-| **Tier 3 — Enhanced** | Confirmed Partners, any relationship involving funds transfer, data sharing, or co-branding | Tier 2 + financial review, reference checks, written risk assessment, Maintainer Council vote |
+| **Tier 1 - Light** | Supporters, Ecosystem Participants | Public reputation check, mission-alignment review |
+| **Tier 2 - Standard** | Strategic Collaborators | Tier 1 + legal-existence verification, sanctions screening, point-of-contact verification |
+| **Tier 3 - Enhanced** | Confirmed Partners, any relationship involving funds transfer, data sharing, or co-branding | Tier 2 + financial review, reference checks, written risk assessment, Maintainer Council vote |
 
 ### 8.2 Due Diligence Checklist (Tier 2 and Tier 3)
 
@@ -390,7 +390,7 @@ flowchart TD
 | **Foundation Director** | Mission-integrity oversight; tie-breaking vote where Council rules require; final signatory on Confirmed Partner agreements | Signatory, not sole approver |
 | **Maintainer Council** | Reviews due diligence and risk assessments; votes to approve, suspend, or terminate partnerships; maintains this policy | Primary approval body |
 | **Partnerships Lead** (Council role) | Coordinates inquiries, due diligence, and drafting of agreements; maintains the Public Partnership Registry | Recommends, does not unilaterally approve |
-| **Due Diligence Reviewers** | Conduct Tier 1–3 diligence; document findings | Non-voting |
+| **Due Diligence Reviewers** | Conduct Tier 1-3 diligence; document findings | Non-voting |
 | **Community Contributors** | May refer prospective partners; may assist with monitoring and KPI tracking | None |
 | **Treasury Role Holder** | Verifies financial capacity; oversees financial-transparency obligations for funded partnerships | Non-voting, advisory |
 
@@ -439,7 +439,7 @@ These are target service levels, not binding deadlines; the Maintainer Council M
 1. Any partnership involving a transfer of funds to or from CeloHT MUST be recorded in CeloHT's financial records consistent with [TREASURY.md](./TREASURY.md).
 2. CeloHT MUST publish, at minimum annually, an aggregate summary of partnership-related funding received and disbursed.
 3. No partnership funds MAY be commingled with undisclosed personal accounts of any Foundation Director, Maintainer Council member, or Community Contributor.
-4. Where legally and practically feasible, CeloHT SHOULD use transparent, traceable payment rails (including on-chain cUSD transactions where appropriate) for partnership-related transfers.
+4. Where legally and practically feasible, CeloHT SHOULD use transparent, traceable payment rails (including on-chain USDm transactions where appropriate) for partnership-related transfers.
 
 ---
 
@@ -482,7 +482,7 @@ These are target service levels, not binding deadlines; the Maintainer Council M
 
 1. The CeloHT name and logo (navy-and-gold mark) are CeloHT's brand assets and MUST NOT be modified, recolored, or combined with another organization's mark to imply a relationship that has not been approved under this policy.
 2. A partner MAY display the CeloHT logo only after (a) the partnership has been approved per [Section 22](#22-approval-process), and (b) specific usage terms (placement, sizing, context) have been agreed in writing, consistent with CeloHT's brand guidelines repository.
-3. Similarly, CeloHT MUST NOT display a partner's or prospective partner's logo (including the FreClean mark) in a way that implies a Confirmed Partner relationship unless that status is accurate and reflected in the [Public Partnership Registry](#34-public-partnership-registry). Where a logo is shown for identification purposes only (e.g., "organizations we are in discussion with"), the accompanying text MUST state the correct category (e.g., "Strategic Collaborator — Prospective").
+3. Similarly, CeloHT MUST NOT display a partner's or prospective partner's logo (including the FreClean mark) in a way that implies a Confirmed Partner relationship unless that status is accurate and reflected in the [Public Partnership Registry](#34-public-partnership-registry). Where a logo is shown for identification purposes only (e.g., "organizations we are in discussion with"), the accompanying text MUST state the correct category (e.g., "Strategic Collaborator - Prospective").
 4. Neither party may alter the other's logo, colors, or proportions. Logo files MUST be used only in their approved, unmodified form.
 5. Logo usage rights terminate automatically upon suspension or termination of the underlying partnership, and any party must remove the other's marks from active materials within 30 days.
 
@@ -501,7 +501,7 @@ These are target service levels, not binding deadlines; the Maintainer Council M
 
 1. Parties MAY agree to keep specific commercial, technical, or personal details confidential, even where the existence of a relationship is disclosed in the [Public Partnership Registry](#34-public-partnership-registry) at a general level.
 2. Confidentiality provisions MUST NOT be used to conceal information that would otherwise be required for financial transparency, donation transparency, or compliance reporting under this policy.
-3. Confidentiality obligations SHOULD survive termination of the partnership for a period specified in the governing agreement (recommended: 2–5 years, proportionate to sensitivity).
+3. Confidentiality obligations SHOULD survive termination of the partnership for a period specified in the governing agreement (recommended: 2-5 years, proportionate to sensitivity).
 4. Maintainer Council members reviewing confidential information remain bound by the [Conflict of Interest Policy](#14-conflict-of-interest-policy) and MUST NOT use confidential partner information for personal benefit.
 
 ---
@@ -530,7 +530,7 @@ These are target service levels, not binding deadlines; the Maintainer Council M
 
 | Partner Name | Category | Activation Rate | Community Reach | Compliance Incidents | Status |
 |---|---|---|---|---|---|
-| *[Placeholder — populate at Annual Review]* | | | | | |
+| *[Placeholder - populate at Annual Review]* | | | | | |
 
 ---
 
@@ -554,7 +554,7 @@ flowchart TD
 
 ### 33.2 Annual Review Scorecard
 
-| Criterion | Weight | Score (1–5) | Notes |
+| Criterion | Weight | Score (1-5) | Notes |
 |---|---|---|---|
 | Mission alignment maintained | 25% | | |
 | KPI performance | 25% | | |
@@ -568,7 +568,7 @@ A composite score below a threshold set by the Maintainer Council (recommended: 
 
 ## 34. Public Partnership Registry
 
-1. CeloHT MUST maintain a **Public Partnership Registry** — a machine-readable and human-readable list (e.g., `PARTNERSHIP_REGISTRY.md` or equivalent structured file in the CeloHT documentation repository) recording, for every relationship above Supporter tier: organization name, category, date approved, scope summary, and status (Active, Suspended, Terminated, Expired).
+1. CeloHT MUST maintain a **Public Partnership Registry** - a machine-readable and human-readable list (e.g., `PARTNERSHIP_REGISTRY.md` or equivalent structured file in the CeloHT documentation repository) recording, for every relationship above Supporter tier: organization name, category, date approved, scope summary, and status (Active, Suspended, Terminated, Expired).
 2. The registry MUST be updated within 10 business days of any category change, suspension, or termination.
 3. The registry is the single source of truth; any discrepancy between marketing materials and the registry MUST be resolved in favor of the registry, and the marketing materials corrected.
 
@@ -784,7 +784,7 @@ Partner Authorized Representative: ______________  Date: ______
 **Role at CeloHT:**
 **Related Partnership Matter:**
 **Nature of Interest:**
-[Financial / Familial / Other — describe]
+[Financial / Familial / Other - describe]
 
 **Recusal Confirmed:** [Yes / No]
 **Date:**
@@ -802,9 +802,9 @@ Partner Authorized Representative: ______________  Date: ______
 **Reason for Termination:**
 [Mutual agreement / Expiration / Non-performance / Ethics violation / Other]
 
-**Outstanding Obligations Settled:** [Yes / No — describe]
+**Outstanding Obligations Settled:** [Yes / No - describe]
 **Logo/Trademark Rights Revoked:** [Yes / No / N/A]
-**Public Registry Updated:** [Yes — date]
+**Public Registry Updated:** [Yes - date]
 **Approved By:**
 ```
 
@@ -814,17 +814,17 @@ Partner Authorized Representative: ______________  Date: ______
 
 This policy operates alongside, and is subordinate to, the following CeloHT governance documents (where a referenced file does not yet exist in the repository, it is noted as **planned**):
 
-- [`GOVERNANCE.md`](./GOVERNANCE.md) — Foundation Director, Maintainer Council, and Community Contributor structure
-- [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) — Community behavior standards
-- [`SECURITY.md`](./SECURITY.md) — Security disclosure process
-- `FUNDING_POLICY.md` — *(planned)* Grant and funding acceptance criteria
-- `LEGAL_STATUS.md` — *(planned)* CeloHT's legal structure and jurisdictional status
-- `ETHICS.md` — *(planned)* Organization-wide ethics code
-- `TREASURY.md` — *(planned)* Financial management and reporting policy
-- `TRANSPARENCY.md` — *(planned)* Public reporting commitments
-- `RISK_MANAGEMENT.md` — *(planned)* Organization-wide risk framework
-- [`WHITEPAPER.md`](./WHITEPAPER.md) — Technical and mission overview
-- [`ROADMAP.md`](./ROADMAP.md) — Phase 1–4 development roadmap
+- [`GOVERNANCE.md`](./GOVERNANCE.md) - Foundation Director, Maintainer Council, and Community Contributor structure
+- [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) - Community behavior standards
+- [`SECURITY.md`](./SECURITY.md) - Security disclosure process
+- `FUNDING_POLICY.md` - *(planned)* Grant and funding acceptance criteria
+- `LEGAL_STATUS.md` - *(planned)* CeloHT's legal structure and jurisdictional status
+- `ETHICS.md` - *(planned)* Organization-wide ethics code
+- `TREASURY.md` - *(planned)* Financial management and reporting policy
+- `TRANSPARENCY.md` - *(planned)* Public reporting commitments
+- `RISK_MANAGEMENT.md` - *(planned)* Organization-wide risk framework
+- [`WHITEPAPER.md`](./WHITEPAPER.md) - Technical and mission overview
+- [`ROADMAP.md`](./ROADMAP.md) - Phase 1-4 development roadmap
 
 Where a planned document does not yet exist, this Partnerships Policy governs on an interim basis for matters within its scope.
 

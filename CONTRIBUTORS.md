@@ -27,7 +27,7 @@ CeloHT recognizes several categories of contribution, consistent with the role d
 | **Design Contributors** | Produce visual assets, UI/UX design, and brand-consistent materials |
 | **Community Contributors (Volunteers)** | Support forum moderation, event coordination, and Code of Conduct enforcement |
 | **Field Contributors** | Participate in reforestation planting events and impact reporting |
-| **Agent Network Contributors** | Community-based agents supporting cUSD cash-in/cash-out access, per `ARCHITECTURE.md` Section 8 |
+| **Agent Network Contributors** | Community-based agents supporting USDm cash-in/cash-out access, per `ARCHITECTURE.md` Section 8 |
 
 ---
 
@@ -43,11 +43,11 @@ flowchart LR
     E --> F[Role Confirmed & Published in TEAM.md]
 ```
 
-1. **First contribution** — submitted through the standard pull-request or content-submission process for the relevant repository.
-2. **Recorded contribution history** — every accepted contribution is recorded in Git history or the relevant repository's contribution log, forming the factual basis for any future recognition or nomination.
-3. **Sustained contribution** — repeated, quality contributions over time make an individual eligible for nomination to a role with greater responsibility.
-4. **Nomination and review** — nomination to Maintainer, Working Group Lead, or Ambassador status is reviewed by the Governance Council per `GOVERNANCE.md`, including the verification steps in `VERIFICATION_POLICY.md`.
-5. **Confirmation and publication** — confirmed role holders are published in `TEAM.md` and `MAINTAINERS.md` as applicable, replacing the relevant "Open" or "Vacant" entry.
+1. **First contribution** - submitted through the standard pull-request or content-submission process for the relevant repository.
+2. **Recorded contribution history** - every accepted contribution is recorded in Git history or the relevant repository's contribution log, forming the factual basis for any future recognition or nomination.
+3. **Sustained contribution** - repeated, quality contributions over time make an individual eligible for nomination to a role with greater responsibility.
+4. **Nomination and review** - nomination to Maintainer, Working Group Lead, or Ambassador status is reviewed by the Governance Council per `GOVERNANCE.md`, including the verification steps in `VERIFICATION_POLICY.md`.
+5. **Confirmation and publication** - confirmed role holders are published in `TEAM.md` and `MAINTAINERS.md` as applicable, replacing the relevant "Open" or "Vacant" entry.
 
 ---
 

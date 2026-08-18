@@ -50,30 +50,30 @@ FOR IMMEDIATE RELEASE
 
 [Headline: Concise, factual, no promotional language]
 
-[City, Country — Date] — CeloHT, a community-governed Web3 initiative
+[City, Country - Date] - CeloHT, a community-governed Web3 initiative
 headquartered in Léogâne, Haiti, today announced [announcement summary
 in one sentence].
 
-[Paragraph 1 — What happened, who is involved, why it matters. Lead
+[Paragraph 1 - What happened, who is involved, why it matters. Lead
 with the most newsworthy fact.]
 
-[Paragraph 2 — Supporting detail: relevant program (Education, Agent
+[Paragraph 2 - Supporting detail: relevant program (Education, Agent
 Network, or Reforestation), scope, and context within CeloHT's mission
 of financial inclusion, blockchain education, and environmental
 sustainability.]
 
-[Paragraph 3 — Quote from Founder Johnny Dubic or relevant leadership,
+[Paragraph 3 - Quote from Founder Johnny Dubic or relevant leadership,
 attributed by name and title.]
 
-[Paragraph 4 — Additional context: relevant statistics, roadmap phase,
+[Paragraph 4 - Additional context: relevant statistics, roadmap phase,
 or partnership detail. Cite MEDIA_KIT.md statistics only where
 confirmed; do not include unverified figures.]
 
 About CeloHT
-[Insert Company Boilerplate — see below]
+[Insert Company Boilerplate - see below]
 
 Media Contact
-[Name, title, email — see Media Contact Information]
+[Name, title, email - see Media Contact Information]
 
 ###
 ```
@@ -91,13 +91,13 @@ Media Contact
 | Headquarters | Léogâne, Haiti |
 | Founder | Johnny Dubic |
 | Blockchain | Celo |
-| Assets used | cUSD, CELO |
+| Assets used | USDm, CELO |
 | Native token | None |
 | Supported wallet | Valora only |
 | License | Apache 2.0 |
 | Core pillars | Education, Agent Network, Reforestation |
 | Governance | Foundation Director → Maintainer Council → Community Contributors |
-| Current roadmap phase | Phase 1: Foundation (2026 Q2–Q3) — completed |
+| Current roadmap phase | Phase 1: Foundation (2026 Q2-Q3) - completed |
 | Website | celoht.com |
 | GitHub | github.com/Celo-HT/CeloHT |
 | Primary contact | contact@celoht.com |
@@ -112,7 +112,7 @@ For the full statistics table and community impact figures, see MEDIA_KIT.md, St
 CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti, focused on financial inclusion, blockchain education, and environmental sustainability. Built on the Celo blockchain, CeloHT operates without a native token and is governed through a transparent, community-led structure. Learn more at celoht.com.
 
 **Extended:**
-CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti, built on the Celo blockchain. Its work is organized around three pillars: Education, an Agent Network enabling cash-to-cUSD conversion and wallet onboarding, and a Reforestation program currently in its pilot phase. CeloHT maintains a strict No Token Policy — it has no native token and does not conduct token sales, presales, or staking — and is governed through a structure spanning a Foundation Director, a Maintainer Council, and Community Contributors. CeloHT's code and documentation are open source under the Apache 2.0 license. Learn more at celoht.com or github.com/Celo-HT.
+CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti, built on the Celo blockchain. Its work is organized around three pillars: Education, an Agent Network enabling cash-to-USDm conversion and wallet onboarding, and a Reforestation program currently in its pilot phase. CeloHT maintains a strict No Token Policy - it has no native token and does not conduct token sales, presales, or staking - and is governed through a structure spanning a Foundation Director, a Maintainer Council, and Community Contributors. CeloHT's code and documentation are open source under the Apache 2.0 license. Learn more at celoht.com or github.com/Celo-HT.
 
 ---
 
@@ -139,13 +139,13 @@ Extended professional background and headshot: TBD. For governance context, see 
 ## Official Quotes
 
 **On CeloHT's mission:**
-"CeloHT exists to put financial access, education, and environmental responsibility directly in the hands of the community it serves." — Johnny Dubic, Founder, CeloHT *(placeholder pending founder confirmation — TBD)*
+"CeloHT exists to put financial access, education, and environmental responsibility directly in the hands of the community it serves." - Johnny Dubic, Founder, CeloHT *(placeholder pending founder confirmation - TBD)*
 
 **On governance:**
-"CeloHT is built to be governed by its community, not controlled by its founder. That distinction shapes every decision we make." — CeloHT Leadership *(placeholder pending confirmation — TBD)*
+"CeloHT is built to be governed by its community, not controlled by its founder. That distinction shapes every decision we make." - CeloHT Leadership *(placeholder pending confirmation - TBD)*
 
 **On the No Token Policy:**
-"We have no token to sell and nothing to speculate on. Our success is measured in people educated, wallets onboarded, and trees planted — not price charts." — CeloHT Leadership *(placeholder pending confirmation — TBD)*
+"We have no token to sell and nothing to speculate on. Our success is measured in people educated, wallets onboarded, and trees planted - not price charts." - CeloHT Leadership *(placeholder pending confirmation - TBD)*
 
 All quotes must be confirmed with the named speaker or CeloHT press contact prior to publication.
 
@@ -158,7 +158,7 @@ All quotes must be confirmed with the named speaker or CeloHT press contact prio
 3. CeloHT's work spans three concrete pillars: Education, Agent Network, Reforestation.
 4. CeloHT is built on the established Celo blockchain, not a proprietary or speculative chain.
 5. CeloHT's code, documentation, and governance are fully open source under Apache 2.0.
-6. CeloHT's Reforestation program is in pilot phase and not yet fully operational — this should be reflected accurately in any coverage.
+6. CeloHT's Reforestation program is in pilot phase and not yet fully operational - this should be reflected accurately in any coverage.
 
 ---
 
@@ -171,10 +171,10 @@ CeloHT is built on the Celo blockchain but is a distinct, independently governed
 Only statistics confirmed in official documentation (MEDIA_KIT.md, ROADMAP.md, or direct confirmation from contact@celoht.com) should be cited. Do not extrapolate or estimate figures.
 
 **Does CeloHT have a token journalists should be aware of?**
-No. CeloHT has no native token. Any third-party token claiming affiliation with CeloHT is not authorized — see NO_TOKEN_POLICY.md.
+No. CeloHT has no native token. Any third-party token claiming affiliation with CeloHT is not authorized - see NO_TOKEN_POLICY.md.
 
 **Who can confirm quotes or statistics for a story on deadline?**
-contact@celoht.com — see [Media Contact Information](#media-contact-information) for response expectations.
+contact@celoht.com - see [Media Contact Information](#media-contact-information) for response expectations.
 
 For general organizational FAQs (mission, programs, partnerships), see MEDIA_KIT.md, Frequently Asked Questions.
 
@@ -190,9 +190,9 @@ Official press photography (founder portrait, leadership photos, program/field p
 
 | Variant | File Location |
 |---|---|
-| Primary (yellow background) | `assets/branding/` — CeloHT Brand repository |
-| Transparent | `assets/branding/` — CeloHT Brand repository |
-| Favicon / icon-only | `assets/branding/` — CeloHT Brand repository |
+| Primary (yellow background) | `assets/branding/` - CeloHT Brand repository |
+| Transparent | `assets/branding/` - CeloHT Brand repository |
+| Favicon / icon-only | `assets/branding/` - CeloHT Brand repository |
 
 Full logo specifications, exclusion zones, and color values are documented in BRAND_GUIDE.md. See also MEDIA_KIT.md, Logo System.
 
@@ -200,7 +200,7 @@ Full logo specifications, exclusion zones, and color values are documented in BR
 
 ## Brand Assets
 
-Complete brand assets — color system, typography, and visual identity guidelines — are maintained in the CeloHT Brand repository and summarized in MEDIA_KIT.md, Brand Identity through Visual Identity sections. Journalists requiring source files should contact contact@celoht.com or access the public Brand repository directly via github.com/Celo-HT.
+Complete brand assets - color system, typography, and visual identity guidelines - are maintained in the CeloHT Brand repository and summarized in MEDIA_KIT.md, Brand Identity through Visual Identity sections. Journalists requiring source files should contact contact@celoht.com or access the public Brand repository directly via github.com/Celo-HT.
 
 ---
 
@@ -235,7 +235,7 @@ TBD. No official event photography is confirmed for publication at this time. Th
 - Specify whether the request concerns the Founder, a program lead, or a general organizational spokesperson.
 - Allow reasonable lead time; CeloHT is a community-governed organization and some responses may require Maintainer Council or Foundation Director input.
 - Fact-check statistics and quotes with contact@celoht.com prior to publication.
-- Do not frame interview questions or coverage in terms of investment returns, token value, or speculation — CeloHT representatives will decline to answer questions framed this way, consistent with the No Token Policy.
+- Do not frame interview questions or coverage in terms of investment returns, token value, or speculation - CeloHT representatives will decline to answer questions framed this way, consistent with the No Token Policy.
 
 ---
 
@@ -244,7 +244,7 @@ TBD. No official event photography is confirmed for publication at this time. Th
 When reporting on CeloHT, journalists are asked to:
 
 - Accurately describe CeloHT as a community-governed initiative, not a company controlled by a single founder.
-- Avoid describing CeloHT programs, cUSD/CELO usage, or the Agent Network as investment products.
+- Avoid describing CeloHT programs, USDm/CELO usage, or the Agent Network as investment products.
 - Clearly state when a program (such as Reforestation) is in a pilot or design phase rather than fully operational.
 - Attribute statistics to their source (MEDIA_KIT.md, ROADMAP.md, or direct CeloHT confirmation) and avoid presenting unconfirmed figures as fact.
 - Direct fact-checking inquiries to contact@celoht.com prior to publication.

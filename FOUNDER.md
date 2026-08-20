@@ -1,5 +1,6 @@
 <div align="center">
-<img width="720" height="720" alt="IMG_20260728_183027" src="https://github.com/user-attachments/assets/5ae3957d-ac69-4b40-9587-9f300dc231c0" />
+<img width="720" height="720" alt="IMG_20260728_183027" src="https://github.com/user-attachments/assets/0750c10d-c285-4058-9544-918cdcebf421" />
+
 
 # Johnny Dubic
 

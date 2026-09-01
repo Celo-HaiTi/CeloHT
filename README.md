@@ -2,25 +2,31 @@
 
 # CeloHT
 
-CeloHT is a community-driven ecosystem initiative built around education, agent infrastructure, and climate-positive reforestation on Celo. This repository serves as the primary documentation and governance hub for the project, including product context, developer guidance, governance material, and operational policies.
+CeloHT is an open-source, community-driven ecosystem initiative focused on education, agent infrastructure, and climate-positive reforestation on Celo. This repository is the central source of truth for the project’s strategy, technical direction, governance, and operational policies.
 
 ## Project status
 
-- Active repository: documentation and governance source of truth
-- Primary focus: education, agent network, and reforestation
-- Community model: transparent operations, open contribution, and public policy records
+- Active repository for project documentation and governance
+- Core focus areas: education, agent network, and reforestation
+- Open, transparent contribution model with public policy and operational records
 
 ## Why this repository exists
 
-This repo consolidates the strategic, technical, and operational knowledge required to understand and advance CeloHT. It is intended for contributors, maintainers, partners, and community members who need a clear map of the project, its governance, and its technical direction.
+CeloHT brings together the strategic, technical, and operational knowledge needed to understand, build, and govern the ecosystem. As an open-source project, it is designed for contributors, maintainers, partners, researchers, and community members who need a clear view of the project’s goals, structure, and decision-making framework.
+
+## Open source
+
+CeloHT is committed to transparent, collaborative development. The project welcomes public contributions, community review, and open access to documentation, governance materials, and operational policies where appropriate.
 
 ## Core pillars
 
-- [Education](education.md) — learner-facing programs, learning paths, and educational resources
-- [Agent Network](agent-network.md) — network architecture, ecosystem coordination, and agent interoperability
-- [Reforestation](reforestation.md) — climate-positive initiatives and environmental impact alignment
+- [Education](education.md) — learning programs, public education resources, and knowledge pathways
+- [Agent Network](agent-network.md) — ecosystem coordination, network design, and agent interoperability
+- [Reforestation](reforestation.md) — climate-positive environmental work and impact alignment
 
-## Strategic and product documents
+## Quick navigation
+
+### Strategic and product direction
 
 - [Vision](vision.md)
 - [Mission](mission.md)
@@ -34,7 +40,7 @@ This repo consolidates the strategic, technical, and operational knowledge requi
 - [Partnerships](partnerships.md)
 - [Business Model](business-model.md)
 
-## Governance and community
+### Governance and community
 
 - [Governance](governance.md)
 - [Maintainers](maintainers.md)
@@ -45,7 +51,7 @@ This repo consolidates the strategic, technical, and operational knowledge requi
 - [Contact](contact.md)
 - [FAQ](faq.md)
 
-## Security, trust, and compliance
+### Security, trust, and compliance
 
 - [Security](security.md)
 - [Incident Response](incident-response.md)
@@ -58,14 +64,14 @@ This repo consolidates the strategic, technical, and operational knowledge requi
 - [Audit Policy](AUDIT_POLICY.md)
 - [Conflict of Interest Finance](CONFLICT_OF_INTEREST_FINANCE.md)
 
-## Brand and media
+### Brand and media
 
 - [Brand Guidelines](brand-guidelines.md)
 - [Logo Usage](logo-usage.md)
 - [Media Kit](media-kit.md)
 - [Press Kit](press-kit.md)
 
-## Repository standards and operational records
+### Repository standards and records
 
 - [LICENSE](LICENSE)
 - [NOTICE](NOTICE)
@@ -76,7 +82,7 @@ This repo consolidates the strategic, technical, and operational knowledge requi
 - [WALLET_COMPATIBILITY.md](WALLET_COMPATIBILITY.md)
 - [validate.sh](validate.sh)
 
-## Reference
+### Reference material
 
 - [Glossary](glossary.md)
 - [Whitepaper](WHITEPAPER.md)
@@ -85,17 +91,18 @@ This repo consolidates the strategic, technical, and operational knowledge requi
 
 ## Getting started
 
-Use this repository as a starting point for understanding the project and contributing to the ecosystem.
+Use this repository as a starting point to understand the ecosystem and contribute responsibly.
 
-1. Review the governance and vision documents.
-2. Read the architecture and technology guides.
-3. Check the security and compliance policies before proposing changes.
-4. Follow the contribution guidance in [CONTRIBUTING.md](CONTRIBUTING.md).
+1. Review the project vision, mission, and governance documents.
+2. Study the architecture, technology, and API guidance for the system.
+3. Read the security and compliance policies before making changes or proposals.
+4. Follow the contribution standards in [CONTRIBUTING.md](CONTRIBUTING.md).
+5. Reach out through the support and contact channels for questions or coordination.
 
-## Contact
+## Community and support
 
-For questions, partnership inquiries, or community coordination, see [contact.md](contact.md) and [SUPPORT.md](SUPPORT.md).
+For partnership requests, community questions, or operational support, see [contact.md](contact.md) and [SUPPORT.md](SUPPORT.md).
 
 ## License
 
-This repository is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
+This repository is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for full details.

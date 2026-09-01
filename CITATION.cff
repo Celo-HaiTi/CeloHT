@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use CeloHT materials in research or public work, please cite the repository."
+title: "CeloHT"
+authors:
+  - family-names: "CeloHT contributors"
+    given-names: "Community"
+version: 1.0.0
+date-released: "2026-09-01"
+url: "https://github.com/Celo-HaiTi/CeloHT"
+repository-code: "https://github.com/Celo-HaiTi/CeloHT"
+license: "Apache-2.0"
+abstract: "CeloHT documentation, governance, and ecosystem reference materials for the Celo ecosystem and financial-inclusion work in Haiti."

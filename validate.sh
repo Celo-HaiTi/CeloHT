@@ -4,7 +4,7 @@
 # placeholder text or broken references.
 set -euo pipefail
 
-REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$REPO_ROOT"
 
 ERRORS=0
@@ -23,7 +23,7 @@ for f in "${REQUIRED_FILES[@]}"; do
 done
 
 echo "== 2. Checking for placeholder text =="
-if grep -RIn --exclude-dir=.git --exclude-dir=scripts --exclude=CONTRIBUTING.md -E "TODO|Coming Soon|Lorem ipsum|FIXME|XXX" . ; then
+if grep -RIn --exclude-dir=.git --exclude-dir=scripts --exclude=CONTRIBUTING.md --exclude=validate.sh -E "TODO|Coming Soon|Lorem ipsum|FIXME|XXX" . ; then
   echo "Placeholder text found above."
   ERRORS=$((ERRORS+1))
 else

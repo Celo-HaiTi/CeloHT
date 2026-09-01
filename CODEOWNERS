@@ -1,0 +1,38 @@
+# CeloHT CODEOWNERS
+#
+# This file follows GitHub's CODEOWNERS specification:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# STATUS: This repository is the documentation and governance hub for the CeloHT ecosystem.
+# It is intentionally governed by explicit repository ownership, not by individual usernames,
+# unless a responsible, verified maintainer is publicly recorded in MAINTAINERS.md.
+
+# Default owner for anything not matched below.
+# This repository is reviewed by the CeloHT governance and documentation maintainers.
+* @Celo-HaiTi/governance-maintainers
+
+# Governance and documentation core
+/GOVERNANCE.md @Celo-HaiTi/governance-maintainers
+/LEGAL_STATUS.md @Celo-HaiTi/governance-maintainers @Celo-HaiTi/legal-working-group
+/TEAM.md @Celo-HaiTi/governance-maintainers
+/AUTHORS.md @Celo-HaiTi/governance-maintainers
+/MAINTAINERS.md @Celo-HaiTi/governance-maintainers
+/CONTRIBUTORS.md @Celo-HaiTi/governance-maintainers
+/VERIFICATION_POLICY.md @Celo-HaiTi/governance-maintainers @Celo-HaiTi/legal-working-group
+/CODEOWNERS @Celo-HaiTi/governance-maintainers
+
+# Security and policy
+/SECURITY.md @Celo-HaiTi/security-maintainers
+/incident-response.md @Celo-HaiTi/security-maintainers
+/threat-model.md @Celo-HaiTi/security-maintainers
+
+# Product and ecosystem documentation
+/ARCHITECTURE.md @Celo-HaiTi/technology-maintainers
+/API.md @Celo-HaiTi/technology-maintainers
+/ROADMAP.md @Celo-HaiTi/governance-maintainers @Celo-HaiTi/technology-maintainers
+/WHITEPAPER.md @Celo-HaiTi/governance-maintainers
+
+# Brand and communications
+/brand-guidelines.md @Celo-HaiTi/communications-maintainers
+/MEDIA_KIT.md @Celo-HaiTi/communications-maintainers
+/PRESS_KIT.md @Celo-HaiTi/communications-maintainers

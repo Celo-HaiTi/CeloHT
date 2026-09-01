@@ -7,7 +7,7 @@ open a public issue for it. Instead, report it privately through one of
 these channels:
 
 - **Email**: security@celoht.com
-- **GitHub Security Advisories**: use the ["Report a vulnerability"](https://github.com/celo-ht/celoht/security/advisories/new) tool
+- **GitHub Security Advisories**: use the ["Report a vulnerability"](https://github.com/Celo-HaiTi/CeloHT/security/advisories/new) tool
 
 Please include:
 

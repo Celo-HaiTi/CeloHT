@@ -93,7 +93,7 @@ Media Contact
 | Blockchain | Celo |
 | Assets used | USDm, CELO |
 | Native token | None |
-| Supported wallet | Valora, Minipay WalletConnect|
+| Supported wallet | Valora, Minipay, WalletConnect|
 | License | Apache 2.0 |
 | Core pillars | Education, Agent Network, Reforestation |
 | Governance | Foundation Director → Maintainer Council → Community Contributors |

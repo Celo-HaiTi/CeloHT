@@ -93,13 +93,13 @@ Media Contact
 | Blockchain | Celo |
 | Assets used | USDm, CELO |
 | Native token | None |
-| Supported wallet | Valora only |
+| Supported wallet | Valora, Minipay WalletConnect|
 | License | Apache 2.0 |
 | Core pillars | Education, Agent Network, Reforestation |
 | Governance | Foundation Director → Maintainer Council → Community Contributors |
 | Current roadmap phase | Phase 1: Foundation (2026 Q2-Q3) - completed |
 | Website | celoht.com |
-| GitHub | github.com/Celo-HT/CeloHT |
+| GitHub | github.com/Celo-HaiTi/CeloHT |
 | Primary contact | contact@celoht.com |
 
 For the full statistics table and community impact figures, see MEDIA_KIT.md, Statistics and Community Impact sections.

@@ -13,9 +13,9 @@ This whitepaper is CeloHT's primary institutional reference document. It is writ
 
 This document distinguishes, throughout, between **verified current facts** (what CeloHT has actually built, published, or established as of this document's date) and **future goals** (what CeloHT plans to build, pending funding, community growth, and governance approval). Where a claim describes a plan rather than a completed fact, this document says so explicitly, using language such as "planned," "targeted," or "under development." This document contains no fabricated statistics: where a metric does not yet exist, it is marked **Not Yet Available** rather than estimated or invented.
 
-CeloHT is a non-incorporated, open-source, community-governed initiative as of this document's date (see `LEGAL_STATUS.md`). It does not issue a token, has never conducted a token sale, and is not an investment product (see `NO_TOKEN_POLICY.md`). Nothing in this whitepaper should be read as an offer of securities, an investment solicitation, or a promise of financial return.
+CeloHT is a non-incorporated, open-source, community-governed initiative as of this document's date (see `LEGAL_STATUS.md`). It does not issue a token, has never conducted a token sale, and is not an investment product (see `LEGAL_STATUS.md`). Nothing in this whitepaper should be read as an offer of securities, an investment solicitation, or a promise of financial return.
 
-This whitepaper is maintained alongside, and must remain consistent with, CeloHT's full documentation suite: `README.md`, `ROADMAP.md`, `ARCHITECTURE.md`, `API.md`, `DAO.md`, `GOVERNANCE.md`, `LEGAL_STATUS.md`, `NO_TOKEN_POLICY.md`, `FUNDING_POLICY.md`, `SECURITY.md`, `SMART_CONTRACTS.md`, `PROJECT_STRUCTURE.md`, `TEAM.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `RISK_MANAGEMENT.md`, `TRANSPARENCY.md`, and `TREASURY.md`. Where this whitepaper summarizes a topic covered in greater operational detail elsewhere, it references the authoritative document rather than duplicating and risking drift from it.
+This whitepaper is maintained alongside, and must remain consistent with, CeloHT's full documentation suite: `README.md`, `ROADMAP.md`, `ARCHITECTURE.md`, `API.md`, `GOVERNANCE.md`, `LEGAL_STATUS.md`, `FUND_ALLOCATION_FRAMEWORK.md`, `SECURITY.md`, `repository-guide.md`, `TEAM.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `threat-model.md`, `FINANCIAL_TRANSPARENCY.md`, and `TREASURY.md`. Where this whitepaper summarizes a topic covered in greater operational detail elsewhere, it references the authoritative document rather than duplicating and risking drift from it.
 
 ---
 
@@ -35,7 +35,7 @@ This whitepaper is maintained alongside, and must remain consistent with, CeloHT
 12. [Wallet Integration](#12-wallet-integration)
 13. [Developer Experience, API Strategy, and Future SDKs](#13-developer-experience-api-strategy-and-future-sdks)
 14. [Governance](#14-governance)
-15. [DAO Evolution](#15-dao-evolution)
+15. [governance model Evolution](#15-dao-evolution)
 16. [Treasury](#16-treasury)
 17. [Transparency](#17-transparency)
 18. [Risk Management](#18-risk-management)
@@ -67,7 +67,7 @@ CeloHT is an open-source, community-governed initiative built on the Celo blockc
 
 ### 1.2 What CeloHT Is, Precisely
 
-CeloHT is an open-source software and community-education project. It is not a bank, not a cryptocurrency exchange, not an investment company, not a security issuer, not a token issuer, not a DAO with legal personality, and not a for-profit company (`LEGAL_STATUS.md` Section 4). CeloHT has no native token, has never conducted a token sale, and does not plan to create one (`NO_TOKEN_POLICY.md`). Every use of blockchain technology within CeloHT is justified by a concrete transparency, cost, or accessibility benefit for the communities it serves - never as a speculative or financial-return mechanism.
+CeloHT is an open-source software and community-education project. It is not a bank, not a cryptocurrency exchange, not an investment company, not a security issuer, not a token issuer, not a governance model with legal personality, and not a for-profit company (`LEGAL_STATUS.md` Section 4). CeloHT has no native token, has never conducted a token sale, and does not plan to create one (`LEGAL_STATUS.md`). Every use of blockchain technology within CeloHT is justified by a concrete transparency, cost, or accessibility benefit for the communities it serves - never as a speculative or financial-return mechanism.
 
 ### 1.3 Objectives of This Whitepaper
 
@@ -141,11 +141,11 @@ CeloHT's earliest work centered on foundational research, a static website proto
 
 ### 3.3 Governance and Documentation Maturity
 
-CeloHT subsequently developed a complete governance and institutional-documentation suite: `GOVERNANCE.md` (community governance framework), `LEGAL_STATUS.md` (legally neutral organizational-status disclosure), `ARCHITECTURE.md` (technical architecture), `TEAM.md` and its companion documents (team transparency and verification policy), a full Financial Governance document suite (treasury, procurement, expense approval, financial reporting, reserves, conflict of interest, internal controls, audit policy, and fund allocation), `API.md` (API specification), and `DAO.md` (a phased plan for future community-governance evolution). This documentation-first maturity model - establishing accountability, transparency, and legal-clarity infrastructure before scaling technical deployment or fundraising - is itself a deliberate CeloHT design choice, informed by common due-diligence gaps identified in early-stage Web3 and open-source projects.
+CeloHT subsequently developed a complete governance and institutional-documentation suite: `GOVERNANCE.md` (community governance framework), `LEGAL_STATUS.md` (legally neutral organizational-status disclosure), `ARCHITECTURE.md` (technical architecture), `TEAM.md` and its companion documents (team transparency and verification policy), a full Financial Governance document suite (treasury, procurement, expense approval, financial reporting, reserves, conflict of interest, internal controls, audit policy, and fund allocation), `API.md` (API specification), and `GOVERNANCE.md` (a phased plan for future community-governance evolution). This documentation-first maturity model - establishing accountability, transparency, and legal-clarity infrastructure before scaling technical deployment or fundraising - is itself a deliberate CeloHT design choice, informed by common due-diligence gaps identified in early-stage Web3 and open-source projects.
 
 ### 3.4 Present Stage
 
-As of this document's date, CeloHT sits at the transition between its documentation-and-design-complete stage and its dApp-operational phase (see `DAO.md` Section 3 for the related governance-activation roadmap, and Section 29 of this whitepaper for the corresponding five-year roadmap). This whitepaper is published at this stage specifically to give institutional stakeholders an accurate, comprehensive picture of a project that is early in its operational life but has invested deliberately and unusually heavily in governance, legal clarity, and architectural planning before scaling.
+As of this document's date, CeloHT sits at the transition between its documentation-and-design-complete stage and its dApp-operational phase (see `GOVERNANCE.md` Section 3 for the related governance-activation roadmap, and Section 29 of this whitepaper for the corresponding five-year roadmap). This whitepaper is published at this stage specifically to give institutional stakeholders an accurate, comprehensive picture of a project that is early in its operational life but has invested deliberately and unusually heavily in governance, legal clarity, and architectural planning before scaling.
 
 ---
 
@@ -189,7 +189,7 @@ CeloHT publishes its software, governance documents, and educational materials u
 
 ### 5.5 Why No Token
 
-CeloHT's decision not to issue a token is foundational, not incidental. A token-based design would introduce speculative dynamics, regulatory complexity, and a governance-capture risk (wealth-weighted voting) directly at odds with CeloHT's community-governance and financial-inclusion mission. This decision is documented in full in `NO_TOKEN_POLICY.md` and reaffirmed throughout `LEGAL_STATUS.md`, `GOVERNANCE.md`, and `DAO.md`.
+CeloHT's decision not to issue a token is foundational, not incidental. A token-based design would introduce speculative dynamics, regulatory complexity, and a governance-capture risk (wealth-weighted voting) directly at odds with CeloHT's community-governance and financial-inclusion mission. This decision is documented in full in `LEGAL_STATUS.md` and reaffirmed throughout `LEGAL_STATUS.md`, `GOVERNANCE.md`, and `GOVERNANCE.md`.
 
 ---
 
@@ -672,47 +672,47 @@ CeloHT's governance model treats accountability as a structural property, not a 
 
 ### 14.8 Future Outlook
 
-See Section 15 for how this governance model is designed to evolve toward broader community participation through the CeloHT DAO.
+See Section 15 for how this governance model is designed to evolve toward broader community participation through the future community-governance model.
 
 ---
 
-## 15. DAO Evolution
+## 15. Future Governance Evolution
 
 ### 15.1 Executive Summary
 
-CeloHT has published a phased design (`DAO.md`) for evolving its governance model toward broader, structured community participation - a Community Governance DAO, explicitly not a token-governance DAO. As of this document's date, the CeloHT DAO is a design specification and is not operational; `GOVERNANCE.md` remains the sole active governance framework.
+CeloHT has published a phased design (`GOVERNANCE.md`) for evolving its governance model toward broader, structured community participation. This is explicitly not token governance. As of this document's date, the future community-governance model is a design specification and is not operational; `GOVERNANCE.md` remains the sole active governance framework.
 
 ### 15.2 Activation Roadmap
 
 ```mermaid
 flowchart LR
-    A[Phase 1: Pre-DAO<br/>Current Phase] --> B[Phase 2: dApp Operational]
+    A[Phase 1: Current documentation phase<br/>Current Phase] --> B[Phase 2: dApp Operational]
     B --> C[Phase 3: Community Governance]
-    C --> D[Phase 4: Mature DAO]
+    C --> D[Phase 4: Mature governance]
 ```
 
 | Phase | Defining Characteristic |
 |---|---|
-| Phase 1 - Pre-DAO (current) | `GOVERNANCE.md` fully governs; no DAO tooling in binding use |
+| Phase 1 - Current documentation phase (current) | `GOVERNANCE.md` fully governs; no future governance tooling in binding use |
 | Phase 2 - dApp Operational | Off-chain voting piloted for non-binding sentiment polls |
 | Phase 3 - Community Governance | Off-chain voting becomes binding for defined proposal categories; Technical and Transparency Committees formed |
-| Phase 4 - Mature DAO | Narrowly scoped on-chain governance components evaluated, subject to prior audit |
+| Phase 4 - Mature governance | Narrowly scoped on-chain governance components evaluated, subject to prior audit |
 
 ### 15.3 Governance Scope and Limits
 
-The CeloHT DAO is designed to hold community-voting authority over dApp improvements, education-program direction, Agent Network expansion, reforestation initiatives, non-financial-commitment partnerships, and community initiatives (`DAO.md` Section 9) - while treasury policy, legal-status decisions, governance-document amendments, and emergency actions remain reserved to the Governance Council (`DAO.md` Section 10).
+The future community-governance model is designed to hold community-voting authority over dApp improvements, education-program direction, Agent Network expansion, reforestation initiatives, non-financial-commitment partnerships, and community initiatives (`GOVERNANCE.md` Section 9) - while treasury policy, legal-status decisions, governance-document amendments, and emergency actions remain reserved to the Governance Council (`GOVERNANCE.md` Section 10).
 
 ### 15.4 Risks and Mitigations
 
 | Risk | Mitigation |
 |---|---|
-| Premature decentralization outpacing operational maturity | Phased activation with explicit, non-calendar-based exit criteria (`DAO.md` Section 3) |
-| Governance-vote manipulation | Sybil-resistant, contribution-based voting eligibility, not token-weighted (`DAO.md` Section 6) |
-| DAO tooling used to bypass treasury controls | Dual-layer design: DAO approves direction, existing treasury controls govern execution (`DAO.md` Section 7.3) |
+| Premature decentralization outpacing operational maturity | Phased activation with explicit, non-calendar-based exit criteria (`GOVERNANCE.md` Section 3) |
+| Governance-vote manipulation | Sybil-resistant, contribution-based voting eligibility, not token-weighted (`GOVERNANCE.md` Section 6) |
+| future governance tooling used to bypass treasury controls | Dual-layer design: governance model approves direction, existing treasury controls govern execution (`GOVERNANCE.md` Section 7.3) |
 
 ### 15.5 Key Takeaways
 
-The CeloHT DAO is a roadmap for deepening community ownership of decision-making - not a rebranding of CeloHT as a token-governed entity.
+The future community-governance model is a roadmap for deepening community ownership of decision-making - not a rebranding of CeloHT as a token-governed entity.
 
 ---
 
@@ -860,7 +860,7 @@ As of this document's date:
 - CeloHT is **not incorporated** as a company, foundation, association, or any other legal entity in any jurisdiction.
 - CeloHT does **not hold** nonprofit, charitable, or tax-exempt status anywhere.
 - CeloHT has **not received** government or regulatory approval, license, or endorsement of any kind.
-- CeloHT is explicitly not a bank, cryptocurrency exchange, investment company, security issuer, token issuer, DAO with legal personality, or for-profit company (`LEGAL_STATUS.md` Section 4).
+- CeloHT is explicitly not a bank, cryptocurrency exchange, investment company, security issuer, token issuer, governance model with legal personality, or for-profit company (`LEGAL_STATUS.md` Section 4).
 
 ### 19.3 Compliance Principles
 
@@ -1186,7 +1186,7 @@ CeloHT's scaling strategy expands along five dimensions - more communities, more
 
 - Expansion into a new jurisdiction requires prior Legal Working Group review of local regulatory requirements (`LEGAL_STATUS.md` Section 21).
 - Localization is treated as a first-class design requirement, not a translation afterthought, extending the Haitian Creole-first principle (Section 2.3) to new-market languages as expansion occurs.
-- Expansion pace is governed by the same "readiness over speed" principle applied to DAO activation (Section 15.2) and technical scaling (Section 10.4).
+- Expansion pace is governed by the same "readiness over speed" principle applied to governance activation (Section 15.2) and technical scaling (Section 10.4).
 
 ### 28.4 Risks and Mitigations
 
@@ -1213,11 +1213,11 @@ This section presents CeloHT's five-year roadmap as a sequence of milestones tie
 |---|---|---|
 | Complete governance, legal, and financial-governance documentation suite | Achieved | - |
 | Publish technical architecture and API specification | Achieved | - |
-| Launch production dApp (Phase 2 of `DAO.md` Section 3) | Year 1-2 | Development capacity, funding |
+| Launch production dApp (Phase 2 of `GOVERNANCE.md` Section 3) | Year 1-2 | Development capacity, funding |
 | Activate first Agent Network cohort with on-chain verification registry | Year 1-2 | dApp production readiness |
 | Publish first closed-period financial and impact reports | Year 1-2 | Operational activity generating reportable data |
 | Pilot non-binding off-chain community voting | Year 2-3 | dApp operational phase completion |
-| Transition to binding community governance for defined proposal categories | Year 2-4 | Phase 2 exit criteria met (`DAO.md` Section 3.2) |
+| Transition to binding community governance for defined proposal categories | Year 2-4 | Phase 2 exit criteria met (`GOVERNANCE.md` Section 3.2) |
 | First independent financial review | Upon reaching the $50,000 USD-equivalent annual treasury-flow threshold | Treasury growth |
 | Expand Agent Network to additional Haitian regions | Year 2-4 | Demonstrated pilot-region success |
 | Evaluate expansion to additional Caribbean markets | Year 3-5 | Legal Working Group jurisdiction review |
@@ -1261,7 +1261,7 @@ Over a ten-year horizon, CeloHT's aspiration is to become a mature, community-go
 | Theme | Description |
 |---|---|
 | Institutional maturity | Formal incorporation and, where appropriate, nonprofit/charitable registration, per the process in `LEGAL_STATUS.md` Section 20 |
-| Governance maturity | A fully activated Community Governance DAO (`DAO.md` Phase 3-4) with a sustained track record |
+| Governance maturity | A fully activated Community Governance model (`GOVERNANCE.md` Phase 3-4) with a sustained track record |
 | Financial sustainability | Diversified, multi-year funding with a fully funded Sustainability Reserve |
 | Proven, replicable model | A documented, evidence-based case for the three-pillar integrated model (Section 9), open for adaptation by other communities and organizations |
 | Regional reach | Presence in multiple Caribbean markets, each gated by the same legal and operational readiness discipline applied to CeloHT's first market |
@@ -1302,7 +1302,7 @@ CeloHT's commitment to case studies grounded in verified, traceable outcomes - r
 ## 32. Frequently Asked Questions
 
 **Is CeloHT a cryptocurrency or an investment?**
-No. CeloHT has no token, has never conducted a token sale, and is not an investment product. See `NO_TOKEN_POLICY.md` and `LEGAL_STATUS.md` Section 4.
+No. CeloHT has no token, has never conducted a token sale, and is not an investment product. See `LEGAL_STATUS.md` and `LEGAL_STATUS.md` Section 4.
 
 **Is CeloHT a registered nonprofit?**
 Not as of this document's date. CeloHT does not hold nonprofit, charitable, or tax-exempt status in any jurisdiction. See `LEGAL_STATUS.md` Section 3.
@@ -1311,7 +1311,7 @@ Not as of this document's date. CeloHT does not hold nonprofit, charitable, or t
 No individual. CeloHT is governed by a Governance Council, Working Groups, and a public proposal process. The Founder holds one vote among several and no unilateral treasury or governance authority. See `GOVERNANCE.md` Section 3 and Section 14 of this whitepaper.
 
 **Does CeloHT plan to launch a token in the future?**
-No. The non-token design is foundational to CeloHT's mission and legal posture, not a temporary phase. See Section 5.5 and `NO_TOKEN_POLICY.md`.
+No. The non-token design is foundational to CeloHT's mission and legal posture, not a temporary phase. See Section 5.5 and `LEGAL_STATUS.md`.
 
 **How is CeloHT funded?**
 Through grants, donations, and ecosystem partnerships, evaluated and accepted under the criteria in Section 23 and `DONATION_POLICY.md`. CeloHT does not currently have material programmatic revenue.
@@ -1338,7 +1338,7 @@ Through a combination of on-chain attestation (for reforestation and agent verif
 | Term | Definition |
 |---|---|
 | **Agent** | A verified community member facilitating USDm cash-in/cash-out and digital-payment onboarding |
-| **CHIP** | CeloHT Improvement Proposal, the DAO-era proposal format described in `DAO.md` Section 5 |
+| **CHIP** | CeloHT Improvement Proposal, the future-governance proposal format described in `GOVERNANCE.md` Section 5 |
 | **USDm** | A Celo-network stablecoin used by CeloHT strictly as an operational payment rail |
 | **Emergency Decision** | A narrowly scoped decision made to contain immediate risk, subject to mandatory ratification (`GOVERNANCE.md` Section 4.5) |
 | **Governance Council** | CeloHT's primary strategic and treasury decision-making body |
@@ -1350,7 +1350,7 @@ Through a combination of on-chain attestation (for reforestation and agent verif
 | **Quorum** | The minimum participation required for a vote to be valid |
 | **Reserve** | A treasury allocation set aside for a specific continuity purpose (Operating, Emergency, or Sustainability); see `RESERVE_POLICY.md` |
 | **Sustainability Reserve** | A treasury reserve supporting CeloHT's long-term institutional development goals |
-| **Transparency Committee** | A DAO-era body responsible for auditing published governance and treasury records against source data (`DAO.md` Section 4.5) |
+| **Transparency Committee** | A future-governance body responsible for auditing published governance and treasury records against source data (`GOVERNANCE.md` Section 4.5) |
 | **Valora / MiniPay** | Mobile wallet applications supported for CeloHT's Celo-network interactions |
 | **Working Group** | A standing operational team with a public charter and defined scope within CeloHT's governance structure |
 
@@ -1364,19 +1364,19 @@ This whitepaper synthesizes and summarizes CeloHT's own primary governance, tech
 2. `ROADMAP.md` - Detailed development roadmap
 3. `ARCHITECTURE.md` - Technical architecture specification
 4. `API.md` - API specification
-5. `DAO.md` - DAO design and activation roadmap
+5. `GOVERNANCE.md` - governance evolution roadmap
 6. `GOVERNANCE.md` - Community governance framework
 7. `LEGAL_STATUS.md` - Legal status and organizational disclosure
-8. `NO_TOKEN_POLICY.md` - Non-token policy statement
-9. `FUNDING_POLICY.md` - Funding acceptance and management policy
+8. `LEGAL_STATUS.md` - Non-token policy statement
+9. `FUND_ALLOCATION_FRAMEWORK.md` - Funding acceptance and management policy
 10. `SECURITY.md` - Security policy and vulnerability-disclosure process
-11. `SMART_CONTRACTS.md` - Smart contract design and audit policy
-12. `PROJECT_STRUCTURE.md` - Repository and project organization
+11. `ARCHITECTURE.md` - Smart contract design and audit policy
+12. `repository-guide.md` - Repository and project organization
 13. `TEAM.md`, `AUTHORS.md`, `MAINTAINERS.md`, `CONTRIBUTORS.md`, `VERIFICATION_POLICY.md` - Team transparency and verification
 14. `CONTRIBUTING.md` - Contribution guidelines
 15. `CODE_OF_CONDUCT.md` - Community conduct standards
-16. `RISK_MANAGEMENT.md` - Risk management framework
-17. `TRANSPARENCY.md` - Transparency policy
+16. `threat-model.md` - Risk management framework
+17. `FINANCIAL_TRANSPARENCY.md` - Transparency policy
 18. `TREASURY.md`, `DONATION_POLICY.md`, `PROCUREMENT_POLICY.md`, `EXPENSE_APPROVAL_POLICY.md`, `FINANCIAL_REPORTS.md`, `RESERVE_POLICY.md`, `CONFLICT_OF_INTEREST_FINANCE.md`, `INTERNAL_CONTROLS.md`, `AUDIT_POLICY.md`, `FUND_ALLOCATION_FRAMEWORK.md`, `FINANCIAL_FAQ.md` - Financial governance suite
 
 In the event of any inconsistency between this whitepaper and one of the documents above, the specific, more detailed document governs, and this whitepaper will be corrected accordingly at its next revision.
@@ -1393,10 +1393,10 @@ graph TD
     WP --> LEGAL[LEGAL_STATUS.md]
     WP --> ARCH[ARCHITECTURE.md]
     WP --> API[API.md]
-    WP --> DAO[DAO.md]
+    WP --> governance model[GOVERNANCE.md]
     GOV --> FIN[Financial Governance Suite]
     LEGAL --> TEAM[Team Transparency Suite]
-    ARCH --> SEC[SECURITY.md / SMART_CONTRACTS.md]
+    ARCH --> SEC[SECURITY.md / ARCHITECTURE.md]
 ```
 
 This whitepaper sits above CeloHT's detailed operational documents as a synthesized institutional summary; it does not override or duplicate their authority (Section 34).

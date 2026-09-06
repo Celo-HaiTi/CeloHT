@@ -1,12 +1,12 @@
 # CeloHT Partnerships Policy
 
 **Document Type:** Governance Policy
-**Applies To:** CeloHT (Celo-HT) and all affiliated repositories under github.com/Celo-HT
+**Applies To:** CeloHT and its affiliated repositories under the current Celo-HaiTi organization
 **License:** Apache 2.0 (this document, unless otherwise noted)
 **Status:** Active
 **Version:** 1.0.0
 **Effective Date:** 2026
-**Maintained By:** CeloHT Maintainer Council, under the authority of the Foundation Director
+**Maintained By:** CeloHT Governance Council, under the authority of the Founder
 **Contact:** partnerships@celoht.com | contact@celoht.com
 
 > **Compliance Note:** Throughout this document, the key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **MAY**, and **OPTIONAL** are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
@@ -79,9 +79,9 @@ This policy exists to:
 - Protect CeloHT's **No Token Policy** and non-investment identity from being misrepresented through partnership activity.
 - Give prospective partners, donors, and auditors a clear, predictable process to evaluate before engaging.
 - Prevent reputational, legal, financial, and operational risk arising from undisclosed conflicts of interest, unvetted counterparties, or premature public claims of partnership.
-- Establish RFC 2119-grade obligations so that Maintainer Council decisions are consistent and reviewable over time, independent of who currently holds a given role.
+- Establish RFC 2119-grade obligations so that Governance Council decisions are consistent and reviewable over time, independent of who currently holds a given role.
 
-This policy applies to all CeloHT repositories, all official CeloHT communication channels (celoht.com, @CeloHT / celohtofficial on Facebook and Instagram, contact@celoht.com), and all individuals acting in an official capacity on behalf of CeloHT, including the Foundation Director, Maintainer Council members, and designated Community Contributors.
+This policy applies to all CeloHT repositories, all official CeloHT communication channels (celoht.com, @CeloHT / celohtofficial on Facebook and Instagram, contact@celoht.com), and all individuals acting in an official capacity on behalf of CeloHT, including the Founder, Governance Council members, and designated Contributors.
 
 ---
 
@@ -103,7 +103,7 @@ All CeloHT partnership activity MUST be consistent with the following principles
 
 1. **Truthfulness over promotion.** CeloHT MUST NOT describe a relationship as more advanced, formal, or exclusive than the underlying agreement supports.
 2. **No token, no investment framing.** No partnership MAY be used to imply that CeloHT, USDm, CELO, or any CeloHT activity constitutes an investment product, security, or guaranteed-return opportunity.
-3. **Community governance first.** No single individual, including the Foundation Director, MAY unilaterally bind CeloHT to a partnership. All partnerships flow through the [Approval Process](#22-approval-process).
+3. **Community governance first.** No single individual, including the Founder, MAY unilaterally bind CeloHT to a partnership. All partnerships flow through the [Approval Process](#22-approval-process).
 4. **Proportionate diligence.** The depth of due diligence SHOULD scale with the size, visibility, and risk of the proposed relationship, per the [Due Diligence Framework](#8-due-diligence-framework).
 5. **Radical transparency.** Every executed partnership SHOULD appear in the [Public Partnership Registry](#34-public-partnership-registry) unless confidentiality is required and documented under [Section 30](#30-confidentiality).
 6. **Reversibility.** Every partnership MUST include a documented path to suspension and termination before it is finalized.
@@ -146,7 +146,7 @@ CeloHT uses five mutually exclusive categories. Every external relationship refe
 
 ## 7. Eligibility Requirements
 
-An organization is eligible for consideration under any category above the level of "Supporter" only if it satisfies **all** of the following minimum criteria. The Maintainer Council MAY apply additional criteria proportionate to risk.
+An organization is eligible for consideration under any category above the level of "Supporter" only if it satisfies **all** of the following minimum criteria. The Governance Council MAY apply additional criteria proportionate to risk.
 
 1. **Legal existence.** The organization MUST be a legally recognized entity (nonprofit, cooperative, company, government body, or accredited educational institution) in at least one jurisdiction, OR be a natural person operating in a documented professional capacity (e.g., an independent educator or developer).
 2. **Mission alignment.** The organization's activities MUST NOT conflict with CeloHT's No Token Policy, non-investment identity, or community-governance model.
@@ -167,7 +167,7 @@ Organizations that do not meet these criteria MAY still be engaged informally at
 |---|---|---|
 | **Tier 1 - Light** | Supporters, Ecosystem Participants | Public reputation check, mission-alignment review |
 | **Tier 2 - Standard** | Strategic Collaborators | Tier 1 + legal-existence verification, sanctions screening, point-of-contact verification |
-| **Tier 3 - Enhanced** | Confirmed Partners, any relationship involving funds transfer, data sharing, or co-branding | Tier 2 + financial review, reference checks, written risk assessment, Maintainer Council vote |
+| **Tier 3 - Enhanced** | Confirmed Partners, any relationship involving funds transfer, data sharing, or co-branding | Tier 2 + financial review, reference checks, written risk assessment, Governance Council vote |
 
 ### 8.2 Due Diligence Checklist (Tier 2 and Tier 3)
 
@@ -175,12 +175,12 @@ Organizations that do not meet these criteria MAY still be engaged informally at
 |---|---|---|
 | Legal registration | Certificate of incorporation / registration number, or equivalent | Partnerships Lead |
 | Sanctions screening | Screening result against applicable lists | Partnerships Lead |
-| Mission-alignment review | Written summary against Guiding Principles | Maintainer Council reviewer |
+| Mission-alignment review | Written summary against Guiding Principles | Governance Council reviewer |
 | Financial capacity (if funds involved) | Bank reference or audited financials, where proportionate | Treasury role holder |
 | Reference check | At least one independent reference for Tier 3 | Partnerships Lead |
 | Point-of-contact verification | Confirmed named contact with title and organizational email | Partnerships Lead |
-| Conflict-of-interest screen | Cross-check against CeloHT COI disclosures | Maintainer Council |
-| Risk assessment | Completed Risk Assessment (Section 9 / Appendix A template) | Maintainer Council reviewer |
+| Conflict-of-interest screen | Cross-check against CeloHT COI disclosures | Governance Council |
+| Risk assessment | Completed Risk Assessment (Section 9 / Appendix A template) | Governance Council reviewer |
 
 ### 8.3 Due Diligence Workflow
 
@@ -196,7 +196,7 @@ flowchart TD
     G -- Yes --> H[Escalate to Risk Assessment]
     G -- No --> I[Draft Due Diligence Report]
     H --> I
-    I --> J[Submit to Maintainer Council]
+    I --> J[Submit to Governance Council]
     J --> K[Approval Process - Section 22]
 ```
 
@@ -249,7 +249,7 @@ CeloHT partners and prospective partners MUST:
 - Refrain from using CeloHT's name, mission, or community relationships to promote unrelated financial products, token sales, or speculative schemes.
 - Disclose, promptly and in writing, any material change in ownership, leadership, legal status, or mission that could affect the basis of the partnership.
 
-CeloHT reserves the right to decline or exit any relationship that, in the Maintainer Council's reasonable judgment, is inconsistent with these ethical commitments, even where no law has been broken.
+CeloHT reserves the right to decline or exit any relationship that, in the Governance Council's reasonable judgment, is inconsistent with these ethical commitments, even where no law has been broken.
 
 ---
 
@@ -258,7 +258,7 @@ CeloHT reserves the right to decline or exit any relationship that, in the Maint
 1. Partners MUST NOT offer, give, solicit, or accept any improper advantage in connection with a CeloHT partnership.
 2. CeloHT representatives MUST NOT use their position to obtain personal benefit from a partner in exchange for favorable treatment in the approval, monitoring, or renewal process.
 3. All payments, grants, and in-kind contributions between CeloHT and a partner MUST be documented, traceable, and consistent with the purpose stated in the governing agreement.
-4. Any Maintainer Council member who becomes aware of suspected corruption involving a CeloHT partnership MUST report it under the process described in [Section 14](#14-conflict-of-interest-policy) and, where applicable, to the Foundation Director.
+4. Any Governance Council member who becomes aware of suspected corruption involving a CeloHT partnership MUST report it under the process described in [Section 14](#14-conflict-of-interest-policy) and, where applicable, to the Founder.
 5. Facilitation payments of any kind are prohibited, regardless of local custom or perceived necessity.
 
 ---
@@ -266,7 +266,7 @@ CeloHT reserves the right to decline or exit any relationship that, in the Maint
 ## 12. Anti-Bribery Policy
 
 1. No CeloHT representative or partner representative MAY offer or accept cash, cryptocurrency, gifts, hospitality, or other benefits intended to improperly influence a partnership decision.
-2. Reasonable, proportionate, and transparently disclosed hospitality (e.g., a modest working meal during an in-person meeting) is permitted and SHOULD be logged if it exceeds a nominal value threshold to be set by the Maintainer Council.
+2. Reasonable, proportionate, and transparently disclosed hospitality (e.g., a modest working meal during an in-person meeting) is permitted and SHOULD be logged if it exceeds a nominal value threshold to be set by the Governance Council.
 3. Partners engaged through third-party intermediaries (agents, consultants, brokers) remain subject to this policy, and CeloHT MUST perform reasonable diligence on such intermediaries.
 4. Violations MUST be treated as grounds for immediate suspension pending investigation, per [Section 35](#35-suspension-procedure).
 
@@ -276,18 +276,18 @@ CeloHT reserves the right to decline or exit any relationship that, in the Maint
 
 1. Partners MUST NOT misrepresent their identity, credentials, financial position, or intended use of funds or resources provided by or through CeloHT.
 2. CeloHT MUST NOT misrepresent the status, scale, or maturity of any partnership in fundraising, marketing, or public communications.
-3. Any suspected fraudulent activity connected to a partnership MUST be documented and escalated to the Maintainer Council within 48 hours of discovery.
+3. Any suspected fraudulent activity connected to a partnership MUST be documented and escalated to the Governance Council within 48 hours of discovery.
 4. Confirmed fraud is grounds for immediate termination under [Section 36](#36-termination-procedure) and, where appropriate, referral to relevant authorities.
 
 ---
 
 ## 14. Conflict of Interest Policy
 
-1. A conflict of interest exists whenever a Foundation Director, Maintainer Council member, or Community Contributor involved in a partnership decision has a financial, familial, or other personal interest in the outcome.
+1. A conflict of interest exists whenever a Founder, Governance Council member, or Community Contributor involved in a partnership decision has a financial, familial, or other personal interest in the outcome.
 2. Any individual with a potential conflict of interest MUST disclose it in writing before participating in discussion or voting on the relevant partnership, using the template in [Appendix A](#40-appendix-a-templates).
-3. An individual with a disclosed conflict MUST recuse themselves from the vote and SHOULD recuse themselves from substantive deliberation, unless the Maintainer Council determines their input is necessary and documents that decision.
+3. An individual with a disclosed conflict MUST recuse themselves from the vote and SHOULD recuse themselves from substantive deliberation, unless the Governance Council determines their input is necessary and documents that decision.
 4. All conflict-of-interest disclosures MUST be retained in the governance record for a minimum of five (5) years.
-5. Failure to disclose a known conflict of interest is a governance violation and MAY result in removal from the Maintainer Council, per [GOVERNANCE.md](./GOVERNANCE.md).
+5. Failure to disclose a known conflict of interest is a governance violation and MAY result in removal from the Governance Council, per [GOVERNANCE.md](./GOVERNANCE.md).
 
 ---
 
@@ -308,7 +308,7 @@ Given CeloHT's Reforestation pillar, environmental integrity is a first-order pa
 
 1. Partners engaged in environmental or land-use activity MUST provide a good-faith description of their environmental practices and any relevant permits or community agreements.
 2. CeloHT MUST NOT enter a partnership that would result in deforestation, land degradation, or harm to the ecosystems its Reforestation pillar seeks to protect.
-3. Reforestation-related partnerships MUST respect the current **pilot-phase** status of this pillar; no partner communication MAY describe reforestation operations as fully scaled or operational until the Maintainer Council formally updates this status.
+3. Reforestation-related partnerships MUST respect the current **pilot-phase** status of this pillar; no partner communication MAY describe reforestation operations as fully scaled or operational until the Governance Council formally updates this status.
 4. Where feasible, CeloHT SHOULD favor partners who can demonstrate measurable environmental outcomes (e.g., trees planted and verified, survival rate tracking) over unverifiable claims.
 
 ---
@@ -344,7 +344,7 @@ flowchart TD
     A[1. Inquiry / Identification] --> B[2. Eligibility Screening]
     B --> C[3. Due Diligence]
     C --> D[4. Risk Assessment]
-    D --> E[5. Approval - Maintainer Council]
+    D --> E[5. Approval - Governance Council]
     E --> F[6. Agreement Execution - MoU or equivalent]
     F --> G[7. Onboarding]
     G --> H[8. Active Collaboration + Monitoring]
@@ -369,16 +369,16 @@ CeloHT partnerships are governed within the organization's existing three-tier s
 
 ```mermaid
 flowchart TD
-    FD[Foundation Director] --> MC[Maintainer Council]
-    MC --> CC[Community Contributors]
-    MC --> PL[Partnerships Lead - Maintainer Council role]
+    FD[Founder] --> MC[Governance Council]
+    MC --> CC[Contributors]
+    MC --> PL[Partnerships Lead - Governance Council role]
     PL --> DD[Due Diligence Reviewers]
     PL --> REG[Public Partnership Registry Maintainer]
 ```
 
-- The **Foundation Director** holds ultimate accountability for CeloHT's mission integrity but does not have unilateral authority to approve partnerships; see [Section 22](#22-approval-process).
-- The **Maintainer Council** is the primary decision-making body for partnership approval, suspension, and termination.
-- **Community Contributors** MAY originate partnership proposals and participate in due diligence but MUST NOT approve partnerships independently.
+- The **Founder** holds ultimate accountability for CeloHT's mission integrity but does not have unilateral authority to approve partnerships; see [Section 22](#22-approval-process).
+- The **Governance Council** is the primary decision-making body for partnership approval, suspension, and termination.
+- **Contributors** MAY originate partnership proposals and participate in due diligence but MUST NOT approve partnerships independently.
 - This structure mirrors and is subordinate to [GOVERNANCE.md](./GOVERNANCE.md); in the event of any conflict, GOVERNANCE.md controls.
 
 ---
@@ -387,11 +387,11 @@ flowchart TD
 
 | Role | Key Responsibilities | Approval Authority |
 |---|---|---|
-| **Foundation Director** | Mission-integrity oversight; tie-breaking vote where Council rules require; final signatory on Confirmed Partner agreements | Signatory, not sole approver |
-| **Maintainer Council** | Reviews due diligence and risk assessments; votes to approve, suspend, or terminate partnerships; maintains this policy | Primary approval body |
+| **Founder** | Mission-integrity oversight; tie-breaking vote where Council rules require; final signatory on Confirmed Partner agreements | Signatory, not sole approver |
+| **Governance Council** | Reviews due diligence and risk assessments; votes to approve, suspend, or terminate partnerships; maintains this policy | Primary approval body |
 | **Partnerships Lead** (Council role) | Coordinates inquiries, due diligence, and drafting of agreements; maintains the Public Partnership Registry | Recommends, does not unilaterally approve |
 | **Due Diligence Reviewers** | Conduct Tier 1-3 diligence; document findings | Non-voting |
-| **Community Contributors** | May refer prospective partners; may assist with monitoring and KPI tracking | None |
+| **Contributors** | May refer prospective partners; may assist with monitoring and KPI tracking | None |
 | **Treasury Role Holder** | Verifies financial capacity; oversees financial-transparency obligations for funded partnerships | Non-voting, advisory |
 
 ---
@@ -403,22 +403,22 @@ flowchart TD
 | Category | Minimum Approval |
 |---|---|
 | Supporter | Partnerships Lead sign-off (logged) |
-| Ecosystem Participant | Partnerships Lead + one Maintainer Council member |
-| Strategic Collaborator | Majority vote of the Maintainer Council |
-| Confirmed Partner | Two-thirds (2/3) vote of the Maintainer Council + Foundation Director signature |
+| Ecosystem Participant | Partnerships Lead + one Governance Council member |
+| Strategic Collaborator | Majority vote of the Governance Council |
+| Confirmed Partner | Two-thirds (2/3) vote of the Governance Council + Founder signature |
 
 ### 22.2 Approval Workflow
 
 ```mermaid
 flowchart TD
     A[Due Diligence + Risk Assessment Complete] --> B[Partnerships Lead Prepares Recommendation]
-    B --> C[Circulate to Maintainer Council - minimum 5 business days]
+    B --> C[Circulate to Governance Council - minimum 5 business days]
     C --> D[Conflict of Interest Disclosures Collected]
     D --> E[Council Vote per Threshold Table]
     E --> F{Approved?}
     F -- No --> G[Declined - Reasons Logged]
     F -- Yes --> H{Category = Confirmed Partner?}
-    H -- Yes --> I[Foundation Director Co-Signs Agreement]
+    H -- Yes --> I[Founder Co-Signs Agreement]
     H -- No --> J[Partnerships Lead Finalizes Written Understanding]
     I --> K[Registry Updated]
     J --> K
@@ -430,7 +430,7 @@ flowchart TD
 - Tier 2 diligence and approval SHOULD complete within 20 business days.
 - Tier 3 diligence and approval SHOULD complete within 45 business days, given the enhanced review required.
 
-These are target service levels, not binding deadlines; the Maintainer Council MAY extend timelines where diligence is incomplete.
+These are target service levels, not binding deadlines; the Governance Council MAY extend timelines where diligence is incomplete.
 
 ---
 
@@ -438,7 +438,7 @@ These are target service levels, not binding deadlines; the Maintainer Council M
 
 1. Any partnership involving a transfer of funds to or from CeloHT MUST be recorded in CeloHT's financial records consistent with [TREASURY.md](./TREASURY.md).
 2. CeloHT MUST publish, at minimum annually, an aggregate summary of partnership-related funding received and disbursed.
-3. No partnership funds MAY be commingled with undisclosed personal accounts of any Foundation Director, Maintainer Council member, or Community Contributor.
+3. No partnership funds MAY be commingled with undisclosed personal accounts of any Founder, Governance Council member, or Community Contributor.
 4. Where legally and practically feasible, CeloHT SHOULD use transparent, traceable payment rails (including on-chain USDm transactions where appropriate) for partnership-related transfers.
 
 ---
@@ -447,7 +447,7 @@ These are target service levels, not binding deadlines; the Maintainer Council M
 
 1. Donations received in connection with a partnership MUST be logged with donor name (or documented anonymity request), amount, date, and designated purpose.
 2. CeloHT MUST NOT accept donations that carry conditions inconsistent with the No Token Policy or CeloHT's mission.
-3. Anonymous donations above a threshold set by the Maintainer Council MUST undergo enhanced source-of-funds review before acceptance.
+3. Anonymous donations above a threshold set by the Governance Council MUST undergo enhanced source-of-funds review before acceptance.
 4. Donors MAY request a written acknowledgment; CeloHT SHOULD provide one within 10 business days.
 
 ---
@@ -464,7 +464,7 @@ These are target service levels, not binding deadlines; the Maintainer Council M
 ## 26. In-Kind Contributions
 
 1. In-kind contributions (equipment, venue space, volunteer time, professional services) MUST be logged with an estimated fair value and contributor name.
-2. In-kind contributions above a materiality threshold set by the Maintainer Council SHOULD undergo the same due-diligence tier as an equivalent cash contribution.
+2. In-kind contributions above a materiality threshold set by the Governance Council SHOULD undergo the same due-diligence tier as an equivalent cash contribution.
 3. CeloHT MUST retain the right to decline in-kind contributions that create dependency risk, reputational risk, or conflict with the No Token Policy.
 
 ---
@@ -502,15 +502,15 @@ These are target service levels, not binding deadlines; the Maintainer Council M
 1. Parties MAY agree to keep specific commercial, technical, or personal details confidential, even where the existence of a relationship is disclosed in the [Public Partnership Registry](#34-public-partnership-registry) at a general level.
 2. Confidentiality provisions MUST NOT be used to conceal information that would otherwise be required for financial transparency, donation transparency, or compliance reporting under this policy.
 3. Confidentiality obligations SHOULD survive termination of the partnership for a period specified in the governing agreement (recommended: 2-5 years, proportionate to sensitivity).
-4. Maintainer Council members reviewing confidential information remain bound by the [Conflict of Interest Policy](#14-conflict-of-interest-policy) and MUST NOT use confidential partner information for personal benefit.
+4. Governance Council members reviewing confidential information remain bound by the [Conflict of Interest Policy](#14-conflict-of-interest-policy) and MUST NOT use confidential partner information for personal benefit.
 
 ---
 
 ## 31. Monitoring and Evaluation
 
-1. Every Strategic Collaborator and Confirmed Partner relationship MUST have a designated Maintainer Council monitor responsible for tracking progress against agreed objectives.
+1. Every Strategic Collaborator and Confirmed Partner relationship MUST have a designated Governance Council monitor responsible for tracking progress against agreed objectives.
 2. Monitoring SHOULD occur at least quarterly for Confirmed Partners and semi-annually for Strategic Collaborators, at minimum through a short written check-in.
-3. Material deviations from agreed scope, budget, or timeline MUST be logged and, where significant, escalated to the full Maintainer Council.
+3. Material deviations from agreed scope, budget, or timeline MUST be logged and, where significant, escalated to the full Governance Council.
 4. Monitoring records feed directly into the [Annual Partnership Review](#33-annual-partnership-review).
 
 ---
@@ -541,7 +541,7 @@ These are target service levels, not binding deadlines; the Maintainer Council M
 ```mermaid
 flowchart TD
     A[Collect Monitoring Records for the Year] --> B[Partner Self-Report - Template in Appendix A]
-    B --> C[Maintainer Council Review Session]
+    B --> C[Governance Council Review Session]
     C --> D[Score Against KPIs]
     D --> E{Meets Expectations?}
     E -- Yes --> F[Renew or Continue]
@@ -562,7 +562,7 @@ flowchart TD
 | Compliance and ethics record | 20% | | |
 | Community feedback | 10% | | |
 
-A composite score below a threshold set by the Maintainer Council (recommended: 2.5/5) MUST trigger a formal discussion of suspension or termination.
+A composite score below a threshold set by the Governance Council (recommended: 2.5/5) MUST trigger a formal discussion of suspension or termination.
 
 ---
 
@@ -584,8 +584,8 @@ A composite score below a threshold set by the Maintainer Council (recommended: 
 
 ## 35. Suspension Procedure
 
-1. Any Maintainer Council member MAY propose suspension of a partnership where there is credible concern of a compliance, ethics, financial, or reputational issue.
-2. Suspension requires a simple majority vote of the Maintainer Council and takes effect immediately upon vote, pending investigation.
+1. Any Governance Council member MAY propose suspension of a partnership where there is credible concern of a compliance, ethics, financial, or reputational issue.
+2. Suspension requires a simple majority vote of the Governance Council and takes effect immediately upon vote, pending investigation.
 3. During suspension: (a) no new funds, data, or logo usage rights MAY be exchanged; (b) existing public materials referencing the partnership MUST be flagged as "Under Review"; (c) the partner MUST be notified in writing within 3 business days, except where notification itself would compromise an investigation.
 4. Suspension MUST be resolved within 60 days through either reinstatement (full Council vote) or escalation to termination.
 
@@ -594,7 +594,7 @@ A composite score below a threshold set by the Maintainer Council (recommended: 
 ## 36. Termination Procedure
 
 1. A partnership MAY be terminated by mutual agreement, expiration of its agreed term, or unilateral action following a suspension, ethics violation, or sustained failure to meet KPIs.
-2. Unilateral termination by CeloHT requires a two-thirds (2/3) Maintainer Council vote, except in cases of confirmed fraud, corruption, or legal violation, where the Foundation Director MAY act immediately, subject to Council ratification within 10 business days.
+2. Unilateral termination by CeloHT requires a two-thirds (2/3) Governance Council vote, except in cases of confirmed fraud, corruption, or legal violation, where the Founder MAY act immediately, subject to Council ratification within 10 business days.
 3. Upon termination: (a) all logo and trademark usage rights terminate per [Section 28](#28-trademark-and-logo-usage-policy); (b) outstanding financial obligations MUST be settled or documented; (c) the Public Partnership Registry MUST be updated within 10 business days; (d) a brief, factual Termination Report MUST be filed using the [Appendix A template](#40-appendix-a-templates).
 4. Termination does not, by itself, waive confidentiality or data-protection obligations, which survive per [Section 30](#30-confidentiality) and [Section 17](#17-data-privacy-expectations).
 
@@ -611,7 +611,7 @@ A composite score below a threshold set by the Maintainer Council (recommended: 
 
 ## 38. Amendment Procedure
 
-1. This policy MAY be amended by a majority vote of the Maintainer Council.
+1. This policy MAY be amended by a majority vote of the Governance Council.
 2. Material amendments (affecting approval thresholds, categories, or compliance obligations) SHOULD be published with at least 15 days' advance notice via the CeloHT documentation repository before taking effect, except where urgent legal or safety concerns require immediate effect.
 3. Every amendment MUST be recorded with a version number, date, and summary of changes in a changelog section of this document or the repository's release notes.
 4. Existing partnership agreements remain governed by the version of this policy in effect at the time of their approval, unless the agreement itself provides for automatic updates.
@@ -690,7 +690,7 @@ Both parties affirm compliance with applicable law and CeloHT's No Token Policy.
 [Reference Section 37 of PARTNERSHIPS.md]
 
 ## 11. Signatures
-CeloHT Foundation Director: ______________  Date: ______
+CeloHT Founder: ______________  Date: ______
 Partner Authorized Representative: ______________  Date: ______
 ```
 
@@ -814,15 +814,15 @@ Partner Authorized Representative: ______________  Date: ______
 
 This policy operates alongside, and is subordinate to, the following CeloHT governance documents (where a referenced file does not yet exist in the repository, it is noted as **planned**):
 
-- [`GOVERNANCE.md`](./GOVERNANCE.md) - Foundation Director, Maintainer Council, and Community Contributor structure
+- [`GOVERNANCE.md`](./GOVERNANCE.md) - Founder, Governance Council, and Community Contributor structure
 - [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) - Community behavior standards
 - [`SECURITY.md`](./SECURITY.md) - Security disclosure process
-- `FUNDING_POLICY.md` - *(planned)* Grant and funding acceptance criteria
+- `FUND_ALLOCATION_FRAMEWORK.md` - *(planned)* Grant and funding acceptance criteria
 - `LEGAL_STATUS.md` - *(planned)* CeloHT's legal structure and jurisdictional status
 - `ETHICS.md` - *(planned)* Organization-wide ethics code
 - `TREASURY.md` - *(planned)* Financial management and reporting policy
-- `TRANSPARENCY.md` - *(planned)* Public reporting commitments
-- `RISK_MANAGEMENT.md` - *(planned)* Organization-wide risk framework
+- `FINANCIAL_TRANSPARENCY.md` - *(planned)* Public reporting commitments
+- `threat-model.md` - *(planned)* Organization-wide risk framework
 - [`WHITEPAPER.md`](./WHITEPAPER.md) - Technical and mission overview
 - [`ROADMAP.md`](./ROADMAP.md) - Phase 1-4 development roadmap
 

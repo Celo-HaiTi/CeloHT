@@ -10,7 +10,7 @@
 
 This document establishes CeloHT's core financial transparency principles and commitments. It exists to give donors, grant reviewers, ecosystem partners, auditors, and community members a clear, verifiable understanding of how CeloHT manages, reports on, and safeguards financial resources entrusted to it.
 
-This document is the foundation of a broader Financial Governance suite, which includes `TREASURY.md`, `DONATION_POLICY.md`, `PROCUREMENT_POLICY.md`, `EXPENSE_APPROVAL_POLICY.md`, `FINANCIAL_REPORTS.md`, `RESERVE_POLICY.md`, `CONFLICT_OF_INTEREST_FINANCE.md`, `INTERNAL_CONTROLS.md`, `AUDIT_POLICY.md`, `FUND_ALLOCATION_FRAMEWORK.md`, and `FINANCIAL_FAQ.md`. All of these documents operate within, and must remain consistent with, `GOVERNANCE.md`, `LEGAL_STATUS.md`, `FUNDING_POLICY.md`, `NO_TOKEN_POLICY.md`, and `TEAM.md`.
+This document is the foundation of a broader Financial Governance suite, which includes `TREASURY.md`, `DONATION_POLICY.md`, `PROCUREMENT_POLICY.md`, `EXPENSE_APPROVAL_POLICY.md`, `FINANCIAL_REPORTS.md`, `RESERVE_POLICY.md`, `CONFLICT_OF_INTEREST_FINANCE.md`, `INTERNAL_CONTROLS.md`, `AUDIT_POLICY.md`, `FUND_ALLOCATION_FRAMEWORK.md`, and `FINANCIAL_FAQ.md`. All of these documents operate within, and must remain consistent with, `GOVERNANCE.md`, `LEGAL_STATUS.md`, `FUND_ALLOCATION_FRAMEWORK.md`, `LEGAL_STATUS.md`, and `TEAM.md`.
 
 ## Scope
 
@@ -100,4 +100,4 @@ This roadmap will be updated as each stage is reached, with dated changelog entr
 
 ---
 
-*This document is maintained alongside `GOVERNANCE.md`, `LEGAL_STATUS.md`, `FUNDING_POLICY.md`, `NO_TOKEN_POLICY.md`, `TEAM.md`, and the full Financial Governance document suite in the CeloHT governance repository.*
+*This document is maintained alongside `GOVERNANCE.md`, `LEGAL_STATUS.md`, `FUND_ALLOCATION_FRAMEWORK.md`, `LEGAL_STATUS.md`, `TEAM.md`, and the full Financial Governance document suite in the CeloHT governance repository.*

@@ -10,7 +10,11 @@ CeloHT is an open-source, community-governed initiative built on the Celo blockc
 
 **CeloHT is not a cryptocurrency, ICO, token sale, or investment platform.** No endpoint in this specification issues, sells, or trades a token or security. Endpoints referencing USDm or CELO expose read access to existing, independently issued Celo-network assets used strictly as payment and settlement infrastructure - never a CeloHT-issued instrument.
 
-As of this document's publication date, CeloHT's backend infrastructure is in early development. Every endpoint below is explicitly labeled **Implemented**, **In Development**, or **Planned**. Endpoints marked **Planned** describe designed-but-unbuilt functionality and are published so that integrating partners and contributors can build against a stable, forward-looking contract. No endpoint's status label should be read as a claim that the underlying functionality is live unless labeled **Implemented**.
+As of this document's publication date, CeloHT has no authorized production
+backend repository or live API runtime. This file is a **PLANNED** API
+specification only. Every endpoint below must be treated as designed-but-unbuilt
+unless an authoritative implementation repository provides evidence. No
+endpoint in this document should be used as evidence of a live service.
 
 ---
 
@@ -68,7 +72,7 @@ The CeloHT API exposes CeloHT's public-good data - education content, Agent Netw
 
 - **Read access is public by default.** Impact, education, and reforestation data are designed to be openly queryable, consistent with CeloHT's Transparency Policy (`GOVERNANCE.md` Section 18).
 - **Write access is minimal and purposeful.** Only actions with a genuine need for server-side coordination (donation processing, wallet linkage) require authenticated write endpoints; CeloHT does not build API surface area for its own sake.
-- **No token, no trading, no custody.** The API never exposes an endpoint to issue, buy, sell, or trade a token, consistent with `LEGAL_STATUS.md` and `NO_TOKEN_POLICY.md`.
+- **No token, no trading, no custody.** The API never exposes an endpoint to issue, buy, sell, or trade a token, consistent with `LEGAL_STATUS.md`.
 - **Honesty about implementation status.** Every endpoint is labeled with its real build status, never presented as live before it is.
 
 ### 1.4 REST Principles
@@ -119,11 +123,10 @@ graph TD
 
 ## 3. Base URL
 
-```
-https://api.celoht.org/v1
-```
+No live API base URL is published.
 
-This URL is a placeholder consistent with CeloHT's expected production domain. As of this document's publication date, this base URL is **Planned**; no production API is confirmed live at this address. Developers should treat this base URL as the target contract for integration and confirm current availability through CeloHT's official GitHub organization before building against it in production.
+Any future base URL requires explicit publication through the official
+Celo-HaiTi organization. Do not infer availability from this specification.
 
 A staging base URL, once available, will be published in `ARCHITECTURE.md` Section 14 and referenced from this document.
 
@@ -420,12 +423,12 @@ Each endpoint below documents its current implementation status. Full request/re
 
 **cURL**
 ```bash
-curl -s https://api.celoht.org/v1/health
+curl -s ${CELOHT_API_BASE_URL}/health
 ```
 
 **JavaScript (Fetch)**
 ```javascript
-const res = await fetch("https://api.celoht.org/v1/health");
+const res = await fetch("${CELOHT_API_BASE_URL}/health");
 const data = await res.json();
 console.log(data.status);
 ```
@@ -437,7 +440,7 @@ interface HealthResponse {
   timestamp: string;
 }
 
-const res = await fetch("https://api.celoht.org/v1/health");
+const res = await fetch("${CELOHT_API_BASE_URL}/health");
 const data: HealthResponse = await res.json();
 ```
 
@@ -445,14 +448,14 @@ const data: HealthResponse = await res.json();
 ```python
 import requests
 
-response = requests.get("https://api.celoht.org/v1/health")
+response = requests.get("${CELOHT_API_BASE_URL}/health")
 data = response.json()
 print(data["status"])
 ```
 
 **Flutter / Dart**
 ```dart
-final response = await http.get(Uri.parse('https://api.celoht.org/v1/health'));
+final response = await http.get(Uri.parse('${CELOHT_API_BASE_URL}/health'));
 final data = jsonDecode(response.body);
 print(data['status']);
 ```
@@ -501,12 +504,12 @@ print(data['status']);
 
 **cURL**
 ```bash
-curl -s https://api.celoht.org/v1/metrics
+curl -s ${CELOHT_API_BASE_URL}/metrics
 ```
 
 **JavaScript (Fetch)**
 ```javascript
-const res = await fetch("https://api.celoht.org/v1/metrics");
+const res = await fetch("${CELOHT_API_BASE_URL}/metrics");
 const { data } = await res.json();
 ```
 
@@ -540,14 +543,14 @@ const { data } = await res.json();
 
 **cURL**
 ```bash
-curl -s "https://api.celoht.org/v1/impact?period=quarter"
+curl -s "${CELOHT_API_BASE_URL}/impact?period=quarter"
 ```
 
 **Python**
 ```python
 import requests
 
-response = requests.get("https://api.celoht.org/v1/impact", params={"period": "quarter"})
+response = requests.get("${CELOHT_API_BASE_URL}/impact", params={"period": "quarter"})
 print(response.json())
 ```
 
@@ -580,7 +583,7 @@ print(response.json())
 
 **cURL**
 ```bash
-curl -s https://api.celoht.org/v1/education
+curl -s ${CELOHT_API_BASE_URL}/education
 ```
 
 ---
@@ -628,13 +631,13 @@ curl -s https://api.celoht.org/v1/education
 
 **cURL**
 ```bash
-curl -s "https://api.celoht.org/v1/education/courses?category=usdm-valora-training&limit=10"
+curl -s "${CELOHT_API_BASE_URL}/education/courses?category=usdm-valora-training&limit=10"
 ```
 
 **JavaScript (Fetch)**
 ```javascript
 const res = await fetch(
-  "https://api.celoht.org/v1/education/courses?category=usdm-valora-training&limit=10"
+  "${CELOHT_API_BASE_URL}/education/courses?category=usdm-valora-training&limit=10"
 );
 const { data } = await res.json();
 ```
@@ -649,7 +652,7 @@ interface Course {
   duration_minutes: number;
 }
 
-const res = await fetch("https://api.celoht.org/v1/education/courses");
+const res = await fetch("${CELOHT_API_BASE_URL}/education/courses");
 const { data }: { data: Course[] } = await res.json();
 ```
 
@@ -658,7 +661,7 @@ const { data }: { data: Course[] } = await res.json();
 import requests
 
 response = requests.get(
-    "https://api.celoht.org/v1/education/courses",
+    "${CELOHT_API_BASE_URL}/education/courses",
     params={"category": "usdm-valora-training", "limit": 10},
 )
 courses = response.json()["data"]
@@ -666,7 +669,7 @@ courses = response.json()["data"]
 
 **Flutter / Dart**
 ```dart
-final uri = Uri.parse('https://api.celoht.org/v1/education/courses')
+final uri = Uri.parse('${CELOHT_API_BASE_URL}/education/courses')
     .replace(queryParameters: {'category': 'usdm-valora-training', 'limit': '10'});
 final response = await http.get(uri);
 final courses = jsonDecode(response.body)['data'];
@@ -705,7 +708,7 @@ final courses = jsonDecode(response.body)['data'];
 
 **cURL**
 ```bash
-curl -s "https://api.celoht.org/v1/agents?region=leogane&status=verified"
+curl -s "${CELOHT_API_BASE_URL}/agents?region=leogane&status=verified"
 ```
 
 ---
@@ -739,7 +742,7 @@ curl -s "https://api.celoht.org/v1/agents?region=leogane&status=verified"
 
 **cURL**
 ```bash
-curl -s https://api.celoht.org/v1/communities
+curl -s ${CELOHT_API_BASE_URL}/communities
 ```
 
 ---
@@ -771,7 +774,7 @@ curl -s https://api.celoht.org/v1/communities
 
 **cURL**
 ```bash
-curl -s https://api.celoht.org/v1/reforestation
+curl -s ${CELOHT_API_BASE_URL}/reforestation
 ```
 
 ---
@@ -808,13 +811,13 @@ curl -s https://api.celoht.org/v1/reforestation
 
 **cURL**
 ```bash
-curl -s "https://api.celoht.org/v1/reforestation/trees?region=leogane&status=verified"
+curl -s "${CELOHT_API_BASE_URL}/reforestation/trees?region=leogane&status=verified"
 ```
 
 **JavaScript (Fetch)**
 ```javascript
 const res = await fetch(
-  "https://api.celoht.org/v1/reforestation/trees?status=verified"
+  "${CELOHT_API_BASE_URL}/reforestation/trees?status=verified"
 );
 const { data } = await res.json();
 ```
@@ -844,7 +847,7 @@ const { data } = await res.json();
 
 **cURL**
 ```bash
-curl -s https://api.celoht.org/v1/partners
+curl -s ${CELOHT_API_BASE_URL}/partners
 ```
 
 ---
@@ -872,7 +875,7 @@ curl -s https://api.celoht.org/v1/partners
 
 **cURL**
 ```bash
-curl -s "https://api.celoht.org/v1/events?pillar=education"
+curl -s "${CELOHT_API_BASE_URL}/events?pillar=education"
 ```
 
 ---
@@ -900,7 +903,7 @@ curl -s "https://api.celoht.org/v1/events?pillar=education"
 
 **cURL**
 ```bash
-curl -s https://api.celoht.org/v1/news
+curl -s ${CELOHT_API_BASE_URL}/news
 ```
 
 ---
@@ -948,12 +951,12 @@ curl -s https://api.celoht.org/v1/news
 **cURL**
 ```bash
 curl -s -H "Authorization: Bearer <jwt_token>" \
-  https://api.celoht.org/v1/transactions
+  /transactions
 ```
 
 **JavaScript (Fetch)**
 ```javascript
-const res = await fetch("https://api.celoht.org/v1/transactions", {
+const res = await fetch("${CELOHT_API_BASE_URL}/transactions", {
   headers: { Authorization: `Bearer ${jwtToken}` },
 });
 const { data } = await res.json();
@@ -989,7 +992,7 @@ const { data } = await res.json();
 
 **cURL**
 ```bash
-curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
+curl -s "${CELOHT_API_BASE_URL}/donations?scope=aggregate"
 ```
 
 ---
@@ -1049,7 +1052,7 @@ curl -s "https://api.celoht.org/v1/donations?scope=aggregate"
 
 **cURL**
 ```bash
-curl -s -X POST https://api.celoht.org/v1/donations \
+curl -s -X POST ${CELOHT_API_BASE_URL}/donations \
   -H "Authorization: Bearer <jwt_token>" \
   -H "Content-Type: application/json" \
   -d '{"amount_usdm": "10.00", "restriction": "reforestation", "anonymous": false}'
@@ -1057,7 +1060,7 @@ curl -s -X POST https://api.celoht.org/v1/donations \
 
 **JavaScript (Fetch)**
 ```javascript
-const res = await fetch("https://api.celoht.org/v1/donations", {
+const res = await fetch("${CELOHT_API_BASE_URL}/donations", {
   method: "POST",
   headers: {
     Authorization: `Bearer ${jwtToken}`,
@@ -1092,7 +1095,7 @@ async function createDonation(
   payload: DonationRequest,
   jwtToken: string
 ): Promise<DonationResponse> {
-  const res = await fetch("https://api.celoht.org/v1/donations", {
+  const res = await fetch("${CELOHT_API_BASE_URL}/donations", {
     method: "POST",
     headers: {
       Authorization: `Bearer ${jwtToken}`,
@@ -1110,7 +1113,7 @@ async function createDonation(
 import requests
 
 response = requests.post(
-    "https://api.celoht.org/v1/donations",
+    "${CELOHT_API_BASE_URL}/donations",
     headers={"Authorization": f"Bearer {jwt_token}"},
     json={"amount_usdm": "10.00", "restriction": "reforestation", "anonymous": False},
 )
@@ -1120,7 +1123,7 @@ donation = response.json()["data"]
 **Flutter / Dart**
 ```dart
 final response = await http.post(
-  Uri.parse('https://api.celoht.org/v1/donations'),
+  Uri.parse('${CELOHT_API_BASE_URL}/donations'),
   headers: {
     'Authorization': 'Bearer $jwtToken',
     'Content-Type': 'application/json',
@@ -1186,14 +1189,14 @@ final donation = jsonDecode(response.body)['data'];
 
 **cURL**
 ```bash
-curl -s -X POST https://api.celoht.org/v1/wallet/connect \
+curl -s -X POST ${CELOHT_API_BASE_URL}/wallet/connect \
   -H "Content-Type: application/json" \
   -d '{"address": "0xExampleCeloAddress", "wallet_type": "valora"}'
 ```
 
 **JavaScript (Fetch)**
 ```javascript
-const res = await fetch("https://api.celoht.org/v1/wallet/connect", {
+const res = await fetch("${CELOHT_API_BASE_URL}/wallet/connect", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({ address, wallet_type: "valora" }),
@@ -1249,14 +1252,14 @@ const { data } = await res.json();
 
 **cURL**
 ```bash
-curl -s -X POST https://api.celoht.org/v1/wallet/sign \
+curl -s -X POST ${CELOHT_API_BASE_URL}/wallet/sign \
   -H "Content-Type: application/json" \
   -d '{"address": "0xExampleCeloAddress", "signature": "0xExampleSignature"}'
 ```
 
 **JavaScript (Fetch)**
 ```javascript
-const res = await fetch("https://api.celoht.org/v1/wallet/sign", {
+const res = await fetch("${CELOHT_API_BASE_URL}/wallet/sign", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({ address, signature }),
@@ -1269,7 +1272,7 @@ const { data } = await res.json();
 import requests
 
 response = requests.post(
-    "https://api.celoht.org/v1/wallet/sign",
+    "${CELOHT_API_BASE_URL}/wallet/sign",
     json={"address": address, "signature": signature},
 )
 tokens = response.json()["data"]
@@ -1305,7 +1308,7 @@ tokens = response.json()["data"]
 
 **cURL**
 ```bash
-curl -s https://api.celoht.org/v1/system/status
+curl -s ${CELOHT_API_BASE_URL}/system/status
 ```
 
 ---
@@ -1337,7 +1340,7 @@ curl -s https://api.celoht.org/v1/system/status
 
 **cURL**
 ```bash
-curl -s https://api.celoht.org/v1/version
+curl -s ${CELOHT_API_BASE_URL}/version
 ```
 
 ---
@@ -1463,7 +1466,7 @@ info:
     name: Apache-2.0
     url: https://www.apache.org/licenses/LICENSE-2.0
 servers:
-  - url: https://api.celoht.org/v1
+  - url: ${CELOHT_API_BASE_URL}
     description: Production (Planned)
 paths:
   /health:
@@ -1620,7 +1623,8 @@ This specification is a starting point covering a representative subset of endpo
 
 1. Download `celoht-api.postman_collection.json` from the `celoht-docs` repository (path to be published).
 2. In Postman, select **Import** → **File** → choose the downloaded collection.
-3. Create a Postman Environment with variables `base_url` (`https://api.celoht.org/v1`) and `jwt_token`.
+3. Create a Postman Environment with the planned `base_url` value from
+  `CELOHT_API_BASE_URL` and a `jwt_token`.
 4. Run the `wallet/connect` and `wallet/sign` requests first to populate `jwt_token` for authenticated requests.
 
 ---
@@ -1713,7 +1717,7 @@ Every endpoint in Section 15 currently sits at the **Planned** stage. As impleme
 No. As of this document's publication date, all endpoints are labeled **Planned**. This document specifies the target contract for integration.
 
 **Does the API let me buy or trade a CeloHT token?**
-No. CeloHT has no token. Endpoints referencing USDm or CELO expose read access to existing Celo-network assets, never a CeloHT-issued instrument. See `LEGAL_STATUS.md` and `NO_TOKEN_POLICY.md`.
+No. CeloHT has no token. Endpoints referencing USDm or CELO expose read access to existing Celo-network assets, never a CeloHT-issued instrument. See `LEGAL_STATUS.md` and `LEGAL_STATUS.md`.
 
 **Can I get a full transaction history for any wallet?**
 No. `GET /transactions` returns only the authenticated caller's own records, consistent with data protection principles in `LEGAL_STATUS.md` Section 16.
@@ -1738,4 +1742,4 @@ This API specification and the CeloHT API implementation, once published, are ma
 
 ---
 
-*This document is maintained alongside `ARCHITECTURE.md`, `GOVERNANCE.md`, `LEGAL_STATUS.md`, `DONATION_POLICY.md`, and `NO_TOKEN_POLICY.md` in the CeloHT governance and API repositories.*
+*This document is maintained alongside `ARCHITECTURE.md`, `GOVERNANCE.md`, `LEGAL_STATUS.md`, `DONATION_POLICY.md`, and `LEGAL_STATUS.md` in the CeloHT governance and API repositories.*

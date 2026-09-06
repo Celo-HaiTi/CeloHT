@@ -33,7 +33,7 @@ Reviewed annually per `GOVERNANCE.md` Section 21, and immediately following any 
 CeloHT accepts donations that:
 
 - Are consistent with CeloHT's mission as described in `LEGAL_STATUS.md` Section 2.
-- Do not require CeloHT to misrepresent its legal status (`LEGAL_STATUS.md` Section 3) or compromise its non-token, non-investment identity (`NO_TOKEN_POLICY.md`).
+- Do not require CeloHT to misrepresent its legal status (`LEGAL_STATUS.md` Section 3) or compromise its non-token, non-investment identity (`LEGAL_STATUS.md`).
 - Are made in a form CeloHT can practically receive, record, and report on (fiat via available channels, or USDm via CeloHT's treasury infrastructure per `TREASURY.md`).
 
 Donations above $1,000 USD-equivalent from an undisclosed or anonymous source require additional Treasury Committee review before acceptance, consistent with `LEGAL_STATUS.md` Section 8, to guard against misuse.
@@ -55,7 +55,7 @@ CeloHT reserves the right to decline a donation where:
 
 - Acceptance would create a conflict of interest not resolvable under `CONFLICT_OF_INTEREST_FINANCE.md`.
 - The donation's source cannot be adequately identified or reviewed under Section 1.
-- The donor attaches conditions inconsistent with CeloHT's mission, governance independence (`LEGAL_STATUS.md` Section 19), or non-token identity (`NO_TOKEN_POLICY.md`).
+- The donor attaches conditions inconsistent with CeloHT's mission, governance independence (`LEGAL_STATUS.md` Section 19), or non-token identity (`LEGAL_STATUS.md`).
 - Accepting the donation would expose CeloHT to legal or reputational risk identified through the Legal Working Group's review.
 
 Refusal decisions above routine Treasury Committee discretion are escalated to the Governance Council and logged, consistent with the Risk Management principles in `GOVERNANCE.md` Section 20.
@@ -64,7 +64,7 @@ Refusal decisions above routine Treasury Committee discretion are escalated to t
 
 - CeloHT does not use high-pressure, misleading, or exaggerated claims in fundraising communications, consistent with the "avoid marketing language" and "avoid exaggerated claims" principles applied throughout CeloHT's documentation.
 - Fundraising materials accurately reflect CeloHT's current legal status, financial position, and programmatic track record, without implying results, registrations, or guarantees that do not exist.
-- CeloHT does not solicit donations by suggesting or implying any financial return, consistent with `LEGAL_STATUS.md` Section 4 and `NO_TOKEN_POLICY.md`.
+- CeloHT does not solicit donations by suggesting or implying any financial return, consistent with `LEGAL_STATUS.md` Section 4 and `LEGAL_STATUS.md`.
 
 ## 5. Transparency Commitments
 
@@ -81,4 +81,4 @@ Refusal decisions above routine Treasury Committee discretion are escalated to t
 
 ---
 
-*This document is maintained alongside `GOVERNANCE.md`, `LEGAL_STATUS.md`, `FUNDING_POLICY.md`, `NO_TOKEN_POLICY.md`, `FINANCIAL_TRANSPARENCY.md`, `TREASURY.md`, and `CONFLICT_OF_INTEREST_FINANCE.md` in the CeloHT governance repository.*
+*This document is maintained alongside `GOVERNANCE.md`, `LEGAL_STATUS.md`, `FUND_ALLOCATION_FRAMEWORK.md`, `LEGAL_STATUS.md`, `FINANCIAL_TRANSPARENCY.md`, `TREASURY.md`, and `CONFLICT_OF_INTEREST_FINANCE.md` in the CeloHT governance repository.*

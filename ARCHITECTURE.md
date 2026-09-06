@@ -4,6 +4,11 @@
 
 This document describes the technical architecture of CeloHT, an open-source Web3 impact ecosystem built on the Celo blockchain. It is intended for developers contributing to the codebase, grant reviewers and partners evaluating technical maturity, and community members who want to understand how CeloHT's systems fit together.
 
+**Status:** PLANNED architecture. This repository does not contain the dApp,
+backend, database, indexer, or smart contracts described below. Those systems
+must be verified in their authoritative repositories before any deployment or
+production claim is made.
+
 CeloHT does not have a token, a DAO, or an investment product. Blockchain infrastructure in this project is used exclusively as **rails for inclusion, education, and transparency** - enabling low-cost stable-value transactions, verifiable public-good reporting, and community-governed operations. Every design decision in this document is made in service of that principle.
 
 ---
@@ -49,7 +54,11 @@ Every architectural layer described below is designed to make these three pillar
 
 ## 2. System Overview
 
-CeloHT is composed of five cooperating layers: the **user-facing dApp**, a **backend services layer**, the **Celo blockchain layer**, **wallet infrastructure**, and the **impact systems** that record education, agent, and reforestation outcomes.
+CeloHT's target architecture consists of five cooperating layers: the
+**user-facing dApp**, a **future backend services layer**, the **Celo blockchain
+layer**, **wallet infrastructure**, and the **impact systems** that may record
+education, agent, and reforestation outcomes. This is a design boundary, not a
+claim that these layers are currently deployed.
 
 ```mermaid
 graph TD
@@ -138,11 +147,13 @@ This abstraction means new wallet providers can be added without rewriting core 
 
 ---
 
-## 5. Backend Architecture
+## 5. Planned Backend Architecture
 
 ### 5.1 API Layer
 
-The backend exposes a versioned API layer that mediates all interaction between the frontend, the database, and blockchain-derived data. The API layer is organized into service domains that mirror the three pillars plus core platform concerns:
+Any future backend is intended to expose a versioned API layer that mediates
+interaction between the frontend, a database, and blockchain-derived data. No
+backend or indexer is authorized or implemented in this repository.
 
 ```mermaid
 graph LR
@@ -164,7 +175,10 @@ graph LR
 
 ### 5.2 Database Layer
 
-CeloHT uses a relational database as the primary system of record for off-chain data - the kind of data that should never live directly on a public blockchain, either for cost, privacy, or mutability reasons. The database stores:
+The planned architecture uses a relational database as a possible system of
+record for off-chain data - the kind of data that should never live directly on
+a public blockchain, either for cost, privacy, or mutability reasons. No such
+database is configured by this repository. If implemented, it would store:
 
 - User and agent profiles and relationship data.
 - Education enrollment, progress, and completion records.
@@ -216,7 +230,9 @@ CeloHT deliberately avoids unnecessary on-chain complexity: contracts are kept m
 
 ### 6.5 Blockchain Verification
 
-All USDm transactions relevant to agent activity or programmatic disbursement are indexed by a blockchain indexer service, which reconciles on-chain transaction data against off-chain records nightly, flagging any discrepancy for manual Working Group review.
+A future indexer may reconcile relevant on-chain transactions against approved
+off-chain records and flag discrepancies for manual review. No indexer is
+implemented or presented as live by this repository.
 
 ---
 

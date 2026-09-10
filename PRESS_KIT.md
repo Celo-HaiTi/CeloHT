@@ -1,4 +1,3 @@
-CeloHT Press Kit
 
 Resources for Journalists and Media Organizations
 

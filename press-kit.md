@@ -64,7 +64,7 @@ CeloHT may provide interview access and, where applicable, authorized quotations
 ## Visual and Brand Resources
 
 - [MEDIA_KIT.md](MEDIA_KIT.md) - official media and brand resources
-- [BRAND_GUIDE.md](BRAND_GUIDE.md) - brand specifications and usage guidance
+- [brand-guidelines.md](brand-guidelines.md) - brand specifications and usage guidance
 - [history.md](history.md) - project history
 - [faq.md](faq.md) - commonly asked questions
 
@@ -84,5 +84,5 @@ When covering CeloHT, journalists should:
 - [MEDIA_KIT.md](MEDIA_KIT.md) - broader media kit and visual assets
 - [WHITEPAPER.md](WHITEPAPER.md) - project overview and reference material
 - [GOVERNANCE.md](GOVERNANCE.md) - governance and decision-making details
-- [TECHNOLOGY.md](TECHNOLOGY.md) - technical documentation
+- [technology.md](technology.md) - technical documentation
 

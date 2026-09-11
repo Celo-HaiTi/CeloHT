@@ -23,7 +23,7 @@ Everyone participating in this project is expected to follow our
 1. Fork the repository and create a branch with a descriptive name
    (for example: `docs/improve-developer-guide`).
 2. Make your changes, keeping [`docs/repository-guide.md`](docs/repository-guide.md) in mind.
-3. Test locally: run `scripts/validate.sh` to check Markdown, YAML, and links.
+3. Test locally: run `bash scripts/validate.sh` to check Markdown, YAML, and links.
 4. Open a Pull Request using [our PR template](.github/PULL_REQUEST_TEMPLATE.md).
 5. Respond to review - a maintainer will look at it and may ask for changes.
 6. Once approved, a maintainer will merge it.

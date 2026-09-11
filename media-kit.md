@@ -4,7 +4,7 @@
 
 | Asset | Location | Format |
 |---|---|---|
-| Primary Logo | [`assets/branding/celoht-logo-primary.png`](../assets/branding/celoht-logo-primary.png) | PNG |
+| Primary Logo | [`assets/branding/celoht-logo-primary.png`](assets/branding/celoht-logo-primary.png) | PNG |
 
 ## Quick Color Palette
 

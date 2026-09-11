@@ -3,7 +3,7 @@
 ## Official Logo
 
 The official CeloHT logo is available at
-[`assets/branding/celoht-logo-primary.png`](../assets/branding/celoht-logo-primary.png).
+[`assets/branding/celoht-logo-primary.png`](assets/branding/celoht-logo-primary.png).
 
 The logo depicts a stylized navy "C" with a rising gold arrow/graph element,
 symbolizing growth and financial progress in the official brand colors

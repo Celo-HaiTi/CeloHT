@@ -3,7 +3,7 @@
 ## Name and Logo
 
 "CeloHT" and its official logo (available under
-[`assets/branding/`](../assets/branding/)) are community identifiers for
+[`assets/branding/`](assets/branding/)) are community identifiers for
 this project. They are not Celo Foundation trademarks, and their use does
 not imply any official affiliation with the Celo Foundation or with Valora.
 

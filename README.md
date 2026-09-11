@@ -80,7 +80,7 @@ CeloHT is committed to transparent, collaborative development. The project welco
 - [SECURITY.md](SECURITY.md)
 - [REPOSITORY_PRODUCT_READINESS.md](REPOSITORY_PRODUCT_READINESS.md)
 - [WALLET_COMPATIBILITY.md](WALLET_COMPATIBILITY.md)
-- [validate.sh](validate.sh)
+- [validate.sh](scripts/validate.sh)
 
 ### Reference material
 

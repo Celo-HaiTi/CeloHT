@@ -95,7 +95,7 @@ This repository is intended to serve the broader CeloHT ecosystem as a canonical
 
 ## Tests
 
-- **IMPLEMENTED:** `./validate.sh` passes required-file, placeholder, empty
+- **IMPLEMENTED:** `scripts/validate.sh` passes required-file, placeholder, empty
 	directory, YAML, and JSON checks.
 - Markdown link integrity, semantic claim review, and cross-repository facts
 	still require ongoing manual review.

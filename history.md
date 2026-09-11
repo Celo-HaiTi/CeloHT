@@ -17,7 +17,8 @@ USDm, are both accessible through the Valora wallet.
   inclusion and blockchain, the other on professional cleaning services and
   local entrepreneurship.
 - **Public presence**: CeloHT established a presence on Medium (@celoht3), X
-  (@CeloHtOfficial), the Celo Forum, and GitHub (Celo-HT).
+  (@CeloHtOfficial), the Celo Forum, and the official Celo-HaiTi GitHub
+  organization.
 - **Community recognition**: CeloHT was featured in a "Founders" post on the
   Celo Forum in 2025, a notable moment of recognition within the
   broader Celo ecosystem.

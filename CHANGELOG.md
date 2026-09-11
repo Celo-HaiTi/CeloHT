@@ -28,5 +28,5 @@ and this repository (not the CeloHT initiative itself, which isn't
 - Official branding assets (logo) under `assets/branding/`.
 - An introductory example under `examples/hello-agent/`.
 
-[Unreleased]: https://github.com/celo-ht/celoht/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/celo-ht/celoht/releases/tag/v1.0.0
+[Unreleased]: https://github.com/Celo-HaiTi/CeloHT/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/Celo-HaiTi/CeloHT/releases/tag/v1.0.0

@@ -9,7 +9,6 @@ Official reference document for journalists, investors, donors, foundations, gov
 ## Cover Page
 
 **Organization:** CeloHT
-**Legacy alias:** Celo-HT (HISTORICAL)
 **Tagline:** TBD
 **Headquarters:** Léogâne, Haiti
 **Built on:** Celo blockchain
@@ -129,7 +128,6 @@ CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti
 | Attribute | Detail |
 |---|---|
 | Legal / Operating Name | CeloHT |
-| Legacy Alias | Celo-HT (HISTORICAL) |
 | Headquarters | Léogâne, Haiti |
 | Founder | Johnny Dubic |
 | Founded | TBD (year to be confirmed against LEGAL_STATUS.md) |
@@ -469,7 +467,7 @@ CeloHT is not a financial institution, investment adviser, or securities issuer.
 
 ## Appendix
 
-**Note on data completeness:** This Media Kit has been prepared for accuracy and consistency with CeloHT's official documentation set. Fields marked TBD indicate information not yet confirmed at the time of this document's preparation and should be finalized against the canonical Celo-HaiTi repositories and official channels before final publication or distribution. Legacy references to Celo-HT are retained only as historical identifiers, not as the current canonical organization name.
+**Note on data completeness:** This Media Kit has been prepared for accuracy and consistency with CeloHT's official documentation set. Fields marked TBD indicate information not yet confirmed at the time of this document's preparation and should be finalized against the canonical Celo-HaiTi repositories and official channels before final publication or distribution.
 
 **Companion document:** This Media Kit is designed to be used alongside PRESS_KIT.md, which provides media-specific resources (press release template, quotes, photo assets, and journalist guidelines) without duplicating the organizational, brand, and governance detail provided here.
 

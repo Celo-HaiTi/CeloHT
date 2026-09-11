@@ -33,5 +33,5 @@ dashboard it will be documented here, including:
 ## Contributing
 
 If you're building a tool that needs an API for the CeloHT ecosystem, start
-a conversation in [GitHub Discussions](https://github.com/celo-ht/celoht/discussions)
+a conversation in [GitHub Discussions](https://github.com/Celo-HaiTi/CeloHT/discussions)
 before submitting a formal specification.

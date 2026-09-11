@@ -4,7 +4,7 @@ Thanks for using or contributing to CeloHT. Here's how to get help.
 
 ## General Questions
 
-- **GitHub Discussions**: [github.com/celo-ht/celoht/discussions](https://github.com/celo-ht/celoht/discussions) -
+- **GitHub Discussions**: [github.com/Celo-HaiTi/CeloHT/discussions](https://github.com/Celo-HaiTi/CeloHT/discussions) -
   the best place for questions, ideas, and open conversation with the community.
 - **FAQ**: check [`docs/faq.md`](docs/faq.md) for answers to common questions.
 

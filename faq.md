@@ -44,4 +44,4 @@ See [`CONTRIBUTING.md`](../CONTRIBUTING.md).
 Follow the process in [`SECURITY.md`](../SECURITY.md) don't open a public
 Issue for it.
 
-Didn't find your answer? Ask in [GitHub Discussions](https://github.com/celo-ht/celoht/discussions).
+Didn't find your answer? Ask in [GitHub Discussions](https://github.com/Celo-HaiTi/CeloHT/discussions).

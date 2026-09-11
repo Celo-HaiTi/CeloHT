@@ -13,7 +13,7 @@ require:
 ## Getting Started Locally
 
 ```bash
-git clone https://github.com/celo-ht/celoht.git
+git clone https://github.com/Celo-HaiTi/CeloHT.git
 cd celoht
 
 bash scripts/validate.sh
@@ -48,5 +48,5 @@ demonstrating the data structure behind a CeloHT community agent profile.
 
 ## Technical Questions
 
-For technical questions, use [GitHub Discussions](https://github.com/celo-ht/celoht/discussions)
+For technical questions, use [GitHub Discussions](https://github.com/Celo-HaiTi/CeloHT/discussions)
 with the `question` tag.

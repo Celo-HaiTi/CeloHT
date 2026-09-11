@@ -48,5 +48,5 @@ feat(scripts): add a link validation script
 
 ## Questions?
 
-Ask in [GitHub Discussions](https://github.com/celo-ht/celoht/discussions) or
+Ask in [GitHub Discussions](https://github.com/Celo-HaiTi/CeloHT/discussions) or
 check [`SUPPORT.md`](SUPPORT.md).

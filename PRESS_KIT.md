@@ -104,7 +104,7 @@ Current stable-value asset reference| USDm
 Network asset| CELO
 Native CeloHT token| None
 Wallet strategy| Wallet-agnostic
-Wallet integrations| MiniPay, Valora, and other compatible wallets through supported integration methods
+Wallet integrations| CeloHT supports Valora, MiniPay, and WalletConnect.
 Core pillars| Education, Agents, Reforestation
 Open-source license| Apache 2.0, unless otherwise noted
 Website| https://celoht.com
@@ -117,11 +117,13 @@ CeloHT follows a wallet-agnostic strategy.
 
 The CeloHT dApp is designed to support multiple wallet access methods rather than requiring one specific wallet provider.
 
-Current documented integrations include:
+Current documented wallet connectivity includes:
 
-- MiniPay, when the dApp is opened inside MiniPay
-- Valora, through WalletConnect
-- Other compatible mobile wallets, through WalletConnect or another supported integration
+- Valora
+- MiniPay
+- WalletConnect-enabled compatible wallets
+
+CeloHT supports wallet connectivity through Valora, MiniPay, and WalletConnect. Valora is recommended for users seeking a full-featured Celo wallet experience, while MiniPay provides an integrated mobile wallet experience and WalletConnect enables compatible wallets to connect to the CeloHT dApp.
 
 Wallet availability and functionality may vary according to device, wallet provider, network configuration, and the current dApp implementation.
 
@@ -220,7 +222,7 @@ Key Messages
 7. CeloHT is built on the Celo blockchain rather than operating its own proprietary blockchain.
 8. CeloHT uses USDm for supported stable-value payment flows and CELO for applicable Celo network functions such as gas.
 9. CeloHT follows a wallet-agnostic strategy rather than requiring a single wallet provider.
-10. The dApp supports documented wallet integrations including MiniPay, Valora, and other compatible wallets through supported connection methods.
+10. CeloHT supports Valora, MiniPay, and WalletConnect.
 11. CeloHT's public software and documentation are developed openly under their applicable licenses.
 12. Program status, statistics, partnerships, and technical capabilities should always be reported according to their current verified status.
 
@@ -240,9 +242,7 @@ CeloHT supports compatible wallet technologies as infrastructure choices. Listin
 
 Which wallets does CeloHT support?
 
-CeloHT follows a wallet-agnostic strategy.
-
-The documented wallet integrations include MiniPay, Valora through WalletConnect, and other compatible mobile wallets through supported wallet integrations.
+CeloHT supports Valora, MiniPay, and WalletConnect. Valora is recommended for users seeking a full-featured Celo wallet experience, while MiniPay provides an integrated mobile wallet experience and WalletConnect enables compatible wallets to connect to the CeloHT dApp.
 
 Does CeloHT have a token?
 

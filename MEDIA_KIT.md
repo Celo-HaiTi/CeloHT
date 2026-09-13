@@ -129,7 +129,7 @@ CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti
 |---|---|
 | Legal / Operating Name | CeloHT |
 | Headquarters | Léogâne, Haiti |
-| Founder | Johnny Dubic |
+| Founder | Johnny Dubic — Permanently Recognized Founder of CeloHT |
 | Founded | TBD (year to be confirmed against LEGAL_STATUS.md) |
 | Legal Structure | See LEGAL_STATUS.md (TBD for public summary) |
 | Blockchain | Celo |
@@ -271,7 +271,7 @@ CeloHT's visual identity spans its website, documentation, and community materia
 **Name:** Johnny Dubic
 **Role:** Founder, CeloHT
 
-Johnny Dubic founded CeloHT in Léogâne, Haiti, with the goal of building a community-governed initiative for financial inclusion, blockchain education, and environmental sustainability. Johnny Dubic is permanently recognized as Founder, while Founder status remains separate from ongoing governance authority.
+Johnny Dubic founded CeloHT in Léogâne, Haiti, with the goal of building a community-governed initiative for financial inclusion, blockchain education, and environmental sustainability. Johnny Dubic is permanently recognized as the Founder of CeloHT in the project's historical and institutional record, while Founder status remains separate from ongoing governance authority.
 
 Extended biography, professional background, and photography: TBD.
 
@@ -335,7 +335,7 @@ CeloHT is built on the Celo blockchain, using the USDm stablecoin and CELO asset
 CeloHT supports Valora, MiniPay, and WalletConnect. Valora is recommended for users seeking a full-featured Celo wallet experience, while MiniPay provides an integrated mobile wallet experience and WalletConnect enables compatible wallets to connect to the CeloHT dApp.
 
 **Who governs CeloHT?**
-CeloHT is governed through transparent, documented, community-driven proposals and collective decision-making. Johnny Dubic is permanently recognized as Founder, but no single individual has unilateral governance authority.
+CeloHT is governed through transparent, documented, community-driven proposals and collective decision-making. Johnny Dubic is permanently recognized as the Founder of CeloHT, but no single individual has unilateral governance authority.
 
 **Is the Reforestation program active?**
 The Reforestation program is currently in its design and pilot phase and is not yet fully operational.

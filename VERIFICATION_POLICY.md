@@ -32,7 +32,7 @@ CeloHT does not consider a role "Verified" based solely on a self-submitted clai
 
 ## 2. Founder Verification
 
-The Founder designation is **Johnny Dubic - Founder of CeloHT**. The designation is permanently recognized as a founding and historical role, separate from executive or governance authority. Founder status does not create a Governance Council seat or vote, veto, emergency power, Founder safeguard, or unilateral control.
+The Founder designation is **Johnny Dubic — Permanently Recognized Founder of CeloHT**. The designation is historical and institutional, separate from executive or governance authority. Permanent founder recognition does not confer perpetual governance authority, ownership rights, veto power, or unilateral control.
 
 The Founder verification record may use official CeloHT documentation, consistent public identity, historical founding evidence, legitimate public profiles, and documented governance records. Evidence must be attributable and publicly reviewable where privacy permits; CeloHT must never fabricate or infer evidence. Until an auditable verification record is completed and published, the status remains **Pending Verification**.
 

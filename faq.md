@@ -12,7 +12,11 @@ No, CeloHT doesn't offer any investment product. We're an education and
 financial inclusion initiative, not an investment platform.
 
 **Who's behind CeloHT?**
-CeloHT was founded by Johnny Dubic, based in Léogâne, Haiti. See
+CeloHT was founded by Johnny Dubic on April 16, 2022, in Léogâne, Haiti. Johnny
+Dubic is permanently recognized as the Founder of CeloHT in the project's
+historical and institutional record. Founder recognition does not confer
+perpetual governance authority, ownership rights, veto power, or unilateral
+control. See
 [`maintainers.md`](maintainers.md) for the current list of maintainers.
 
 ## About the Technology

@@ -97,7 +97,7 @@ Name| CeloHT
 Type| Open-source Haitian Web3 initiative
 Founded| April 16, 2022
 Origin| Léogâne, Haiti
-Founder| Johnny Dubic
+Founder| Johnny Dubic — Permanently Recognized Founder of CeloHT
 Governance| Community-governed
 Blockchain| Celo
 Current stable-value asset reference| USDm
@@ -163,9 +163,13 @@ Learn more at "celoht.com" or the official "Celo-HaiTi" GitHub organization.
 
 Founder Biography
 
-Johnny Dubic, Founder of CeloHT
+Johnny Dubic — Permanently Recognized Founder of CeloHT
 
-Johnny Dubic founded CeloHT in Léogâne, Haiti, on April 16, 2022.
+Johnny Dubic founded CeloHT in Léogâne, Haiti, on April 16, 2022, and is
+permanently recognized as its Founder in the project's historical and
+institutional record. This recognition is historical and institutional; it
+does not confer perpetual governance authority, ownership rights, veto power,
+or unilateral control.
 
 His work through CeloHT focuses on using open-source Web3 infrastructure to address practical challenges related to financial inclusion, blockchain education, digital payments, entrepreneurship, and environmental initiatives.
 

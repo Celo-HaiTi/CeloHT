@@ -6,6 +6,10 @@ CeloHT started in Léogâne, Haiti, as a direct response to a simple reality:
 a lot of people in rural and semi-rural communities don't have easy access
 to traditional banking, even as mobile phone use keeps growing.
 
+CeloHT was founded by Johnny Dubic on April 16, 2022, in Léogâne, Haiti.
+CeloHT permanently recognizes Johnny Dubic as its Founder in the project's
+historical and institutional record.
+
 The founder identified Celo as a good fit because of its low transaction
 fees and mobile-first design its native token, CELO, and its stablecoin,
 USDm, are both accessible through the Valora wallet.

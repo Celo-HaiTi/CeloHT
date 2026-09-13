@@ -6,7 +6,7 @@
 **Status:** Active
 **Version:** 1.0.0
 **Effective Date:** 2026
-**Maintained By:** CeloHT Governance Council, under the authority of the Founder
+**Maintained By:** CeloHT Governance Council, under the authority of `GOVERNANCE.md`
 **Contact:** contact@celoht.com | partnerships@celoht.com
 
 > **Compliance Note:** The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY** are used per [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) where obligations are stated. This document is a strategic and educational reference. It is **not** an investment prospectus, offering memorandum, or solicitation of securities. See [Compliance & Legal Framing](#29-compliance--legal-framing).

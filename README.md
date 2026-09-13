@@ -4,7 +4,7 @@
 
 CeloHT is an open-source, community-driven ecosystem initiative focused on education, agent infrastructure, and climate-positive reforestation on Celo. This repository is the central source of truth for the project’s strategy, technical direction, governance, and operational policies.
 
-Johnny Dubic is permanently recognized as the Founder of CeloHT. Founder status is separate from ongoing governance authority: individuals may submit proposals, but proposals become official CeloHT decisions only through the documented collective process in [GOVERNANCE.md](GOVERNANCE.md). CeloHT has no native governance token or token-weighted voting.
+Johnny Dubic — Permanently Recognized Founder of CeloHT. Permanent founder recognition is historical and institutional; it does not confer perpetual governance authority, ownership rights, veto power, or unilateral control. Proposals become official CeloHT decisions only through the documented collective process in [GOVERNANCE.md](GOVERNANCE.md). CeloHT has no native governance token or token-weighted voting.
 
 ## Project status
 

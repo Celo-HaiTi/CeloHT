@@ -1308,7 +1308,7 @@ No. CeloHT has no token, has never conducted a token sale, and is not an investm
 Not as of this document's date. CeloHT does not hold nonprofit, charitable, or tax-exempt status in any jurisdiction. See `LEGAL_STATUS.md` Section 3.
 
 **Who controls CeloHT?**
-No individual. CeloHT is governed through transparent, documented, community-driven proposals and collective decision-making. Johnny Dubic is permanently recognized as Founder, but has no automatic Council seat or vote and no unilateral treasury or governance authority. See `GOVERNANCE.md` Section 3 and Section 14 of this whitepaper.
+No individual. CeloHT is governed through transparent, documented, community-driven proposals and collective decision-making. Johnny Dubic — Permanently Recognized Founder of CeloHT — has no automatic Council seat or vote and no unilateral treasury or governance authority. See `GOVERNANCE.md` Section 3 and Section 14 of this whitepaper.
 
 **Does CeloHT plan to launch a token in the future?**
 No. The non-token design is foundational to CeloHT's mission and legal posture, not a temporary phase. See Section 5.5 and `LEGAL_STATUS.md`.

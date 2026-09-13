@@ -6,7 +6,7 @@
 **Status:** Active
 **Version:** 1.0.0
 **Effective Date:** 2026
-**Maintained By:** CeloHT Governance Council, under the authority of the Founder
+**Maintained By:** CeloHT Governance Council, under the authority of `GOVERNANCE.md`
 **Contact:** partnerships@celoht.com | contact@celoht.com
 
 > **Compliance Note:** Throughout this document, the key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **MAY**, and **OPTIONAL** are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
@@ -405,7 +405,7 @@ flowchart TD
 | Supporter | Partnerships Lead sign-off (logged) |
 | Ecosystem Participant | Partnerships Lead + one Governance Council member |
 | Strategic Collaborator | Majority vote of the Governance Council |
-| Confirmed Partner | Two-thirds (2/3) vote of the Governance Council + Founder signature |
+| Confirmed Partner | Two-thirds (2/3) vote of the Governance Council |
 
 ### 22.2 Approval Workflow
 
@@ -418,7 +418,7 @@ flowchart TD
     E --> F{Approved?}
     F -- No --> G[Declined - Reasons Logged]
     F -- Yes --> H{Category = Confirmed Partner?}
-    H -- Yes --> I[Founder Co-Signs Agreement]
+    H -- Yes --> I[Authorized Signatories Execute Agreement]
     H -- No --> J[Partnerships Lead Finalizes Written Understanding]
     I --> K[Registry Updated]
     J --> K

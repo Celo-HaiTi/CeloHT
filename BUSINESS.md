@@ -597,7 +597,7 @@ This Business Model operates under, and must remain consistent with, CeloHT's go
 
 ```mermaid
 flowchart TD
-    FD[Founder] --> MC[Governance Council]
+    BP[Business Proposal] --> MC[Governance Council, when formally constituted]
     MC --> CC[Contributors]
     MC --> BizReview[Business Model & Revenue Proposal Review]
     BizReview --> MissionCheck{Consistent with Mission, No Token Policy, and Guiding Principles?}

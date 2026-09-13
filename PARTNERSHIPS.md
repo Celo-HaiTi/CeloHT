@@ -369,14 +369,14 @@ CeloHT partnerships are governed within the organization's existing three-tier s
 
 ```mermaid
 flowchart TD
-    FD[Founder] --> MC[Governance Council]
+    PP[Public Partnership Proposal] --> MC[Governance Council, when formally constituted]
     MC --> CC[Contributors]
     MC --> PL[Partnerships Lead - Governance Council role]
     PL --> DD[Due Diligence Reviewers]
     PL --> REG[Public Partnership Registry Maintainer]
 ```
 
-- The **Founder** holds ultimate accountability for CeloHT's mission integrity but does not have unilateral authority to approve partnerships; see [Section 22](#22-approval-process).
+- The **Founder** is permanently recognized as a founding and historical designation, but has no special partnership approval authority; all proposals follow [Section 22](#22-approval-process).
 - The **Governance Council** is the primary decision-making body for partnership approval, suspension, and termination.
 - **Contributors** MAY originate partnership proposals and participate in due diligence but MUST NOT approve partnerships independently.
 - This structure mirrors and is subordinate to [GOVERNANCE.md](./GOVERNANCE.md); in the event of any conflict, GOVERNANCE.md controls.
@@ -387,7 +387,7 @@ flowchart TD
 
 | Role | Key Responsibilities | Approval Authority |
 |---|---|---|
-| **Founder** | Mission-integrity oversight; tie-breaking vote where Council rules require; final signatory on Confirmed Partner agreements | Signatory, not sole approver |
+| **Founder** | Historical context and participation under the documented process | No special approval authority |
 | **Governance Council** | Reviews due diligence and risk assessments; votes to approve, suspend, or terminate partnerships; maintains this policy | Primary approval body |
 | **Partnerships Lead** (Council role) | Coordinates inquiries, due diligence, and drafting of agreements; maintains the Public Partnership Registry | Recommends, does not unilaterally approve |
 | **Due Diligence Reviewers** | Conduct Tier 1-3 diligence; document findings | Non-voting |
@@ -594,7 +594,7 @@ A composite score below a threshold set by the Governance Council (recommended: 
 ## 36. Termination Procedure
 
 1. A partnership MAY be terminated by mutual agreement, expiration of its agreed term, or unilateral action following a suspension, ethics violation, or sustained failure to meet KPIs.
-2. Unilateral termination by CeloHT requires a two-thirds (2/3) Governance Council vote, except in cases of confirmed fraud, corruption, or legal violation, where the Founder MAY act immediately, subject to Council ratification within 10 business days.
+2. Termination by CeloHT requires the documented collective approval process in Section 22. Immediate minimum necessary containment of a confirmed fraud, corruption, or legal violation may be taken by an authorized operational responder, with prompt public reporting and collective review; Founder status creates no special exception.
 3. Upon termination: (a) all logo and trademark usage rights terminate per [Section 28](#28-trademark-and-logo-usage-policy); (b) outstanding financial obligations MUST be settled or documented; (c) the Public Partnership Registry MUST be updated within 10 business days; (d) a brief, factual Termination Report MUST be filed using the [Appendix A template](#40-appendix-a-templates).
 4. Termination does not, by itself, waive confidentiality or data-protection obligations, which survive per [Section 30](#30-confidentiality) and [Section 17](#17-data-privacy-expectations).
 

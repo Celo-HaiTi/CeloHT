@@ -23,6 +23,8 @@ This document recognizes individuals who have authored code, documentation, educ
 
 The Founder's authorship is recognized here in the same factual, non-biographical format applied to every other entry in this document. Additional detail is not included beyond what is necessary to record authorship, consistent with `TEAM.md` and `VERIFICATION_POLICY.md`.
 
+The Founder designation is permanently recognized as a founding and historical designation. It does not confer automatic Council membership, voting rights, executive authority, or unilateral governance power. Verification of the Founder role remains **Pending Verification** under `VERIFICATION_POLICY.md` until an auditable evidence record is published.
+
 ---
 
 ## 2. Contributors

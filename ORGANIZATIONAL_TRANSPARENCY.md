@@ -44,7 +44,8 @@ No role is filled by informal designation, personal relationship to the Founder,
 `GOVERNANCE.md` structurally prevents any single individual - including the Founder - from controlling CeloHT's leadership composition:
 
 - Governance Council seats are elected, term-limited, and staggered so no more than half the Council turns over at once.
-- The Founder holds one vote among several on the Council and a narrowly scoped, auto-expiring emergency safeguard, not appointment authority over other roles.
+- The Founder is permanently recognized as Founder of CeloHT, but is not automatically assigned to the Governance Council and has no automatic Council vote, veto, emergency power, or Founder safeguard.
+- An individual submission is a proposal only; it becomes an official decision only after the documented collective governance process and a published outcome.
 - Maintainer and Working Group Lead appointments require Governance Council review, not sole Founder approval.
 - Conflict-of-interest and recusal rules (`GOVERNANCE.md` Section 10) apply to every role, including the Founder, preventing self-dealing in appointment decisions.
 

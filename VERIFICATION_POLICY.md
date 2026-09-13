@@ -2,18 +2,19 @@
 
 **Version 1.0 · August 2026**
 
-This document defines how CeloHT verifies the identity and public presence of individuals holding roles of trust or authority (Governance Council members, Maintainers, Working Group Leads, Ambassadors). It exists to close the gap between "a name appears in project documentation" and "that name is a verifiable, accountable individual" - a distinction that matters directly to investors, grant reviewers, auditors, and partners conducting due diligence.
+This document defines how CeloHT verifies the identity and public presence of individuals holding roles of trust or authority, and how it records the Founder designation. Verification is evidence-based, objective, auditable, and reproducible. It exists to close the gap between "a name appears in project documentation" and "that name is a verifiable, accountable individual" - a distinction that matters to grant reviewers, auditors, partners, and community members conducting due diligence.
 
 ---
 
 ## Table of Contents
 
 1. [Identity Verification Requirements](#1-identity-verification-requirements)
-2. [Public Profile Requirements](#2-public-profile-requirements)
-3. [GitHub Verification](#3-github-verification)
-4. [Conflict of Interest Disclosure](#4-conflict-of-interest-disclosure)
-5. [Removal Policy](#5-removal-policy)
-6. [Privacy Considerations](#6-privacy-considerations)
+2. [Founder Verification](#2-founder-verification)
+3. [Public Profile Requirements](#3-public-profile-requirements)
+4. [GitHub Verification](#4-github-verification)
+5. [Conflict of Interest Disclosure](#5-conflict-of-interest-disclosure)
+6. [Removal Policy](#6-removal-policy)
+7. [Privacy Considerations](#7-privacy-considerations)
 
 ---
 
@@ -29,7 +30,13 @@ CeloHT does not consider a role "Verified" based solely on a self-submitted clai
 
 ---
 
-## 2. Public Profile Requirements
+## 2. Founder Verification
+
+The Founder designation is **Johnny Dubic - Founder of CeloHT**. The designation is permanently recognized as a founding and historical role, separate from executive or governance authority. Founder status does not create a Governance Council seat or vote, veto, emergency power, Founder safeguard, or unilateral control.
+
+The Founder verification record may use official CeloHT documentation, consistent public identity, historical founding evidence, legitimate public profiles, and documented governance records. Evidence must be attributable and publicly reviewable where privacy permits; CeloHT must never fabricate or infer evidence. Until an auditable verification record is completed and published, the status remains **Pending Verification**.
+
+## 3. Public Profile Requirements
 
 Consistent with `TEAM.md` Section 7, individuals holding a Governance Council seat, Maintainer role, or Working Group Lead role are expected to maintain:
 
@@ -40,7 +47,7 @@ CeloHT does not create, estimate, or infer these profiles on an individual's beh
 
 ---
 
-## 3. GitHub Verification
+## 4. GitHub Verification
 
 - Role holders are expected to use a consistent, identifiable GitHub account for all CeloHT-related activity, rather than rotating between anonymous or unlinked accounts.
 - Where feasible, GitHub two-factor authentication is required for any account with write access to a CeloHT repository, consistent with `ARCHITECTURE.md` Section 12 (Security Architecture).
@@ -48,7 +55,7 @@ CeloHT does not create, estimate, or infer these profiles on an individual's beh
 
 ---
 
-## 4. Conflict of Interest Disclosure
+## 5. Conflict of Interest Disclosure
 
 Verification and conflict-of-interest disclosure are linked processes:
 
@@ -58,7 +65,7 @@ Verification and conflict-of-interest disclosure are linked processes:
 
 ---
 
-## 5. Removal Policy
+## 6. Removal Policy
 
 A verified role holder's status may be revised or revoked under the following circumstances:
 
@@ -73,7 +80,7 @@ All removals are reflected in `TEAM.md` and `MAINTAINERS.md` promptly, with the 
 
 ---
 
-## 6. Privacy Considerations
+## 7. Privacy Considerations
 
 - CeloHT collects only the identity and profile information necessary to establish accountable, verifiable roles - not broader personal data unrelated to that purpose, consistent with `LEGAL_STATUS.md` Section 16.
 - Individuals may choose to disclose additional biographical detail voluntarily, but CeloHT does not require it beyond what is necessary for role verification and public accountability.

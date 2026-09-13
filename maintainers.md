@@ -4,7 +4,7 @@
 
 | Role | Responsibility |
 |---|---|
-| **Founder** | Strategic vision, external representation, final call in a genuine deadlock |
+| **Founder** | Founding history and institutional context; no maintainer, code-approval, or governance authority unless separately appointed through the documented process |
 | **Documentation Maintainer** | Reviews and approves changes to `docs/` |
 | **Security Maintainer** | Owns `SECURITY.md`, security workflows, incident response |
 | **Brand Maintainer** | Approves changes to `assets/branding/` and brand documents |
@@ -14,7 +14,9 @@
 
 | Name | Role | GitHub |
 |---|---|---|
-| Johnny Dubic | Founder | [@CeloHtOfficial](https://twitter.com/CeloHtOfficial) |
+| *(none currently appointed)* | Maintainer roster is open | No current maintainer appointment is recorded |
+
+Johnny Dubic's Founder designation does not itself create Maintainer status, repository ownership, code-approval authority, or a governance role. Maintainers are appointed and reviewed under `MAINTAINERS.md` and `GOVERNANCE.md`; no individual may exercise a "final call" outside those documented permissions.
 
 > This list grows as the community grows. See [`CONTRIBUTING.md`](../CONTRIBUTING.md)
 > for how to become a regular contributor the first step toward a

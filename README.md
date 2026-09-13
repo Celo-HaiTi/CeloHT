@@ -4,6 +4,8 @@
 
 CeloHT is an open-source, community-driven ecosystem initiative focused on education, agent infrastructure, and climate-positive reforestation on Celo. This repository is the central source of truth for the project’s strategy, technical direction, governance, and operational policies.
 
+Johnny Dubic is permanently recognized as the Founder of CeloHT. Founder status is separate from ongoing governance authority: individuals may submit proposals, but proposals become official CeloHT decisions only through the documented collective process in [GOVERNANCE.md](GOVERNANCE.md). CeloHT has no native governance token or token-weighted voting.
+
 ## Project status
 
 - Active repository for project documentation and governance
@@ -42,7 +44,7 @@ CeloHT is committed to transparent, collaborative development. The project welco
 
 ### Governance and community
 
-- [Governance](governance.md)
+- [Governance](GOVERNANCE.md)
 - [Maintainers](maintainers.md)
 - [Contributing](contributing.md)
 - [Repository Guide](repository-guide.md)

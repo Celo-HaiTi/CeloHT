@@ -2,9 +2,13 @@
 <img width="720" height="720" alt="IMG_20260728_183027" src="https://github.com/user-attachments/assets/0750c10d-c285-4058-9544-918cdcebf421" />
 
 
-# Johnny Dubic
+# Johnny Dubic - Founder of CeloHT
 
-## Founder | CeloHT & FreClean
+## Founder | CeloHT
+
+Johnny Dubic is recognized as the Founder of CeloHT. Founder status is permanently recognized as CeloHT's founding and historical designation. It does not automatically make Johnny Dubic a CEO, Director, Executive Director, Managing Director, Manager, or Foundation Director.
+
+Founder status is separate from ongoing governance authority. The Founder has no automatic Governance Council seat or vote, Founder safeguard, veto, emergency override, or unilateral governance authority. The Founder may submit proposals, participate in deliberation, and provide historical context, but must follow the same documented governance process as every other participant. A proposal is not an official CeloHT decision until the required collective process is complete.
 
 Johnny Dubic was born on **April 16, 2000**, in **Léogâne, Ouest, Haiti**. He is a Haitian entrepreneur, Web3 advocate, journalist, and community builder committed to advancing financial inclusion, education, and sustainable development through technology.
 
@@ -96,3 +100,7 @@ To build internationally recognized organizations that demonstrate how Web3 tech
 - X: https://x.com/JohnnyDubic
 
 Building Web3 solutions for financial inclusion, education, and sustainable development.
+
+## Verification
+
+**Verification Status: Pending Verification.** CeloHT recognizes the Founder designation from its published project records and the public identity links listed above. A “Verified” status requires evidence-based, objective, auditable, and reproducible confirmation under `VERIFICATION_POLICY.md`; no such completed verification record is currently published.

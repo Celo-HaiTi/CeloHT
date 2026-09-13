@@ -21,7 +21,7 @@ This policy applies to all assets held in CeloHT's name - fiat holdings, USDm ba
 | Governance Council | Approves treasury policy, annual budget, and disbursements above Council-level thresholds |
 | Treasury Committee | Executes approved disbursements; maintains multi-signature custody per Section 4 |
 | Finance Working Group | Reconciles records, prepares treasury reporting |
-| Founder | One voice among Council members; holds no unilateral treasury authority |
+| Founder | May participate under the documented process; has no automatic Council seat or vote and no unilateral treasury authority |
 
 ## Review Schedule
 

@@ -2,13 +2,13 @@
 <img width="720" height="720" alt="IMG_20260728_183027" src="https://github.com/user-attachments/assets/0750c10d-c285-4058-9544-918cdcebf421" />
 
 
-# Johnny Dubic — Permanently Recognized Founder of CeloHT
+# Johnny Dubic — Founder of CeloHT
 
 ## Founder Recognition
 
-Johnny Dubic is permanently recognized as the Founder of CeloHT in the project's historical and institutional record.
+Johnny Dubic is recognized as the Founder of CeloHT in the project's historical and institutional record.
 
-Permanent founder recognition is historical and institutional; it does not confer perpetual governance authority, ownership rights, veto power, or unilateral control. It does not automatically make Johnny Dubic a CEO, Director, Executive Director, Managing Director, Manager, or Foundation Director.
+Permanent founder recognition is historical and institutional; it does not confer perpetual governance authority, ownership rights, veto power, or unilateral control. It does not automatically make Johnny Dubic a CEO, Executive Director, Managing Director, Manager, or a permanent executive or foundation role with unilateral authority.
 
 Founder status is separate from ongoing governance authority. The Founder has no automatic Governance Council seat or vote, Founder safeguard, veto, emergency override, or unilateral governance authority. The Founder may submit proposals, participate in deliberation, and provide historical context, but must follow the same documented governance process as every other participant. A proposal is not an official CeloHT decision until the required collective process is complete.
 

@@ -15,15 +15,17 @@ governance.
 ecosystem, organized around three pillars: Education, Agent Network, and
 Reforestation.
 
-**USDm (Celo Dollar)** - A stablecoin on the Celo network pegged to the US
-dollar, used for everyday transactions.
+**USDm** - The current stable-value asset used by the project for everyday
+payments and value transfer on Celo. The older label "Celo Dollar" is a
+historical/legacy shorthand and is not the preferred current naming.
 
 **DeFi (Decentralized Finance)** - Financial services operating without
 traditional intermediaries. CeloHT is **not** a DeFi protocol.
 
 **dApp (Decentralized Application)** - An application that connects to a
 blockchain network, in CeloHT's case built to be compatible with wallets
-like Valora and to support CELO/USDm where appropriate.
+such as Valora, MiniPay, and WalletConnect-compatible wallets and to support
+CELO/USDm where appropriate.
 
 **Financial Inclusion** - Access to useful, affordable financial services
 for everyone, particularly populations without access to traditional banking.

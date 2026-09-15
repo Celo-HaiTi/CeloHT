@@ -1,6 +1,8 @@
 # Wallet Compatibility Report
 
-This repository does not implement a wallet-enabled application, so wallet compatibility is documented only at the policy and ecosystem-reference level. The rows below reflect that this repository is not a live runtime target.
+This repository does not implement a wallet-enabled application, so wallet compatibility is documented only at the policy and ecosystem-reference level. The current project wallet strategy is MiniPay, Valora, and WalletConnect-compatible wallets; no wallet provider is treated as a sole or exclusive official wallet in this repository.
+
+The rows below reflect that this repository is not a live runtime target.
 
 | Capability | Valora | MiniPay | WalletConnect |
 | --- | --- | --- | --- |

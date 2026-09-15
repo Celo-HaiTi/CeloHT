@@ -135,7 +135,7 @@ An individual may submit a proposal, but no single individual may unilaterally e
 
 ### 3.2 Governance Council
 
-The Governance Council is CeloHT's highest ongoing decision-making body for strategic, treasury, and governance-amendment matters.
+The Governance Council is CeloHT's highest ongoing collective decision-making body for strategic, treasury, and governance-amendment matters.
 
 **Current status:** The Governance Council is pending formal formation. No Council members are currently named or assumed, and no person receives Council authority merely by association with the Founder. Once formally constituted through the documented process, the Council operates collectively under this framework; an individual Council member may not represent a personal position as the final Council decision.
 

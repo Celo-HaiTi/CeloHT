@@ -176,7 +176,7 @@ TBD. Impact figures (participants reached, agents onboarded, wallets created, tr
 | Documentation pages published | 76+ (as of latest internal count) |
 | Roadmap phases | 4 |
 | Core pillars | 3 |
-| Governance tiers | 3 |
+| Governance authority | Governance Council - highest ongoing collective decision-making body |
 | Countries of operation | 1 (Haiti); expansion plans TBD |
 | Community contributors | TBD |
 | Agent Network size | TBD |
@@ -281,9 +281,11 @@ Extended biography, professional background, and photography: TBD.
 
 | Role | Name | Notes |
 |---|---|---|
-| Founder | Johnny Dubic | See [Founder Biography](#founder-biography) |
-| Governance Council | TBD | Reviews and approves community contributions |
-| Contributors | Open / rotating | See [Governance](#governance) |
+| Governance Council | TBD | Highest ongoing collective decision-making body for strategic, treasury, and governance-amendment matters |
+| Founder | Johnny Dubic | Founding and historical role; no automatic Council seat, vote, veto, or unilateral governance authority. See [Founder Biography](#founder-biography) |
+| Maintainers | Open | Technical and project maintenance within assigned repository scope |
+| Working Groups | Open | Operational work within public charters and delegated mandates |
+| Contributors | Open / rotating | Submit work, participate in deliberation, and contribute under the documented governance framework |
 
 ---
 
@@ -294,6 +296,8 @@ CeloHT is explicitly community-governed, not founder-controlled. Governance foll
 1. **Proposal** - any eligible participant may submit an idea or proposal.
 2. **Public review and deliberation** - the community examines and improves the proposal.
 3. **Collective decision and documentation** - the applicable body records approval or rejection before implementation.
+
+The Governance Council is CeloHT's highest ongoing collective decision-making body. Maintainers handle technical and repository responsibilities, Working Groups carry out work within their published mandates, and Contributors participate through the contribution and governance processes. The Founder may provide historical context, submit proposals, and represent the project where authorized, but Founder status does not place the Founder above the Governance Council or create unilateral governance authority.
 
 Full governance procedures, decision-making processes, and eligibility criteria are published in GOVERNANCE.md within the primary GitHub repository.
 
@@ -400,7 +404,7 @@ Product screenshots and photography: TBD.
 
 ## Interview Requests
 
-Media professionals seeking interviews with CeloHT leadership should contact contact@celoht.com with the following information: outlet name, topic focus, preferred format (written, audio, video), and desired timeframe. Requests are reviewed by the Founder in coordination with the relevant program leads. Detailed interview guidelines are provided in PRESS_KIT.md.
+Media professionals seeking interviews with CeloHT representatives should contact contact@celoht.com with the following information: outlet name, topic focus, preferred format (written, audio, video), and desired timeframe. Requests are coordinated with the relevant program leads; the Founder may participate as a founding and historical representative. Detailed interview guidelines are provided in PRESS_KIT.md.
 
 ---
 

@@ -365,19 +365,20 @@ Every stage of the lifecycle MUST be recorded in the CeloHT governance repositor
 
 ## 20. Governance Structure
 
-CeloHT partnerships are governed within the organization's existing three-tier structure:
+CeloHT partnerships are governed within the organization's existing governance and operational framework:
 
 ```mermaid
 flowchart TD
     PP[Public Partnership Proposal] --> MC[Governance Council, when formally constituted]
     MC --> CC[Contributors]
-    MC --> PL[Partnerships Lead - Governance Council role]
+    MC --> PL[Partnerships Lead - scoped coordination role]
     PL --> DD[Due Diligence Reviewers]
     PL --> REG[Public Partnership Registry Maintainer]
 ```
 
 - The **Founder** is permanently recognized as a founding and historical designation, but has no special partnership approval authority; all proposals follow [Section 22](#22-approval-process).
-- The **Governance Council** is the primary decision-making body for partnership approval, suspension, and termination.
+- The **Governance Council** is CeloHT's highest ongoing collective decision-making body and decides partnership approval, suspension, and termination matters assigned to it by this policy.
+- The **Partnerships Lead** coordinates partnership work within the documented process; this operational role does not create governance authority or authority above the Governance Council.
 - **Contributors** MAY originate partnership proposals and participate in due diligence but MUST NOT approve partnerships independently.
 - This structure mirrors and is subordinate to [GOVERNANCE.md](./GOVERNANCE.md); in the event of any conflict, GOVERNANCE.md controls.
 

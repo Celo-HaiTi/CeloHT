@@ -37,7 +37,7 @@ This repository is intended to serve the broader CeloHT ecosystem as a canonical
 - The repository is documentation-only; no wallet, API, database, indexer,
 	smart-contract, or deployment runtime is present here.
 - The repository validator passes its required-file and YAML/JSON checks.
-- Some documents still contain legacy organization references or design material
+- Some documents still contain earlier organization references or design material
 	that must not be read as evidence of an implemented backend.
 - Several documents reference canonical files that are not present in this
 	repository. Those references are blockers for a fully synchronized document
@@ -157,7 +157,7 @@ Not applicable. No runtime mock or demo is present in this repository.
 
 ### HISTORICAL / DEPRECATED
 
-Legacy organization references are historical or deprecated and must not be used
+Earlier organization references are historical or deprecated and must not be used
 for new current links.
 
 **Overall status: IMPLEMENTED for the documentation-and-governance role;

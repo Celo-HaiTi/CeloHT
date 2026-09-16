@@ -16,8 +16,8 @@ ecosystem, organized around three pillars: Education, Agent Network, and
 Reforestation.
 
 **USDm** - The current stable-value asset used by the project for everyday
-payments and value transfer on Celo. The older label "Celo Dollar" is a
-historical/legacy shorthand and is not the preferred current naming.
+payments and value transfer on Celo. The earlier label "Celo Dollar" is a
+historical shorthand and is not the preferred current naming.
 
 **DeFi (Decentralized Finance)** - Financial services operating without
 traditional intermediaries. CeloHT is **not** a DeFi protocol.

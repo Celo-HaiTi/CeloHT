@@ -5,8 +5,8 @@
 - Active project: `CeloHT`
 - Canonical GitHub organization: `Celo-HaiTi`
 - Canonical currency terminology: `USDm`
-- Obsolete project-name variant: a legacy project-name form that must not appear in the current editable corpus
-- Obsolete currency label: a legacy currency label that must not appear in the current editable corpus
+- Obsolete project-name variant: an obsolete project-name form that must not appear in the current editable corpus
+- Obsolete currency label: an obsolete currency label that must not appear in the current editable corpus
 
 ## Enforcement rule
 
@@ -16,7 +16,7 @@ The current editable repository corpus must use only canonical active terminolog
 
 Historical Git history may retain obsolete terminology, but current editable files must follow the canonical vocabulary.
 
-The audit therefore fails if current editable files contain the obsolete project-name variant, the obsolete currency label, or obsolete legacy GitHub organization URL patterns associated with the legacy project-name form.
+The audit therefore fails if current editable files contain the obsolete project-name variant, the obsolete currency label, or obsolete GitHub organization URL patterns associated with the obsolete project-name form.
 
 These are treated as current-corpus violations, not acceptable historical references, even when they appear in otherwise current documentation.
 
@@ -55,7 +55,7 @@ The second category must have ZERO obsolete visible terminology.
 
 The repository-level audit must:
 
-1. Search the active organization and the current checkout for the obsolete currency label, the obsolete project-name variant, and obsolete legacy GitHub organization URL patterns.
+1. Search the active organization and the current checkout for the obsolete currency label, the obsolete project-name variant, and obsolete GitHub organization URL patterns.
 2. Label each occurrence by repository, file, and line.
 3. Determine whether the match is current editable content or immutable history.
 4. Remove or rewrite any current editable occurrence to the canonical vocabulary.
@@ -64,12 +64,7 @@ The repository-level audit must:
 
 ## Review standard
 
-A repository passes only when the final search confirms zero current editable-file matches for:
-
-- `cUSD`
-- `Celo-HT`
-- `github.com/Celo-HT/`
-- `github.com/Celo-HT`
+A repository passes only when the final search confirms zero current editable-file matches for the obsolete currency label, the obsolete project-name variant, and obsolete GitHub organization URL patterns tied to that project-name form.
 
 Canonical references remain valid:
 

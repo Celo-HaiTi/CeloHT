@@ -1,6 +1,6 @@
 # CeloHT Media Kit
 
-**Community-Governed Financial Inclusion, Blockchain Education, and Environmental Sustainability**
+**A community-driven, open-source initiative built on the Celo ecosystem**
 
 Official reference document for journalists, investors, donors, foundations, governments, universities, NGOs, strategic partners, conference organizers, developers, and community members.
 
@@ -9,15 +9,14 @@ Official reference document for journalists, investors, donors, foundations, gov
 ## Cover Page
 
 **Organization:** CeloHT
-**Tagline:** TBD
-**Headquarters:** Léogâne, Haiti
-**Built on:** Celo blockchain
-**Website:** [celoht.com](https://celoht.com) (status: UNVERIFIED in this repository)
+**Project focus:** Haiti-first financial inclusion, education, and environmental restoration
+**Technical foundation:** Celo ecosystem
+**Website:** Public website status is not established in this repository.
 **GitHub Organization:** [github.com/Celo-HaiTi](https://github.com/Celo-HaiTi)
 **Primary Repository:** [github.com/Celo-HaiTi/CeloHT](https://github.com/Celo-HaiTi/CeloHT)
 **Contact:** contact@celoht.com
 **Document Version:** 1.0
-**Last Updated:** TBD (date of publication)
+**Last Updated:** August 2026 canonical documentation set
 **License of this document:** See [Brand Asset License](#brand-asset-license) and [Copyright](#copyright)
 
 ---
@@ -64,25 +63,25 @@ Official reference document for journalists, investors, donors, foundations, gov
 
 ## Executive Summary
 
-CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti, dedicated to advancing financial inclusion, blockchain education, and environmental sustainability. Built on the Celo blockchain and using the USDm stablecoin, CeloHT operates through three core pillars: Education, an Agent Network for cash-to-USDm conversion and wallet onboarding, and a Reforestation program.
+CeloHT is an open-source, community-driven initiative built on the Celo ecosystem, focused first on Haiti and dedicated to financial inclusion, education, and environmental restoration. It uses USDm for supported payment and value flows and CELO for network gas where required. Its three pillars are Education, a Community Agent Network, and Reforestation.
 
 CeloHT is explicitly community-governed rather than founder-controlled. Its documented model uses public proposals, community deliberation, and collective decision-making; the Founder designation does not create unilateral authority. The organization follows a strict No Token Policy: it does not issue a native token, has never conducted an ICO or presale, and does not present any activity as an investment or speculative opportunity.
 
-CeloHT's work is organized around a four-phase roadmap running from 2026 through 2028 and beyond, currently in its foundational stage. This Media Kit provides a comprehensive, publication-ready reference for anyone reporting on, funding, partnering with, or otherwise engaging with CeloHT.
+CeloHT's work follows a four-phase roadmap. Phase 1 is in progress, with foundational repository and training milestones complete, agent and grant work in progress, and website and reforestation milestones planned.
 
 ---
 
 ## About CeloHT
 
-CeloHT is a community-governed Web3 initiative built on the Celo blockchain. It is headquartered in Léogâne, Haiti, and organizes its work around three interconnected pillars:
+CeloHT is a community-driven, open-source initiative built on the Celo ecosystem. It was founded in Léogâne, Haiti, and organizes its work around three interconnected pillars:
 
 - **Education** - blockchain and digital-literacy education designed for local context and accessibility.
 - **Agent Network** - a human network enabling cash-to-USDm conversion, wallet onboarding, and community liquidity, extending financial access to people without traditional banking infrastructure.
 - **Reforestation** - an environmental sustainability program, currently in its design and pilot phase.
 
-CeloHT supports wallet connectivity through Valora, MiniPay, and WalletConnect, providing users with multiple ways to connect to the CeloHT dApp and interact with supported Celo services. CeloHT is wallet-agnostic and does not operate or custody user wallets. Wallets are used by users to connect and authorize transactions through the CeloHT dApp.
+CeloHT's documented wallet strategy covers Valora, MiniPay, and WalletConnect-compatible wallets. This repository does not implement a live wallet-enabled application; CeloHT does not operate or custody user wallets.
 
-CeloHT is released under the Apache 2.0 license, and its work - including its documentation, brand assets, and codebase - is maintained publicly on GitHub under the canonical organization identity Celo-HaiTi.
+CeloHT's primary repository is licensed under Apache 2.0, while licensing is stated at the individual repository level. Its public documentation and code are maintained under the canonical GitHub organization identity Celo-HaiTi.
 
 **CeloHT is not a cryptocurrency investment project.** It does not issue a native token, does not run token sales, and does not offer staking or speculative financial products. Its purpose is financial inclusion, education, and environmental impact, built using existing, established blockchain infrastructure.
 
@@ -90,11 +89,11 @@ CeloHT is released under the Apache 2.0 license, and its work - including its do
 
 ## Mission
 
-TBD - to be drawn verbatim from the official WHITEPAPER.md / README.md mission statement at time of publication. In summary form, consistent with organizational documentation: CeloHT exists to expand financial inclusion, blockchain literacy, and environmental resilience in Haiti and similar communities, using open, transparent, and community-governed digital tools.
+Expand financial inclusion through education, a decentralized network of community agents, and environmental reforestation built on the Celo ecosystem as our technical foundation.
 
 ## Vision
 
-TBD - to be drawn verbatim from the official WHITEPAPER.md / ROADMAP.md vision statement at time of publication.
+We want to see a Haiti and eventually a wider Caribbean where distance from a traditional bank branch no longer decides whether someone has access to real financial tools, where people understand how to use digital financial tools, and where economic progress does not come at the cost of the land people depend on.
 
 ## Core Values
 
@@ -112,14 +111,14 @@ TBD - to be drawn verbatim from the official WHITEPAPER.md / ROADMAP.md vision s
 
 ## Elevator Pitches
 
-**One-sentence pitch (approx. 15 words):**
-TBD - to be finalized and kept consistent with README.md tagline once confirmed.
+**One-sentence pitch:**
+CeloHT expands financial inclusion through education, community agents, and environmental reforestation built on the Celo ecosystem.
 
 **Short pitch (approx. 30-40 words):**
-CeloHT is a community-governed initiative in Léogâne, Haiti, using the Celo blockchain to expand financial inclusion, blockchain education, and reforestation - without a native token, without speculation, and with governance shared across the community it serves.
+CeloHT is a community-driven, open-source initiative focused first on Haiti, using the Celo ecosystem to support financial inclusion, education, and reforestation - without a native token or token-based governance.
 
 **Extended pitch (approx. 75-100 words):**
-CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti. Built on the Celo blockchain, it operates through three pillars - Education, an Agent Network for cash-to-USDm conversion and wallet onboarding, and Reforestation - to expand financial inclusion and environmental resilience in communities that need it most. CeloHT maintains a strict No Token Policy, has no native token, and does not present its programs as investment opportunities. Public proposals, community deliberation, and documented collective decisions ensure the initiative remains accountable to the community it serves rather than to a single founder.
+CeloHT is a community-driven, open-source initiative founded in Léogâne, Haiti. Built on the Celo ecosystem, it works through Education, a Community Agent Network, and Reforestation to expand financial inclusion and environmental resilience. CeloHT has no native token and does not present its programs as investment opportunities. Public proposals, community deliberation, and documented collective decisions are the basis of its governance rather than unilateral founder control.
 
 ---
 
@@ -128,19 +127,19 @@ CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti
 | Attribute | Detail |
 |---|---|
 | Legal / Operating Name | CeloHT |
-| Headquarters | Léogâne, Haiti |
+| Geographic focus | Haiti first; wider Caribbean is a future vision |
 | Founder | Johnny Dubic — Permanently Recognized Founder of CeloHT |
-| Founded | TBD (year to be confirmed against LEGAL_STATUS.md) |
-| Legal Structure | See LEGAL_STATUS.md (TBD for public summary) |
+| Founded | April 16, 2022, in Léogâne, Haiti |
+| Legal Structure | Non-incorporated, open-source community initiative; not a registered nonprofit, foundation, company, or other legal entity |
 | Blockchain | Celo |
 | Primary Assets Used | USDm, CELO |
 | Native Token | None (see No Token Policy) |
 | Supported Wallets | Valora, MiniPay, and WalletConnect |
 | License | Apache 2.0 |
-| Governance Model | Public proposals → community deliberation → documented collective decision |
+| Governance Model | Public proposals, deliberation, and documented collective decisions; Governance Council pending formal formation |
 | Core Pillars | Education, Agent Network, Reforestation |
-| Current Roadmap Phase | Phase 1: Foundation (2026 Q2-Q3) - planned/verified status depends on project documentation |
-| Website | celoht.com (UNVERIFIED in this repository) |
+| Current Roadmap Phase | Phase 1: Foundation (2026 Q2-Q3) - in progress |
+| Website | Public website status is not established in this repository |
 | GitHub Organization | github.com/Celo-HaiTi |
 | Primary Contact | contact@celoht.com |
 
@@ -150,21 +149,21 @@ CeloHT is a community-governed Web3 initiative headquartered in Léogâne, Haiti
 
 ### Education
 
-Blockchain and digital-literacy education aimed at students, developers, community leaders, and the general public. Curriculum materials are maintained publicly in the CeloHT documentation repository. Specific enrollment or completion statistics: TBD.
+Blockchain and digital-literacy education aimed at students, developers, community leaders, and the general public. Curriculum materials are maintained publicly in the CeloHT documentation repository. Current enrollment and completion statistics are not publicly established in the current documentation.
 
 ### Agent Network
 
-A network of community-based agents who facilitate cash-to-USDm conversion, wallet onboarding, and local liquidity. The Agent Network is designed to bring practical financial access to individuals without traditional banking relationships, including farmers, merchants, small businesses, and diaspora communities. Current network size and transaction volume: TBD.
+A network of community-based agents who facilitate cash-to-USDm conversion, wallet onboarding, and local liquidity. The Agent Network is designed to bring practical financial access to individuals without traditional banking relationships, including farmers, merchants, small businesses, and diaspora communities. Current network size and transaction volume are not publicly established in the current documentation.
 
 ### Reforestation
 
-An environmental sustainability program, currently in its design and pilot phase and not yet fully operational. Public reforestation guides and program documentation are maintained in the CeloHT documentation repository. Site locations, tree counts, and pilot outcomes: TBD.
+An environmental sustainability program, currently in its design and pilot phase and not yet fully operational. Public reforestation guides and program documentation are maintained in the CeloHT documentation repository. Site locations, tree counts, and pilot outcomes are not publicly established; the program remains in design and pilot planning.
 
 ---
 
 ## Community Impact
 
-TBD. Impact figures (participants reached, agents onboarded, wallets created, transaction volume, trees planted, education sessions delivered, and similar metrics) will be added once verified against official program reporting. CeloHT's stated commitment is to report only measurable, verifiable impact data - figures will not be estimated or projected in this document ahead of confirmation.
+No current aggregate impact figures are publicly established in the canonical documentation. CeloHT reports only measurable, verifiable impact data and does not estimate or project figures in this document.
 
 ---
 
@@ -172,16 +171,16 @@ TBD. Impact figures (participants reached, agents onboarded, wallets created, tr
 
 | Metric | Value |
 |---|---|
-| Repositories maintained | TBD |
-| Documentation pages published | 76+ (as of latest internal count) |
+| Repositories maintained | Not publicly established |
+| Documentation pages published | Not publicly established |
 | Roadmap phases | 4 |
 | Core pillars | 3 |
-| Governance authority | Governance Council - highest ongoing collective decision-making body |
-| Countries of operation | 1 (Haiti); expansion plans TBD |
-| Community contributors | TBD |
-| Agent Network size | TBD |
-| Wallets onboarded | TBD |
-| Reforestation sites (pilot) | TBD |
+| Governance authority | Governance Council is the documented highest ongoing collective body when formally constituted; current formation is pending |
+| Countries of operation | Current operational coverage is not publicly established; project focus is Haiti first |
+| Community contributors | Not publicly established |
+| Agent Network size | Not publicly established |
+| Wallets onboarded | Not publicly established |
+| Reforestation sites (pilot) | Not publicly established |
 
 ---
 
@@ -189,20 +188,20 @@ TBD. Impact figures (participants reached, agents onboarded, wallets created, tr
 
 | Phase | Name | Period | Status |
 |---|---|---|---|
-| Phase 1 | Foundation | 2026 Q2 - 2026 Q3 | Completed |
-| Phase 2 | Validation | 2026 Q4 - 2027 Q1 | Upcoming |
+| Phase 1 | Foundation | 2026 Q2 - 2026 Q3 | In progress |
+| Phase 2 | Validation | 2026 Q4 - 2027 Q1 | Planned |
 | Phase 3 | Growth | 2027 | Planned |
 | Phase 4 | Maturity | 2028 and beyond | Planned |
 
-CeloHT's documented history begins in 2025; no organizational history predates this period. Detailed month-by-month milestones (repository launches, program pilots, partnership announcements) are maintained in ROADMAP.md and will be reflected here as they are finalized: TBD.
+CeloHT's documented history records its founding on April 16, 2022. Detailed milestone status is maintained in ROADMAP.md.
 
 ---
 
 ## Brand Identity
 
-CeloHT's brand identity is built around clarity, trust, and accessibility, reflecting its mission of financial inclusion and community governance. Full brand standards are maintained in the CeloHT Brand repository and BRAND_GUIDE.md. This section summarizes identity elements relevant to external media and partner use; for complete specifications, refer to the source repository.
+CeloHT's brand identity is built around clarity, trust, and accessibility, reflecting its mission of financial inclusion and community governance. Full brand standards are maintained in brand-guidelines.md. This section summarizes identity elements relevant to external media and partner use; for complete specifications, refer to that document.
 
-**Brand voice:** TBD - full tone-of-voice guidance is maintained in BRAND_GUIDE.md.
+**Brand voice:** Clear, respectful, proud but humble, and plain-English first, with education before promotion and no exaggeration.
 
 ---
 
@@ -215,7 +214,7 @@ The official CeloHT logo features a dark navy "C" mark with a gold bar-chart-sty
 | Primary (yellow background) | Default use, marketing materials, presentations |
 | Transparent | Overlays, merchandise, varied background contexts |
 | Favicon / icon-only | App icons, browser tabs, small-format use |
-| Monochrome (if available) | TBD |
+| Monochrome | Use only if an approved asset is available |
 
 Full logo files, usage clearances, and exclusion zones are available in the Brand repository under `assets/branding/`. Do not modify, recolor, distort, or recompose the logo outside of approved variants without written permission (see [Brand Asset License](#brand-asset-license)).
 
@@ -223,26 +222,24 @@ Full logo files, usage clearances, and exclusion zones are available in the Bran
 
 ## Brand Colors
 
-| Color | Role | Hex (TBD to confirm) |
+| Color | Role | Hex |
 |---|---|---|
-| Navy | Primary / wordmark, backgrounds | TBD |
-| Gold | Accent, arrow/chart mark | TBD |
-| Yellow | Primary logo background | TBD |
-| Supporting neutrals | Text, backgrounds | TBD |
+| Navy | Background, primary text, authority | #0B1120 |
+| Gold | Accent, calls to action | #F5C842 |
 
-Exact hex, RGB, and CMYK values are maintained in BRAND_GUIDE.md and the Brand repository color system files. This table will be updated with confirmed values.
+The current repository documents these official colors in brand-guidelines.md. No additional color values are established here.
 
 ---
 
 ## Typography
 
-Primary and secondary typefaces are defined in BRAND_GUIDE.md within the Brand repository. Historical project materials have used IBM Plex Sans (body/UI) and Fraunces (display/headings); current canonical typography should be confirmed against the latest BRAND_GUIDE.md before use in external publications: TBD (confirm current standard).
+The current documented typefaces are Cormorant Garamond for headings and Montserrat for body text and interfaces.
 
 ---
 
 ## Visual Identity
 
-CeloHT's visual identity spans its website, documentation, and community materials, favoring a clean, professional presentation consistent with its non-speculative, education-first positioning. Full imagery guidelines, iconography, and layout standards are maintained in the Brand repository. Screenshots and product imagery are available in the [Downloads](#downloads) section.
+CeloHT's visual identity spans its website, documentation, and community materials, favoring a clean, professional presentation consistent with its non-speculative, education-first positioning. Full imagery guidelines, iconography, and layout standards are maintained in the repository. No current screenshots or product imagery are established here.
 
 ---
 
@@ -269,11 +266,11 @@ CeloHT's visual identity spans its website, documentation, and community materia
 ## Founder Biography
 
 **Name:** Johnny Dubic
-**Role:** Founder, CeloHT
+**Role:** Permanently Recognized Founder of CeloHT
 
-Johnny Dubic founded CeloHT in Léogâne, Haiti, with the goal of building a community-governed initiative for financial inclusion, blockchain education, and environmental sustainability. Johnny Dubic is permanently recognized as the Founder of CeloHT in the project's historical and institutional record, while Founder status remains separate from ongoing governance authority.
+Johnny Dubic founded CeloHT in Léogâne, Haiti, with the goal of building a community-driven initiative for financial inclusion, education, and environmental restoration. Permanent founder recognition is historical and institutional; it does not confer perpetual governance authority, ownership rights, veto power, or unilateral control.
 
-Extended biography, professional background, and photography: TBD.
+Extended biography and photography are not publicly established in the current documentation.
 
 ---
 
@@ -281,7 +278,7 @@ Extended biography, professional background, and photography: TBD.
 
 | Role | Name | Notes |
 |---|---|---|
-| Governance Council | TBD | Highest ongoing collective decision-making body for strategic, treasury, and governance-amendment matters |
+| Governance Council | Pending formal formation | Highest ongoing collective decision-making body when formally constituted |
 | Founder | Johnny Dubic | Founding and historical role; no automatic Council seat, vote, veto, or unilateral governance authority. See [Founder Biography](#founder-biography) |
 | Maintainers | Open | Technical and project maintenance within assigned repository scope |
 | Working Groups | Open | Operational work within public charters and delegated mandates |
@@ -297,7 +294,7 @@ CeloHT is explicitly community-governed, not founder-controlled. Governance foll
 2. **Public review and deliberation** - the community examines and improves the proposal.
 3. **Collective decision and documentation** - the applicable body records approval or rejection before implementation.
 
-The Governance Council is CeloHT's highest ongoing collective decision-making body. Maintainers handle technical and repository responsibilities, Working Groups carry out work within their published mandates, and Contributors participate through the contribution and governance processes. The Founder may provide historical context, submit proposals, and represent the project where authorized, but Founder status does not place the Founder above the Governance Council or create unilateral governance authority.
+The Governance Council is documented as CeloHT's highest ongoing collective decision-making body when formally constituted; its current formation is pending. Maintainers handle technical and repository responsibilities, Working Groups carry out work within published mandates, and Contributors participate through contribution and governance processes. The Founder may provide historical context, submit proposals, and represent the project where authorized, but Founder status does not create unilateral governance authority.
 
 Full governance procedures, decision-making processes, and eligibility criteria are published in GOVERNANCE.md within the primary GitHub repository.
 
@@ -305,9 +302,9 @@ Full governance procedures, decision-making processes, and eligibility criteria 
 
 ## Community
 
-CeloHT's community includes contributors, educators, agents, and program participants primarily in and around Léogâne, Haiti, with broader engagement across the Celo ecosystem and diaspora communities. Community participation channels: TBD (Discord, forum, or equivalent, if applicable).
+CeloHT's community includes contributors, educators, agents, and program participants, with a Haiti-first focus and broader engagement across the Celo ecosystem and diaspora communities. Documented participation channels include GitHub Discussions and CeloHT community forum channels.
 
-Primary spoken/working language for community engagement is Haitian Creole; formal project documentation (`celoht-docs`) is maintained in English only.
+Haitian Creole and English are co-equal primary languages for governance and educational documentation.
 
 ---
 
@@ -321,9 +318,9 @@ CeloHT welcomes partnerships aligned with its mission and No Token Policy. Curre
 - **Government and public-sector bodies** for financial inclusion initiatives
 - **Grant-making foundations**
 
-**Confirmed future partner:** FreClean, a separate local entrepreneurship and cleaning-services initiative, is a planned formal partner. Details of the partnership scope are still being finalized: TBD.
+No current official FreClean partnership is established in the current partnership documentation. FreClean is described historically as a separate, complementary initiative, not as a confirmed or planned CeloHT partner.
 
-Full terms are governed by PARTNERSHIP.md and FUND_ALLOCATION_FRAMEWORK.md. All partnership inquiries should be directed to partnerships@celoht.com.
+Partnership principles and approval requirements are governed by LEGAL_STATUS.md and GOVERNANCE.md. All partnership inquiries should be directed to partnerships@celoht.com.
 
 ---
 
@@ -333,10 +330,10 @@ Full terms are governed by PARTNERSHIP.md and FUND_ALLOCATION_FRAMEWORK.md. All 
 No. CeloHT has no native token, has never run an ICO or presale, and does not offer staking or investment products. See LEGAL_STATUS.md.
 
 **What blockchain does CeloHT use?**
-CeloHT is built on the Celo blockchain, using the USDm stablecoin and CELO asset.
+CeloHT is built on the Celo ecosystem. USDm is used for supported payment and value flows, while CELO is used for network gas where required.
 
 **What wallet does CeloHT support?**
-CeloHT supports Valora, MiniPay, and WalletConnect. Valora is recommended for users seeking a full-featured Celo wallet experience, while MiniPay provides an integrated mobile wallet experience and WalletConnect enables compatible wallets to connect to the CeloHT dApp.
+CeloHT's documented wallet strategy covers Valora, MiniPay, and WalletConnect-compatible wallets. This repository does not implement a live wallet runtime or individually verify every compatible wallet.
 
 **Who governs CeloHT?**
 CeloHT is governed through transparent, documented, community-driven proposals and collective decision-making. Johnny Dubic is permanently recognized as the Founder of CeloHT, but no single individual has unilateral governance authority.
@@ -345,16 +342,16 @@ CeloHT is governed through transparent, documented, community-driven proposals a
 The Reforestation program is currently in its design and pilot phase and is not yet fully operational.
 
 **How is CeloHT funded?**
-Through Celo ecosystem grants, strategic partnerships, and GitHub Sponsors. Longer term, the Agent Network is intended to become self-sustaining through service fees beginning in Phase 3 of the roadmap.
+The roadmap describes Phase 1-2 funding as primarily grants and partnerships, with transparent service fees planned for the Agent Network in Phase 3 and greater self-sustainability targeted for Phase 4.
 
 **What license governs CeloHT's code and documentation?**
-Apache 2.0.
+The primary repository uses Apache 2.0; consult each repository's LICENSE file for repository-specific terms.
 
 **Where can I find CeloHT's official documentation?**
-At the current Celo-HaiTi organization and celoht.com.
+In the Celo-HaiTi GitHub organization, starting with README.md and the linked canonical documentation.
 
-**Who is FreClean?**
-A separate, planned formal partner focused on local entrepreneurship and cleaning services. Partnership details are still being finalized.
+**What is the status of FreClean?**
+The current partnership documentation does not establish FreClean as an official CeloHT partner. History describes it as a separate, complementary initiative.
 
 ---
 
@@ -376,29 +373,29 @@ For detailed press-specific procedures, interview scheduling, and journalist gui
 
 | Platform | Handle |
 |---|---|
-| Facebook | @CeloHT |
-| Instagram | @celohtofficial |
+| Medium | @celoht3 |
+| X | @CeloHtOfficial |
+| Celo Forum | CeloHT community presence |
 | GitHub | github.com/Celo-HaiTi |
-| Website | celoht.com (UNVERIFIED in this repository) |
 
 ---
 
 ## Downloads
 
-The following assets are maintained in the CeloHT Brand and primary repositories and are available on request or directly via GitHub:
+The following references are maintained in the primary repository and are available directly via GitHub:
 
 - Logo files (primary, transparent, favicon variants) - `assets/branding/`
-- Brand color and typography specification - BRAND_GUIDE.md
+- Brand color, typography, and voice specification - brand-guidelines.md
 - Whitepaper - WHITEPAPER.md
 - Roadmap - ROADMAP.md
 - Governance charter - GOVERNANCE.md
 - Security policy - SECURITY.md
 - Legal status summary - LEGAL_STATUS.md
-- No Token Policy - LEGAL_STATUS.md
+- No Token Policy - LEGAL_STATUS.md and GOVERNANCE.md
 - This Media Kit - MEDIA_KIT.md
 - Press Kit - PRESS_KIT.md (companion document)
 
-Product screenshots and photography: TBD.
+Product screenshots and photography are not publicly established in this repository.
 
 ---
 
@@ -410,13 +407,13 @@ Media professionals seeking interviews with CeloHT representatives should contac
 
 ## Speaking Engagements
 
-CeloHT representatives are available for speaking engagements related to financial inclusion, blockchain education, community governance, and open-source project management. Requests should be sent to contact@celoht.com with event details, audience, and proposed date. Confirmed past speaking engagements: TBD.
+CeloHT may receive speaking requests related to financial inclusion, education, community governance, and open-source project management through contact@celoht.com. No confirmed past speaking engagements are publicly established in the current documentation.
 
 ---
 
 ## Awards
 
-TBD. No awards or formal recognitions are confirmed for publication at this time. This section will be updated as recognitions are received and verified.
+No awards or formal recognitions are confirmed for publication in the current documentation.
 
 ---
 
@@ -429,7 +426,7 @@ CeloHT brand assets (logo, color system, typography specifications, and related 
 - Assets must not be used in connection with any representation of CeloHT as an investment vehicle or in violation of the No Token Policy.
 - Commercial use beyond editorial/press purposes requires prior written permission from CeloHT (contact@celoht.com).
 
-Full terms are governed by the Brand repository license and BRAND_GUIDE.md usage guidelines.
+Full terms are governed by the repository license and brand-guidelines.md usage guidelines.
 
 ---
 
@@ -449,7 +446,7 @@ CeloHT is not a financial institution, investment adviser, or securities issuer.
 
 | Version | Date | Notes |
 |---|---|---|
-| 1.0 | TBD | Initial publication of MEDIA_KIT.md |
+| 1.0 | August 2026 | Initial publication of MEDIA_KIT.md |
 
 ---
 
@@ -459,18 +456,18 @@ CeloHT is not a financial institution, investment adviser, or securities issuer.
 - WHITEPAPER.md - full mission, vision, and technical background
 - ROADMAP.md - full phased roadmap detail
 - GOVERNANCE.md - governance structure and procedures
-- BRAND_GUIDE.md - complete visual identity specification
-- PARTNERSHIP.md - partnership terms and process
+- brand-guidelines.md - visual identity specification
+- partnerships.md - partnership categories and contact process
 - FUND_ALLOCATION_FRAMEWORK.md - funding sources and policy
 - LEGAL_STATUS.md - legal and organizational status
-- LEGAL_STATUS.md - full No Token Policy statement
+- GOVERNANCE.md - no-token governance and decision-making framework
 - SECURITY.md - security disclosure policy
 
 ---
 
 ## Appendix
 
-**Note on data completeness:** This Media Kit has been prepared for accuracy and consistency with CeloHT's official documentation set. Fields marked TBD indicate information not yet confirmed at the time of this document's preparation and should be finalized against the canonical Celo-HaiTi repositories and official channels before final publication or distribution.
+**Note on data completeness:** This Media Kit includes only claims established in the current CeloHT documentation. Where a public fact is unavailable, it says so rather than estimating or inventing a value.
 
 **Companion document:** This Media Kit is designed to be used alongside PRESS_KIT.md, which provides media-specific resources (press release template, quotes, photo assets, and journalist guidelines) without duplicating the organizational, brand, and governance detail provided here.
 

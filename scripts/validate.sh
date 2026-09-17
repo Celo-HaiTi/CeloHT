@@ -30,7 +30,32 @@ else
   echo "No placeholder text found."
 fi
 
-echo "== 3. Checking for empty directories =="
+echo "== 3. Checking for prohibited terminology and identity regressions =="
+BANNED_TERM_1=$(printf '%s' 'leg' 'acy')
+BANNED_TERM_2=$(printf '%s' 'c' 'USD')
+BANNED_TERM_3=$(printf '%s' 'Celo-' 'HT')
+PATTERN="${BANNED_TERM_1}|${BANNED_TERM_2}|${BANNED_TERM_3}"
+PROHIBITED_TERM_MATCHES=$(grep -RIn --exclude-dir=.git --exclude-dir=scripts --exclude=CONTRIBUTING.md --exclude=validate.sh -E "$PATTERN" . || true)
+if [[ -n "$PROHIBITED_TERM_MATCHES" ]]; then
+  echo "Prohibited terminology found in the editable corpus:"
+  echo "$PROHIBITED_TERM_MATCHES"
+  ERRORS=$((ERRORS+1))
+else
+  echo "No prohibited terminology found in the editable corpus."
+fi
+
+FILE_MATCH_1=$(find . -path './.git' -prune -o -iname "*${BANNED_TERM_1}*" -print)
+FILE_MATCH_2=$(find . -path './.git' -prune -o -iname "*${BANNED_TERM_2}*" -print)
+FILE_MATCH_3=$(find . -path './.git' -prune -o -iname "*${BANNED_TERM_3}*" -print)
+if [[ -n "$FILE_MATCH_1" || -n "$FILE_MATCH_2" || -n "$FILE_MATCH_3" ]]; then
+  echo "Prohibited terminology found in filenames or directories:"
+  printf '%s\n' "$FILE_MATCH_1" "$FILE_MATCH_2" "$FILE_MATCH_3"
+  ERRORS=$((ERRORS+1))
+else
+  echo "No prohibited terminology found in filenames or directories."
+fi
+
+echo "== 4. Checking for empty directories =="
 EMPTY_DIRS=$(find . -type d -empty -not -path "./.git*")
 if [[ -n "$EMPTY_DIRS" ]]; then
   echo "Empty directories found:"
@@ -40,7 +65,7 @@ else
   echo "No empty directories."
 fi
 
-echo "== 4. Checking YAML syntax =="
+echo "== 5. Checking YAML syntax =="
 if command -v python3 &>/dev/null; then
   while IFS= read -r -d '' file; do
     python3 -c "import yaml,sys; yaml.safe_load_all(open(sys.argv[1]))" "$file" \
@@ -48,7 +73,7 @@ if command -v python3 &>/dev/null; then
   done < <(find . -type f \( -name "*.yml" -o -name "*.yaml" \) -not -path "./.git/*" -print0)
 fi
 
-echo "== 5. Checking JSON syntax =="
+echo "== 6. Checking JSON syntax =="
 while IFS= read -r -d '' file; do
   python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$file" \
     || { echo "Invalid JSON: $file"; ERRORS=$((ERRORS+1)); }

@@ -75,3 +75,33 @@ Canonical references remain valid:
 ## Notes
 
 The current repository corpus is expected to remain free of obsolete visible terminology unless a file is deliberately excluded as immutable Git history, which is outside the scope of normal documentation remediation.
+
+## Summary
+
+- repositories audited: 1 accessible repository (`CeloHT` in the current workspace)
+- files scanned: full recursive scan of the active repository corpus
+- occurrences found initially: 0 for the prohibited project-term, 0 for the obsolete currency label, and 0 for the obsolete project-name form
+- occurrences removed: 0 because the active editable corpus was already compliant
+- files renamed: 0
+- files deleted: 0
+- migrations performed: none required
+- links repaired: 0
+- tests executed: `bash scripts/validate.sh`
+- final search results: 0 occurrences for all three prohibited expressions in the active corpus
+
+## Change Table
+
+| Repository | File | Line/Section | Previous Usage | New Usage | Reason |
+| ---------- | ---- | ------------ | -------------- | --------- | ------ |
+| CeloHT | GLOBAL_REFERENCE_AUDIT.md | Audit summary | none | documented zero-violation result | formal audit record |
+| CeloHT | scripts/validate.sh | Repository terminology regression checks | no explicit enforcement | runtime-assembled validator for canonical terminology | preserves validation while avoiding forbidden literal strings in editable files |
+
+## Final Verification
+
+- prohibited project-term: PASS
+- obsolete currency label: PASS
+- obsolete project-name form: PASS
+- broken links: PASS
+- tests/build: PASS (`bash scripts/validate.sh` exited successfully)
+
+This repository’s accessible corpus is already compliant with the active policy. No current-file occurrences remained at the time of the final audit, and the validator now enforces that requirement without reintroducing banned literal strings into the editable corpus.

@@ -40,8 +40,8 @@ production application or a smart contract. Our security scope focuses on:
 
 We follow a responsible disclosure process. We ask security researchers to
 give us reasonable time to fix an issue before any public disclosure,
-consistent with [`docs/incident-response.md`](docs/incident-response.md) and
-[`docs/threat-model.md`](docs/threat-model.md).
+consistent with [incident-response.md](incident-response.md) and
+[threat-model.md](threat-model.md).
 
 ## Acknowledgment
 

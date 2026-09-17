@@ -21,8 +21,8 @@ example, a dedicated grant for a reforestation cycle).
 
 ### 3. Community contributions
 
-Voluntary donations and support through tools like GitHub Sponsors (see
-[`.github/FUNDING.yml`](../.github/FUNDING.yml)).
+Voluntary donations and support through tools like GitHub Sponsors and documented grant pathways (see
+[FUND_ALLOCATION_FRAMEWORK.md](FUND_ALLOCATION_FRAMEWORK.md)).
 
 ## How Resources Get Used
 

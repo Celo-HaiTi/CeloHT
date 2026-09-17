@@ -32,4 +32,4 @@ For critical incidents affecting the user community (for example, a
 phishing campaign using the CeloHT name), an urgent notice will be posted on
 [@CeloHtOfficial](https://twitter.com/CeloHtOfficial) and on this repository.
 
-See [`SECURITY.md`](../SECURITY.md) for how to report an incident.
+See [SECURITY.md](SECURITY.md) for how to report an incident.

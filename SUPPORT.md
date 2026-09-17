@@ -6,13 +6,13 @@ Thanks for using or contributing to CeloHT. Here's how to get help.
 
 - **GitHub Discussions**: [github.com/Celo-HaiTi/CeloHT/discussions](https://github.com/Celo-HaiTi/CeloHT/discussions) -
   the best place for questions, ideas, and open conversation with the community.
-- **FAQ**: check [`docs/faq.md`](docs/faq.md) for answers to common questions.
+- **FAQ**: check [faq.md](faq.md) for answers to common questions.
 
 ## Reporting a Problem
 
-- **Bug or broken documentation**: open a [Bug Report](.github/ISSUE_TEMPLATE/bug_report.yml)
-- **Feature request**: open a [Feature Request](.github/ISSUE_TEMPLATE/feature_request.yml)
-- **Security vulnerability**: don't use public Issues - follow [`SECURITY.md`](SECURITY.md)
+- **Bug or broken documentation**: open an issue in the repository and describe the problem clearly.
+- **Feature request**: open an issue in the repository with a clear proposal and motivation.
+- **Security vulnerability**: don't use public Issues - follow [SECURITY.md](SECURITY.md)
 
 ## Direct Contact
 

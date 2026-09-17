@@ -1,6 +1,6 @@
 # Roadmap (Full Detail)
 
-For a quick summary, see [`ROADMAP.md`](../ROADMAP.md) at the repository root.
+For a quick summary, see [ROADMAP.md](ROADMAP.md) at the repository root.
 
 ## Phase 1 - Foundation (2022, Q2 - Q3)
 

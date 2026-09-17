@@ -13,15 +13,15 @@ communication ecosystem, along with their respective mitigations.
 imitates CeloHT to steal user funds.
 
 **Mitigation**: Official channels are clearly documented in
-[`contact.md`](contact.md) and [`README.md`](../README.md). We never ask a
-user for their seed phrase.
+[contact.md](contact.md) and [README.md](README.md). We never ask a user for
+their seed phrase.
 
 ### 2. Repository Content Manipulation
 
 **Threat**: A bad-faith contributor edits documentation to publish false
 information for example, false promises of investment returns.
 
-**Mitigation**: [`CODEOWNERS`](../CODEOWNERS) requires mandatory review for
+**Mitigation**: [CODEOWNERS](CODEOWNERS) requires mandatory review for
 sensitive paths; CI checks every change.
 
 ### 3. CI/CD Workflow Compromise

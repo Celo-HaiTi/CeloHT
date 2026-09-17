@@ -4,7 +4,7 @@
 
 CeloHT is a **community-driven, open-source initiative**, not a regulated
 financial institution, a bank, or a securities issuer. Code and content in
-this repository are shared under the [Apache 2.0 License](../LICENSE).
+this repository are shared under the [Apache 2.0 License](LICENSE).
 
 ## What CeloHT Is Not (Legal Clarification)
 

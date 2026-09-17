@@ -13,9 +13,8 @@ To help us evaluate a potential partnership, could you share:
    partnership, distributing educational material, etc.)
 3. Any important timelines on your end
 
-In the meantime, feel free to check [`docs/partnerships.md`](../docs/partnerships.md)
-and [`docs/business-model.md`](../docs/business-model.md) for more context on
-our approach.
+In the meantime, feel free to check [partnerships.md](partnerships.md)
+and [business-model.md](business-model.md) for more context on our approach.
 
 Best,
 The CeloHT Team

@@ -12,8 +12,8 @@ repository.
 You may:
 
 - Read, share, and cite our documentation
-- Contribute changes following [`CONTRIBUTING.md`](../CONTRIBUTING.md)
-- Adapt code and documents under the terms of the [Apache 2.0 License](../LICENSE)
+- Contribute changes following [CONTRIBUTING.md](CONTRIBUTING.md)
+- Adapt code and documents under the terms of the [Apache 2.0 License](LICENSE)
 
 ## Restrictions
 
@@ -34,8 +34,8 @@ as Celo, USDm, or Valora.
 ## Changes to These Terms
 
 Any change to this document follows the governance process described in
-[`GOVERNANCE.md`](../GOVERNANCE.md) and is documented in
-[`CHANGELOG.md`](../CHANGELOG.md).
+[GOVERNANCE.md](GOVERNANCE.md) and is documented in
+[CHANGELOG.md](CHANGELOG.md).
 
 ## Governing Law
 

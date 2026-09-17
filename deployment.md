@@ -3,11 +3,11 @@
 ## Documentation Deployment (GitHub Pages)
 
 Documentation under `docs/` deploys automatically to GitHub Pages through
-the [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) workflow
+the repository's GitHub Pages workflow configuration
 whenever something changes on `main` under `docs/` or `assets/`.
 
 The site is available at **https://docs.celoht.com** (configured through the
-[`CNAME`](../CNAME) file at the repository root).
+the repository root configuration for the site hostname).
 
 ### Automatic Deployment Steps
 
@@ -24,8 +24,8 @@ domain managed on Namecheap.
 ## Release Deployment
 
 Every repository version (for example, `v1.0.0`) is tagged and published
-automatically through [`.github/workflows/release.yml`](../.github/workflows/release.yml),
-which generates release notes from [`CHANGELOG.md`](../CHANGELOG.md).
+automatically through the repository's release workflow, which generates
+release notes from [CHANGELOG.md](CHANGELOG.md).
 
 ## Environments
 

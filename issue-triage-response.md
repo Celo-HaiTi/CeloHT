@@ -13,5 +13,5 @@ a closer look.
 - [ ] Classify severity/priority
 - [ ] Link related documentation if applicable
 
-We aim to follow up within 3-5 business days. See [`SUPPORT.md`](../SUPPORT.md)
+We aim to follow up within 3-5 business days. See [SUPPORT.md](SUPPORT.md)
 for more on response times.

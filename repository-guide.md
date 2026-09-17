@@ -27,5 +27,5 @@
 - **A developer**: go straight to [`developer-guide.md`](developer-guide.md)
 - **A prospective partner or funder**: see [`partnerships.md`](partnerships.md)
   and [`business-model.md`](business-model.md)
-- **A contributor**: follow [`CONTRIBUTING.md`](../CONTRIBUTING.md)
+- **A contributor**: follow [CONTRIBUTING.md](CONTRIBUTING.md)
 - **A journalist**: see [`press-kit.md`](press-kit.md) and [`media-kit.md`](media-kit.md)

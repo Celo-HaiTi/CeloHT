@@ -1,7 +1,7 @@
 # Contributing (Documentation Summary)
 
-For the full contribution guide, see [`CONTRIBUTING.md`](../CONTRIBUTING.md)
-at the root of the repository it covers the Pull Request process, quality
+For the full contribution guide, see [CONTRIBUTING.md](CONTRIBUTING.md)
+at the root of the repository; it covers the Pull Request process, quality
 standards, and commit message format.
 
 ## Quick Ways to Contribute
@@ -14,7 +14,7 @@ standards, and commit message format.
 
 ## Before You Start
 
-1. Read [`CODE_OF_CONDUCT.md`](../CODE_OF_CONDUCT.md)
-2. Check [`repository-guide.md`](repository-guide.md) to understand the layout
+1. Read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+2. Check [repository-guide.md](repository-guide.md) to understand the layout
 3. Search [Issues](https://github.com/Celo-HaiTi/CeloHT/issues) to see if
    someone's already working on the same thing

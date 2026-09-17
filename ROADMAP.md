@@ -8,17 +8,16 @@ partnerships, governance, the developer ecosystem, transparency, and
 long-term financial sustainability.
 
 For a narrative walkthrough of the vision behind this plan, see
-[`docs/roadmap.md`](docs/roadmap.md). For the underlying identity and
-principles, see [`docs/vision.md`](docs/vision.md) and
-[`docs/mission.md`](docs/mission.md).
+[roadmap.md](roadmap.md). For the underlying identity and principles, see
+[vision.md](vision.md) and [mission.md](mission.md).
 
 > **A note on how to read this roadmap.** Dates describe target windows, not
 > guarantees. Each phase depends on the previous one being validated -
 > we'd rather move a milestone than hit a date with a half-working program.
 > Progress against this roadmap is reported publicly through our monthly
 > community updates (see
-> [`templates/monthly-community-update.md`](templates/monthly-community-update.md))
-> and through [`CHANGELOG.md`](CHANGELOG.md).
+> [monthly-community-update.md](monthly-community-update.md))
+> and through [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
@@ -62,8 +61,7 @@ what CeloHT is and isn't. They shape every milestone below:
 
 Any roadmap item that would conflict with these principles doesn't belong on
 this roadmap, regardless of how attractive it might look. See
-[`docs/legal-status.md`](docs/legal-status.md) for the full list of what
-CeloHT is not.
+[legal-status.md](legal-status.md) for the full list of what CeloHT is not.
 
 ## Roadmap at a Glance
 
@@ -210,7 +208,7 @@ ourselves.
 - Performance optimization, especially for low-bandwidth mobile connections
   - the same reality that shapes our choice of Celo in the first place
 
-See [`docs/deployment.md`](docs/deployment.md) for current hosting details.
+See [deployment.md](deployment.md) for current hosting details.
 
 ## Strategic Initiative: Official CeloHT dApp
 
@@ -230,8 +228,8 @@ wallet connectivity, and agent tools actually happen.
 - Future smart-contract integrations, added only where they clearly serve
   the mission - not for their own sake
 
-See [`docs/api.md`](docs/api.md) for the current state of technical
-integration planning.
+See [api.md](api.md) for the current state of technical integration
+planning.
 
 ## Strategic Initiative: Community Growth
 
@@ -246,8 +244,8 @@ planting. Community growth work includes:
 
 ## Strategic Initiative: Partnerships
 
-See [`docs/partnerships.md`](docs/partnerships.md) for our full partnership
-strategy. On the roadmap specifically:
+See [partnerships.md](partnerships.md) for our full partnership strategy.
+On the roadmap specifically:
 
 - Formalize at least one Celo ecosystem grant relationship in Phase 1
 - Establish local NGO/cooperative partnerships ahead of geographic expansion
@@ -266,8 +264,8 @@ commitments:
 
 ## Strategic Initiative: Developer Ecosystem
 
-See [`docs/developer-guide.md`](docs/developer-guide.md) and
-[`CONTRIBUTING.md`](CONTRIBUTING.md). Roadmap commitments:
+See [developer-guide.md](developer-guide.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
+Roadmap commitments:
 
 - Keep this repository as the canonical source of truth as the dApp and
   website repositories are developed
@@ -280,13 +278,13 @@ See [`docs/developer-guide.md`](docs/developer-guide.md) and
 
 - Public roadmap (this document), updated at least quarterly
 - Monthly community updates (see
-  [`templates/monthly-community-update.md`](templates/monthly-community-update.md))
+  [monthly-community-update.md](monthly-community-update.md))
 - Annual transparency & impact report starting Phase 3
 - Public, verifiable reforestation tracking (photo + geolocation)
 
 ## Strategic Initiative: Financial Sustainability
 
-See [`docs/business-model.md`](docs/business-model.md) for the full model.
+See [business-model.md](business-model.md) for the full model.
 Roadmap commitments:
 
 - Phase 1-2: funded primarily through grants and partnerships

@@ -205,11 +205,11 @@ On Governance
 
 No permanently approved quotation is currently published.
 
-Use the factual governance descriptions in "GOVERNANCE.md" unless an authorized representative provides a confirmed quotation.
+Use the factual governance descriptions in [GOVERNANCE.md](GOVERNANCE.md) unless an authorized representative provides a confirmed quotation.
 
 On the No Token Policy
 
-Use the factual language established in "NO_TOKEN_POLICY.md" and "LEGAL_STATUS.md".
+Use the factual language established in [NO_TOKEN_POLICY.md](NO_TOKEN_POLICY.md) and [LEGAL_STATUS.md](LEGAL_STATUS.md).
 
 Do not create quotations implying that CeloHT has, plans to launch, or is fundraising through a native token unless an official governance-approved policy change has been published.
 
@@ -304,12 +304,12 @@ Logo Downloads
 Official logo assets should be sourced from the CeloHT Brand repository.
 
 Variant| Location
-Primary logo| CeloHT Brand repository
-Transparent logo| CeloHT Brand repository
-Favicon / icon| CeloHT Brand repository
-Additional approved variants| CeloHT Brand repository
+Primary logo| [assets/branding](assets/branding)
+Transparent logo| [assets/branding](assets/branding)
+Favicon / icon| [assets/branding](assets/branding)
+Additional approved variants| [assets/branding](assets/branding)
 
-Full logo specifications, exclusion zones, typography, and color values are documented in "BRAND_GUIDE.md" and related brand documentation.
+Full logo specifications, exclusion zones, typography, and color values are documented in [brand-guidelines.md](brand-guidelines.md) and [logo-usage.md](logo-usage.md).
 
 Do not redraw, recolor, distort, or substantially modify the official CeloHT logo without authorization.
 
@@ -465,18 +465,18 @@ Unverified rankings, informal praise, or self-described awards should not be pre
 Downloadable Resources
 
 Resource| Location
-Media Kit| "MEDIA_KIT.md"
-Whitepaper| "WHITEPAPER.md"
-Litepaper| "LITEPAPER.md"
-Roadmap| "ROADMAP.md"
-Governance| "GOVERNANCE.md"
-No Token Policy| "NO_TOKEN_POLICY.md"
-Legal Status| "LEGAL_STATUS.md"
-Technology| "TECHNOLOGY.md"
-Smart Contracts| "SMART_CONTRACTS.md"
-dApp documentation| "DAPP.md"
-Brand assets| CeloHT Brand repository
-This Press Kit| "PRESS_KIT.md"
+Media Kit| [MEDIA_KIT.md](MEDIA_KIT.md)
+Whitepaper| [WHITEPAPER.md](WHITEPAPER.md)
+Litepaper| Not yet published as a dedicated file; see [README.md](README.md) and [roadmap.md](roadmap.md)
+Roadmap| [ROADMAP.md](ROADMAP.md)
+Governance| [GOVERNANCE.md](GOVERNANCE.md)
+No Token Policy| [NO_TOKEN_POLICY.md](NO_TOKEN_POLICY.md)
+Legal Status| [LEGAL_STATUS.md](LEGAL_STATUS.md)
+Technology| [technology.md](technology.md)
+Smart Contracts| Not yet published as a dedicated public document in this repository
+App documentation| [api.md](api.md) and [README.md](README.md)
+Brand assets| [assets/branding](assets/branding)
+This Press Kit| [PRESS_KIT.md](PRESS_KIT.md)
 
 ---
 

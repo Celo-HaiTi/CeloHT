@@ -18,8 +18,8 @@
 
 Johnny Dubic's Founder designation does not itself create Maintainer status, repository ownership, code-approval authority, or a governance role. Maintainers are appointed and reviewed under `MAINTAINERS.md` and `GOVERNANCE.md`; no individual may exercise a "final call" outside those documented permissions.
 
-> This list grows as the community grows. See [`CONTRIBUTING.md`](../CONTRIBUTING.md)
-> for how to become a regular contributor the first step toward a
+> This list grows as the community grows. See [CONTRIBUTING.md](CONTRIBUTING.md)
+> for how to become a regular contributor; the first step toward a
 > maintainer role.
 
 ## Becoming a Maintainer
@@ -29,4 +29,4 @@ Johnny Dubic's Founder designation does not itself create Maintainer status, rep
 3. Get nominated by a current maintainer
 4. Get approval from the Governance Council
 
-See [`CODEOWNERS`](../CODEOWNERS) for specific responsibility by file path.
+See [CODEOWNERS](CODEOWNERS) for specific responsibility by file path.

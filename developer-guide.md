@@ -23,7 +23,7 @@ node scripts/check-required-files.js
 ## Code Standards
 
 - YAML files should follow standard YAML 1.1 syntax, spaces only, no tabs.
-- Markdown files should follow the rules in [`.markdownlint.yaml`](../.markdownlint.yaml).
+- Markdown files should follow the project's repository conventions and the checks in [scripts/validate.sh](scripts/validate.sh).
 - Node.js scripts should use `"use strict"` and explicit error handling.
 
 ## Testing Your Changes
@@ -43,7 +43,8 @@ Before opening a Pull Request:
 
 ## Example
 
-See [`examples/hello-agent/`](../examples/hello-agent/) for a simple example
+See [README.md](README.md) for the main project entry point and a simple
+starting point for contributors.
 demonstrating the data structure behind a CeloHT community agent profile.
 
 ## Technical Questions

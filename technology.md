@@ -3,8 +3,8 @@
 ## Official Financial Infrastructure
 
 CeloHT relies on the following technologies as its technical foundation.
-Replacing any of them requires an explicit governance decision see
-[`governance.md`](governance.md):
+Replacing any of them requires an explicit governance decision; see
+[GOVERNANCE.md](GOVERNANCE.md):
 
 ### Celo
 
@@ -35,8 +35,8 @@ relationship is documented.
 
 Celo and the supported wallet ecosystem are our current standard, but we're
 aware the crypto ecosystem keeps evolving. Any change to this foundational
-technology has to go through the process described in [`governance.md`](governance.md)
-and be documented in [`CHANGELOG.md`](../CHANGELOG.md).
+technology has to go through the process described in [GOVERNANCE.md](GOVERNANCE.md)
+and be documented in [CHANGELOG.md](CHANGELOG.md).
 
 ## Development Tooling
 

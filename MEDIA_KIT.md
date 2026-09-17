@@ -360,7 +360,7 @@ CELO and USDm are external assets within the Celo ecosystem and are not CeloHT-i
 
 For the complete policy, refer to:
 
-"NO_TOKEN_POLICY.md"
+[NO_TOKEN_POLICY.md](NO_TOKEN_POLICY.md)
 
 ---
 

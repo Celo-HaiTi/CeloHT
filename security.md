@@ -1,6 +1,6 @@
 # Security (Documentation Summary)
 
-For the full vulnerability reporting policy, see [`SECURITY.md`](../SECURITY.md)
+For the full vulnerability reporting policy, see [SECURITY.md](SECURITY.md)
 at the repository root.
 
 ## Our Approach
@@ -23,5 +23,5 @@ Valora security channels.
 
 ## Reporting a Problem
 
-Follow the process in [`SECURITY.md`](../SECURITY.md): email
+Follow the process in [SECURITY.md](SECURITY.md): email
 security@celoht.com privately, **not** a public Issue.

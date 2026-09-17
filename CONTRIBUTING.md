@@ -22,9 +22,9 @@ Everyone participating in this project is expected to follow our
 
 1. Fork the repository and create a branch with a descriptive name
    (for example: `docs/improve-developer-guide`).
-2. Make your changes, keeping [`docs/repository-guide.md`](docs/repository-guide.md) in mind.
+2. Make your changes, keeping [repository-guide.md](repository-guide.md) in mind.
 3. Test locally: run `bash scripts/validate.sh` to check Markdown, YAML, and links.
-4. Open a Pull Request using [our PR template](.github/PULL_REQUEST_TEMPLATE.md).
+4. Open a Pull Request in the repository using the normal GitHub flow at [GitHub Pull Requests](https://github.com/Celo-HaiTi/CeloHT/pulls).
 5. Respond to review - a maintainer will look at it and may ask for changes.
 6. Once approved, a maintainer will merge it.
 
@@ -34,7 +34,7 @@ Everyone participating in this project is expected to follow our
 - No placeholder text, "coming soon" sections, or broken links.
 - Every document should have a clear purpose and stay consistent with the
   rest of the docs.
-- Follow the Markdown style rules in [`.markdownlint.yaml`](.markdownlint.yaml).
+- Follow the repository's Markdown conventions and validation checks in [scripts/validate.sh](scripts/validate.sh).
 
 ## Commit Style
 

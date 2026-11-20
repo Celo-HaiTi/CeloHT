@@ -139,6 +139,7 @@ The platform is designed to support modern payment technologies, subject to avai
 
 - Visa
 - Mastercard
+- USDT
 - WalletConnect-compatible wallets
 - CeloHT payment infrastructure where applicable
 

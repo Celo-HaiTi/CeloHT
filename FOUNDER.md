@@ -1,5 +1,6 @@
 <div align="center"><img src="https://raw.githubusercontent.com/Celo-HaiTi/CeloHT/f45386ecef2e3666fb236748e4d88cd0cebf857e/assets/johnny-dubic-official-press-photo-01.jpg" width="720" alt="Johnny Dubic — Official Founder Portrait" />
-  Johnny Dubic
+
+Johnny Dubic
 
 Founder · Technology Builder · Entrepreneur
 

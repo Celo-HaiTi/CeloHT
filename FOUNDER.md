@@ -8,9 +8,11 @@ Official Founder Portrait
 
 Building practical platforms at the intersection of technology, financial access, healthcare, entrepreneurship, and sustainable economic opportunity.
 
-"LinkedIn" (https://www.linkedin.com/in/johnny-dubic-590585218) · "GitHub" (https://github.com/Danmante) · "X" (https://x.com/JohnnyDubic)
+"LinkedIn" (https://www.linkedin.com/in/johnny-dubic-590585218) 
+· "GitHub" (https://github.com/Danmante) 
+· "X" (https://x.com/JohnnyDubic)
 
-</div>---
+</div>
 
 1. Professional Profile
 
@@ -66,7 +68,7 @@ Official Links
 - GitHub: https://github.com/Celo-HaiTi
 - Production Application: https://app.celoht.com
 
----
+
 
 02 — FreClean
 
@@ -102,7 +104,7 @@ Official Links
 - Website: https://freclean.com
 - GitHub: https://github.com/FreClean
 
----
+
 
 03 — Danmante
 
@@ -150,7 +152,7 @@ Official Links
 - Website: https://danmmante.com
 - GitHub: https://github.com/Danmante
 
----
+
 
 3. A Common Direction
 
@@ -246,7 +248,7 @@ https://danmmante.com
 - LinkedIn: https://www.linkedin.com/in/johnny-dubic-590585218
 - X: https://x.com/JohnnyDubic
 
----
+
 
 <div align="center">Build. Connect. Create Opportunity.
 

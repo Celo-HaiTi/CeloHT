@@ -1,143 +1,446 @@
-# CeloHT Team
+CeloHT Team & Organizational Structure
 
-**Version 1.0 · August 2026**
-
-This document describes the current team structure of CeloHT: who holds which role, what verification status applies to each role, and how open or vacant positions are filled. It is published to give contributors, grant reviewers, auditors, and partners an accurate, current view of who is accountable for what - and to be explicit about what is not yet staffed, rather than leaving that information implicit or absent.
-
-This document should be read alongside `GOVERNANCE.md` (decision-making structure), `LEGAL_STATUS.md` (organizational legal status), `AUTHORS.md`, `MAINTAINERS.md`, `CONTRIBUTORS.md`, and `VERIFICATION_POLICY.md`.
-
----
-
-## Table of Contents
-
-1. [Project Overview](#1-project-overview)
-2. [Founder Profile](#2-founder-profile)
-3. [Core Team Structure](#3-core-team-structure)
-4. [Vacant Positions](#4-vacant-positions)
-5. [Responsibilities by Role](#5-responsibilities-by-role)
-6. [Verification Status](#6-verification-status)
-7. [Public Profile Requirements](#7-public-profile-requirements)
-8. [Team Principles](#8-team-principles)
-9. [Transparency Commitment](#9-transparency-commitment)
+Version: 2.0
+Status: Proposed for Review
+Last Updated: November 22, 2026
+Organization: Celo-HaiTi
+Project: CeloHT
+Official Website: https://celoht.com/
+GitHub Organization: https://github.com/Celo-HaiTi
+Documentation Repository: https://github.com/Celo-HaiTi/celoht-docs
+Canonical Governance Policy: https://github.com/Celo-HaiTi/celoht-governance/blob/main/GOVERNANCE.md
 
 ---
 
-## 1. Project Overview
+1. Purpose and Scope
 
-CeloHT is an open-source, community-governed initiative built on the Celo blockchain, organized around three pillars: Web3 and financial-literacy education, a community Agent Network, and environmental reforestation. CeloHT's governance model, described in full in `GOVERNANCE.md`, distributes authority across a Governance Council, Working Groups, Maintainers, and the broader contributor community. No individual, including the Founder, holds unilateral authority over the project.
+This document defines the organizational structure, recognized roles, responsibilities, participation categories, and public team transparency standards of CeloHT.
 
-This document exists because a project's credibility depends in part on the verifiability of the people behind it. CeloHT commits to listing team roles accurately, marking unfilled roles as such, and never presenting placeholder or fabricated individuals as if they were real team members.
+It exists to ensure that the public representation of the CeloHT team reflects documented facts rather than assumptions, informal arrangements, or unconfirmed appointments.
+
+CeloHT is a Haitian-led, open-source initiative built on the Celo ecosystem. It advances financial inclusion, blockchain education, digital payments, entrepreneurship, and environmental sustainability.
+
+Its three permanent program pillars are:
+
+1. Education.
+2. Agent Network.
+3. Reforestation.
+
+This document describes organizational roles and responsibilities. It does not independently establish governance authority, appoint individuals, create legal obligations, or replace the canonical governance policy.
+
+The canonical governance policy takes precedence over this document whenever a conflict exists.
+
+2. Organizational Principles
+
+CeloHT's organizational structure follows these principles:
+
+- Community-driven governance: Important decisions follow documented collective processes.
+- Transparency: Roles, appointments, responsibilities, and vacancies are accurately disclosed.
+- Accountability: Individuals are responsible for the duties formally assigned to them.
+- Open-source collaboration: Participation is encouraged across technical, educational, research, and community activities.
+- Equal application of rules: No individual receives special governance privileges solely because of personal status or historical contribution.
+- Separation of responsibilities: Governance, technical maintenance, program coordination, and community participation have distinct responsibilities.
+- Verification: Public claims about people, appointments, credentials, and affiliations must be supported by appropriate evidence.
+- Institutional independence: CeloHT maintains a clear distinction between its own structure and independent projects or organizations.
+
+Organizational titles represent responsibilities, not personal ownership of CeloHT or permanent control over its resources.
+
+3. Founder Recognition
+
+3.1 Permanently Recognized Founder
+
+Johnny Dubic — Founder of CeloHT
+
+CeloHT permanently recognizes Johnny Dubic as its Founder in the project's historical and institutional record.
+
+This recognition acknowledges his contribution to establishing CeloHT.
+
+Official public references:
+
+- LinkedIn: https://www.linkedin.com/in/johnny-dubic-590585218
+- X: https://x.com/JohnnyDubic
+- Founder documentation: https://github.com/Celo-HaiTi/celoht-docs/blob/main/FOUNDER.md
+
+3.2 Separation of Founder Recognition and Governance Authority
+
+Founder recognition is historical and institutional. It does not create ongoing or privileged governance authority.
+
+Founder status does not automatically grant:
+
+- Governance Council membership.
+- A Governance Council vote.
+- Veto power.
+- Unilateral decision-making authority.
+- Emergency governance powers.
+- Automatic executive authority.
+- Special constitutional privileges.
+- Treasury or financial control.
+- Repository ownership or privileged governance control.
+- Authority to approve, reject, reverse, or override collective decisions.
+- Special authority over appointments or community participation.
+
+The Founder cannot independently declare a proposal to be an official CeloHT decision.
+
+The Founder may submit proposals and participate in applicable community processes under the same documented rules that apply to other eligible participants.
+
+Any additional operational responsibility must be separately documented and established through the applicable procedures.
+
+Permanent Founder recognition must not be interpreted as permanent executive authority, ownership of governance, or entitlement to a Council position.
+
+4. Governance Structure
+
+CeloHT follows a documented, community-driven governance framework.
+
+The organizational structure distinguishes the following categories:
+
+1. Governance Council.
+2. Working Groups.
+3. Maintainers.
+4. Contributors.
+5. Volunteers and Community Participants.
+
+These categories have different responsibilities and must not be treated as interchangeable.
+
+4.1 Governance Council
+
+The Governance Council is intended to serve as CeloHT's highest ongoing collective decision-making body, within the authority established by the canonical governance policy.
+
+Its responsibilities are governed by the canonical policy and may include:
+
+- Reviewing governance proposals.
+- Participating in collective decision-making.
+- Exercising only the authority expressly granted by approved governance rules.
+- Supporting institutional accountability.
+- Reviewing organizational priorities within its approved mandate.
+- Supervising governance procedures where authorized.
+- Ensuring that decisions are properly documented.
+
+4.2 Council Formation and Membership
+
+The Governance Council must not be represented as fully constituted until its formation and membership have been formally established and documented through the applicable governance process.
+
+No unconfirmed Council member, seat, appointment, election result, or term may be published as an established fact.
+
+The Council's current formation status must be reflected in the official governance records.
+
+Council membership, eligibility, voting procedures, quorum, approval thresholds, and other applicable requirements must follow the canonical governance policy and formally adopted amendments.
+
+5. Working Groups and Program Functions
+
+CeloHT organizes specialized areas of work to support its mission and three permanent program pillars.
+
+The following are recognized functional areas:
+
+1. Education.
+2. Technology.
+3. Community.
+4. Agent Network.
+5. Reforestation.
+6. Finance.
+7. Communications.
+8. Legal.
+
+Their description in this document does not, by itself, establish that each Working Group is operational, staffed, or led by an appointed individual.
+
+5.1 Education
+
+Responsibilities may include:
+
+- Developing educational curricula.
+- Preparing blockchain and financial-literacy materials.
+- Supporting Haitian Creole-first educational resources.
+- Coordinating educational activities.
+- Promoting digital safety and responsible participation.
+- Maintaining educational quality and accessibility.
+
+5.2 Technology
+
+Responsibilities may include:
+
+- Supporting technical development.
+- Coordinating open-source software contributions.
+- Maintaining technical documentation.
+- Supporting infrastructure reliability.
+- Reviewing technical proposals within assigned authority.
+- Promoting responsible software maintenance and security practices.
+
+5.3 Community
+
+Responsibilities may include:
+
+- Supporting community participation.
+- Coordinating community activities.
+- Encouraging inclusive collaboration.
+- Supporting community communication.
+- Assisting with Code of Conduct processes under approved procedures.
+
+5.4 Agent Network
+
+Responsibilities may include:
+
+- Supporting Agent Network development.
+- Coordinating agent recruitment and training.
+- Preparing operational guidance.
+- Supporting financial-inclusion activities.
+- Documenting program performance and activities.
+
+5.5 Reforestation
+
+Responsibilities may include:
+
+- Supporting reforestation initiatives.
+- Coordinating planting-site partnerships.
+- Supporting sustainable agriculture.
+- Documenting environmental restoration activities.
+- Maintaining transparent field reporting and impact records.
+
+5.6 Finance
+
+Responsibilities may include:
+
+- Supporting financial transparency.
+- Preparing budget documentation.
+- Maintaining approved financial reporting.
+- Supporting treasury oversight procedures.
+- Documenting financial accountability.
+
+No Finance Working Group role automatically grants authority to approve or execute financial transactions.
+
+5.7 Communications
+
+Responsibilities may include:
+
+- Coordinating public communications.
+- Maintaining consistent institutional messaging.
+- Preparing approved public information.
+- Supporting press and partnership communications.
+- Maintaining accurate information across official channels.
+
+5.8 Legal
+
+Responsibilities may include:
+
+- Supporting legal and regulatory research.
+- Reviewing proposed partnership documentation.
+- Identifying relevant compliance considerations.
+- Supporting governance-documentation review.
+- Referring matters requiring qualified legal advice to appropriate professionals.
+
+No Working Group may independently create governance powers or override an approved collective decision.
+
+5.9 Working Group Appointments
+
+Working Group Leads and members must be appointed and recorded through the applicable governance procedures.
+
+Each active Working Group should have:
+
+- A documented purpose.
+- Defined responsibilities.
+- An approved appointment process.
+- Identifiable and confirmed leadership where applicable.
+- Documented activities and reporting responsibilities.
+
+Unfilled leadership positions must be identified as vacant or pending.
+
+A functional area must not be presented as an active, staffed Working Group without supporting records.
+
+6. Maintainers
+
+Maintainers support the technical and documentation resources of CeloHT within their assigned repository responsibilities.
+
+Their responsibilities may include:
+
+- Reviewing contributions.
+- Maintaining assigned repositories.
+- Coordinating approved releases.
+- Supporting code quality.
+- Identifying technical risks.
+- Supporting documentation accuracy.
+- Following repository security procedures.
+- Maintaining the integrity of the project's open-source development process.
+
+Maintainer appointments and repository permissions must follow documented authorization procedures.
+
+Maintainer status does not automatically grant:
+
+- Governance Council membership.
+- Governance voting rights.
+- Treasury authority.
+- Unilateral project-wide decision-making powers.
+- Ownership of CeloHT repositories or institutional resources.
+
+Official reference:
+
+https://github.com/Celo-HaiTi/celoht-docs/blob/main/MAINTAINERS.md
+
+7. Contributors
+
+Contributors are individuals who support CeloHT through documented technical, educational, research, organizational, environmental, or community contributions.
+
+Examples include:
+
+- Software development.
+- Documentation.
+- Research.
+- Education.
+- Translation.
+- Community support.
+- Agent Network activities.
+- Reforestation initiatives.
+- Communications.
+- Design and technical review.
+
+Contributor recognition must reflect actual contributions and applicable project policies.
+
+Being a contributor does not automatically grant an organizational appointment, Governance Council membership, or governance voting authority.
+
+Eligibility for governance participation is determined by the canonical governance policy.
+
+8. Volunteers and Community Participants
+
+CeloHT welcomes voluntary participation from individuals who support its mission.
+
+Participation opportunities may include:
+
+- Educational activities.
+- Community events.
+- Translation.
+- Research.
+- Environmental initiatives.
+- Outreach.
+- Technical collaboration.
+- Program support.
+
+Volunteers and community participants must follow applicable community policies and conduct standards.
+
+Participation does not automatically confer formal organizational authority, employment status, or governance privileges.
+
+9. Appointments, Vacancies, and Verification
+
+CeloHT must publish organizational appointments accurately and transparently.
+
+No individual may be presented as holding an official role without appropriate confirmation and documentation.
+
+This requirement applies to:
+
+- Governance Council members.
+- Working Group Leads.
+- Working Group members.
+- Maintainers.
+- Ambassadors.
+- Other formally appointed representatives.
+
+Public team records should distinguish between:
+
+- Confirmed: Supported by an appropriate appointment or verification record.
+- Pending: Awaiting completion of the applicable confirmation process.
+- Vacant: No confirmed individual currently holds the position.
+- Not established: The position or appointment process has not yet been formally established.
+
+These labels must be used consistently with "VERIFICATION_POLICY.md".
+
+CeloHT must not invent names, credentials, biographies, affiliations, appointments, or employment relationships.
+
+10. Roles, Authority, and Accountability
+
+Every official role must have a defined scope of responsibility.
+
+Individuals acting in an official capacity must:
+
+- Follow applicable governance rules.
+- Respect their assigned responsibilities.
+- Disclose relevant conflicts of interest.
+- Maintain appropriate records.
+- Avoid misrepresenting personal opinions as official CeloHT decisions.
+- Respect security, privacy, and conduct requirements.
+- Cooperate with applicable review and accountability procedures.
+
+No individual may claim authority outside their formally established role.
+
+Titles must not be used to imply ownership, unilateral control, or institutional powers that have not been approved.
+
+11. Transparency and Public Records
+
+CeloHT commits to maintaining accurate and appropriately accessible organizational records.
+
+Relevant records may include:
+
+- Governance decisions.
+- Confirmed appointments.
+- Working Group activities.
+- Maintainer responsibilities.
+- Contributor recognition.
+- Organizational changes.
+- Approved public reports.
+- Relevant accountability records.
+
+Changes to official team membership or organizational responsibilities should be recorded with an appropriate date and supporting documentation.
+
+Personal information must be handled responsibly and published only when appropriate.
+
+12. Independent Projects and Institutional Separation
+
+Johnny Dubic is also associated with independent initiatives including:
+
+- FreClean: https://freclean.com/
+- Danmante: https://danmmante.com/
+
+These initiatives are separate from CeloHT.
+
+Their mention in this document does not establish:
+
+- Shared governance.
+- Shared treasury.
+- Shared ownership.
+- Legal affiliation.
+- Operational control.
+- An automatic institutional partnership.
+
+Any formal partnership involving CeloHT must be separately documented and approved through the applicable procedures.
+
+CeloHT's organizational and governance responsibilities remain independent of the structures of other projects.
+
+13. Document Authority and Consistency
+
+This document is an organizational reference for CeloHT.
+
+The canonical governance policy is the authoritative source for governance procedures, decision-making authority, proposal handling, voting, and collective approvals.
+
+This document must remain consistent with:
+
+- "GOVERNANCE.md"
+- "GOVERNANCE_CONSTITUTION.md"
+- "FOUNDER.md"
+- "MAINTAINERS.md"
+- "AUTHORS.md"
+- "CONTRIBUTORS.md"
+- "VERIFICATION_POLICY.md"
+- "LEGAL_STATUS.md"
+
+Where a conflict exists, the applicable canonical governance policy takes precedence.
+
+This document cannot independently amend, replace, or override governance rules.
+
+14. Review and Maintenance
+
+This document must be reviewed when:
+
+- A confirmed organizational appointment occurs.
+- A role becomes vacant.
+- A Working Group is formally established or restructured.
+- The Governance Council is formally constituted or changes membership.
+- Governance rules are amended.
+- Organizational responsibilities materially change.
+
+All updates must be accurate, dated, and supported by appropriate records.
+
+Unapproved proposals must remain clearly identified as proposals.
 
 ---
 
-## 2. Founder Profile
-
-| Field | Status |
-|---|---|
-| **Name** | Johnny Dubic |
-| **Role** | Permanently Recognized Founder of CeloHT |
-| **Authority** | Founding and historical designation; no automatic executive authority, Governance Council seat or vote, veto, emergency power, or unilateral governance authority. Subject to the same documented governance, Conflict of Interest, Ethics, and Recusal rules as every other participant |
-| **Public profile** | To Be Announced (TBA) - pending publication of verified public profile links (see Section 7) |
-| **Verification status** | Pending Verification (see `VERIFICATION_POLICY.md`) |
-
-CeloHT does not publish unverified biographical claims, credentials, or third-party affiliations for any team member, including the Founder. Biographical detail beyond role, authority, and governance status will be added to this section only once it has been prepared and verified in accordance with `VERIFICATION_POLICY.md`, and will be sourced from information the Founder himself confirms and is willing to have published - not inferred or generated.
-
----
-
-## 3. Core Team Structure
-
-CeloHT's team structure mirrors the organizational model defined in `GOVERNANCE.md`. The table below reflects the current, actual staffing of each role as of this document's publication date.
-
-| Role | Seats | Current Status |
-|---|---|---|
-| Founder | 1 | Filled - Johnny Dubic |
-| Governance Council | 5-9 | Open - Council formation pending (see Section 4) |
-| Maintainers | Variable, per repository | Open - see `MAINTAINERS.md` |
-| Working Group Leads (Education, Technology, Community, Agent Network, Reforestation, Finance, Communications, Legal) | 1 per group | Open - all Working Group Lead positions currently vacant |
-| Ambassadors | Variable | Open - no Ambassadors currently appointed |
-| Contributors | Unlimited | Open - see `CONTRIBUTORS.md` |
-
-CeloHT does not list names against any role in the table above unless that role is genuinely and currently filled by a specific, identifiable individual who has agreed to be publicly named in this capacity.
-
----
-
-## 4. Vacant Positions
-
-The following positions are explicitly vacant. CeloHT lists them openly, consistent with the principle that an accurately disclosed vacancy is more trustworthy than an invented or implied appointment.
-
-| Position | Status | Appointment Process |
-|---|---|---|
-| Governance Council seats (up to 9) | Vacant | Election process defined in `GOVERNANCE.md` Section 16 |
-| Education Working Group Lead | Vacant | Nomination + Governance Council confirmation |
-| Technology Working Group Lead | Vacant | Nomination + Governance Council confirmation |
-| Community Working Group Lead | Vacant | Nomination + Governance Council confirmation |
-| Agent Network Working Group Lead | Vacant | Nomination + Governance Council confirmation |
-| Reforestation Working Group Lead | Vacant | Nomination + Governance Council confirmation |
-| Finance Working Group Lead | Vacant | Nomination + Governance Council confirmation |
-| Communications Working Group Lead | Vacant | Nomination + Governance Council confirmation |
-| Legal Working Group Lead | Vacant | Nomination + Governance Council confirmation |
-| Repository Maintainers | Vacant / Open for nomination | Governance Council appointment per `MAINTAINERS.md` |
-| Ambassadors | Vacant | Working Group Lead nomination + Council confirmation (once Working Groups exist) |
-
-A vacancy in this table does not indicate an absence of activity - it indicates that no specific individual has yet been confirmed, verified, and publicly named for that role. As CeloHT's contributor base grows, vacancies will be filled through the processes defined in `GOVERNANCE.md`, and this document will be updated accordingly.
-
----
-
-## 5. Responsibilities by Role
-
-| Role | Core Responsibilities |
-|---|---|
-| **Founder** | Founding history, mission origins, institutional continuity, historical context, and participation in the community governance process |
-| **Governance Council Member** | Strategic and treasury decisions, governance amendments, oversight of Working Groups |
-| **Maintainer** | Code review, release management, security triage within assigned repository scope (see `MAINTAINERS.md`) |
-| **Working Group Lead** | Operational execution within a published charter; reports to the Governance Council |
-| **Ambassador** | Regional or institutional representation, appointed and time-bound |
-| **Contributor** | Submits code, documentation, translation, or design contributions (see `CONTRIBUTORS.md`) |
-
-Full role definitions, terms, and removal processes are set out in `GOVERNANCE.md` Section 3.
-
----
-
-## 6. Verification Status
-
-Every named individual associated with CeloHT is assigned one of the following verification statuses, defined fully in `VERIFICATION_POLICY.md`:
-
-| Status | Meaning |
-|---|---|
-| **Verified** | Identity and public profile confirmed per `VERIFICATION_POLICY.md` |
-| **Pending Verification** | Named and active, verification in progress |
-| **Open / Vacant** | No individual currently holds this role |
-| **TBA (To Be Announced)** | Role or appointment planned but not yet finalized |
-
-As of this document's publication date, no team member - including the Founder - has completed the full verification process described in `VERIFICATION_POLICY.md`. This is disclosed explicitly rather than omitted, and this document will be updated as verification is completed.
-
----
-
-## 7. Public Profile Requirements
-
-Consistent with practices at organizations such as the Linux Foundation, Mozilla Foundation, and the Celo Foundation, CeloHT requires that individuals holding a Governance Council seat, Maintainer role, or Working Group Lead role eventually publish, at minimum:
-
-- A GitHub profile linked to their CeloHT role, consistent with the account performing that role's activity in CeloHT repositories.
-- At least one additional verifiable public profile (for example, a professional network profile, personal website, or equivalent), sufficient to establish that the individual is a real, identifiable person.
-
-Public profile links are not fabricated, estimated, or placeholder-filled by CeloHT on behalf of any individual. Until an individual provides and confirms their own links, their entry in this document will read "TBA" or "Pending Verification," never a constructed or assumed profile.
-
----
-
-## 8. Team Principles
-
-- **No fabricated team members.** CeloHT will never list a name, biography, credential, or affiliation that has not been confirmed directly by the individual concerned.
-- **Open vacancies over invented appointments.** An unfilled role is marked "Open" or "Vacant" rather than implied to be filled.
-- **Authority is role-based, not person-based.** Responsibilities attach to governance roles defined in `GOVERNANCE.md`, not to informal influence.
-- **No unilateral control.** Founder status is separate from ongoing governance authority. The Founder cannot unilaterally establish, approve, reject, override, or impose an official CeloHT governance decision.
-- **Verification before publicity.** Biographical claims are published only after the process in `VERIFICATION_POLICY.md` has been completed or explicitly marked as pending.
-
----
-
-## 9. Transparency Commitment
-
-CeloHT commits to keeping this document current as roles are filled, vacated, or restructured. Any change to the Core Team Structure (Section 3) is logged with a dated changelog entry. Reviewers, auditors, and partners conducting due diligence should treat the absence of a name in this document as an accurate statement that the role is currently unfilled, not as an omission to be second-guessed.
-
----
-
-*This document is maintained alongside `GOVERNANCE.md`, `LEGAL_STATUS.md`, `AUTHORS.md`, `MAINTAINERS.md`, `CONTRIBUTORS.md`, and `VERIFICATION_POLICY.md` in the CeloHT governance repository.*
+Organization: Celo-HaiTi
+Project: CeloHT
+Document: TEAM.md
+Version: 2.0
+Status: Proposed for Review
+Canonical Governance Reference: https://github.com/Celo-HaiTi/celoht-governance/blob/main/GOVERNANCE.md
